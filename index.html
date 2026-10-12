@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102a24">
+  <title>The EV Incentive Equation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #f4f1e7;
+      --muted: #b8c5b9;
+      --green: #a8ed75;
+      --mint: #70d9bc;
+      --amber: #ffc868;
+      --red: #ff907b;
+      --night: #102a24;
+      --deep: #091c19;
+      --line: rgba(237, 244, 226, .17);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      min-height: 100vh;
+      overflow: hidden;
+      color: var(--ink);
+      background: var(--deep);
+      font-family: "DM Sans", sans-serif;
+    }
+    button, input { font: inherit; }
+    button { color: inherit; }
+    .deck {
+      position: relative;
+      display: grid;
+      grid-template-rows: 68px minmax(0, 1fr) 76px;
+      width: 100%;
+      height: 100svh;
+      min-height: 600px;
+      padding: 0 clamp(22px, 5vw, 76px);
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse at 85% 10%, rgba(112, 217, 188, .12), transparent 30%),
+        radial-gradient(ellipse at 10% 95%, rgba(168, 237, 117, .08), transparent 32%),
+        linear-gradient(135deg, #102a24 0%, #15382f 58%, #102a24 100%);
+    }
+    .deck::before {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      content: "";
+      opacity: .18;
+      background-image: radial-gradient(rgba(244, 241, 231, .32) .65px, transparent .65px);
+      background-size: 20px 20px;
+      mask-image: linear-gradient(110deg, transparent 20%, black 100%);
+    }
+    .topbar, .stage, .controls { position: relative; z-index: 1; }
+    .topbar { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+    .brand { display: flex; align-items: center; gap: 11px; font: 500 11px "DM Mono", monospace; letter-spacing: .08em; text-transform: uppercase; }
+    .brand-mark { display: grid; width: 27px; height: 27px; place-items: center; border: 1px solid var(--green); border-radius: 50%; color: var(--green); font: 700 13px Manrope, sans-serif; }
+    .top-meta { display: flex; align-items: center; gap: 20px; color: var(--muted); font: 11px "DM Mono", monospace; text-transform: uppercase; }
+    .live-dot { display: inline-block; width: 7px; height: 7px; margin-right: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 12px rgba(168, 237, 117, .6); }
+    .stage { display: grid; min-height: 0; align-items: center; }
+    .slide { display: none; width: 100%; max-height: 100%; animation: enter .42s ease both; }
+    .slide.active { display: block; }
+    @keyframes enter { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .eyebrow { display: flex; align-items: center; gap: 10px; margin: 0 0 19px; color: var(--green); font: 500 11px "DM Mono", monospace; letter-spacing: .11em; text-transform: uppercase; }
+    .eyebrow::before { width: 23px; height: 1px; background: currentColor; content: ""; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { font-family: Manrope, sans-serif; }
+    h1 { max-width: 900px; margin-bottom: 22px; font-size: clamp(42px, 7vw, 88px); line-height: .98; font-weight: 600; }
+    h1 em { color: var(--green); font-style: normal; }
+    h2 { margin-bottom: 13px; font-size: clamp(30px, 4.5vw, 55px); line-height: 1.04; font-weight: 600; }
+    h3 { margin-bottom: 8px; font-size: 18px; font-weight: 600; }
+    .lede { max-width: 680px; margin-bottom: 0; color: var(--muted); font-size: clamp(16px, 2vw, 20px); line-height: 1.55; }
+    .title-slide { position: relative; min-height: 450px; display: flex; align-items: center; }
+    .title-copy { position: relative; z-index: 2; max-width: 790px; }
+    .title-slide h1 { max-width: 770px; }
+    .title-slide .lede { max-width: 575px; }
+    .title-art { position: absolute; right: 1%; top: 50%; width: min(34vw, 390px); aspect-ratio: 1; transform: translateY(-45%); opacity: .95; }
+    .orbit { position: absolute; inset: 8%; border: 1px solid rgba(168, 237, 117, .27); border-radius: 50%; }
+    .orbit::before, .orbit::after { position: absolute; inset: 14%; border: 1px solid rgba(112, 217, 188, .24); border-radius: 50%; content: ""; }
+    .orbit::after { inset: 29%; border-color: rgba(255, 200, 104, .34); }
+    .orb-core { position: absolute; inset: 38%; display: grid; place-items: center; border-radius: 50%; color: var(--deep); background: var(--green); box-shadow: 0 0 70px rgba(168, 237, 117, .2); font: 700 23px Manrope, sans-serif; }
+    .orb-tag { position: absolute; display: grid; width: 51px; height: 51px; place-items: center; border: 1px solid rgba(244, 241, 231, .32); border-radius: 50%; color: var(--ink); background: #173a31; font: 11px "DM Mono", monospace; }
+    .orb-tag.one { top: 6%; right: 21%; color: var(--green); }
+    .orb-tag.two { bottom: 11%; right: 7%; color: var(--amber); }
+    .orb-tag.three { bottom: 12%; left: 9%; color: var(--mint); }
+    .thesis { display: inline-flex; align-items: center; gap: 11px; margin-top: 29px; padding: 11px 14px; border: 1px solid rgba(168, 237, 117, .34); border-radius: 4px; color: var(--ink); background: rgba(168, 237, 117, .06); font-size: 14px; }
+    .thesis strong { color: var(--green); font-weight: 600; }
+    .split-head { display: grid; grid-template-columns: 1fr minmax(200px, 330px); gap: 30px; align-items: end; margin-bottom: 32px; }
+    .split-head .lede { font-size: 15px; }
+    .statline { padding-left: 20px; border-left: 1px solid var(--green); }
+    .statline strong { display: block; color: var(--green); font: 600 clamp(34px, 4vw, 52px) Manrope, sans-serif; line-height: 1; }
+    .statline span { display: block; margin-top: 9px; color: var(--muted); font-size: 12px; line-height: 1.45; }
+    .columns { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .column { min-height: 177px; padding: 22px 24px 22px 0; }
+    .column + .column { padding-left: 24px; border-left: 1px solid var(--line); }
+    .index { display: block; margin-bottom: 22px; color: var(--green); font: 11px "DM Mono", monospace; }
+    .column p, .point p { max-width: 330px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
+    .source { margin: 14px 0 0; color: rgba(184, 197, 185, .72); font: 10px "DM Mono", monospace; }
+    .source a { color: inherit; text-decoration-color: rgba(184, 197, 185, .45); text-underline-offset: 3px; }
+    .tension-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; margin-top: 34px; }
+    .tension { padding-top: 15px; border-top: 1px solid var(--line); }
+    .tension .label { margin-bottom: 9px; color: var(--amber); font: 11px "DM Mono", monospace; text-transform: uppercase; }
+    .tension:last-child .label { color: var(--mint); }
+    .tension p { max-width: 470px; margin-bottom: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
+    .model-layout { display: grid; grid-template-columns: minmax(250px, .85fr) minmax(360px, 1.15fr); gap: clamp(28px, 6vw, 80px); align-items: center; margin-top: 25px; }
+    .sliders { display: grid; gap: 23px; }
+    .slider-row { display: grid; grid-template-columns: 1fr auto; gap: 7px 15px; align-items: center; }
+    .slider-row label { color: var(--ink); font-size: 13px; }
+    .slider-row output { color: var(--green); font: 500 13px "DM Mono", monospace; }
+    input[type="range"] { grid-column: 1 / -1; width: 100%; height: 4px; margin: 6px 0 0; appearance: none; background: rgba(244, 241, 231, .2); accent-color: var(--green); }
+    input[type="range"]::-webkit-slider-thumb { width: 15px; height: 15px; appearance: none; border: 2px solid var(--deep); border-radius: 50%; background: var(--green); box-shadow: 0 0 0 1px var(--green); cursor: grab; }
+    input[type="range"]::-moz-range-thumb { width: 12px; height: 12px; border: 2px solid var(--deep); border-radius: 50%; background: var(--green); box-shadow: 0 0 0 1px var(--green); cursor: grab; }
+    .model-viz { padding: 24px; border: 1px solid var(--line); background: rgba(9, 28, 25, .34); }
+    .model-viz-top { display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font: 10px "DM Mono", monospace; text-transform: uppercase; }
+    .meter { position: relative; height: 22px; margin: 29px 0 13px; overflow: hidden; background: rgba(255, 144, 123, .19); }
+    .meter::after { position: absolute; inset: 0 auto 0 var(--cost-position, 50%); width: 2px; background: var(--amber); content: ""; }
+    .meter-fill { width: 50%; height: 100%; background: linear-gradient(90deg, var(--mint), var(--green)); transition: width .35s ease; }
+    .bar-labels { display: flex; justify-content: space-between; color: var(--muted); font: 10px "DM Mono", monospace; }
+    .model-result { display: flex; align-items: baseline; gap: 10px; margin-top: 25px; }
+    .model-result strong { color: var(--green); font: 600 34px Manrope, sans-serif; }
+    .model-result.negative strong { color: var(--red); }
+    .model-result span { color: var(--muted); font-size: 12px; }
+    .model-note { margin: 14px 0 0; color: rgba(184, 197, 185, .8); font-size: 11px; line-height: 1.5; }
+    .recommendation { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 30px; }
+    .recommendation-main { padding: 21px 24px; border-left: 2px solid var(--green); background: rgba(168, 237, 117, .055); }
+    .recommendation-main p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
+    .recommendation-main strong { color: var(--ink); }
+    .checks { display: grid; gap: 14px; align-content: center; }
+    .check { display: grid; grid-template-columns: 20px 1fr; gap: 10px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .check b { color: var(--green); font: 12px "DM Mono", monospace; }
+    .closing-line { margin: 26px 0 0; color: var(--amber); font: 500 16px Manrope, sans-serif; }
+    .sources-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0 34px; margin-top: 23px; border-top: 1px solid var(--line); }
+    .source-item { padding: 13px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.4; }
+    .source-item a { color: var(--ink); text-decoration-color: var(--green); text-underline-offset: 3px; }
+    .source-item span { display: block; margin-top: 4px; color: rgba(184, 197, 185, .68); font: 10px "DM Mono", monospace; }
+    .controls { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; border-top: 1px solid var(--line); }
+    .progress-wrap { display: flex; align-items: center; gap: 14px; }
+    .progress-track { width: min(220px, 28vw); height: 2px; background: rgba(244, 241, 231, .2); }
+    .progress-fill { width: 16.667%; height: 100%; background: var(--green); transition: width .3s ease; }
+    .slide-count { color: var(--muted); font: 11px "DM Mono", monospace; }
+    .nav { display: flex; gap: 8px; }
+    .nav button, .timer-button { width: 39px; height: 39px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: transparent; cursor: pointer; transition: border-color .2s, color .2s, background .2s; }
+    .nav button:hover, .timer-button:hover { border-color: var(--green); color: var(--green); }
+    .nav button:disabled { opacity: .35; cursor: default; }
+    .timer-area { display: flex; justify-content: end; align-items: center; gap: 10px; color: var(--muted); font: 11px "DM Mono", monospace; }
+    .timer-button { width: 31px; height: 31px; font-size: 11px; }
+    .timer-area small { color: rgba(184, 197, 185, .6); font-size: 9px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; clip-path: inset(50%); }
+    @media (max-width: 760px) {
+      body { overflow: auto; }
+      .deck { min-height: 100svh; height: 100svh; grid-template-rows: 56px minmax(0, 1fr) 67px; padding: 0 22px; }
+      .top-meta { gap: 0; }
+      .top-meta .edition { display: none; }
+      .title-slide { min-height: 0; }
+      .title-art { right: -22%; top: 62%; width: min(62vw, 290px); opacity: .55; }
+      h1 { font-size: clamp(43px, 12vw, 68px); }
+      h2 { font-size: clamp(32px, 8.5vw, 44px); }
+      .split-head { grid-template-columns: 1fr; gap: 18px; margin-bottom: 23px; }
+      .statline { display: flex; align-items: center; gap: 14px; padding-left: 12px; }
+      .statline strong { font-size: 37px; }
+      .statline span { max-width: 180px; margin: 0; }
+      .columns { grid-template-columns: 1fr; }
+      .column { min-height: auto; padding: 12px 0; }
+      .column + .column { padding-left: 0; border-top: 1px solid var(--line); border-left: 0; }
+      .index { display: inline-block; width: 29px; margin: 0; vertical-align: top; }
+      .column h3, .column p { display: inline; }
+      .column p { margin-left: 5px; font-size: 12px; }
+      .column h3 { font-size: 15px; }
+      .source { font-size: 9px; }
+      .tension-grid { gap: 16px; margin-top: 22px; }
+      .tension p { font-size: 12px; }
+      .model-layout { grid-template-columns: 1fr; gap: 21px; margin-top: 18px; }
+      .sliders { grid-template-columns: 1fr 1fr; gap: 15px 18px; }
+      .slider-row label { font-size: 11px; }
+      .model-viz { padding: 17px; }
+      .meter { margin: 18px 0 9px; }
+      .model-result { margin-top: 15px; }
+      .recommendation { grid-template-columns: 1fr; gap: 17px; margin-top: 19px; }
+      .recommendation-main { padding: 15px 17px; }
+      .recommendation-main p { font-size: 13px; }
+      .checks { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .check { font-size: 11px; }
+      .closing-line { margin-top: 16px; font-size: 14px; }
+      .sources-list { gap: 0 18px; margin-top: 15px; }
+      .source-item { padding: 9px 0; font-size: 10px; }
+      .source-item span { font-size: 9px; }
+      .controls { grid-template-columns: 1fr auto 1fr; }
+      .timer-area small { display: none; }
+    }
+    @media (max-width: 420px) {
+      .deck { padding: 0 17px; }
+      .brand { font-size: 9px; }
+      .brand-mark { width: 24px; height: 24px; }
+      .eyebrow { margin-bottom: 13px; font-size: 9px; }
+      .lede { font-size: 15px; }
+      .title-slide h1 { font-size: 46px; }
+      .thesis { margin-top: 19px; font-size: 12px; }
+      .sources-list { grid-template-columns: 1fr; }
+      .source-item:nth-child(n+5) { display: none; }
+      .progress-track { width: 46px; }
+      .timer-area { gap: 5px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck" aria-label="Interactive five-minute presentation">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">E</span><span>The EV incentive equation</span></div>
+      <div class="top-meta"><span class="edition">Trend finance / policy brief</span><span><i class="live-dot"></i>5 min</span></div>
+    </header>
+
+    <div class="stage" aria-live="polite">
+      <section class="slide active" data-seconds="35" aria-label="Slide 1 of 6">
+        <div class="title-slide">
+          <div class="title-copy">
+            <p class="eyebrow">01 / The investment question</p>
+            <h1>Are EV incentives <em>worth the cost?</em></h1>
+            <p class="lede">Government support can speed up a cleaner transition. But when does a public dollar create value, and when does it simply subsidize a purchase that would happen anyway?</p>
+            <div class="thesis"><strong>THE SHORT ANSWER</strong><span>Yes, when support is targeted, temporary and additional.</span></div>
+          </div>
+          <div class="title-art" aria-hidden="true">
+            <div class="orbit"><span class="orb-tag one">CO₂</span><span class="orb-tag two">$</span><span class="orb-tag three">EV</span><span class="orb-core">↗</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-seconds="45" aria-label="Slide 2 of 6">
+        <p class="eyebrow">02 / The market signal</p>
+        <div class="split-head">
+          <div><h2>A fast-growing market.<br>A harder policy question.</h2><p class="lede">EV adoption is scaling. Growth alone, though, does not prove that tax credits are the best use of public money.</p></div>
+          <div class="statline"><strong>17M+</strong><span>electric cars sold globally in 2024, over one in five new cars</span></div>
+        </div>
+        <div class="columns">
+          <article class="column"><span class="index">01</span><h3>Climate value</h3><p>EVs generally cut lifetime emissions, especially as electricity gets cleaner.</p></article>
+          <article class="column"><span class="index">02</span><h3>Market friction</h3><p>Upfront prices, charging gaps and learning spillovers can slow adoption.</p></article>
+          <article class="column"><span class="index">03</span><h3>Budget trade-off</h3><p>Every incentive dollar has another possible use: transit, grids or deficit reduction.</p></article>
+        </div>
+        <p class="source">Source: <a href="https://www.iea.org/reports/global-ev-outlook-2025/trends-in-electric-car-markets" target="_blank" rel="noreferrer">IEA, Global EV Outlook 2025</a>. Sales refer to 2024.</p>
+      </section>
+
+      <section class="slide" data-seconds="50" aria-label="Slide 3 of 6">
+        <p class="eyebrow">03 / The additionality test</p>
+        <h2>Count what the incentive <em style="color:var(--green)">changes.</em></h2>
+        <p class="lede">The key finance question is not “How many EVs were sold?” It is “How many cleaner vehicle choices happened because of the policy?”</p>
+        <div class="tension-grid">
+          <article class="tension"><div class="label">Value created</div><h3>Benefits beyond the buyer</h3><p>Lower emissions and local air pollution; less exposure to oil-price shocks; potential learning and charging-network spillovers.</p></article>
+          <article class="tension"><div class="label">Value leaked</div><h3>Cost without a behavior change</h3><p>Payments to buyers who would have switched anyway, plus fiscal cost, administration and benefits concentrated among households able to buy new cars.</p></article>
+        </div>
+        <div class="thesis"><strong>THE TEST</strong><span>Social benefits from additional EV adoption &gt; full public cost</span></div>
+        <p class="source">EV lifecycle emissions: <a href="https://theicct.org/publication/global-LCA-passenger-cars-jul2021/" target="_blank" rel="noreferrer">ICCT, 2021</a>. Distribution and additionality depend on policy design.</p>
+      </section>
+
+      <section class="slide" data-seconds="70" aria-label="Slide 4 of 6">
+        <p class="eyebrow">04 / Stress-test the economics</p>
+        <div class="split-head" style="margin-bottom:0">
+          <div><h2>Does the public dollar <em style="color:var(--green)">pay back?</em></h2><p class="lede">Move the assumptions. See how the verdict changes.</p></div>
+          <div class="statline"><strong id="ratio-head">1.2×</strong><span>illustrative social benefits per $1 of public support</span></div>
+        </div>
+        <div class="model-layout">
+          <div class="sliders">
+            <div class="slider-row"><label for="climate">Climate + air benefits</label><output id="climate-out" for="climate">$4,000</output><input id="climate" type="range" min="0" max="10000" step="250" value="4000"></div>
+            <div class="slider-row"><label for="spillovers">Learning + energy security</label><output id="spillovers-out" for="spillovers">$2,000</output><input id="spillovers" type="range" min="0" max="6000" step="250" value="2000"></div>
+            <div class="slider-row"><label for="subsidy">Public incentive cost</label><output id="subsidy-out" for="subsidy">$5,000</output><input id="subsidy" type="range" min="1000" max="10000" step="250" value="5000"></div>
+          </div>
+          <div class="model-viz">
+            <div class="model-viz-top"><span>Estimated social benefits</span><span>vs. public cost</span></div>
+            <div class="meter" role="img" aria-label="Benefits compared with incentive cost"><div class="meter-fill" id="meter-fill"></div></div>
+            <div class="bar-labels"><span id="benefit-label">Benefits $6,000</span><span id="cost-label">Cost $5,000</span></div>
+            <div class="model-result" id="model-result"><strong id="model-ratio">1.2×</strong><span id="model-verdict">Benefits exceed cost in this scenario</span></div>
+            <p class="model-note">Illustrative lifetime values per supported vehicle, not a measured estimate. Real results vary by grid mix, vehicle, buyer behavior and program design. Adjusting the sliders is a sensitivity test, not a forecast.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-seconds="55" aria-label="Slide 5 of 6">
+        <p class="eyebrow">05 / The investment case</p>
+        <h2>Make incentives earn their place.</h2>
+        <div class="recommendation">
+          <div class="recommendation-main"><p><strong>Keep support where the market still needs a nudge.</strong> Make it targeted, predictable and designed to phase down as adoption and charging mature.</p></div>
+          <div class="checks">
+            <div class="check"><b>01</b><span>Prioritize buyers and segments where price is still a binding barrier.</span></div>
+            <div class="check"><b>02</b><span>Compare purchase credits with charging infrastructure and grid investment.</span></div>
+            <div class="check"><b>03</b><span>Publish cost per additional EV and emissions avoided; sunset what underperforms.</span></div>
+          </div>
+        </div>
+        <p class="closing-line">Verdict: economically justified as a bridge, not a blank cheque.</p>
+        <p class="source">Design implication: target market failures, measure additionality, revisit as the market changes.</p>
+      </section>
+
+      <section class="slide" data-seconds="45" aria-label="Slide 6 of 6">
+        <p class="eyebrow">06 / Sources & discussion</p>
+        <h2>Good policy follows the evidence.</h2>
+        <p class="lede">The conclusion is conditional: incentives make economic sense when their incremental social benefits beat their full cost, and better tools are not available.</p>
+        <div class="sources-list">
+          <div class="source-item"><a href="https://www.iea.org/reports/global-ev-outlook-2025/trends-in-electric-car-markets" target="_blank" rel="noreferrer">International Energy Agency — Global EV Outlook 2025</a><span>Market scale and 2024 sales</span></div>
+          <div class="source-item"><a href="https://theicct.org/publication/global-LCA-passenger-cars-jul2021/" target="_blank" rel="noreferrer">International Council on Clean Transportation — Global life-cycle assessment</a><span>Passenger-car lifecycle emissions</span></div>
+          <div class="source-item"><a href="https://www.oecd.org/en/publications/distributional-effects-of-environmental-policy_8ca855aa-en.html" target="_blank" rel="noreferrer">OECD — The distributional effects of environmental policy</a><span>Equity and policy design context</span></div>
+          <div class="source-item"><a href="https://www.cbo.gov/publication/58861" target="_blank" rel="noreferrer">U.S. Congressional Budget Office — Effects of tax credits for EVs</a><span>Fiscal cost and take-up analysis</span></div>
+        </div>
+        <p class="closing-line">Would you fund the buyer, the charger, or the grid?</p>
+      </section>
+    </div>
+
+    <footer class="controls">
+      <div class="progress-wrap"><div class="progress-track" aria-label="Presentation progress"><div class="progress-fill" id="progress-fill"></div></div><span class="slide-count" id="slide-count">01 / 06</span></div>
+      <nav class="nav" aria-label="Slide navigation">
+        <button id="prev" type="button" aria-label="Previous slide" title="Previous (←)">←</button>
+        <button id="next" type="button" aria-label="Next slide" title="Next (→ or Space)">→</button>
+      </nav>
+      <div class="timer-area"><button class="timer-button" id="timer-toggle" type="button" aria-label="Pause presentation timer" title="Pause or resume timer">Ⅱ</button><span id="timer">05:00</span><small>total</small></div>
+    </footer>
+  </main>
+  <script>
+    (() => {
+      const slides = [...document.querySelectorAll('.slide')];
+      const progress = document.querySelector('#progress-fill');
+      const count = document.querySelector('#slide-count');
+      const timer = document.querySelector('#timer');
+      const timerToggle = document.querySelector('#timer-toggle');
+      let current = 0;
+      let remaining = 300;
+      let paused = false;
+
+      function showSlide(index) {
+        current = Math.max(0, Math.min(slides.length - 1, index));
+        slides.forEach((slide, i) => {
+          slide.classList.toggle('active', i === current);
+          slide.setAttribute('aria-hidden', i === current ? 'false' : 'true');
+        });
+        count.textContent = `${String(current + 1).padStart(2, '0')} / ${String(slides.length).padStart(2, '0')}`;
+        progress.style.width = `${((current + 1) / slides.length) * 100}%`;
+        document.querySelector('#prev').disabled = current === 0;
+        document.querySelector('#next').disabled = current === slides.length - 1;
+      }
+
+      function formatTime(seconds) {
+        return `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
+      }
+
+      function updateModel() {
+        const climate = Number(document.querySelector('#climate').value);
+        const spillovers = Number(document.querySelector('#spillovers').value);
+        const subsidy = Number(document.querySelector('#subsidy').value);
+        const benefits = climate + spillovers;
+        const ratio = benefits / subsidy;
+        const scale = Math.max(10000, benefits, subsidy);
+        document.querySelector('#climate-out').textContent = `$${climate.toLocaleString('en-US')}`;
+        document.querySelector('#spillovers-out').textContent = `$${spillovers.toLocaleString('en-US')}`;
+        document.querySelector('#subsidy-out').textContent = `$${subsidy.toLocaleString('en-US')}`;
+        document.querySelector('#ratio-head').textContent = `${ratio.toFixed(1)}×`;
+        document.querySelector('#model-ratio').textContent = `${ratio.toFixed(1)}×`;
+        document.querySelector('#model-verdict').textContent = ratio >= 1 ? 'Benefits exceed cost in this scenario' : 'Cost exceeds benefits in this scenario';
+        document.querySelector('#model-result').classList.toggle('negative', ratio < 1);
+        document.querySelector('#meter-fill').style.width = `${Math.min(100, (benefits / scale) * 100)}%`;
+        document.querySelector('.meter').style.setProperty('--cost-position', `${Math.min(100, (subsidy / scale) * 100)}%`);
+        document.querySelector('#benefit-label').textContent = `Benefits $${benefits.toLocaleString('en-US')}`;
+        document.querySelector('#cost-label').textContent = `Cost $${subsidy.toLocaleString('en-US')}`;
+      }
+
+      document.querySelector('#prev').addEventListener('click', () => showSlide(current - 1));
+      document.querySelector('#next').addEventListener('click', () => showSlide(current + 1));
+      document.querySelectorAll('input[type="range"]').forEach(input => input.addEventListener('input', updateModel));
+      timerToggle.addEventListener('click', () => {
+        paused = !paused;
+        timerToggle.textContent = paused ? '▶' : 'Ⅱ';
+        timerToggle.setAttribute('aria-label', paused ? 'Resume presentation timer' : 'Pause presentation timer');
+      });
+      document.addEventListener('keydown', event => {
+        if (event.target instanceof HTMLInputElement) return;
+        if (['ArrowRight', ' ', 'PageDown'].includes(event.key)) { event.preventDefault(); showSlide(current + 1); }
+        if (['ArrowLeft', 'PageUp'].includes(event.key)) { event.preventDefault(); showSlide(current - 1); }
+        if (event.key === 'Home') showSlide(0);
+        if (event.key === 'End') showSlide(slides.length - 1);
+      });
+      window.setInterval(() => {
+        if (!paused && remaining > 0) remaining -= 1;
+        timer.textContent = formatTime(remaining);
+        timer.style.color = remaining <= 30 ? 'var(--amber)' : '';
+      }, 1000);
+
+      showSlide(0);
+      updateModel();
+    })();
+  </script>
+</body>
+</html>
