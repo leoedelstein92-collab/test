@@ -249,9 +249,10 @@ function levenshtein(a, b) {
 // Format d'une ligne : [nom, "alias|alias", "série FR|EN|ES", "17 notes de 0 à 10", "talent|talent" (optionnel)]
 function createDB(rows, extraTags = {}) {
   const characters = [];
+  const duplicates = [];
   const seen = new Set();
   for (const [name, aliases, show, notes, tags = ""] of rows) {
-    if (seen.has(normalize(name))) continue;
+    if (seen.has(normalize(name))) { duplicates.push(name); continue; }
     seen.add(normalize(name));
     const values = notes.trim().split(/\s+/).map(Number);
     const [fr, en = fr, es = en] = show.split("|");
@@ -284,7 +285,7 @@ function createDB(rows, extraTags = {}) {
     return fuzzy ? fuzzy.c : null;
   }
 
-  return { characters, index, find };
+  return { characters, index, find, duplicates };
 }
 
 const DBS = {
