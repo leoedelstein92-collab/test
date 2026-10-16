@@ -19,6 +19,7 @@ personnage de dessin animé, et le juge compare les réponses, attribue un score
   d'invitation). Jusqu'à 12 joueurs.
 - **Réglages avant la partie** (hôte) : 3, 5 ou 10 manches, 30 / 60 / 90 s par manche,
   langue des explications de l'IA.
+- **Deux univers** : dessins animés ou mangas.
 - **Deux modes de jeu** :
   - **« Le plus… ! »** : ex. « Qui est le plus drôle ? » ;
   - **« Le moins… ! »** : même principe à l'envers, ex. « Qui est le moins courageux ? ».
@@ -30,18 +31,35 @@ personnage de dessin animé, et le juge compare les réponses, attribue un score
 
 ## Comment le juge note les personnages
 
-- **Sans clé API (par défaut, gratuit)** : le jeu utilise une base intégrée de plus de 770 personnages
-  (Disney, Pixar, DreamWorks, Illumination, Blue Sky, Sony, Warner / Looney Tunes, Hanna-Barbera,
-  Nickelodeon, Cartoon Network, Disney Channel, séries pour adultes, animés japonais et Ghibli,
-  dessins animés franco-belges et européens), répartis par studio dans `src/data/` et notés de 0 à 9 sur 17 traits (humour, force, intelligence, méchanceté,
-  maladresse, courage, gentillesse, paresse, gourmandise, vitesse, mignon, effrayant, richesse,
-  mauvais caractère, bavardage, ruse, malchance), d'après leur comportement dans le dessin animé.
-  Chaque thème combine un ou plusieurs traits (`src/themes.js`). Les fautes de frappe et les noms
-  français / anglais / espagnols sont reconnus. Un personnage absent de la base ne marque que 5 points.
-  Pour en ajouter, il suffit d'ajouter une ligne dans le fichier du studio concerné (`src/data/*.js`).
-- **Avec une clé API Anthropic (optionnel)** : si la variable `ANTHROPIC_API_KEY` est définie,
-  l'IA Claude juge à la place, ce qui permet de reconnaître n'importe quel personnage. En cas
-  d'erreur de l'IA, la base intégrée prend le relais.
+Deux univers au choix : **Dessins animés** (plus de 1 360 personnages) et **Mangas** (près de 600 personnages),
+chacun jouable en mode « Le plus… » ou « Le moins… ».
+
+- **Sans clé API (par défaut, gratuit)** : chaque personnage est noté de 0 à 10 sur 17 traits (humour, force,
+  intelligence, méchanceté, maladresse, courage, gentillesse, paresse, gourmandise, vitesse, mignon, effrayant,
+  richesse, mauvais caractère, bavardage, ruse, malchance), d'après son comportement dans son histoire.
+  Le score d'un thème est calculé ainsi :
+  1. moyenne pondérée des traits du thème (`src/themes.js`), avec des critères secondaires pour départager ;
+  2. **talents connus** (`src/data/tags.js` et 5ᵉ colonne des données) : cuisinier, chef, mentor, danseur,
+     super-héros, survivant… placent le personnage en haut du thème concerné ;
+  3. **classements de référence** (`src/data/rankings.js`) pour les grands débats (le plus fort, le plus
+     rapide, le plus intelligent, le plus riche…) ;
+  4. le score final = **pourcentage des personnages de la base que le personnage bat** sur ce thème
+     (et l'inverse en mode « Le moins… »).
+  Les fautes de frappe et les noms français / anglais / espagnols sont reconnus. Un personnage absent de la
+  base ne marque que 5 points.
+- **Avec une clé API Anthropic (optionnel)** : si la variable `ANTHROPIC_API_KEY` est définie, l'IA Claude juge
+  à la place et reconnaît n'importe quel personnage. En cas d'erreur, la base intégrée prend le relais.
+
+### Ajouter des personnages
+
+Une ligne par personnage dans le fichier du studio ou de la série (`src/data/*.js` pour les dessins animés,
+`src/manga/*.js` pour les mangas) :
+
+```js
+["Nom affiché", "alias|autre nom|nom anglais", "Série FR|Series EN|Serie ES", "hum str int evi clu bra kin laz glu spd cut scr ric tem tal cun unl", "talent|talent"],
+```
+
+`npm test` vérifie les notes, les alias en double et les noms utilisés dans les talents et classements.
 
 ## Lancer en local
 
@@ -83,7 +101,8 @@ port via la variable `PORT`).
 | `src/judge.js` | Choix du juge : Claude (si clé API) ou base intégrée |
 | `src/knowledge-judge.js` | Juge par base de personnages + explications |
 | `src/characters.js` | Recherche des personnages (fautes de frappe tolérées) |
-| `src/data/*.js` | Base des personnages et de leurs traits, un fichier par studio |
+| `src/data/*.js` | Base des dessins animés (un fichier par studio / type de série), talents, classements |
+| `src/manga/*.js` | Base des mangas |
 | `src/themes.js` | Thèmes « le plus » / « le moins » traduits et traits associés |
 | `public/` | Interface web (HTML/CSS/JS, traductions dans `i18n.js`) |
 

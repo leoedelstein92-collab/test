@@ -22,20 +22,22 @@ const VerdictSchema = z.object({
 
 const client = process.env.ANTHROPIC_API_KEY ? new Anthropic() : null;
 
-const SYSTEM = `You are the referee of a party game about cartoon characters (animated series and animated films).
-Each round has a theme such as "Who is the funniest?" or "Who is the least brave?". Every player submits one cartoon character.
-Judge how well each character fits the theme, based on how the character is portrayed in its cartoon (personality, story events, abilities). Approximate judgements are fine.
+const SYSTEM = `You are the referee of a party game. Each player submits one {KIND}.
+Each round has a theme such as "Who is the funniest?" or "Who is the least brave?".
+Judge how well each character fits the theme, based on everything you know about how the character is portrayed in its story (personality, story events, abilities, feats). Be precise and consistent.
 
 Rules:
 - Give each submission a score from 0 to 100 (100 = perfect fit for the theme). The best answer gets the highest score; no ties unless the answers are the same character.
-- If a submission is not a cartoon / animated character (a real person, gibberish, empty…), set recognized=false and score=0.
+- If a submission is not a {KIND} (a real person, gibberish, empty…), set recognized=false and score=0.
 - Accept obvious typos and nicknames; put the properly spelled character name in "character".
 - "explanation": one short, fun sentence referring to the cartoon, written in {LANG}.
 - "summary": one short sentence in {LANG} explaining why the winner tops this round.
 - Return exactly one result per submission, using the given playerId.`;
 
-async function judgeRound({ theme, mode, submissions, lang }) {
-  if (!client) return knowledgeJudge({ theme, mode, submissions, lang });
+const UNIVERSE_NAMES = { cartoon: "cartoon character (animated series or animated film)", manga: "manga character (Japanese comics, including their anime adaptations)" };
+
+async function judgeRound({ theme, mode, universe = "cartoon", submissions, lang }) {
+  if (!client) return knowledgeJudge({ theme, mode, universe, submissions, lang });
 
   const themeText = theme[mode][lang] || theme[mode].fr;
   const payload = submissions.map((s) => ({ playerId: s.playerId, answer: (s.answer || "").slice(0, 80) }));
@@ -44,7 +46,7 @@ async function judgeRound({ theme, mode, submissions, lang }) {
       model: MODEL,
       max_tokens: 4000,
       output_config: { effort: "low", format: zodOutputFormat(VerdictSchema) },
-      system: SYSTEM.replaceAll("{LANG}", LANG_NAMES[lang] || "French"),
+      system: SYSTEM.replaceAll("{LANG}", LANG_NAMES[lang] || "French").replaceAll("{KIND}", UNIVERSE_NAMES[universe] || UNIVERSE_NAMES.cartoon),
       messages: [
         {
           role: "user",
@@ -58,7 +60,7 @@ async function judgeRound({ theme, mode, submissions, lang }) {
     return normalize(response.parsed_output, submissions);
   } catch (err) {
     console.error("[judge] AI error, using built-in character database:", err.message);
-    return { ...knowledgeJudge({ theme, mode, submissions, lang }), fallback: true };
+    return { ...knowledgeJudge({ theme, mode, universe, submissions, lang }), fallback: true };
   }
 }
 

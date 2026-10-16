@@ -77,6 +77,10 @@
 
         <section class="card play-card pop" style="--d: 80ms">
           <h2 class="card-title"><span class="t-ic" data-icon="dice"></span><span data-i18n="mode"></span></h2>
+          <div class="universes" id="universePicker">
+            <button class="universe" data-universe="cartoon"><span class="uni-art" data-icon="tv"></span><span data-i18n="uniCartoon"></span></button>
+            <button class="universe" data-universe="manga"><span class="uni-art" data-icon="manga"></span><span data-i18n="uniManga"></span></button>
+          </div>
           <div class="modes" id="modePicker">
             <button class="mode mode-most" data-mode="most">
               <span class="mode-art" data-icon="trophy"></span>
@@ -124,6 +128,13 @@
         <section class="card pop" style="--d: 80ms">
           <h2 class="card-title"><span class="t-ic" data-icon="sparkle"></span><span data-i18n="settings"></span></h2>
           <div class="setting">
+            <span class="setting-label"><span data-icon="tv"></span><span data-i18n="universe"></span></span>
+            <div class="seg" id="universeSeg">
+              <button data-v="cartoon"><span data-icon="tv"></span><span data-i18n="uniCartoon"></span></button>
+              <button data-v="manga"><span data-icon="manga"></span><span data-i18n="uniManga"></span></button>
+            </div>
+          </div>
+          <div class="setting">
             <span class="setting-label"><span data-icon="dice"></span><span data-i18n="mode"></span></span>
             <div class="seg" id="modeSeg">
               <button data-v="most"><span data-icon="trophy"></span><span data-i18n="modeMost"></span></button>
@@ -153,6 +164,7 @@
     <section id="screen-playing" class="screen hidden">
       <div class="round-head">
         <span class="pill pill-dark"><span data-icon="layers"></span><span data-i18n="round"></span>&nbsp;<b class="roundNum"></b></span>
+        <span class="pill pill-uni uniLabel"></span>
         <span class="pill pill-mode modeLabel"></span>
       </div>
       <div class="theme-stage">
@@ -168,11 +180,11 @@
 
       <div class="card answer-card">
         <form id="answerForm">
-          <label for="answerInput" class="field-label" data-i18n="yourAnswer"></label>
+          <label for="answerInput" class="field-label" id="answerLabel"></label>
           <div class="answer-row">
             <div class="input-wrap big">
               <span class="input-ic" data-icon="pen"></span>
-              <input id="answerInput" maxlength="60" autocomplete="off" data-i18n-ph="answerPh" />
+              <input id="answerInput" maxlength="60" autocomplete="off" />
             </div>
             <button class="btn btn-primary btn-lg"><span data-icon="check"></span><span data-i18n="submit"></span></button>
           </div>
@@ -202,6 +214,7 @@
     <section id="screen-results" class="screen hidden">
       <div class="round-head">
         <span class="pill pill-dark"><span data-icon="gavel"></span><span data-i18n="roundResults"></span>&nbsp;<b class="roundNum"></b></span>
+        <span class="pill pill-uni uniLabel"></span>
         <span class="pill pill-mode modeLabel"></span>
       </div>
       <div class="theme-card small">

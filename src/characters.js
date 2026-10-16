@@ -1,5 +1,5 @@
 // Base de connaissances des personnages de dessins animés.
-// Chaque personnage a une note de 0 à 9 sur 17 traits, estimée d'après son comportement dans son dessin animé.
+// Chaque personnage a une note de 0 à 10 sur 17 traits (10 = exceptionnel, le meilleur de son univers), estimée d'après son comportement dans son dessin animé.
 // Format : [nom, "alias|alias", "série FR|série EN|série ES" (ou une seule si identique), "notes"]
 
 const TRAITS = ["hum", "str", "int", "evi", "clu", "bra", "kin", "laz", "glu", "spd", "cut", "scr", "ric", "tem", "tal", "cun", "unl"];
@@ -197,7 +197,7 @@ const BASE = [
   ["Le Joker", "joker|el guason|guason", "Batman, la série animée|Batman: The Animated Series|Batman: la serie animada", "9 4 8 9 3 7 0 2 3 5 1 9 4 9 9 9 6"],
 ];
 
-const RAW = [
+const CARTOON_ROWS = [
   ...BASE,
   ...require("./data/disney"),
   ...require("./data/pixar"),
@@ -206,27 +206,29 @@ const RAW = [
   ...require("./data/tv"),
   ...require("./data/anime"),
   ...require("./data/europe"),
+  ...require("./data/more-cartoons"),
+  ...require("./data/more-tv"),
+  ...require("./data/more-world"),
 ];
+
+const MANGA_ROWS = [
+  ...require("./manga/shonen"),
+  ...require("./manga/jump-modern"),
+  ...require("./manga/classics"),
+  ...require("./manga/more-manga"),
+];
+
+// Talents connus des personnages (cuisinier, chef, mentor…), indexés par nom affiché.
+const CARTOON_TAGS = require("./data/tags");
 
 function normalize(s) {
   return String(s || "")
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
 }
-
-const CHARACTERS = RAW.map(([name, aliases, show, notes]) => {
-  const values = notes.trim().split(/\s+/).map(Number);
-  const [fr, en = fr, es = en] = show.split("|");
-  const traits = Object.fromEntries(TRAITS.map((t, i) => [t, values[i]]));
-  const keys = new Set([name, ...aliases.split("|")].map(normalize).filter(Boolean));
-  return { name, show: { fr, en, es }, traits, values, keys: [...keys] };
-});
-
-const INDEX = new Map();
-for (const c of CHARACTERS) for (const k of c.keys) if (!INDEX.has(k)) INDEX.set(k, c);
 
 function levenshtein(a, b) {
   if (Math.abs(a.length - b.length) > 3) return 99;
@@ -243,28 +245,54 @@ function levenshtein(a, b) {
   return dp[b.length];
 }
 
-// Retrouve un personnage à partir de ce qu'a tapé le joueur (fautes de frappe tolérées).
-function findCharacter(input) {
-  const q = normalize(input);
-  if (!q) return null;
-  if (INDEX.has(q)) return INDEX.get(q);
-  const qPadded = ` ${q} `;
-
-  // Une forme connue est contenue dans la réponse ("homer simpson le papa" → Homer)
-  let best = null;
-  for (const [k, c] of INDEX) {
-    if (k.length >= 3 && qPadded.includes(` ${k} `) && (!best || k.length > best.k.length)) best = { k, c };
+// Construit une base : personnages + index de recherche (noms, alias, fautes de frappe).
+// Format d'une ligne : [nom, "alias|alias", "série FR|EN|ES", "17 notes de 0 à 10", "talent|talent" (optionnel)]
+function createDB(rows, extraTags = {}) {
+  const characters = [];
+  const seen = new Set();
+  for (const [name, aliases, show, notes, tags = ""] of rows) {
+    if (seen.has(normalize(name))) continue;
+    seen.add(normalize(name));
+    const values = notes.trim().split(/\s+/).map(Number);
+    const [fr, en = fr, es = en] = show.split("|");
+    const traits = Object.fromEntries(TRAITS.map((t, i) => [t, values[i]]));
+    const keys = new Set([name, ...aliases.split("|")].map(normalize).filter(Boolean));
+    const tagList = [...String(tags).split("|"), ...String(extraTags[name] || "").split("|")].filter(Boolean);
+    characters.push({ name, show: { fr, en, es }, traits, values, keys: [...keys], tags: new Set(tagList) });
   }
-  if (best) return best.c;
+  const index = new Map();
+  for (const c of characters) for (const k of c.keys) if (!index.has(k)) index.set(k, c);
 
-  // Faute de frappe
-  let fuzzy = null;
-  for (const [k, c] of INDEX) {
-    const tolerance = k.length <= 4 ? 0 : k.length <= 7 ? 1 : 2;
-    const d = levenshtein(q, k);
-    if (d <= tolerance && (!fuzzy || d < fuzzy.d)) fuzzy = { d, c };
+  function find(input) {
+    const q = normalize(input);
+    if (!q) return null;
+    if (index.has(q)) return index.get(q);
+    const qPadded = ` ${q} `;
+    // Une forme connue est contenue dans la réponse ("homer simpson le papa" → Homer)
+    let best = null;
+    for (const [k, c] of index) {
+      if (k.length >= 3 && qPadded.includes(` ${k} `) && (!best || k.length > best.k.length)) best = { k, c };
+    }
+    if (best) return best.c;
+    // Faute de frappe
+    let fuzzy = null;
+    for (const [k, c] of index) {
+      const tolerance = k.length <= 4 ? 0 : k.length <= 7 ? 1 : 2;
+      const d = levenshtein(q, k);
+      if (d <= tolerance && (!fuzzy || d < fuzzy.d)) fuzzy = { d, c };
+    }
+    return fuzzy ? fuzzy.c : null;
   }
-  return fuzzy ? fuzzy.c : null;
+
+  return { characters, index, find };
 }
 
-module.exports = { TRAITS, CHARACTERS, findCharacter, normalize };
+const DBS = {
+  cartoon: createDB(CARTOON_ROWS, CARTOON_TAGS),
+  manga: createDB(MANGA_ROWS),
+};
+
+const CHARACTERS = DBS.cartoon.characters;
+const findCharacter = (input) => DBS.cartoon.find(input);
+
+module.exports = { TRAITS, CHARACTERS, DBS, findCharacter, normalize, createDB };

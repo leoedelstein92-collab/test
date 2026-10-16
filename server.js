@@ -10,6 +10,7 @@ const ROUND_OPTIONS = [3, 5, 10];
 const TIMER_OPTIONS = [30, 60, 90];
 const LANGS = ["fr", "en", "es"];
 const MODES = ["most", "least"];
+const UNIVERSES = ["cartoon", "manga"];
 const MAX_PLAYERS = 12;
 const MAX_AVATAR_LEN = 80_000; // photo importée, déjà redimensionnée côté client
 
@@ -101,7 +102,7 @@ async function endRound(room) {
     name: p.name,
     answer: room.answers.get(p.id) || "",
   }));
-  const verdict = await judgeRound({ theme, mode, submissions, lang: room.lang });
+  const verdict = await judgeRound({ theme, mode, universe: room.settings.universe, submissions, lang: room.lang });
   if (!rooms.has(room.code)) return;
 
   for (const r of verdict.results) {
@@ -112,7 +113,7 @@ async function endRound(room) {
       r.avatar = p.avatar;
     }
   }
-  room.history.push({ round: room.round, theme: theme[mode], mode, ...verdict });
+  room.history.push({ round: room.round, theme: theme[mode], mode, universe: room.settings.universe, ...verdict });
   room.phase = room.round >= room.themes.length ? "final" : "results";
   broadcast(room);
 }
@@ -165,7 +166,12 @@ io.on("connection", (socket) => {
       code,
       hostId: String(data.playerId || socket.id).slice(0, 64),
       lang: LANGS.includes(data.lang) ? data.lang : "fr",
-      settings: { rounds: 5, timer: 60, mode: MODES.includes(data.mode) ? data.mode : "most" },
+      settings: {
+        rounds: 5,
+        timer: 60,
+        mode: MODES.includes(data.mode) ? data.mode : "most",
+        universe: UNIVERSES.includes(data.universe) ? data.universe : "cartoon",
+      },
       players: new Map(),
       phase: "lobby",
       round: 0,
@@ -203,6 +209,7 @@ io.on("connection", (socket) => {
     if (TIMER_OPTIONS.includes(data.timer)) room.settings.timer = data.timer;
     if (LANGS.includes(data.lang)) room.lang = data.lang;
     if (MODES.includes(data.mode)) room.settings.mode = data.mode;
+    if (UNIVERSES.includes(data.universe)) room.settings.universe = data.universe;
     broadcast(room);
   });
 

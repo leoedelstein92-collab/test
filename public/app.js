@@ -29,6 +29,7 @@
     lang: store.get("cc_lang", (navigator.language || "fr").slice(0, 2)),
     avatar: store.get("cc_avatar", `char:${Math.floor(Math.random() * AVATARS.count)}`),
     mode: store.get("cc_mode", "most") === "least" ? "least" : "most",
+    universe: store.get("cc_universe", "cartoon") === "manga" ? "manga" : "cartoon",
   };
   if (!I18N[profile.lang]) profile.lang = "fr";
 
@@ -61,6 +62,7 @@
     $$("[data-i18n]").forEach((el) => (el.textContent = t(el.dataset.i18n)));
     $$("[data-i18n-ph]").forEach((el) => (el.placeholder = t(el.dataset.i18nPh)));
     $$("#modePicker .mode").forEach((el) => el.classList.toggle("selected", el.dataset.mode === profile.mode));
+    $$("#universePicker .universe").forEach((el) => el.classList.toggle("selected", el.dataset.universe === profile.universe));
     if (state) render(true);
   }
 
@@ -161,6 +163,15 @@
     applyI18n();
   });
 
+  $("#universePicker").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-universe]");
+    if (!b) return;
+    profile.universe = b.dataset.universe;
+    store.set("cc_universe", profile.universe);
+    sfx("pop");
+    applyI18n();
+  });
+
   $("#langSelect").addEventListener("change", (e) => {
     profile.lang = e.target.value;
     store.set("cc_lang", profile.lang);
@@ -172,7 +183,7 @@
 
   // ---------- Connexion ----------
   const socket = io();
-  const payload = (extra = {}) => ({ playerId, name: profile.name, avatar: profile.avatar, lang: profile.lang, mode: profile.mode, ...extra });
+  const payload = (extra = {}) => ({ playerId, name: profile.name, avatar: profile.avatar, lang: profile.lang, mode: profile.mode, universe: profile.universe, ...extra });
 
   function requireName() {
     if (!profile.name.trim()) {
@@ -261,6 +272,7 @@
   segHandler("#timerSeg", "timer", Number);
   segHandler("#aiLangSeg", "lang", String);
   segHandler("#modeSeg", "mode", String);
+  segHandler("#universeSeg", "universe", String);
 
   $("#startBtn").addEventListener("click", () => socket.emit("start_game"));
   $("#nextBtn").addEventListener("click", () => socket.emit("next_round"));
@@ -307,6 +319,10 @@
     document.body.classList.toggle("in-room", Boolean(state));
     if (!state) return show("home");
     $$(".roundNum").forEach((el) => (el.textContent = `${state.round}/${state.totalRounds}`));
+    const manga = state.settings.universe === "manga";
+    $$(".uniLabel").forEach((el) => (el.innerHTML = `${icon(manga ? "manga" : "tv")}<span>${esc(t(manga ? "uniManga" : "uniCartoon"))}</span>`));
+    $("#answerLabel").textContent = t(manga ? "yourAnswerManga" : "yourAnswer");
+    $("#answerInput").placeholder = t(manga ? "answerPhManga" : "answerPh");
     $$(".modeLabel").forEach((el) => (el.innerHTML = `${icon(state.settings.mode === "least" ? "flip" : "trophy")}<span>${esc(modeName())}</span>`));
 
     switch (state.phase) {
@@ -333,6 +349,7 @@
     setSeg("#timerSeg", state.settings.timer);
     setSeg("#aiLangSeg", state.lang);
     setSeg("#modeSeg", state.settings.mode);
+    setSeg("#universeSeg", state.settings.universe);
     const enough = state.players.filter((p) => p.connected).length >= 2;
     $("#startBtn").classList.toggle("hidden", !isHost());
     $("#startBtn").disabled = !enough;
