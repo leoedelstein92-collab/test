@@ -93,8 +93,12 @@ dialog::backdrop { background: #120c30cc; }
 .avatar-grid .emoji { font-size: 32px; }
 .upload { width: 100%; }
 
-.mode { display: flex; gap: 14px; border: 3px solid var(--line); border-radius: 16px; padding: 14px; }
-.mode.selected { border-color: var(--yellow); background: #fffbea; }
+.modes { display: grid; gap: 10px; }
+.mode {
+  display: flex; gap: 14px; border: 3px solid var(--line); border-radius: 16px; padding: 12px 14px;
+  font: inherit; color: inherit; text-align: left; background: #fff; cursor: pointer; width: 100%;
+}
+.mode.selected { border-color: var(--yellow); background: #fffbea; box-shadow: 0 0 0 2px var(--yellow); }
 .mode-icon { font-size: 40px; }
 .mode p { margin: 6px 0 0; color: var(--muted); font-size: 15px; }
 

@@ -36,6 +36,7 @@
     name: store.get("cc_name", ""),
     lang: store.get("cc_lang", (navigator.language || "fr").slice(0, 2)),
     avatar: store.get("cc_avatar", `char:${Math.floor(Math.random() * CHARACTERS.length)}`),
+    mode: store.get("cc_mode", "most") === "least" ? "least" : "most",
   };
   if (!I18N[profile.lang]) profile.lang = "fr";
 
@@ -53,6 +54,7 @@
     $("#langSelect").value = profile.lang;
     $$("[data-i18n]").forEach((el) => (el.textContent = t(el.dataset.i18n)));
     $$("[data-i18n-ph]").forEach((el) => (el.placeholder = t(el.dataset.i18nPh)));
+    $$("#modePicker .mode").forEach((el) => el.classList.toggle("selected", el.dataset.mode === profile.mode));
     if (state) render();
   }
 
@@ -126,6 +128,14 @@
     store.set("cc_name", profile.name);
   });
 
+  $("#modePicker").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-mode]");
+    if (!b) return;
+    profile.mode = b.dataset.mode;
+    store.set("cc_mode", profile.mode);
+    applyI18n();
+  });
+
   $("#langSelect").addEventListener("change", (e) => {
     profile.lang = e.target.value;
     store.set("cc_lang", profile.lang);
@@ -136,7 +146,7 @@
   const socket = io();
 
   function payload(extra = {}) {
-    return { playerId, name: profile.name, avatar: profile.avatar, lang: profile.lang, ...extra };
+    return { playerId, name: profile.name, avatar: profile.avatar, lang: profile.lang, mode: profile.mode, ...extra };
   }
 
   function requireName() {
@@ -216,6 +226,7 @@
   segHandler("#roundsSeg", "rounds", Number);
   segHandler("#timerSeg", "timer", Number);
   segHandler("#aiLangSeg", "lang", String);
+  segHandler("#modeSeg", "mode", String);
 
   $("#startBtn").addEventListener("click", () => socket.emit("start_game"));
   $("#nextBtn").addEventListener("click", () => socket.emit("next_round"));
@@ -264,6 +275,7 @@
   function render() {
     if (!state) return show("home");
     $$(".roundNum").forEach((el) => (el.textContent = `${state.round} ${t("of")} ${state.totalRounds}`));
+    $$(".modeLabel").forEach((el) => (el.textContent = t(state.settings.mode === "least" ? "modeLeast" : "modeMost")));
 
     switch (state.phase) {
       case "lobby": {
@@ -274,6 +286,7 @@
         setSeg("#roundsSeg", state.settings.rounds);
         setSeg("#timerSeg", state.settings.timer);
         setSeg("#aiLangSeg", state.lang);
+        setSeg("#modeSeg", state.settings.mode);
         const enough = state.players.filter((p) => p.connected).length >= 2;
         $("#startBtn").classList.toggle("hidden", !isHost());
         $("#startBtn").disabled = !enough;
@@ -311,9 +324,7 @@
   }
 
   function noticeFor(res) {
-    if (!state.ai || res.mock) return t("demo");
-    if (res.fallback) return t("fallback");
-    return "";
+    return res.fallback ? t("fallback") : "";
   }
 
   function renderRoundResults() {

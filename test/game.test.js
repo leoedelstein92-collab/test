@@ -1,4 +1,4 @@
-// Test de bout en bout : 2 joueurs, 3 manches, en mode démo (sans clé IA).
+// Test de bout en bout : 2 joueurs, 3 manches en mode « le moins », juge = base de personnages (sans clé IA).
 const { spawn } = require("child_process");
 const { io } = require("socket.io-client");
 const assert = require("assert");
@@ -21,7 +21,7 @@ const until = (sock, pred) => new Promise((res) => {
   const joined = await new Promise((r) => b.emit("join_room", { code: created.code, playerId: "B", name: "Bob", avatar: "char:9" }, r));
   assert(joined.ok);
   await wait(100);
-  a.emit("update_settings", { rounds: 3, timer: 30, lang: "en" });
+  a.emit("update_settings", { rounds: 3, timer: 30, lang: "en", mode: "least" });
   b.emit("update_settings", { rounds: 10 }); // pas hôte : ignoré
   await wait(100);
   let s = until(a, (s) => s.phase === "playing" && s.round === 1);
@@ -29,12 +29,16 @@ const until = (sock, pred) => new Promise((res) => {
   s = await s;
   assert.strictEqual(s.totalRounds, 3);
   assert.strictEqual(s.lang, "en");
+  assert.strictEqual(s.settings.mode, "least");
+  assert(/least|worst|last|shortest|slowest|weakest|poorest|luckiest|calmest/i.test(s.theme.en), s.theme.en);
   for (let round = 1; round <= 3; round++) {
     const done = until(a, (s) => (s.phase === "results" || s.phase === "final") && s.round === round);
     a.emit("submit_answer", { answer: "Bob l'éponge" });
     b.emit("submit_answer", { answer: "Homer Simpson" });
     s = await done;
     assert.strictEqual(s.lastResult.results.length, 2);
+    assert(s.lastResult.results.every((r) => r.recognized), "characters should be found in the database");
+    assert(s.lastResult.summary);
     if (round < 3) { const nx = until(a, (s) => s.phase === "playing"); a.emit("next_round"); await nx; }
   }
   assert.strictEqual(s.phase, "final");
@@ -45,6 +49,16 @@ const until = (sock, pred) => new Promise((res) => {
   a.emit("back_to_lobby");
   s = await lobby;
   assert(s.players.every((p) => p.score === 0));
+  
+  // Juge par base de personnages : cohérence des modes
+  const { knowledgeJudge } = require("../src/knowledge-judge");
+  const { THEMES } = require("../src/themes");
+  const { CHARACTERS } = require("../src/characters");
+  assert(CHARACTERS.every((c) => c.values.length === 17 && c.values.every((v) => v >= 0 && v <= 9)));
+  const subs = [{ playerId: "1", name: "A", answer: "Lisa" }, { playerId: "2", name: "B", answer: "homer simpsonn" }];
+  const smart = THEMES.find((t) => t.weights.int === 1 && Object.keys(t.weights).length === 1);
+  assert.strictEqual(knowledgeJudge({ theme: smart, mode: "most", submissions: subs, lang: "fr" }).results[0].character, "Lisa Simpson");
+  assert.strictEqual(knowledgeJudge({ theme: smart, mode: "least", submissions: subs, lang: "fr" }).results[0].character, "Homer Simpson");
   console.log("ALL TESTS PASSED");
   a.close(); b.close(); srv.kill(); process.exit(0);
 })().catch((e) => { console.error(e); srv.kill(); process.exit(1); });

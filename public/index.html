@@ -37,12 +37,21 @@
         </div>
         <div class="card">
           <h2 data-i18n="mode"></h2>
-          <div class="mode selected">
-            <div class="mode-icon">🏆</div>
-            <div>
-              <strong data-i18n="modeName"></strong>
-              <p data-i18n="modeDesc"></p>
-            </div>
+          <div class="modes" id="modePicker">
+            <button class="mode" data-mode="most">
+              <div class="mode-icon">🏆</div>
+              <div>
+                <strong data-i18n="modeMost"></strong>
+                <p data-i18n="modeMostDesc"></p>
+              </div>
+            </button>
+            <button class="mode" data-mode="least">
+              <div class="mode-icon">🙃</div>
+              <div>
+                <strong data-i18n="modeLeast"></strong>
+                <p data-i18n="modeLeastDesc"></p>
+              </div>
+            </button>
           </div>
           <button id="createBtn" class="btn primary" data-i18n="createRoom"></button>
           <div class="join-row">
@@ -68,6 +77,10 @@
         </div>
         <div class="card">
           <h2 data-i18n="settings"></h2>
+          <label data-i18n="mode"></label>
+          <div class="seg" id="modeSeg">
+            <button data-v="most" data-i18n="modeMost"></button><button data-v="least" data-i18n="modeLeast"></button>
+          </div>
           <label data-i18n="rounds"></label>
           <div class="seg" id="roundsSeg">
             <button data-v="3">3</button><button data-v="5">5</button><button data-v="10">10</button>
@@ -90,7 +103,7 @@
     <!-- Manche -->
     <section id="screen-playing" class="screen hidden">
       <div class="card center">
-        <div class="round-label"><span data-i18n="round"></span> <span class="roundNum"></span></div>
+        <div class="round-label"><span class="modeLabel"></span> · <span data-i18n="round"></span> <span class="roundNum"></span></div>
         <h1 class="theme" id="themeText"></h1>
         <div class="timer"><div id="timerBar"></div><span id="timerText"></span></div>
         <form id="answerForm">

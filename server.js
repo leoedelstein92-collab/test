@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3000;
 const ROUND_OPTIONS = [3, 5, 10];
 const TIMER_OPTIONS = [30, 60, 90];
 const LANGS = ["fr", "en", "es"];
+const MODES = ["most", "least"];
 const MAX_PLAYERS = 12;
 const MAX_AVATAR_LEN = 80_000; // photo importée, déjà redimensionnée côté client
 
@@ -59,7 +60,7 @@ function publicState(room) {
     settings: room.settings,
     round: room.round,
     totalRounds: room.themes.length || room.settings.rounds,
-    theme: room.round > 0 ? room.themes[room.round - 1] : null,
+    theme: room.round > 0 ? room.themes[room.round - 1][room.settings.mode] : null,
     remaining: room.deadline ? Math.max(0, room.deadline - Date.now()) : null,
     players,
     lastResult: room.phase === "results" || room.phase === "final" ? room.history[room.history.length - 1] : null,
@@ -94,11 +95,13 @@ async function endRound(room) {
   broadcast(room);
 
   const theme = room.themes[room.round - 1];
+  const mode = room.settings.mode;
   const submissions = [...room.players.values()].map((p) => ({
     playerId: p.id,
+    name: p.name,
     answer: room.answers.get(p.id) || "",
   }));
-  const verdict = await judgeRound({ theme: theme[room.lang] || theme.fr, submissions, lang: room.lang });
+  const verdict = await judgeRound({ theme, mode, submissions, lang: room.lang });
   if (!rooms.has(room.code)) return;
 
   for (const r of verdict.results) {
@@ -109,7 +112,7 @@ async function endRound(room) {
       r.avatar = p.avatar;
     }
   }
-  room.history.push({ round: room.round, theme, ...verdict });
+  room.history.push({ round: room.round, theme: theme[mode], mode, ...verdict });
   room.phase = room.round >= room.themes.length ? "final" : "results";
   broadcast(room);
 }
@@ -162,7 +165,7 @@ io.on("connection", (socket) => {
       code,
       hostId: String(data.playerId || socket.id).slice(0, 64),
       lang: LANGS.includes(data.lang) ? data.lang : "fr",
-      settings: { rounds: 5, timer: 60 },
+      settings: { rounds: 5, timer: 60, mode: MODES.includes(data.mode) ? data.mode : "most" },
       players: new Map(),
       phase: "lobby",
       round: 0,
@@ -199,6 +202,7 @@ io.on("connection", (socket) => {
     if (ROUND_OPTIONS.includes(data.rounds)) room.settings.rounds = data.rounds;
     if (TIMER_OPTIONS.includes(data.timer)) room.settings.timer = data.timer;
     if (LANGS.includes(data.lang)) room.lang = data.lang;
+    if (MODES.includes(data.mode)) room.settings.mode = data.mode;
     broadcast(room);
   });
 
@@ -258,5 +262,5 @@ io.on("connection", (socket) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Cartoon Clash running on http://localhost:${PORT} (AI judge: ${aiEnabled() ? "on" : "demo mode"})`);
+  console.log(`Cartoon Clash running on http://localhost:${PORT} (judge: ${aiEnabled() ? "Claude AI" : "built-in character database"})`);
 });
