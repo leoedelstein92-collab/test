@@ -26,13 +26,15 @@ personnage de dessin animé, et le juge compare les réponses, attribue un score
 
 ## Comment le juge note les personnages
 
-- **Sans clé API (par défaut, gratuit)** : le jeu utilise une base intégrée de ~180 personnages
-  (`src/characters.js`) notés de 0 à 9 sur 17 traits (humour, force, intelligence, méchanceté,
+- **Sans clé API (par défaut, gratuit)** : le jeu utilise une base intégrée de plus de 770 personnages
+  (Disney, Pixar, DreamWorks, Illumination, Blue Sky, Sony, Warner / Looney Tunes, Hanna-Barbera,
+  Nickelodeon, Cartoon Network, Disney Channel, séries pour adultes, animés japonais et Ghibli,
+  dessins animés franco-belges et européens), répartis par studio dans `src/data/` et notés de 0 à 9 sur 17 traits (humour, force, intelligence, méchanceté,
   maladresse, courage, gentillesse, paresse, gourmandise, vitesse, mignon, effrayant, richesse,
   mauvais caractère, bavardage, ruse, malchance), d'après leur comportement dans le dessin animé.
   Chaque thème combine un ou plusieurs traits (`src/themes.js`). Les fautes de frappe et les noms
   français / anglais / espagnols sont reconnus. Un personnage absent de la base ne marque que 5 points.
-  Pour en ajouter, il suffit d'ajouter une ligne dans `src/characters.js`.
+  Pour en ajouter, il suffit d'ajouter une ligne dans le fichier du studio concerné (`src/data/*.js`).
 - **Avec une clé API Anthropic (optionnel)** : si la variable `ANTHROPIC_API_KEY` est définie,
   l'IA Claude juge à la place, ce qui permet de reconnaître n'importe quel personnage. En cas
   d'erreur de l'IA, la base intégrée prend le relais.
@@ -72,7 +74,8 @@ port via la variable `PORT`).
 | `server.js` | Serveur : parties, manches, minuteur, scores (Socket.io) |
 | `src/judge.js` | Choix du juge : Claude (si clé API) ou base intégrée |
 | `src/knowledge-judge.js` | Juge par base de personnages + explications |
-| `src/characters.js` | Base des personnages et de leurs traits |
+| `src/characters.js` | Recherche des personnages (fautes de frappe tolérées) |
+| `src/data/*.js` | Base des personnages et de leurs traits, un fichier par studio |
 | `src/themes.js` | Thèmes « le plus » / « le moins » traduits et traits associés |
 | `public/` | Interface web (HTML/CSS/JS, traductions dans `i18n.js`) |
 

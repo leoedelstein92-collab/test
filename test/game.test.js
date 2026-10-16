@@ -54,7 +54,13 @@ const until = (sock, pred) => new Promise((res) => {
   const { knowledgeJudge } = require("../src/knowledge-judge");
   const { THEMES } = require("../src/themes");
   const { CHARACTERS } = require("../src/characters");
-  assert(CHARACTERS.every((c) => c.values.length === 17 && c.values.every((v) => v >= 0 && v <= 9)));
+  assert(CHARACTERS.every((c) => c.values.length === 17 && c.values.every((v) => Number.isInteger(v) && v >= 0 && v <= 9)));
+  assert(CHARACTERS.length > 700);
+  const owners = new Map();
+  for (const c of CHARACTERS) for (const k of c.keys) {
+    assert(!owners.has(k) || owners.get(k) === c.name, `alias "${k}" used by ${owners.get(k)} and ${c.name}`);
+    owners.set(k, c.name);
+  }
   const subs = [{ playerId: "1", name: "A", answer: "Lisa" }, { playerId: "2", name: "B", answer: "homer simpsonn" }];
   const smart = THEMES.find((t) => t.weights.int === 1 && Object.keys(t.weights).length === 1);
   assert.strictEqual(knowledgeJudge({ theme: smart, mode: "most", submissions: subs, lang: "fr" }).results[0].character, "Lisa Simpson");

@@ -1,0 +1,72 @@
+// Dessins animés européens (franco-belges, français, russes, britanniques…).
+// Notes (0-9) : hum str int evi clu bra kin laz glu spd cut scr ric tem tal cun unl
+const AST = "Astérix|Asterix|Astérix";
+const TIN = "Les Aventures de Tintin|The Adventures of Tintin|Las aventuras de Tintín";
+const SCH = "Les Schtroumpfs|The Smurfs|Los Pitufos";
+const LL = "Lucky Luke";
+const OGGY = "Oggy et les Cafards|Oggy and the Cockroaches|Oggy y las cucarachas";
+const ZS = "Zig & Sharko";
+const MM = "Masha et Michka|Masha and the Bear|Masha y el oso";
+const BARBA = "Barbapapa";
+
+module.exports = [
+  ["Abraracourcix", "abraracourcix|vitalstatistix|abraracurcix", AST, "7 7 4 0 6 7 6 6 8 2 2 1 4 8 7 3 6"],
+  ["Panoramix", "panoramix|getafix|panoramix le druide", AST, "5 3 9 0 1 7 9 1 3 3 4 0 2 2 6 8 2"],
+  ["Assurancetourix", "assurancetourix|cacofonix|asurancetorix", AST, "7 3 4 0 5 5 6 3 4 3 4 0 1 6 9 2 9"],
+  ["Jules César", "cesar|jules cesar|julius caesar|julio cesar", AST, "3 5 8 6 1 6 2 2 5 3 1 4 9 8 7 8 5"],
+  ["Milou", "milou|snowy|milu", TIN, "7 5 6 0 4 7 8 3 7 7 8 0 0 4 0 6 5"],
+  ["Dupond et Dupont", "dupond|dupont|thomson and thompson|hernandez y fernandez", TIN, "9 4 1 0 9 5 6 3 5 3 2 0 2 3 7 1 9"],
+  ["Professeur Tournesol", "tournesol|professeur tournesol|calculus|profesor tornasol", TIN, "8 2 9 0 7 5 8 2 3 2 3 0 3 5 6 3 6"],
+  ["Bianca Castafiore", "castafiore|bianca castafiore", TIN, "7 3 4 0 5 4 6 3 5 2 2 1 8 4 9 2 4"],
+  ["Rastapopoulos", "rastapopoulos", TIN, "3 4 7 9 3 4 0 3 5 3 0 6 8 8 6 8 7"],
+  ["Schtroumpf grognon", "grognon|schtroumpf grognon|grouchy smurf|pitufo grunon", SCH, "7 3 4 1 3 4 4 4 4 3 6 0 0 9 4 2 4"],
+  ["Schtroumpf à lunettes", "schtroumpf a lunettes|brainy smurf|pitufo filosofo", SCH, "7 2 6 0 5 3 5 2 3 3 6 0 0 5 9 2 8"],
+  ["Schtroumpf costaud", "costaud|schtroumpf costaud|hefty smurf|pitufo fortachon", SCH, "4 9 3 0 2 8 7 2 5 5 6 0 0 4 4 2 3"],
+  ["Schtroumpf farceur", "farceur|schtroumpf farceur|jokey smurf|pitufo bromista", SCH, "9 3 5 2 3 5 5 3 4 5 6 0 0 3 6 7 4"],
+  ["Schtroumpf gourmand", "schtroumpf gourmand|greedy smurf|pitufo goloso", SCH, "6 3 3 0 5 3 7 5 9 2 7 0 0 2 5 2 4"],
+  ["Schtroumpf paresseux", "schtroumpf paresseux|lazy smurf|pitufo dormilon", SCH, "6 2 3 0 5 2 7 9 5 1 7 0 0 1 2 2 4"],
+  ["Azraël", "azrael|azrael le chat", SCH, "6 5 3 6 7 4 1 5 7 6 2 4 0 7 0 3 9"],
+  ["Lucky Luke", "lucky luke", LL, "5 7 7 0 1 9 8 3 3 9 2 2 1 2 2 8 1"],
+  ["Rantanplan", "rantanplan|rin tin can|rintintin", LL, "8 3 0 0 9 4 7 6 9 2 5 0 0 1 0 0 8"],
+  ["Joe Dalton", "joe dalton|les dalton|dalton|daltons", LL, "7 5 3 8 5 6 0 3 4 4 1 4 1 9 7 6 9"],
+  ["Averell Dalton", "averell|averell dalton", LL, "8 6 0 2 8 4 6 6 9 2 4 1 1 1 7 0 7"],
+  ["Jolly Jumper", "jolly jumper", LL, "7 7 8 0 1 7 7 4 5 8 5 0 0 3 6 6 2"],
+  ["Gaston Lagaffe", "gaston lagaffe|lagaffe", "Gaston Lagaffe", "9 3 4 0 9 4 8 9 6 2 4 0 1 1 7 4 8"],
+  ["Spirou", "spirou", "Spirou et Fantasio|Spirou & Fantasio|Spirou y Fantasio", "6 5 7 0 3 8 8 2 4 7 5 0 1 4 6 6 5"],
+  ["Le Marsupilami", "marsupilami", "Marsupilami", "8 9 5 0 2 8 7 3 7 9 7 1 0 6 1 7 2"],
+  ["Boule", "boule", "Boule et Bill", "8 3 4 1 5 6 7 4 6 6 8 0 1 3 7 6 6"],
+  ["Bill", "bill le chien|boule et bill", "Boule et Bill", "8 4 4 0 5 6 8 5 8 6 9 0 0 2 0 6 4"],
+  ["Titeuf", "titeuf", "Titeuf", "9 2 4 2 7 5 6 6 5 5 5 0 1 6 9 6 8"],
+  ["Iznogoud", "iznogoud", "Iznogoud", "7 2 6 8 6 3 0 3 4 3 1 4 6 9 8 8 9"],
+  ["Oggy", "oggy", OGGY, "7 5 4 0 8 4 7 6 8 4 5 0 1 5 0 4 9"],
+  ["Les Cafards", "cafards|joey|marky|cucarachas|cockroaches", OGGY, "9 3 6 6 5 5 1 6 9 7 2 3 0 5 3 8 4"],
+  ["Jack (Oggy)", "jack oggy", OGGY, "7 6 4 1 8 6 5 3 6 4 2 0 1 9 2 4 9"],
+  ["Zig", "zig|zig l hyene", ZS, "8 4 6 4 8 6 3 3 9 6 3 2 0 6 0 8 9"],
+  ["Sharko", "sharko", ZS, "6 9 4 0 3 8 7 3 5 8 4 6 0 7 0 3 2"],
+  ["Marina", "marina|marina la sirene", ZS, "5 2 4 0 3 3 8 3 4 4 9 0 0 1 2 3 3"],
+  ["Masha", "masha", MM, "9 4 5 2 7 8 6 2 7 7 9 0 0 6 9 7 3"],
+  ["Michka", "michka|l ours|el oso|the bear", MM, "6 9 6 0 4 6 9 4 7 3 7 3 0 4 0 4 8"],
+  ["Les Lapins Crétins", "lapins cretins|lapin cretin|rabbids|raving rabbids|conejos", "Les Lapins Crétins|Rabbids Invasion|Rabbids: La invasión", "9 3 0 2 9 7 4 4 7 7 5 2 0 3 8 2 7"],
+  ["Barbapapa", "barbapapa", BARBA, "6 7 6 0 2 6 9 3 4 4 8 0 0 1 5 6 2"],
+  ["Babar", "babar", "Babar", "4 8 7 0 3 7 9 2 5 3 6 1 8 2 5 4 3"],
+  ["T'choupi", "tchoupi|t choupi", "T'choupi", "5 2 4 0 5 5 8 2 5 4 9 0 1 3 7 3 3"],
+  ["Petit Ours Brun", "petit ours brun", "Petit Ours Brun", "5 3 4 0 5 4 8 2 5 4 9 0 1 4 6 3 3"],
+  ["Caillou", "caillou", "Caillou", "4 2 4 0 5 3 7 3 5 3 6 0 1 8 7 3 5"],
+  ["Calimero", "calimero", "Calimero", "5 2 4 0 6 4 8 2 4 4 9 0 0 6 7 3 9"],
+  ["Kirikou", "kirikou", "Kirikou", "6 4 9 0 1 9 9 1 3 9 8 0 0 3 6 9 3"],
+  ["Karaba", "karaba|la sorciere karaba", "Kirikou", "2 6 8 8 1 6 1 2 3 2 1 9 7 9 4 9 6"],
+  ["Ernest", "ernest", "Ernest et Célestine|Ernest & Celestine|Ernest y Celestine", "6 7 5 0 5 5 8 5 9 3 6 2 0 6 6 5 7"],
+  ["Célestine", "celestine", "Ernest et Célestine|Ernest & Celestine|Ernest y Celestine", "6 2 7 0 3 7 9 1 4 5 9 0 0 3 7 6 5"],
+  ["Le Petit Prince", "petit prince|little prince|principito", "Le Petit Prince|The Little Prince|El principito", "4 2 8 0 2 6 9 1 2 3 8 0 0 2 6 3 4"],
+  ["Esteban", "esteban", "Les Mystérieuses Cités d'or|The Mysterious Cities of Gold|Las misteriosas ciudades de oro", "5 5 7 0 4 9 8 1 4 6 5 0 0 4 6 6 6"],
+  ["Maestro", "maestro|il etait une fois la vie", "Il était une fois…|Once Upon a Time…|Érase una vez…", "6 2 9 0 2 5 9 3 4 2 4 0 1 2 9 5 3"],
+  ["Pingu", "pingu", "Pingu", "8 3 4 1 6 6 7 3 5 5 9 0 0 6 4 5 5"],
+  ["Thomas le petit train", "thomas|thomas le petit train|thomas the tank engine", "Thomas et ses amis|Thomas & Friends|Thomas y sus amigos", "4 7 4 0 6 6 8 1 3 7 6 0 0 4 6 3 6"],
+  ["Bob le bricoleur", "bob le bricoleur|bob the builder|bob el constructor", "Bob le bricoleur|Bob the Builder|Bob el constructor", "5 6 7 0 2 6 9 1 4 4 4 0 2 1 6 5 3"],
+  ["Sam le pompier", "sam le pompier|fireman sam|sam el bombero", "Sam le pompier|Fireman Sam|Sam el bombero", "4 7 6 0 2 9 9 1 4 6 4 0 1 2 5 5 4"],
+  ["Mr Bean", "mr bean|mister bean", "Mr Bean, la série animée|Mr. Bean: The Animated Series|Mr. Bean: la serie animada", "9 3 3 2 9 5 3 5 6 4 3 1 1 6 0 6 8"],
+  ["Félix le chat", "felix le chat|felix the cat|el gato felix", "Félix le chat|Felix the Cat|El gato Félix", "8 4 7 0 3 7 7 3 4 6 6 0 1 3 4 8 4"],
+  ["Betty Boop", "betty boop", "Betty Boop", "8 2 5 0 4 5 7 3 3 5 8 0 2 3 8 5 5"],
+  ["Casper", "casper|casper le gentil fantome", "Casper", "6 3 5 0 5 5 9 2 3 7 8 2 0 1 6 3 7"],
+  ["Mister Magoo", "magoo|mister magoo|mr magoo", "Mister Magoo|Mr. Magoo|Mr. Magoo", "8 3 2 0 9 7 6 3 4 3 3 0 5 5 6 1 1"],
+];

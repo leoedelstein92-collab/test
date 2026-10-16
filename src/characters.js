@@ -5,7 +5,7 @@
 const TRAITS = ["hum", "str", "int", "evi", "clu", "bra", "kin", "laz", "glu", "spd", "cut", "scr", "ric", "tem", "tal", "cun", "unl"];
 //                humour force intel. méchant maladr. courage gentil paresse gourm. vitesse mignon effray. riche caract. bavard rusé malchance
 
-const RAW = [
+const BASE = [
   // Bob l'éponge
   ["Bob l'éponge", "spongebob|spongebob squarepants|bob esponja|bob", "Bob l'éponge|SpongeBob SquarePants|Bob Esponja", "9 2 3 0 7 6 9 1 5 6 7 0 1 1 9 1 5"],
   ["Patrick Étoile", "patrick|patrick star|patrick l'etoile de mer|patricio|patricio estrella", "Bob l'éponge|SpongeBob SquarePants|Bob Esponja", "8 6 0 0 9 4 7 9 8 2 5 0 1 3 6 0 4"],
@@ -25,7 +25,7 @@ const RAW = [
   ["Krusty le clown", "krusty|krusty the clown|krusty el payaso", "Les Simpson|The Simpsons|Los Simpson", "7 2 4 4 5 3 2 5 6 2 1 4 6 7 8 5 6"],
   ["Tahiti Bob", "sideshow bob|actor secundario bob", "Les Simpson|The Simpsons|Los Simpson", "4 4 8 8 6 4 1 1 2 3 1 7 3 8 8 8 9"],
   ["Moe Szyslak", "moe", "Les Simpson|The Simpsons|Los Simpson", "5 4 3 4 4 3 2 4 3 2 0 4 1 7 5 4 9"],
-  ["Ralph Wiggum", "ralph", "Les Simpson|The Simpsons|Los Simpson", "9 1 0 0 8 3 7 4 6 2 7 0 2 1 7 0 6"],
+  ["Ralph Wiggum", "ralph wiggum", "Les Simpson|The Simpsons|Los Simpson", "9 1 0 0 8 3 7 4 6 2 7 0 2 1 7 0 6"],
   ["Apu", "apu nahasapeemapetilon", "Les Simpson|The Simpsons|Los Simpson", "5 3 7 1 2 5 7 0 3 4 3 0 4 3 7 6 4"],
   // Les Griffin
   ["Peter Griffin", "peter", "Les Griffin|Family Guy|Padre de familia", "8 6 1 3 9 5 4 8 9 3 2 1 2 7 7 2 6"],
@@ -134,7 +134,7 @@ const RAW = [
   ["Zoro", "roronoa zoro", "One Piece", "5 9 4 2 6 9 6 8 6 7 2 6 1 7 2 3 4"],
   ["Pikachu", "pikachu", "Pokémon", "6 6 5 0 2 8 9 2 5 9 9 2 0 5 3 4 2"],
   ["Sacha", "ash|ash ketchum|sacha ketchum", "Pokémon", "6 5 4 0 6 9 9 2 6 6 6 0 1 6 8 4 5"],
-  ["La Team Rocket", "team rocket|equipo rocket|jessie|james", "Pokémon", "9 3 4 6 9 5 4 3 5 4 3 2 1 6 9 6 9"],
+  ["La Team Rocket", "team rocket|equipo rocket|jessie et james|jessie y james", "Pokémon", "9 3 4 6 9 5 4 3 5 4 3 2 1 6 9 6 9"],
   ["Miaouss", "meowth", "Pokémon", "8 3 6 5 6 4 4 3 5 5 6 1 1 6 9 7 9"],
   ["Ronflex", "snorlax", "Pokémon", "6 9 1 0 5 3 7 9 9 1 7 1 0 2 0 0 3"],
   ["Psykokwak", "psyduck", "Pokémon", "7 3 1 0 8 3 6 4 3 2 7 0 0 3 2 0 8"],
@@ -149,7 +149,7 @@ const RAW = [
   // Classiques TV
   ["Garfield", "garfield", "Garfield", "8 4 6 3 3 2 3 9 9 1 6 0 1 7 7 7 3"],
   ["Odie", "odie", "Garfield", "7 4 0 0 9 4 9 2 5 6 8 0 0 1 2 0 7"],
-  ["Tom", "tom le chat|tom cat", "Tom et Jerry|Tom and Jerry|Tom y Jerry", "8 5 3 4 9 5 4 4 6 7 5 2 1 8 1 5 9"],
+  ["Tom", "tom le chat|tom cat|tom", "Tom et Jerry|Tom and Jerry|Tom y Jerry", "8 5 3 4 9 5 4 4 6 7 5 2 1 8 1 5 9"],
   ["Jerry", "jerry", "Tom et Jerry|Tom and Jerry|Tom y Jerry", "7 3 8 3 1 8 6 3 6 8 9 0 1 3 1 9 1"],
   ["La Panthère rose", "panthere rose|pink panther|pantera rosa|la pantera rosa", "La Panthère rose|The Pink Panther|La Pantera Rosa", "8 4 7 1 3 6 6 3 3 5 6 0 4 1 0 8 4"],
   ["Woody Woodpecker", "woody woodpecker|pajaro loco|el pajaro loco", "Woody Woodpecker|Woody Woodpecker|El pájaro loco", "9 3 5 4 3 6 4 4 5 7 5 1 1 5 8 8 3"],
@@ -180,7 +180,7 @@ const RAW = [
   ["Johnny Bravo", "johnny|johnny bravo", "Johnny Bravo", "8 7 1 0 7 6 4 4 4 4 2 0 1 4 9 1 9"],
   ["Dexter", "dexter", "Le Laboratoire de Dexter|Dexter's Laboratory|El laboratorio de Dexter", "5 2 9 1 2 5 4 1 3 3 5 0 4 9 7 7 7"],
   ["Mojo Jojo", "mojo jojo|mojo", "Les Supers Nanas|The Powerpuff Girls|Las Chicas Superpoderosas", "7 5 9 8 4 5 0 1 3 3 1 4 3 9 9 7 9"],
-  ["Belle", "blossom|bombon", "Les Supers Nanas|The Powerpuff Girls|Las Chicas Superpoderosas", "5 8 8 0 2 9 8 1 3 9 9 0 1 5 7 6 2"],
+  ["Belle (Supers Nanas)", "blossom|bombon", "Les Supers Nanas|The Powerpuff Girls|Las Chicas Superpoderosas", "5 8 8 0 2 9 8 1 3 9 9 0 1 5 7 6 2"],
   ["Bulle", "bubbles|burbuja", "Les Supers Nanas|The Powerpuff Girls|Las Chicas Superpoderosas", "7 7 3 0 5 7 9 2 4 9 9 0 1 3 7 2 3"],
   ["Rebelle", "buttercup|bellota", "Les Supers Nanas|The Powerpuff Girls|Las Chicas Superpoderosas", "5 9 4 1 3 9 5 3 4 9 6 2 1 9 4 3 3"],
   ["Phineas", "phineas|phineas flynn", "Phinéas et Ferb|Phineas and Ferb|Phineas y Ferb", "6 3 9 0 1 8 9 0 3 6 6 0 2 1 8 7 0"],
@@ -195,6 +195,17 @@ const RAW = [
   ["Sonic", "sonic|sonic le herisson|sonic the hedgehog", "Sonic", "7 6 6 0 2 9 7 1 6 9 6 0 1 6 8 6 2"],
   ["Batman", "batman|bruce wayne", "Batman, la série animée|Batman: The Animated Series|Batman: la serie animada", "2 8 9 0 1 9 7 1 2 7 2 7 9 7 2 9 7"],
   ["Le Joker", "joker|el guason|guason", "Batman, la série animée|Batman: The Animated Series|Batman: la serie animada", "9 4 8 9 3 7 0 2 3 5 1 9 4 9 9 9 6"],
+];
+
+const RAW = [
+  ...BASE,
+  ...require("./data/disney"),
+  ...require("./data/pixar"),
+  ...require("./data/dreamworks"),
+  ...require("./data/studios"),
+  ...require("./data/tv"),
+  ...require("./data/anime"),
+  ...require("./data/europe"),
 ];
 
 function normalize(s) {
