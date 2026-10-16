@@ -15,6 +15,29 @@ const MAX_PLAYERS = 12;
 const MAX_AVATAR_LEN = 80_000; // photo importée, déjà redimensionnée côté client
 
 const app = express();
+// Page d'accueil servie avec les textes français déjà remplis, pour que les moteurs de recherche
+// (qui n'exécutent pas toujours le JavaScript) lisent le contenu du jeu.
+const INDEX_HTML = (() => {
+  const fs = require("fs");
+  const vm = require("vm");
+  const sandbox = { window: {} };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, "public/i18n.js"), "utf8"), sandbox);
+  const fr = sandbox.window.I18N.fr;
+  const escapeHtml = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return fs
+    .readFileSync(path.join(__dirname, "public/index.html"), "utf8")
+    .replace(/(data-i18n="(\w+)"[^>]*>)(<\/)/g, (m, open, key, close) => (typeof fr[key] === "string" ? open + escapeHtml(fr[key]) + close : m))
+    .replace(/(data-i18n-ph="(\w+)")/g, (m, attr, key) => (typeof fr[key] === "string" ? `${attr} placeholder="${escapeHtml(fr[key])}"` : m));
+})();
+const SITE_URL = (process.env.SITE_URL || "https://cartoon-clash.onrender.com").replace(/\/$/, "");
+
+app.get(["/", "/index.html"], (_req, res) => res.type("html").send(INDEX_HTML));
+app.get("/robots.txt", (_req, res) => res.type("text/plain").send(`User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`));
+app.get("/sitemap.xml", (_req, res) =>
+  res.type("application/xml").send(
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${SITE_URL}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>\n</urlset>\n`
+  )
+);
 app.use(express.static(path.join(__dirname, "public")));
 app.get("/health", (_req, res) => res.json({ ok: true, ai: aiEnabled() }));
 
