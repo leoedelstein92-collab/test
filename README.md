@@ -5,12 +5,16 @@ Jeu multijoueur en ligne, jouable dans le navigateur : à chaque manche un thèm
 personnage de dessin animé, et le juge compare les réponses, attribue un score sur 100
 à chacune et explique brièvement son classement.
 
-![Résultats d'une manche](docs/results.png)
+![Accueil](docs/home.png)
+
+| Salon | Manche | Classement final |
+|---|---|---|
+| ![Salon](docs/lobby.png) | ![Manche](docs/playing.png) | ![Final](docs/final.png) |
 
 ## Fonctionnalités
 
 - **Page d'accueil** : pseudo, langue (🇫🇷 / 🇬🇧 / 🇪🇸), photo de profil modifiable
-  (48 personnages ou import de sa propre photo).
+  (40 personnages cartoon dessinés pour le jeu, ou import de sa propre photo).
 - **Parties en ligne** : l'hôte crée une partie et partage un code à 4 lettres (ou un lien
   d'invitation). Jusqu'à 12 joueurs.
 - **Réglages avant la partie** (hôte) : 3, 5 ou 10 manches, 30 / 60 / 90 s par manche,
