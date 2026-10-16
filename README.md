@@ -55,6 +55,10 @@ Tests de bout en bout (2 joueurs, 3 manches) : `npm test`.
 Le jeu est un serveur Node.js (Express + Socket.io), il faut donc un hébergeur qui exécute
 Node (pas un hébergement de pages statiques). Exemple avec [Render](https://render.com) :
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/leoedelstein92-collab/test)
+
+Le bouton ci-dessus fait tout en un clic (après connexion à Render). Sinon, à la main :
+
 1. Créer un compte gratuit sur https://render.com en choisissant **« Sign up with GitHub »**.
 2. Cliquer sur **New → Blueprint**, autoriser Render à accéder au dépôt, puis le choisir
    (le fichier `render.yaml` configure tout : commande d'installation, de démarrage, offre gratuite).
