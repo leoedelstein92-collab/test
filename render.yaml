@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cartoon-clash
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false

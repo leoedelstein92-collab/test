@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cartoon Clash</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">🎬 Cartoon <span>Clash</span></div>
+    <select id="langSelect" aria-label="Language">
+      <option value="fr">🇫🇷 Français</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="es">🇪🇸 Español</option>
+    </select>
+  </header>
+
+  <main id="app">
+    <!-- Accueil -->
+    <section id="screen-home" class="screen">
+      <p class="tagline" data-i18n="tagline"></p>
+      <div class="grid-2">
+        <div class="card">
+          <h2 data-i18n="profile"></h2>
+          <div class="profile-row">
+            <button id="avatarBtn" class="avatar big" aria-label="avatar"></button>
+            <div class="grow">
+              <label for="nameInput" data-i18n="nickname"></label>
+              <input id="nameInput" maxlength="20" autocomplete="off" data-i18n-ph="nicknamePh" />
+            </div>
+          </div>
+          <button id="openAvatars" class="btn ghost small" data-i18n="chooseAvatar"></button>
+        </div>
+        <div class="card">
+          <h2 data-i18n="mode"></h2>
+          <div class="mode selected">
+            <div class="mode-icon">🏆</div>
+            <div>
+              <strong data-i18n="modeName"></strong>
+              <p data-i18n="modeDesc"></p>
+            </div>
+          </div>
+          <button id="createBtn" class="btn primary" data-i18n="createRoom"></button>
+          <div class="join-row">
+            <input id="codeInput" maxlength="4" autocomplete="off" data-i18n-ph="codePh" />
+            <button id="joinBtn" class="btn secondary" data-i18n="joinRoom"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Salon -->
+    <section id="screen-lobby" class="screen hidden">
+      <div class="grid-2">
+        <div class="card">
+          <h2 data-i18n="lobby"></h2>
+          <div class="room-code-box">
+            <span data-i18n="roomCode"></span>
+            <div id="roomCode" class="room-code"></div>
+            <button id="copyLink" class="btn ghost small" data-i18n="copyLink"></button>
+          </div>
+          <h3><span data-i18n="players"></span> <span id="playerCount"></span></h3>
+          <ul id="lobbyPlayers" class="players"></ul>
+        </div>
+        <div class="card">
+          <h2 data-i18n="settings"></h2>
+          <label data-i18n="rounds"></label>
+          <div class="seg" id="roundsSeg">
+            <button data-v="3">3</button><button data-v="5">5</button><button data-v="10">10</button>
+          </div>
+          <label data-i18n="timer"></label>
+          <div class="seg" id="timerSeg">
+            <button data-v="30">30s</button><button data-v="60">60s</button><button data-v="90">90s</button>
+          </div>
+          <label data-i18n="aiLanguage"></label>
+          <div class="seg" id="aiLangSeg">
+            <button data-v="fr">FR</button><button data-v="en">EN</button><button data-v="es">ES</button>
+          </div>
+          <p id="lobbyHint" class="hint"></p>
+          <button id="startBtn" class="btn primary" data-i18n="start"></button>
+          <button class="btn ghost small leaveBtn" data-i18n="leave"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Manche -->
+    <section id="screen-playing" class="screen hidden">
+      <div class="card center">
+        <div class="round-label"><span data-i18n="round"></span> <span class="roundNum"></span></div>
+        <h1 class="theme" id="themeText"></h1>
+        <div class="timer"><div id="timerBar"></div><span id="timerText"></span></div>
+        <form id="answerForm">
+          <label for="answerInput" data-i18n="yourAnswer"></label>
+          <div class="answer-row">
+            <input id="answerInput" maxlength="60" autocomplete="off" data-i18n-ph="answerPh" />
+            <button class="btn primary" data-i18n="submit"></button>
+          </div>
+        </form>
+        <div id="submittedBox" class="hidden">
+          <p class="ok" data-i18n="submitted"></p>
+          <p class="my-answer" id="myAnswer"></p>
+          <button id="changeBtn" class="btn ghost small" data-i18n="changeAnswer"></button>
+        </div>
+        <ul id="playingPlayers" class="players inline"></ul>
+      </div>
+    </section>
+
+    <!-- Délibération -->
+    <section id="screen-judging" class="screen hidden">
+      <div class="card center">
+        <div class="robot">🤖</div>
+        <h2 data-i18n="judging"></h2>
+        <p data-i18n="judgingSub"></p>
+        <div class="dots"><span></span><span></span><span></span></div>
+      </div>
+    </section>
+
+    <!-- Résultats de manche -->
+    <section id="screen-results" class="screen hidden">
+      <div class="card">
+        <div class="round-label"><span data-i18n="roundResults"></span> · <span data-i18n="round"></span> <span class="roundNum"></span></div>
+        <h2 class="theme small" id="resultsTheme"></h2>
+        <p id="resultsSummary" class="summary"></p>
+        <p id="resultsNotice" class="notice hidden"></p>
+        <ol id="resultsList" class="results"></ol>
+        <button id="nextBtn" class="btn primary"></button>
+        <p id="waitingNext" class="hint" data-i18n="waitingNext"></p>
+      </div>
+    </section>
+
+    <!-- Classement final -->
+    <section id="screen-final" class="screen hidden">
+      <div class="card">
+        <h1 class="center" data-i18n="final"></h1>
+        <div id="podium" class="podium"></div>
+        <ol id="finalList" class="results compact"></ol>
+        <div id="bestBox" class="best"></div>
+        <h3 data-i18n="recap"></h3>
+        <div id="recap" class="recap"></div>
+        <button id="againBtn" class="btn primary" data-i18n="playAgain"></button>
+        <p id="waitingAgain" class="hint" data-i18n="waitingHost"></p>
+        <button class="btn ghost small leaveBtn" data-i18n="leave"></button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Choix de l'avatar -->
+  <dialog id="avatarDialog">
+    <h2 data-i18n="chooseAvatar"></h2>
+    <div id="avatarGrid" class="avatar-grid"></div>
+    <label class="btn secondary upload">
+      📷 <span data-i18n="uploadPhoto"></span>
+      <input type="file" id="photoInput" accept="image/*" hidden />
+    </label>
+    <button id="closeAvatars" class="btn ghost small">OK</button>
+  </dialog>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
