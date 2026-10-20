@@ -278,10 +278,103 @@
   $("#nextBtn").addEventListener("click", () => socket.emit("next_round"));
   $("#againBtn").addEventListener("click", () => socket.emit("back_to_lobby"));
 
+  // ---------- Suggestions de personnages (liste déroulante) ----------
+  const charLists = {};
+  const normalize = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+  function loadCharacters(universe) {
+    if (charLists[universe]) return;
+    charLists[universe] = [];
+    fetch(`/api/characters/${universe}`).then((r) => r.json()).then((list) => {
+      charLists[universe] = list.map((c) => ({ ...c, nn: normalize(c.n), kk: c.k.map(normalize) }));
+    }).catch(() => { delete charLists[universe]; });
+  }
+  function lev(a, b) {
+    if (Math.abs(a.length - b.length) > 3) return 99;
+    const dp = Array.from({ length: b.length + 1 }, (_, i) => i);
+    for (let i = 1; i <= a.length; i++) {
+      let prev = dp[0]; dp[0] = i;
+      for (let j = 1; j <= b.length; j++) { const tmp = dp[j]; dp[j] = Math.min(dp[j] + 1, dp[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1)); prev = tmp; }
+    }
+    return dp[b.length];
+  }
+  function searchCharacters(text) {
+    const q = normalize(text);
+    const list = charLists[state?.settings.universe] || [];
+    if (q.length < 2 || !list.length) return [];
+    const tol = q.length <= 4 ? 1 : 2;
+    const out = [];
+    for (const c of list) {
+      let best = 99;
+      let bestLen = 99;
+      for (const k of [c.nn, ...c.kk]) {
+        let sc = 99;
+        if (k === q) sc = 0;
+        else if (k.startsWith(q)) sc = 1;
+        else if (k.split(" ").some((w) => w.startsWith(q))) sc = 2;
+        else if (q.length >= 3 && k.includes(q)) sc = 3;
+        else if (q.length >= 3) {
+          const d = Math.min(lev(q, k), ...k.split(" ").map((w) => lev(q, w)), lev(q, k.slice(0, q.length)));
+          if (d <= tol) sc = 4 + d;
+        }
+        if (sc < 99 && k === c.nn) sc -= 0.5; // le nom affiché compte plus qu'un alias
+        if (sc < best || (sc === best && k.length < bestLen)) { best = sc; bestLen = k.length; }
+        if (best <= 0) break;
+      }
+      if (best < 99) out.push({ c, best, len: bestLen });
+    }
+    out.sort((a, b) => a.best - b.best || (a.c.m ? 1 : 0) - (b.c.m ? 1 : 0) || a.len - b.len);
+    return out.slice(0, 8).map((x) => x.c);
+  }
+  let suggestions = [];
+  let activeSug = -1;
+  function hideSuggestions() { suggestions = []; activeSug = -1; $("#suggestions").classList.add("hidden"); $("#answerInput").setAttribute("aria-expanded", "false"); }
+  function renderSuggestions() {
+    const box = $("#suggestions");
+    if (!suggestions.length) {
+      const q = $("#answerInput").value.trim();
+      const loaded = (charLists[state?.settings.universe] || []).length > 0;
+      if (q.length >= 3 && loaded) {
+        box.innerHTML = `<li class="sug-empty">${esc(t("noMatch"))}</li>`;
+        box.classList.remove("hidden");
+      } else box.classList.add("hidden");
+      return;
+    }
+    box.innerHTML = suggestions.map((c, i) => `<li role="option" class="sug ${i === activeSug ? "active" : ""}" data-i="${i}">
+      <span class="sug-name">${esc(c.n)}</span><span class="sug-show">${esc(c.s[profile.lang] || c.s.fr)}</span></li>`).join("");
+    box.classList.remove("hidden");
+    $("#answerInput").setAttribute("aria-expanded", "true");
+  }
+  function pickSuggestion(i) {
+    const c = suggestions[i];
+    if (!c) return;
+    $("#answerInput").value = c.n;
+    hideSuggestions();
+    sfx("pop");
+    $("#answerInput").focus();
+  }
+  $("#answerInput").addEventListener("input", (e) => {
+    suggestions = searchCharacters(e.target.value);
+    activeSug = suggestions.length ? 0 : -1;
+    renderSuggestions();
+  });
+  $("#answerInput").addEventListener("keydown", (e) => {
+    if ($("#suggestions").classList.contains("hidden") || !suggestions.length) return;
+    if (e.key === "ArrowDown") { e.preventDefault(); activeSug = (activeSug + 1) % suggestions.length; renderSuggestions(); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); activeSug = (activeSug - 1 + suggestions.length) % suggestions.length; renderSuggestions(); }
+    else if (e.key === "Enter" && activeSug >= 0 && normalize(suggestions[activeSug].n) !== normalize(e.target.value)) { e.preventDefault(); pickSuggestion(activeSug); }
+    else if (e.key === "Escape") hideSuggestions();
+  });
+  $("#suggestions").addEventListener("mousedown", (e) => {
+    const li = e.target.closest("[data-i]");
+    if (li) { e.preventDefault(); pickSuggestion(Number(li.dataset.i)); }
+  });
+  $("#answerInput").addEventListener("blur", () => setTimeout(hideSuggestions, 150));
+
   $("#answerForm").addEventListener("submit", (e) => {
     e.preventDefault();
     const answer = $("#answerInput").value.trim();
     if (!answer) return;
+    hideSuggestions();
     editingAnswer = false;
     socket.emit("submit_answer", { answer });
     store.set("cc_last_answer", answer);
@@ -359,19 +452,23 @@
   let themeShown = null;
   function renderPlaying() {
     const key = `${state.code}-${state.round}`;
-    if (themeShown !== key) {
+    const newRound = themeShown !== key;
+    if (newRound) {
       themeShown = key;
       const card = $("#themeCard");
       card.style.animation = "none";
       void card.offsetWidth;
       card.style.animation = "";
+      // Le champ n'est vidé qu'au début d'une nouvelle manche (jamais pendant la saisie).
+      $("#answerInput").value = "";
+      hideSuggestions();
+      loadCharacters(state.settings.universe);
     }
     $("#themeText").textContent = themeText(state.theme);
     const done = me()?.submitted && !editingAnswer;
     $("#answerForm").classList.toggle("hidden", done);
     $("#submittedBox").classList.toggle("hidden", !done);
-    if (done) $("#myAnswer").textContent = `« ${store.get("cc_last_answer", "")} »`;
-    else if (!editingAnswer) $("#answerInput").value = "";
+    if (done) { $("#myAnswer").textContent = `« ${store.get("cc_last_answer", "")} »`; hideSuggestions(); }
     $("#playingPlayers").innerHTML = state.players
       .filter((p) => p.connected)
       .map((p) => `<li class="${p.submitted ? "done" : ""}">
@@ -379,7 +476,7 @@
         <span class="status">${p.submitted ? icon("check") : `<span class="typing"><i></i><i></i><i></i></span>`}</span>
         <span class="pname">${esc(p.name)}</span></li>`)
       .join("");
-    if (!done && !editingAnswer) setTimeout(() => $("#answerInput").focus(), 60);
+    if (!done && newRound) setTimeout(() => $("#answerInput").focus(), 60);
     updateTimer();
   }
 

@@ -15,6 +15,7 @@ const MAX_PLAYERS = 12;
 const MAX_AVATAR_LEN = 80_000; // photo importée, déjà redimensionnée côté client
 
 const app = express();
+app.use(require("compression")());
 // Page d'accueil servie avec les textes français déjà remplis, pour que les moteurs de recherche
 // (qui n'exécutent pas toujours le JavaScript) lisent le contenu du jeu.
 const INDEX_HTML = (() => {
@@ -32,6 +33,23 @@ const INDEX_HTML = (() => {
 const SITE_URL = (process.env.SITE_URL || "https://cartoon-clash.onrender.com").replace(/\/$/, "");
 
 app.get(["/", "/index.html"], (_req, res) => res.type("html").send(INDEX_HTML));
+
+// Liste des personnages connus pour les suggestions pendant la saisie.
+// En univers dessins animés, les personnages de mangas (souvent adaptés en animé) sont aussi proposés, après.
+const { DBS } = require("./src/characters");
+const toEntry = (c, m) => ({ n: c.name, s: c.show, k: c.keys, ...(m ? { m: 1 } : {}) });
+const CHAR_LISTS = {
+  cartoon: JSON.stringify([
+    ...DBS.cartoon.characters.map((c) => toEntry(c)),
+    ...DBS.manga.characters.filter((c) => !DBS.cartoon.find(c.name)).map((c) => toEntry(c, true)),
+  ]),
+  manga: JSON.stringify(DBS.manga.characters.map((c) => toEntry(c))),
+};
+app.get("/api/characters/:universe", (req, res) => {
+  const list = CHAR_LISTS[req.params.universe];
+  if (!list) return res.status(404).json({ error: "unknown universe" });
+  res.set("Cache-Control", "public, max-age=3600").type("json").send(list);
+});
 app.get("/robots.txt", (_req, res) => res.type("text/plain").send(`User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`));
 app.get("/sitemap.xml", (_req, res) =>
   res.type("application/xml").send(

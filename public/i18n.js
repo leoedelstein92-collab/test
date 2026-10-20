@@ -73,6 +73,7 @@ window.I18N = {
     uniManga: "Mangas",
     yourAnswerManga: "Ton personnage de manga",
     answerPhManga: "Ex. : Naruto",
+    noMatch: "Aucun personnage trouvé : vérifie l'orthographe (sinon, seulement 5 points).",
     errors: {
       room_not_found: "Partie introuvable.",
       game_started: "La partie a déjà commencé.",
@@ -156,6 +157,7 @@ window.I18N = {
     uniManga: "Manga",
     yourAnswerManga: "Your manga character",
     answerPhManga: "E.g.: Naruto",
+    noMatch: "No character found: check the spelling (otherwise only 5 points).",
     errors: {
       room_not_found: "Game not found.",
       game_started: "The game has already started.",
@@ -239,6 +241,7 @@ window.I18N = {
     uniManga: "Mangas",
     yourAnswerManga: "Tu personaje de manga",
     answerPhManga: "Ej.: Naruto",
+    noMatch: "Ningún personaje encontrado: revisa la ortografía (si no, solo 5 puntos).",
     errors: {
       room_not_found: "Partida no encontrada.",
       game_started: "La partida ya ha empezado.",

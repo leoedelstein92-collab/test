@@ -220,7 +220,8 @@
           <div class="answer-row">
             <div class="input-wrap big">
               <span class="input-ic" data-icon="pen"></span>
-              <input id="answerInput" maxlength="60" autocomplete="off" />
+              <input id="answerInput" maxlength="60" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions" />
+              <ul id="suggestions" class="suggest hidden" role="listbox"></ul>
             </div>
             <button class="btn btn-primary btn-lg"><span data-icon="check"></span><span data-i18n="submit"></span></button>
           </div>

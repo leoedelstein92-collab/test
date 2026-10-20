@@ -296,7 +296,17 @@ button.avatar { cursor: pointer; }
 #timerText { font-family: var(--font-display); font-size: 28px; position: relative; }
 .timer-ring.low .tr-fg { stroke: var(--pink); }
 .timer-ring.low { animation: throb .5s ease-in-out infinite; }
-.answer-card { max-width: 860px; margin: 26px auto 0; }
+.answer-card { max-width: 860px; margin: 26px auto 0; position: relative; z-index: 3; }
+.suggest {
+  position: absolute; left: 0; right: 0; top: calc(100% + 8px); z-index: 10; list-style: none; margin: 0; padding: 6px;
+  background: #fff; border: var(--line) solid var(--ink); border-radius: 18px; box-shadow: 0 6px 0 var(--ink);
+  max-height: 340px; overflow-y: auto; animation: pop-in .2s ease-out;
+}
+.sug { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 10px 12px; border-radius: 12px; cursor: pointer; }
+.sug.active, .sug:hover { background: var(--yellow); }
+.sug-name { font-family: var(--font-display); font-size: 20px; }
+.sug-show { color: var(--muted); font-size: 13px; font-weight: 800; text-align: right; }
+.sug-empty { padding: 10px 12px; color: var(--muted); font-weight: 800; }
 .answer-row { display: flex; gap: 12px; }
 .answer-row .input-wrap { flex: 1; }
 .submitted { text-align: center; }

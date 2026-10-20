@@ -13,6 +13,8 @@ const until = (sock, pred) => new Promise((res) => {
 
 (async () => {
   await wait(800);
+  const list = await (await fetch(`http://localhost:${PORT}/api/characters/manga`)).json();
+  assert(list.length > 550 && list.some((c) => c.n === "Son Goku"), "character list endpoint");
   const a = io(`http://localhost:${PORT}`), b = io(`http://localhost:${PORT}`);
   const created = await new Promise((r) => a.emit("create_room", { playerId: "A", name: "Alice", avatar: "char:3", lang: "fr" }, r));
   assert(created.ok && created.code.length === 4);
