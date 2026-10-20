@@ -209,6 +209,7 @@ const CARTOON_ROWS = [
   ...require("./data/more-cartoons"),
   ...require("./data/more-tv"),
   ...require("./data/more-world"),
+  ...require("./data/weekly-cartoons"),
 ];
 
 const MANGA_ROWS = [
@@ -216,6 +217,7 @@ const MANGA_ROWS = [
   ...require("./manga/jump-modern"),
   ...require("./manga/classics"),
   ...require("./manga/more-manga"),
+  ...require("./manga/weekly-manga"),
 ];
 
 // Talents connus des personnages (cuisinier, chef, mentor…), indexés par nom affiché.
