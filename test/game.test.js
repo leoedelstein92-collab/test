@@ -12,7 +12,7 @@ const until = (sock, pred) => new Promise((res) => {
 });
 
 (async () => {
-  await wait(800);
+  for (let i = 0; i < 50; i++) { try { await fetch(`http://localhost:${PORT}/health`); break; } catch { await wait(200); } }
   const list = await (await fetch(`http://localhost:${PORT}/api/characters/manga`)).json();
   assert(list.length > 550 && list.some((c) => c.n === "Son Goku"), "character list endpoint");
   const a = io(`http://localhost:${PORT}`), b = io(`http://localhost:${PORT}`);
