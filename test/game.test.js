@@ -33,7 +33,7 @@ const until = (sock, pred) => new Promise((res) => {
   assert.strictEqual(s.lang, "en");
   assert.strictEqual(s.settings.mode, "least");
   assert.strictEqual(s.settings.universe, "manga");
-  assert(/least|worst|last|shortest|slowest|weakest|poorest|luckiest|calmest/i.test(s.theme.en), s.theme.en);
+  assert(require("../src/themes").THEMES.some((t) => t.least.en === s.theme.en), s.theme.en);
   for (let round = 1; round <= 3; round++) {
     const done = until(a, (s) => (s.phase === "results" || s.phase === "final") && s.round === round);
     a.emit("submit_answer", { answer: "Naruto" });
@@ -78,6 +78,12 @@ const until = (sock, pred) => new Promise((res) => {
   }
   const cartoonNames = new Set(DBS.cartoon.characters.map((c) => c.name));
   for (const n of Object.keys(TAGS)) assert(cartoonNames.has(n), `tag for unknown character ${n}`);
+  assert.strictEqual(new Set(THEMES.map((t) => t.id)).size, THEMES.length, "duplicate theme ids");
+  for (const t of THEMES) for (const m of ["most", "least"]) assert(["fr", "en", "es"].every((l) => t[m][l]), `${t.id}: missing ${m} text`);
+  const { pickThemes } = require("../src/themes");
+  const first = pickThemes(10), second = pickThemes(10, first.map((t) => t.id));
+  assert(new Set(first.map((t) => t.family)).size >= 4, "a game should mix theme families");
+  assert(!second.some((t) => first.includes(t)), "next game should not repeat themes");
   const strong = THEMES.find((t) => t.id === "strong");
   const manga = knowledgeJudge({ theme: strong, mode: "most", universe: "manga", lang: "fr", submissions: [
     { playerId: "1", name: "A", answer: "Goku" }, { playerId: "2", name: "B", answer: "Saitama" }, { playerId: "3", name: "C", answer: "Nobita" }] });

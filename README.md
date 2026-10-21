@@ -103,7 +103,8 @@ port via la variable `PORT`).
 | `src/characters.js` | Recherche des personnages (fautes de frappe tolérées) |
 | `src/data/*.js` | Base des dessins animés (un fichier par studio / type de série), talents, classements |
 | `src/manga/*.js` | Base des mangas |
-| `src/themes.js` | Thèmes « le plus » / « le moins » traduits et traits associés |
+| `src/themes.js` | Thèmes de base « le plus » / « le moins » traduits et traits associés, et tirage des thèmes (familles mélangées, pas de répétition d'une partie à l'autre dans une salle) |
+| `src/themes-more.js` | 66 thèmes de plus, par familles : vie quotidienne, apparence et style, idées et société, situations, relations |
 | `public/` | Interface web (HTML/CSS/JS, traductions dans `i18n.js`) |
 
 Variables d'environnement optionnelles : `PORT`, `ANTHROPIC_API_KEY`, `CLAUDE_MODEL` (par défaut `claude-opus-5-5`).

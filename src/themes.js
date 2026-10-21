@@ -174,13 +174,36 @@ const THEMES = [
   },
 ];
 
-function pickThemes(count) {
-  const pool = THEMES.map((_, i) => i);
-  for (let i = pool.length - 1; i > 0; i--) {
+// Thèmes de base (traits de caractère, métiers) + familles de themes-more.js.
+const MORE = require("./themes-more");
+for (const t of THEMES) t.family = "traits";
+THEMES.push(...MORE);
+
+function shuffle(list) {
+  for (let i = list.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [pool[i], pool[j]] = [pool[j], pool[i]];
+    [list[i], list[j]] = [list[j], list[i]];
   }
-  return pool.slice(0, count).map((i) => THEMES[i]);
+  return list;
+}
+
+// Tire `count` thèmes en alternant les familles (traits, quotidien, apparence, idées…)
+// et en évitant les thèmes déjà joués dans la salle (`played` : identifiants), tant qu'il en reste.
+function pickThemes(count, played = []) {
+  const seen = new Set(played);
+  const fresh = THEMES.filter((t) => !seen.has(t.id));
+  const pool = fresh.length >= count ? fresh : THEMES;
+  const families = new Map();
+  for (const t of shuffle([...pool])) {
+    if (!families.has(t.family)) families.set(t.family, []);
+    families.get(t.family).push(t);
+  }
+  const order = shuffle([...families.values()]);
+  const picked = [];
+  while (picked.length < count && order.some((l) => l.length)) {
+    for (const list of order) if (list.length && picked.length < count) picked.push(list.pop());
+  }
+  return shuffle(picked);
 }
 
 module.exports = { THEMES, pickThemes };
