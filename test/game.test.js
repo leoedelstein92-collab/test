@@ -65,6 +65,15 @@ const until = (sock, pred) => new Promise((res) => {
   for (const [u, db] of Object.entries(DBS)) {
     assert.deepStrictEqual(db.duplicates, [], `${u}: duplicate character names`);
     assert(db.characters.every((c) => c.values.length === 17 && c.values.every((v) => Number.isInteger(v) && v >= 0 && v <= 10)), `${u}: bad ratings`);
+    const { TRAITS } = require("../src/characters");
+    assert(db.characters.every((c) => TRAITS.every((t) => Number.isInteger(c.traits[t]) && c.traits[t] >= 0 && c.traits[t] <= 10)), `${u}: bad extra criteria`);
+    const missing = db.characters.filter((c) => !c.profile).map((c) => c.name);
+    assert.deepStrictEqual(missing, [], `${u}: characters without a profile in src/profiles/`);
+    for (const c of db.characters) {
+      const p = c.profile;
+      assert(p.desc.fr && p.desc.en && p.desc.es && Object.keys(p.facts).length >= 3, `${u}: incomplete profile for ${c.name}`);
+      for (const [k, f] of Object.entries(p.facts)) assert(TRAITS.includes(k) && f.fr && f.en && f.es, `${u}: bad fact ${k} for ${c.name}`);
+    }
     const owners = new Map();
     for (const c of db.characters) for (const k of c.keys) {
       assert(!owners.has(k) || owners.get(k) === c.name, `${u}: alias "${k}" used by ${owners.get(k)} and ${c.name}`);
@@ -84,6 +93,12 @@ const until = (sock, pred) => new Promise((res) => {
   const first = pickThemes(10), second = pickThemes(10, first.map((t) => t.id));
   assert(new Set(first.map((t) => t.family)).size >= 4, "a game should mix theme families");
   assert(!second.some((t) => first.includes(t)), "next game should not repeat themes");
+  for (const u of ["cartoon", "manga"]) {
+    const fs = require("fs");
+    const names = new Set(DBS[u].characters.map((c) => c.name));
+    for (const f of fs.readdirSync(`${__dirname}/../src/profiles`).filter((f) => f.startsWith(`${u}-`)))
+      for (const n of Object.keys(require(`../src/profiles/${f}`))) assert(names.has(n), `${f}: profile for unknown character ${n}`);
+  }
   const strong = THEMES.find((t) => t.id === "strong");
   const manga = knowledgeJudge({ theme: strong, mode: "most", universe: "manga", lang: "fr", submissions: [
     { playerId: "1", name: "A", answer: "Goku" }, { playerId: "2", name: "B", answer: "Saitama" }, { playerId: "3", name: "C", answer: "Nobita" }] });

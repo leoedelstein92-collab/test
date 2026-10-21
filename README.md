@@ -36,7 +36,10 @@ chacun jouable en mode « Le plus… » ou « Le moins… ».
 
 - **Sans clé API (par défaut, gratuit)** : chaque personnage est noté de 0 à 10 sur 17 traits (humour, force,
   intelligence, méchanceté, maladresse, courage, gentillesse, paresse, gourmandise, vitesse, mignon, effrayant,
-  richesse, mauvais caractère, bavardage, ruse, malchance), d'après son comportement dans son histoire.
+  richesse, mauvais caractère, bavardage, ruse, malchance), d'après son comportement dans son histoire,
+  plus 7 critères de sa **fiche** (`src/profiles/`) : beauté, style, honnêteté, leadership, sociabilité,
+  romantisme, organisation. La fiche contient aussi une description et des faits marquants de son histoire,
+  que le juge cite pour expliquer chaque note.
   Le score d'un thème est calculé ainsi :
   1. moyenne pondérée des traits du thème (`src/themes.js`), avec des critères secondaires pour départager ;
   2. **talents connus** (`src/data/tags.js` et 5ᵉ colonne des données) : cuisinier, chef, mentor, danseur,
@@ -59,7 +62,20 @@ Une ligne par personnage dans le fichier du studio ou de la série (`src/data/*.
 ["Nom affiché", "alias|autre nom|nom anglais", "Série FR|Series EN|Serie ES", "hum str int evi clu bra kin laz glu spd cut scr ric tem tal cun unl", "talent|talent"],
 ```
 
-`npm test` vérifie les notes, les alias en double et les noms utilisés dans les talents et classements.
+Puis sa fiche dans `src/profiles/cartoon-*.js` ou `src/profiles/manga-*.js` (par exemple `cartoon-weekly.js`) :
+
+```js
+"Nom affiché": {
+  x: "bea sty hon lea soc rom org",            // 7 notes de 0 à 10
+  d: "description fr|description en|description es",
+  f: {                                         // 3 ou 4 faits marquants, indexés par critère
+    glu: "Fait tiré de son histoire (fr)|(en)|(es)",
+  },
+},
+```
+
+`npm test` vérifie les notes, les fiches (chaque personnage doit en avoir une), les alias en double et les noms
+utilisés dans les talents et classements.
 
 ## Lancer en local
 

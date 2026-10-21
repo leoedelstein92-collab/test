@@ -41,7 +41,7 @@ const THEMES = [
   },
   {
     id: "president",
-    weights: { int: 2, kin: 1, bra: 1, clu: -1 },
+    weights: { int: 2, lea: 2, kin: 1, bra: 1, hon: 1, clu: -1 },
     tie: { cun: 0.05 }, tag: "leader",
     most: { fr: "Qui ferait le meilleur président ?", en: "Who would make the best president?", es: "¿Quién sería el mejor presidente?" },
     least: { fr: "Qui ferait le pire président ?", en: "Who would make the worst president?", es: "¿Quién sería el peor presidente?" },
@@ -83,7 +83,7 @@ const THEMES = [
   },
   {
     id: "teacher",
-    weights: { int: 2, kin: 1, tem: -1 },
+    weights: { int: 2, kin: 1, org: 1, tem: -1 },
     tie: { tal: 0.05 }, tag: "teacher",
     most: { fr: "Qui serait le meilleur prof ?", en: "Who would be the best teacher?", es: "¿Quién sería el mejor profesor?" },
     least: { fr: "Qui serait le pire prof ?", en: "Who would be the worst teacher?", es: "¿Quién sería el peor profesor?" },
@@ -104,7 +104,7 @@ const THEMES = [
   },
   {
     id: "roommate",
-    weights: { kin: 2, hum: 1, tem: -1, laz: -1 },
+    weights: { kin: 2, hum: 1, org: 1, tem: -1, laz: -1 },
     tie: { cut: 0.05 },
     most: { fr: "Qui ferait le meilleur colocataire ?", en: "Who would be the best roommate?", es: "¿Quién sería el mejor compañero de piso?" },
     least: { fr: "Qui ferait le pire colocataire ?", en: "Who would be the worst roommate?", es: "¿Quién sería el peor compañero de piso?" },
@@ -153,7 +153,7 @@ const THEMES = [
   },
   {
     id: "friend",
-    weights: { kin: 2, hum: 1 },
+    weights: { kin: 2, hum: 1, hon: 1 },
     tag: "friend",
     most: { fr: "Qui serait le meilleur ami ?", en: "Who would be the best friend?", es: "¿Quién sería el mejor amigo?" },
     least: { fr: "Qui serait le pire ami ?", en: "Who would be the worst friend?", es: "¿Quién sería el peor amigo?" },

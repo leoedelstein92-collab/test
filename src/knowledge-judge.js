@@ -19,18 +19,46 @@ const TRAIT_WORDS = {
     bra: "le courage", kin: "la gentillesse", laz: "la paresse", glu: "la gourmandise", spd: "la vitesse",
     cut: "le côté mignon", scr: "le côté effrayant", ric: "la richesse", tem: "le mauvais caractère",
     tal: "le bavardage", cun: "la ruse", unl: "la malchance",
+    bea: "la beauté", sty: "le style", hon: "l'honnêteté", lea: "le leadership", soc: "la sociabilité",
+    rom: "le côté romantique", org: "le sens de l'organisation",
   },
   en: {
     hum: "humour", str: "strength", int: "intelligence", evi: "wickedness", clu: "clumsiness",
     bra: "courage", kin: "kindness", laz: "laziness", glu: "appetite", spd: "speed",
     cut: "cuteness", scr: "scariness", ric: "wealth", tem: "bad temper",
     tal: "chattiness", cun: "cunning", unl: "bad luck",
+    bea: "looks", sty: "style", hon: "honesty", lea: "leadership", soc: "sociability",
+    rom: "romantic side", org: "sense of organisation",
   },
   es: {
     hum: "el humor", str: "la fuerza", int: "la inteligencia", evi: "la maldad", clu: "la torpeza",
     bra: "el valor", kin: "la bondad", laz: "la pereza", glu: "la glotonería", spd: "la velocidad",
     cut: "la ternura", scr: "lo aterrador", ric: "la riqueza", tem: "el mal carácter",
     tal: "lo hablador", cun: "la astucia", unl: "la mala suerte",
+    bea: "la belleza", sty: "el estilo", hon: "la honestidad", lea: "el liderazgo", soc: "la sociabilidad",
+    rom: "el lado romántico", org: "el sentido del orden",
+  },
+};
+
+// Noms courts des critères, pour la ligne « Critères » des explications.
+const TRAIT_LABELS = {
+  fr: {
+    hum: "Humour", str: "Force", int: "Intelligence", evi: "Méchanceté", clu: "Maladresse", bra: "Courage",
+    kin: "Gentillesse", laz: "Paresse", glu: "Gourmandise", spd: "Vitesse", cut: "Mignon", scr: "Effrayant",
+    ric: "Richesse", tem: "Mauvais caractère", tal: "Bavardage", cun: "Ruse", unl: "Malchance",
+    bea: "Beauté", sty: "Style", hon: "Honnêteté", lea: "Leadership", soc: "Sociabilité", rom: "Romantisme", org: "Organisation",
+  },
+  en: {
+    hum: "Humour", str: "Strength", int: "Intelligence", evi: "Wickedness", clu: "Clumsiness", bra: "Courage",
+    kin: "Kindness", laz: "Laziness", glu: "Appetite", spd: "Speed", cut: "Cuteness", scr: "Scariness",
+    ric: "Wealth", tem: "Bad temper", tal: "Chattiness", cun: "Cunning", unl: "Bad luck",
+    bea: "Looks", sty: "Style", hon: "Honesty", lea: "Leadership", soc: "Sociability", rom: "Romance", org: "Organisation",
+  },
+  es: {
+    hum: "Humor", str: "Fuerza", int: "Inteligencia", evi: "Maldad", clu: "Torpeza", bra: "Valor",
+    kin: "Bondad", laz: "Pereza", glu: "Glotonería", spd: "Velocidad", cut: "Ternura", scr: "Miedo",
+    ric: "Riqueza", tem: "Mal carácter", tal: "Charlatanería", cun: "Astucia", unl: "Mala suerte",
+    bea: "Belleza", sty: "Estilo", hon: "Honestidad", lea: "Liderazgo", soc: "Sociabilidad", rom: "Romanticismo", org: "Orden",
   },
 };
 
@@ -64,6 +92,10 @@ const TEXT = {
     tag: (show, tag, name) => `Dans « ${show} », ${tag} ${de(name)} est connu de tous.`,
     ref: (show, name, n) => `Dans « ${show} », ${name} est une référence absolue sur ce thème (n°${n} de mon classement).`,
     rank: (pct) => ` Fait mieux que ${pct} % des personnages de ma base sur ce thème.`,
+    who: (desc, show) => `${desc} (« ${show} »).`,
+    refShort: (n) => `Référence absolue sur ce thème : n°${n} de mon classement.`,
+    tagShort: (tag) => `Connu pour ${tag}.`,
+    criteria: (list) => `Critères : ${list}.`,
     unknown: { cartoon: "Personnage introuvable dans ma base de dessins animés : quelques points de consolation.", manga: "Personnage introuvable dans ma base de mangas : quelques points de consolation." },
     empty: "Aucune réponse.",
     summary: (name, character) => `${name} remporte la manche avec ${character} !`,
@@ -76,6 +108,10 @@ const TEXT = {
     tag: (show, tag, name) => `In “${show}”, ${name}'s ${tag} is well known.`,
     ref: (show, name, n) => `In “${show}”, ${name} is an absolute reference on this theme (#${n} in my ranking).`,
     rank: (pct) => ` Beats ${pct}% of the characters in my database on this theme.`,
+    who: (desc, show) => `${desc} (“${show}”).`,
+    refShort: (n) => `An absolute reference on this theme: #${n} in my ranking.`,
+    tagShort: (tag) => `Known for their ${tag}.`,
+    criteria: (list) => `Criteria: ${list}.`,
     unknown: { cartoon: "Character not found in my cartoon database: a few consolation points.", manga: "Character not found in my manga database: a few consolation points." },
     empty: "No answer.",
     summary: (name, character) => `${name} wins the round with ${character}!`,
@@ -88,6 +124,10 @@ const TEXT = {
     tag: (show, tag, name) => `En «${show}», ${tag} de ${name} es bien conocido.`,
     ref: (show, name, n) => `En «${show}», ${name} es una referencia absoluta en este tema (n.º ${n} de mi clasificación).`,
     rank: (pct) => ` Supera al ${pct} % de los personajes de mi base en este tema.`,
+    who: (desc, show) => `${desc} («${show}»).`,
+    refShort: (n) => `Referencia absoluta en este tema: n.º ${n} de mi clasificación.`,
+    tagShort: (tag) => `Conocido por ${tag}.`,
+    criteria: (list) => `Criterios: ${list}.`,
     unknown: { cartoon: "Personaje no encontrado en mi base de dibujos animados: unos puntos de consolación.", manga: "Personaje no encontrado en mi base de mangas: unos puntos de consolación." },
     empty: "Sin respuesta.",
     summary: (name, character) => `¡${name} gana la ronda con ${character}!`,
@@ -157,26 +197,42 @@ function themeScore(c, theme, mode = "most", universe = "cartoon") {
   return mode === "least" ? 100 - most : most;
 }
 
-// Ce qui explique le mieux le score : un talent connu, sinon le trait le plus déterminant.
+// Critères du thème, du plus favorable au moins favorable au verdict (selon le mode et le score).
+function decisiveTraits(c, theme, mode, good) {
+  return Object.entries(theme.weights)
+    .map(([trait, w]) => ({ trait, v: c.traits[trait], contribution: Math.abs(w) * (mode === "least" ? MAX - toward(c.traits[trait], w) : toward(c.traits[trait], w)) }))
+    .sort((a, b) => (good ? b.contribution - a.contribution : a.contribution - b.contribution));
+}
+
+// Explication : qui est le personnage, un fait marquant de son histoire lié au critère décisif,
+// les notes des critères qui comptent, puis sa place parmi tous les personnages de la base.
 function explain(c, theme, mode, score, lang, universe) {
   const t = TEXT[lang] || TEXT.fr;
   const show = c.show[lang] || c.show.fr;
   const rank = rankOf(c, theme, universe);
-  if (rank >= 0) return t.ref(show, c.name, rank + 1) + t.rank(score);
   const tagWords = TAG_WORDS[lang] || TAG_WORDS.fr;
   const tag = [theme.tag, theme.anti].find((tg) => tg && c.tags.has(tg));
-  if (tag) return t.tag(show, tagWords[tag], c.name) + t.rank(score);
+  const order = decisiveTraits(c, theme, mode, score >= 50);
+  const labels = TRAIT_LABELS[lang] || TRAIT_LABELS.fr;
+  const criteria = t.criteria(order.slice(0, 2).map((d) => `${labels[d.trait].toLowerCase()} ${d.v}/10`).join(", "));
 
-  const good = score >= 50;
-  let best = null;
-  for (const [trait, w] of Object.entries(theme.weights)) {
-    const v = c.traits[trait];
-    const contribution = Math.abs(w) * (mode === "least" ? MAX - toward(v, w) : toward(v, w));
-    if (!best || (good ? contribution > best.contribution : contribution < best.contribution)) best = { trait, contribution, v };
+  if (!c.profile) {
+    if (rank >= 0) return t.ref(show, c.name, rank + 1) + t.rank(score);
+    if (tag) return t.tag(show, tagWords[tag], c.name) + t.rank(score);
+    const best = order[0];
+    const level = best.v >= 7 ? "high" : best.v >= 4 ? "mid" : "low";
+    const words = TRAIT_WORDS[lang] || TRAIT_WORDS.fr;
+    return t[level](show, words[best.trait], c.name, best.v) + t.rank(score);
   }
-  const level = best.v >= 7 ? "high" : best.v >= 4 ? "mid" : "low";
-  const words = TRAIT_WORDS[lang] || TRAIT_WORDS.fr;
-  return t[level](show, words[best.trait], c.name, best.v) + t.rank(score);
+
+  const pick = (o) => o[lang] || o.fr;
+  const parts = [t.who(pick(c.profile.desc), show)];
+  if (rank >= 0) parts.push(t.refShort(rank + 1));
+  else if (tag) parts.push(t.tagShort(tagWords[tag]));
+  const withFact = order.find((d) => c.profile.facts[d.trait]);
+  if (withFact) parts.push(pick(c.profile.facts[withFact.trait]));
+  parts.push(criteria);
+  return parts.join(" ") + t.rank(score);
 }
 
 function lookup(answer, universe) {
@@ -215,4 +271,4 @@ function knowledgeJudge({ theme, mode, universe = "cartoon", submissions, lang }
   return { results, summary };
 }
 
-module.exports = { knowledgeJudge, themeScore, rawValue, rankOf, TEXT };
+module.exports = { knowledgeJudge, themeScore, rawValue, rankOf, explain, TEXT };

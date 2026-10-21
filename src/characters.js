@@ -1,9 +1,13 @@
 // Base de connaissances des personnages de dessins animés.
-// Chaque personnage a une note de 0 à 10 sur 17 traits (10 = exceptionnel, le meilleur de son univers), estimée d'après son comportement dans son dessin animé.
+// Chaque personnage a une note de 0 à 10 sur 17 traits de base (+ 7 critères des fiches de src/profiles/) (10 = exceptionnel, le meilleur de son univers), estimée d'après son comportement dans son dessin animé.
 // Format : [nom, "alias|alias", "série FR|série EN|série ES" (ou une seule si identique), "notes"]
 
-const TRAITS = ["hum", "str", "int", "evi", "clu", "bra", "kin", "laz", "glu", "spd", "cut", "scr", "ric", "tem", "tal", "cun", "unl"];
-//                humour force intel. méchant maladr. courage gentil paresse gourm. vitesse mignon effray. riche caract. bavard rusé malchance
+const BASE_TRAITS = ["hum", "str", "int", "evi", "clu", "bra", "kin", "laz", "glu", "spd", "cut", "scr", "ric", "tem", "tal", "cun", "unl"];
+//                     humour force intel. méchant maladr. courage gentil paresse gourm. vitesse mignon effray. riche caract. bavard rusé malchance
+// Critères supplémentaires, notés dans les fiches de src/profiles/ :
+// beauté, style vestimentaire, honnêteté, leadership, sociabilité, romantisme, organisation.
+const EXTRA_TRAITS = ["bea", "sty", "hon", "lea", "soc", "rom", "org"];
+const TRAITS = [...BASE_TRAITS, ...EXTRA_TRAITS];
 
 const BASE = [
   // Bob l'éponge
@@ -220,6 +224,39 @@ const MANGA_ROWS = [
   ...require("./manga/weekly-manga"),
 ];
 
+// Fiches personnalisées (src/profiles/<univers>-*.js), indexées par nom affiché :
+// { x: "7 notes bea sty hon lea soc rom org", d: "description fr|en|es", f: { trait: "fait marquant fr|en|es" } }
+function loadProfiles(universe) {
+  const fs = require("fs");
+  const path = require("path");
+  const dir = path.join(__dirname, "profiles");
+  const all = {};
+  if (!fs.existsSync(dir)) return all;
+  for (const file of fs.readdirSync(dir).sort()) {
+    if (file.startsWith(`${universe}-`) && file.endsWith(".js")) Object.assign(all, require(path.join(dir, file)));
+  }
+  return all;
+}
+
+const splitLangs = (text) => {
+  const [fr, en = fr, es = en] = String(text).split("|").map((t) => t.trim());
+  return { fr, en, es };
+};
+
+// Sans fiche, les critères supplémentaires sont estimés à partir des 17 traits de base.
+function estimateExtras(t) {
+  const r = (v) => Math.max(0, Math.min(10, Math.round(v)));
+  return {
+    bea: r(0.5 * t.cut + 0.4 * (10 - t.scr) + 0.1 * t.ric),
+    sty: r(0.5 * t.ric + 0.25 * (10 - t.laz) + 0.25 * (10 - t.clu)),
+    hon: r((t.kin + (10 - t.cun) + (10 - t.evi)) / 3),
+    lea: r((t.bra + t.int + t.ric) / 3),
+    soc: r((t.tal + t.hum) / 2),
+    rom: r(0.6 * t.kin + 0.2 * t.cut + 1),
+    org: r(((10 - t.laz) + (10 - t.clu) + t.int) / 3),
+  };
+}
+
 // Talents connus des personnages (cuisinier, chef, mentor…), indexés par nom affiché.
 const CARTOON_TAGS = require("./data/tags");
 
@@ -249,7 +286,7 @@ function levenshtein(a, b) {
 
 // Construit une base : personnages + index de recherche (noms, alias, fautes de frappe).
 // Format d'une ligne : [nom, "alias|alias", "série FR|EN|ES", "17 notes de 0 à 10", "talent|talent" (optionnel)]
-function createDB(rows, extraTags = {}) {
+function createDB(rows, extraTags = {}, profiles = {}) {
   const characters = [];
   const duplicates = [];
   const seen = new Set();
@@ -258,10 +295,16 @@ function createDB(rows, extraTags = {}) {
     seen.add(normalize(name));
     const values = notes.trim().split(/\s+/).map(Number);
     const [fr, en = fr, es = en] = show.split("|");
-    const traits = Object.fromEntries(TRAITS.map((t, i) => [t, values[i]]));
+    const traits = Object.fromEntries(BASE_TRAITS.map((t, i) => [t, values[i]]));
+    const p = profiles[name];
+    if (p) {
+      const extra = p.x.trim().split(/\s+/).map(Number);
+      EXTRA_TRAITS.forEach((t, i) => (traits[t] = extra[i]));
+    } else Object.assign(traits, estimateExtras(traits));
+    const profile = p ? { desc: splitLangs(p.d), facts: Object.fromEntries(Object.entries(p.f || {}).map(([k, v]) => [k, splitLangs(v)])) } : null;
     const keys = new Set([name, ...aliases.split("|")].map(normalize).filter(Boolean));
     const tagList = [...String(tags).split("|"), ...String(extraTags[name] || "").split("|")].filter(Boolean);
-    characters.push({ name, show: { fr, en, es }, traits, values, keys: [...keys], tags: new Set(tagList) });
+    characters.push({ name, show: { fr, en, es }, traits, values, keys: [...keys], tags: new Set(tagList), profile });
   }
   const index = new Map();
   for (const c of characters) for (const k of c.keys) if (!index.has(k)) index.set(k, c);
@@ -291,11 +334,11 @@ function createDB(rows, extraTags = {}) {
 }
 
 const DBS = {
-  cartoon: createDB(CARTOON_ROWS, CARTOON_TAGS),
-  manga: createDB(MANGA_ROWS),
+  cartoon: createDB(CARTOON_ROWS, CARTOON_TAGS, loadProfiles("cartoon")),
+  manga: createDB(MANGA_ROWS, {}, loadProfiles("manga")),
 };
 
 const CHARACTERS = DBS.cartoon.characters;
 const findCharacter = (input) => DBS.cartoon.find(input);
 
-module.exports = { TRAITS, CHARACTERS, DBS, findCharacter, normalize, createDB };
+module.exports = { TRAITS, BASE_TRAITS, EXTRA_TRAITS, CHARACTERS, DBS, findCharacter, normalize, createDB };
