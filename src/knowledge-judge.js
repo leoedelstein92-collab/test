@@ -92,7 +92,7 @@ const TEXT = {
     tag: (show, tag, name) => `Dans « ${show} », ${tag} ${de(name)} est connu de tous.`,
     ref: (show, name, n) => `Dans « ${show} », ${name} est une référence absolue sur ce thème (n°${n} de mon classement).`,
     rank: (pct) => ` Fait mieux que ${pct} % des personnages de ma base sur ce thème.`,
-    who: (desc, show) => `${desc} (« ${show} »).`,
+    who: (desc, show) => `${desc} («\u00a0${show}\u00a0»).`,
     refShort: (n) => `Référence absolue sur ce thème : n°${n} de mon classement.`,
     tagShort: (tag) => `Connu pour ${tag}.`,
     criteria: (list) => `Critères : ${list}.`,
@@ -229,7 +229,9 @@ function explain(c, theme, mode, score, lang, universe) {
   const parts = [t.who(pick(c.profile.desc), show)];
   if (rank >= 0) parts.push(t.refShort(rank + 1));
   else if (tag) parts.push(t.tagShort(tagWords[tag]));
-  const withFact = order.find((d) => c.profile.facts[d.trait]);
+  // Un fait n'est cité que s'il va dans le sens du verdict (critère favorable pour un bon score, défavorable sinon).
+  const supports = (d) => (score >= 50 ? d.contribution >= 6 : d.contribution <= 4);
+  const withFact = order.find((d) => supports(d) && c.profile.facts[d.trait]);
   if (withFact) parts.push(pick(c.profile.facts[withFact.trait]));
   parts.push(criteria);
   return parts.join(" ") + t.rank(score);
