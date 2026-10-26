@@ -162,7 +162,7 @@ const IDEAS = [
     least: q("Qui tiendrait toutes ses promesses électorales ?", "Who would keep every campaign promise?", "¿Quién cumpliría todas sus promesas electorales?"),
   },
   {
-    id: "diplomat", weights: { int: 1, kin: 1, soc: 1, hon: 0.5, tem: -2 },
+    id: "diplomat", weights: { int: 2, soc: 1.5, kin: 1, hon: 0.5, tem: -2 },
     most: q("Qui serait le meilleur diplomate ?", "Who would be the best diplomat?", "¿Quién sería el mejor diplomático?"),
     least: q("Qui déclencherait un incident diplomatique ?", "Who would cause a diplomatic incident?", "¿Quién provocaría un incidente diplomático?"),
   },

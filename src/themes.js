@@ -118,7 +118,7 @@ const THEMES = [
   },
   {
     id: "dance",
-    weights: { spd: 1, hum: 1, clu: -2 },
+    weights: { clu: -2, sty: 1, soc: 1, spd: 1, hum: 1 },
     tag: "dancer",
     most: { fr: "Qui gagnerait un concours de danse ?", en: "Who would win a dance contest?", es: "¿Quién ganaría un concurso de baile?" },
     least: { fr: "Qui finirait dernier d'un concours de danse ?", en: "Who would finish last in a dance contest?", es: "¿Quién quedaría último en un concurso de baile?" },
