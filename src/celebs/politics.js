@@ -79,7 +79,7 @@ module.exports = [
   ["Elizabeth II", "reine elizabeth|queen elizabeth|elizabeth 2|isabel ii|isabel 2|elisabeth ii|elisabeth 2", ROY, "6 3 8 0 1 8 8 1 3 2 8 5 10 3 4 8 3", "leader"],
   ["Charles III", "charles 3|roi charles|king charles|prince charles|rey carlos iii|carlos iii", ROY, "4 3 7 1 3 5 7 2 3 2 5 3 10 4 6 6 4", "leader"],
   ["Lady Diana", "lady di|princesse diana|princess diana|diana spencer|princesa diana", ROY, "5 3 6 0 2 7 10 1 2 3 9 1 9 3 5 4 9", "friend|dancer"],
-  ["Prince William", "william de galles|prince of wales william|principe guillermo|prince william of wales", ROY, "5 6 7 0 2 7 7 1 2 4 6 3 9 3 4 6 3", "hero"],
+  ["Prince William", "william de galles|prince of wales william|principe guillermo|prince william of wales", ROY, "5 6 7 0 2 7 7 1 2 4 6 3 9 3 4 6 3"],
   ["Prince Harry", "harry de sussex|duke of sussex|principe harry|duc de sussex", ROY, "7 6 6 0 4 8 8 2 3 4 7 2 8 5 7 5 6", "hero"],
   ["Kate Middleton", "catherine middleton|kate middleton|catherine princesse de galles|princess catherine|catalina de gales", ROY, "5 5 7 0 1 6 8 1 2 5 8 1 8 2 4 6 2"],
   ["Meghan Markle", "meghan|meghan markle|duchesse de sussex|duchess of sussex", ROY, "5 3 7 0 2 6 7 1 4 3 6 2 8 4 7 6 4"],

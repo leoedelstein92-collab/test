@@ -94,6 +94,8 @@ const until = (sock, pred) => new Promise((res) => {
   const first = pickThemes(10), second = pickThemes(10, first.map((t) => t.id));
   assert(new Set(first.map((t) => t.family)).size >= 4, "a game should mix theme families");
   assert(!second.some((t) => first.includes(t)), "next game should not repeat themes");
+  const { NOT_FOR_REAL_PEOPLE } = require("../src/themes");
+  for (let i = 0; i < 20; i++) assert(!pickThemes(10, [], "celebs").some((t) => NOT_FOR_REAL_PEOPLE.has(t.id)), "private-life theme picked for public figures");
   for (const u of ["cartoon", "manga"]) {
     const fs = require("fs");
     const names = new Set(DBS[u].characters.map((c) => c.name));

@@ -232,7 +232,7 @@ module.exports = [
   ["Doraemon", "doraemon", DOR, "7 5 8 0 6 6 9 3 9 4 9 0 3 4 8 5 4", "friend|glutton"],
   ["Nobita Nobi", "nobita|nobita nobi", DOR, "7 1 2 0 9 3 8 10 6 1 6 0 1 4 6 2 10"],
   ["Shizuka Minamoto", "shizuka|shizuka minamoto", DOR, "4 3 7 0 2 5 9 1 4 3 8 0 3 1 6 4 3"],
-  ["Gian", "gian|giant|takeshi goda", DOR, "7 9 2 5 5 7 4 4 8 5 2 6 2 9 8 4 5", "badcook"],
+  ["Gian", "gian|giant|takeshi goda", DOR, "7 9 2 5 5 7 4 4 8 5 2 6 2 9 8 4 5", "badcook|badsinger"],
   ["Suneo", "suneo|suneo honekawa", DOR, "6 2 6 5 4 2 3 4 5 3 3 1 9 6 9 8 5"],
   // ---------- Osamu Tezuka & classiques ----------
   ["Astro Boy", "astro|astro boy|atom|tetsuwan atom", "Astro Boy", "4 10 8 0 2 10 10 1 1 10 8 1 1 2 6 5 6", "hero"],

@@ -69,18 +69,21 @@ const TAG_WORDS = {
     teacher: "le talent de mentor", speedster: "la vitesse supersonique", dancer: "le talent de danseur",
     hero: "l'âme de héros", friend: "la loyauté en amitié", chef: "le talent de cuisinier",
     doomed: "la manie de ne jamais s'en sortir", badcook: "la cuisine catastrophique",
+    miser: "l'avarice légendaire", badsinger: "la voix qui fait fuir tout le monde",
   },
   en: {
     leader: "leadership", glutton: "legendary appetite", survivor: "survival instinct",
     teacher: "talent as a mentor", speedster: "supersonic speed", dancer: "dancing talent",
     hero: "heroic soul", friend: "loyalty as a friend", chef: "cooking talent",
     doomed: "habit of never making it out alive", badcook: "disastrous cooking",
+    miser: "legendary stinginess", badsinger: "voice that clears any room",
   },
   es: {
     leader: "el don de mando", glutton: "el apetito legendario", survivor: "el instinto de supervivencia",
     teacher: "el talento de mentor", speedster: "la velocidad supersónica", dancer: "el talento para el baile",
     hero: "el alma de héroe", friend: "la lealtad como amigo", chef: "el talento en la cocina",
     doomed: "la manía de no salir nunca con vida", badcook: "la cocina desastrosa",
+    miser: "la tacañería legendaria", badsinger: "la voz que hace huir a todos",
   },
 };
 
@@ -151,7 +154,6 @@ function rankOf(c, theme, universe) {
 function rawValue(c, theme, universe = "cartoon") {
   const rank = rankOf(c, theme, universe);
   if (rank >= 0) return 13 - rank * 0.01;
-  if (theme.anti && c.tags.has(theme.anti)) return -1;
   let total = 0;
   let sum = 0;
   let main = null;
@@ -166,7 +168,9 @@ function rawValue(c, theme, universe = "cartoon") {
   // Trait « signature » : un fait marquant de son histoire porte sur ce critère, dans le sens du thème.
   if (c.profile?.facts[main.trait] && mainValue >= 7) raw += 0.4;
   for (const [trait, w] of Object.entries(theme.tie || {})) raw += w * (c.traits[trait] / MAX);
-  if (theme.tag && c.tags.has(theme.tag)) raw = Math.max(raw, 9) + 1.5 + raw / 20;
+  // Talent connu : un vrai bonus, mais qui ne remplace pas les notes (un mauvais candidat reste derrière).
+  if (theme.tag && c.tags.has(theme.tag)) raw += raw >= 5 ? 1.5 : 0.5;
+  if (theme.anti && c.tags.has(theme.anti)) raw -= 2.5;
   return raw;
 }
 

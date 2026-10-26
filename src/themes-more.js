@@ -80,7 +80,7 @@ const DAILY = [
     least: q("Qui irait chez le dentiste en sifflotant ?", "Who would whistle on the way to the dentist?", "¿Quién iría al dentista silbando?"),
   },
   {
-    id: "spender", weights: { ric: 2, sty: 1, glu: 0.5, int: -0.5 },
+    id: "spender", weights: { ric: 2, sty: 1, glu: 0.5, int: -0.5 }, anti: "miser",
     most: q("Qui dépenserait le plus en shopping ?", "Who would spend the most on shopping?", "¿Quién gastaría más en compras?"),
     least: q("Qui dépenserait le moins en shopping ?", "Who would spend the least on shopping?", "¿Quién gastaría menos en compras?"),
   },
@@ -137,17 +137,17 @@ const LOOKS = [
 // Idées et société : on reste sur des jeux de rôle (maire, débat, révolution…), sans parti ni opinion réelle.
 const IDEAS = [
   {
-    id: "dictator", weights: { evi: 2, lea: 2, cun: 1, tem: 1, hon: -0.5 }, tag: "leader",
+    id: "dictator", weights: { evi: 2, lea: 2, cun: 1, tem: 1, hon: -0.5 },
     most: q("Qui deviendrait le pire dictateur ?", "Who would become the worst dictator?", "¿Quién se convertiría en el peor dictador?"),
     least: q("Qui serait incapable de devenir un tyran ?", "Who could never become a tyrant?", "¿Quién sería incapaz de convertirse en tirano?"),
   },
   {
-    id: "revolution", weights: { bra: 2, lea: 2, tem: 0.5, hon: 0.5 }, tag: "leader",
+    id: "revolution", weights: { bra: 2, lea: 2, tem: 0.5, hon: 0.5 },
     most: q("Qui mènerait une révolution ?", "Who would lead a revolution?", "¿Quién lideraría una revolución?"),
     least: q("Qui resterait chez lui pendant la révolution ?", "Who would stay home during the revolution?", "¿Quién se quedaría en casa durante la revolución?"),
   },
   {
-    id: "mayor", weights: { lea: 1, kin: 1, int: 1, hon: 1, org: 1, laz: -1 }, tag: "leader",
+    id: "mayor", weights: { lea: 1, kin: 1, int: 1, hon: 1, org: 1, laz: -1 },
     most: q("Qui serait le meilleur maire de ta ville ?", "Who would be the best mayor of your town?", "¿Quién sería el mejor alcalde de tu ciudad?"),
     least: q("Qui serait le pire maire de ta ville ?", "Who would be the worst mayor of your town?", "¿Quién sería el peor alcalde de tu ciudad?"),
   },
@@ -215,7 +215,7 @@ const IDEAS = [
 
 const SITUATIONS = [
   {
-    id: "zombies", weights: { str: 1, bra: 1, spd: 1, cun: 1 }, tag: "survivor", anti: "doomed",
+    id: "zombies", weights: { str: 1, bra: 1, spd: 1, cun: 1 },
     most: q("Qui survivrait le plus longtemps à une invasion de zombies ?", "Who would survive a zombie outbreak the longest?", "¿Quién sobreviviría más tiempo a una invasión zombi?"),
     least: q("Qui se ferait mordre en premier par un zombie ?", "Who would get bitten by a zombie first?", "¿A quién mordería primero un zombi?"),
   },
@@ -245,12 +245,12 @@ const SITUATIONS = [
     least: q("Qui ne faudrait surtout pas envoyer sur Mars ?", "Who should never be sent to Mars?", "¿A quién no habría que enviar nunca a Marte?"),
   },
   {
-    id: "camping", weights: { kin: 1, bra: 1, str: 0.5, tem: -1 }, tag: "survivor", anti: "doomed",
+    id: "camping", weights: { kin: 1, bra: 1, str: 0.5, tem: -1 },
     most: q("Qui serait le meilleur compagnon de camping ?", "Who would be the best camping buddy?", "¿Quién sería el mejor compañero de acampada?"),
     least: q("Qui serait le pire compagnon de camping ?", "Who would be the worst camping buddy?", "¿Quién sería el peor compañero de acampada?"),
   },
   {
-    id: "karaoke", weights: { soc: 2, tal: 1, hum: 0.5, clu: -0.5 }, tag: "dancer",
+    id: "karaoke", weights: { soc: 2, tal: 1, hum: 0.5, clu: -0.5 }, tag: "dancer", anti: "badsinger",
     most: q("Qui mettrait le feu au karaoké ?", "Who would rock the karaoke night?", "¿Quién arrasaría en el karaoke?"),
     least: q("Qui viderait la salle au karaoké ?", "Who would empty the room at karaoke?", "¿Quién vaciaría la sala en el karaoke?"),
   },

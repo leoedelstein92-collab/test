@@ -42,7 +42,7 @@ const THEMES = [
   {
     id: "president",
     weights: { int: 2, lea: 2, kin: 1, bra: 1, hon: 1, clu: -1 },
-    tie: { cun: 0.05 }, tag: "leader",
+    tie: { cun: 0.05 },
     most: { fr: "Qui ferait le meilleur président ?", en: "Who would make the best president?", es: "¿Quién sería el mejor presidente?" },
     least: { fr: "Qui ferait le pire président ?", en: "Who would make the worst president?", es: "¿Quién sería el peor presidente?" },
   },
@@ -56,7 +56,7 @@ const THEMES = [
   {
     id: "island",
     weights: { str: 1, int: 1, bra: 1, cun: 1 },
-    tie: { spd: 0.05 }, tag: "survivor", anti: "doomed",
+    tie: { spd: 0.05 }, tag: "survivor",
     most: { fr: "Qui survivrait le plus longtemps sur une île déserte ?", en: "Who would survive longest on a desert island?", es: "¿Quién sobreviviría más tiempo en una isla desierta?" },
     least: { fr: "Qui survivrait le moins longtemps sur une île déserte ?", en: "Who would survive the shortest on a desert island?", es: "¿Quién sobreviviría menos tiempo en una isla desierta?" },
   },
@@ -189,10 +189,20 @@ function shuffle(list) {
 
 // Tire `count` thèmes en alternant les familles (traits, quotidien, apparence, idées…)
 // et en évitant les thèmes déjà joués dans la salle (`played` : identifiants), tant qu'il en reste.
-function pickThemes(count, played = []) {
+// Thèmes exclus pour les personnalités publiques : ils porteraient sur leur vie privée ou les accuseraient
+// (retards, ménage, mensonges, méchanceté…). Ces personnes sont jugées uniquement sur leur image publique.
+const NOT_FOR_REAL_PEOPLE = new Set([
+  "evil", "lazy", "late", "wakeup", "mondays", "tidy", "phone", "sleep", "fridge", "dishes", "dentist", "lottery",
+  "neighbor", "birthday", "gossip", "jealous", "liar", "conspiracy", "cheater", "queue", "boardgame", "heist", "horror",
+  "makeover", "vain", "promises", "dictator", "strike", "rebel", "oldschool", "boss", "secret", "temper",
+]);
+const themesFor = (universe) => (universe === "celebs" ? THEMES.filter((t) => !NOT_FOR_REAL_PEOPLE.has(t.id)) : THEMES);
+
+function pickThemes(count, played = [], universe = "cartoon") {
+  const all = themesFor(universe);
   const seen = new Set(played);
-  const fresh = THEMES.filter((t) => !seen.has(t.id));
-  const pool = fresh.length >= count ? fresh : THEMES;
+  const fresh = all.filter((t) => !seen.has(t.id));
+  const pool = fresh.length >= count ? fresh : all;
   const families = new Map();
   for (const t of shuffle([...pool])) {
     if (!families.has(t.family)) families.set(t.family, []);
@@ -206,4 +216,4 @@ function pickThemes(count, played = []) {
   return shuffle(picked);
 }
 
-module.exports = { THEMES, pickThemes };
+module.exports = { THEMES, pickThemes, themesFor, NOT_FOR_REAL_PEOPLE };

@@ -31,8 +31,11 @@ personnage de dessin animé, et le juge compare les réponses, attribue un score
 
 ## Comment le juge note les personnages
 
-Deux univers au choix : **Dessins animés** (plus de 1 360 personnages) et **Mangas** (près de 600 personnages),
-chacun jouable en mode « Le plus… » ou « Le moins… ».
+Trois univers au choix : **Dessins animés** (plus de 1 500 personnages), **Mangas** (plus de 650 personnages) et
+**Célébrités** (près de 680 personnalités publiques : sportifs, acteurs, chanteurs, politiques, figures historiques,
+créateurs du web…), chacun jouable en mode « Le plus… » ou « Le moins… ». Les célébrités sont notées uniquement
+d'après leur image publique et leur carrière, de façon neutre pour les responsables politiques ; les thèmes qui
+toucheraient à leur vie privée ne sont pas tirés dans cet univers.
 
 - **Sans clé API (par défaut, gratuit)** : chaque personnage est noté de 0 à 10 sur 17 traits (humour, force,
   intelligence, méchanceté, maladresse, courage, gentillesse, paresse, gourmandise, vitesse, mignon, effrayant,
@@ -46,7 +49,11 @@ chacun jouable en mode « Le plus… » ou « Le moins… ».
      super-héros, survivant… placent le personnage en haut du thème concerné ;
   3. **classements de référence** (`src/data/rankings.js`) pour les grands débats (le plus fort, le plus
      rapide, le plus intelligent, le plus riche…) ;
-  4. le score final = **pourcentage des personnages de la base que le personnage bat** sur ce thème
+  4. le critère principal de chaque thème pèse davantage, et un personnage connu pour ce trait (fait marquant
+     de sa fiche) passe devant ; des **corrections** de notes (`src/data/corrections.js`) et près de 1 800
+     **contrôles de précision** (`test/accuracy-checks.json`, ex. « Teddy Riner bat Messi sur la force ») issus
+     d'audits thème par thème garantissent les classements ;
+  5. le score final = **pourcentage des personnages de la base que le personnage bat** sur ce thème
      (et l'inverse en mode « Le moins… »).
   Les fautes de frappe et les noms français / anglais / espagnols sont reconnus. Un personnage absent de la
   base ne marque que 5 points.
@@ -120,6 +127,7 @@ port via la variable `PORT`).
 | `src/data/*.js` | Base des dessins animés (un fichier par studio / type de série), talents, classements |
 | `src/manga/*.js` | Base des mangas |
 | `src/themes.js` | Thèmes de base « le plus » / « le moins » traduits et traits associés, et tirage des thèmes (familles mélangées, pas de répétition d'une partie à l'autre dans une salle) |
+| `src/celebs/*.js` | Personnalités publiques, un fichier par domaine (fiches dans `src/profiles/celebs-*.js`) |
 | `src/themes-more.js` | 66 thèmes de plus, par familles : vie quotidienne, apparence et style, idées et société, situations, relations |
 | `public/` | Interface web (HTML/CSS/JS, traductions dans `i18n.js`) |
 

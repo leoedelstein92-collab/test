@@ -56,7 +56,7 @@ module.exports = [
   ["Galilée", "galilee|galileo|galileo galilei|galilei", SC, "5 3 10 1 2 7 4 1 4 3 3 2 4 7 7 7 8"],
   ["Charles Darwin", "darwin|charles darwin", SC, "3 3 10 0 2 6 7 2 6 2 5 1 6 2 5 6 3", "survivor"],
   ["Thomas Edison", "edison|thomas edison|thomas alva edison", IN, "4 4 9 2 2 6 4 0 2 4 3 3 9 6 6 9 3"],
-  ["Stephen Hawking", "hawking|stephen hawking", SC, "9 1 10 0 1 10 7 1 2 1 6 1 6 2 6 7 6", "hero|survivor"],
+  ["Stephen Hawking", "hawking|stephen hawking", SC, "9 1 10 0 1 10 7 1 2 1 6 1 6 2 6 7 6", "hero"],
   ["Louis Pasteur", "pasteur|louis pasteur", SC, "2 3 10 0 1 8 8 0 2 3 4 2 4 5 4 6 4", "hero"],
   ["Archimède", "archimede|archimedes|arquimedes|archimede de syracuse", SC, "6 3 10 0 4 5 5 1 2 3 4 3 3 3 6 9 7"],
   ["Pythagore", "pythagore|pythagoras|pitagoras", SC, "2 3 10 0 1 4 5 1 1 2 3 3 4 3 6 7 3", "teacher"],
@@ -84,7 +84,7 @@ module.exports = [
   ["Ludwig van Beethoven", "beethoven|ludwig van beethoven", MU, "2 5 10 0 3 7 4 1 3 3 3 6 4 9 3 5 9"],
   ["Jean-Sébastien Bach", "bach|jean sebastien bach|johann sebastian bach|js bach|juan sebastian bach", MU, "2 4 10 0 1 4 6 0 5 3 4 2 3 6 3 6 3", "teacher"],
   ["Frédéric Chopin", "chopin|frederic chopin|fryderyk chopin|federico chopin", MU, "3 2 9 0 1 4 6 1 2 5 6 1 5 4 3 4 7"],
-  ["Antonio Vivaldi", "vivaldi|antonio vivaldi|pretre roux|red priest", MU, "4 3 9 0 1 4 6 0 3 7 4 1 4 4 6 6 5", "teacher|speedster"],
+  ["Antonio Vivaldi", "vivaldi|antonio vivaldi|pretre roux|red priest", MU, "4 3 9 0 1 4 6 0 3 7 4 1 4 4 6 6 5", "teacher"],
 
   // Littérature et théâtre
   ["Molière", "moliere|jean baptiste poquelin|poquelin", TH, "10 3 9 1 3 7 6 1 4 4 5 2 5 5 9 8 8"],

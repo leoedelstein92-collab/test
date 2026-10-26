@@ -1,9 +1,10 @@
 // Talents connus des personnages de dessins animés, d'après leurs histoires.
-// Un talent place le personnage tout en haut du thème correspondant :
-//   leader → meilleur président · glutton → plus gourmand · survivor → île déserte · teacher → meilleur prof
+// Un talent donne un bonus sur le thème correspondant (sans remplacer les notes) :
+//   glutton → plus gourmand · survivor → île déserte · teacher → meilleur prof
 //   speedster → plus rapide · dancer → concours de danse · hero → meilleur super-héros
 //   friend → meilleur ami · chef → meilleur cuisinier
 // Talents inverses : doomed → ne survit jamais · badcook → cuisine catastrophique
+// miser → avare (dépenses) · badsinger → chante faux (karaoké) · leader : conservé pour information
 module.exports = {
   // --- leader ---
   "Mufasa": "leader|teacher",
@@ -185,4 +186,9 @@ module.exports = {
   "Marge Simpson": "chef",
   "Chichi": "chef",
   "Jon Arbuckle": "badcook",
+  // Avares (comptent à l'envers pour « qui dépenserait le plus ») et chanteurs catastrophiques (karaoké)
+  "Picsou": "miser",
+  "M. Burns": "miser",
+  "M. Krabs": "miser",
+  "Assurancetourix": "badsinger",
 };

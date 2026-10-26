@@ -259,7 +259,7 @@ io.on("connection", (socket) => {
   socket.on("start_game", () => {
     if (!room || room.hostId !== playerId || room.phase !== "lobby") return;
     if (connectedPlayers(room).length < 2) return socket.emit("error_msg", "need_players");
-    room.themes = pickThemes(room.settings.rounds, room.played);
+    room.themes = pickThemes(room.settings.rounds, room.played, room.settings.universe);
     // Mémoire des thèmes joués dans la salle, pour ne pas retomber sur les mêmes questions de partie en partie.
     room.played = [...room.played, ...room.themes.map((t) => t.id)].slice(-80);
     room.round = 0;
