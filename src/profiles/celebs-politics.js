@@ -640,4 +640,104 @@ module.exports = {
       tal: "Dans sa jeunesse, il est acteur de théâtre en Pologne.|In his youth, he was a stage actor in Poland.|En su juventud fue actor de teatro en Polonia.",
     },
   },
+  "Elizabeth II": {
+    x: "7 9 9 9 6 5 10",
+    d: "Reine du Royaume-Uni pendant 70 ans, de 1952 à 2022|Queen of the United Kingdom for 70 years, from 1952 to 2022|Reina del Reino Unido durante 70 años, de 1952 a 2022",
+    f: {
+      lea: "Elle règne 70 ans, de 1952 à 2022, un record pour un monarque britannique.|She reigned for 70 years, from 1952 to 2022, a record for a British monarch.|Reinó 70 años, de 1952 a 2022, un récord para un monarca británico.",
+      cut: "Elle est célèbre pour son amour des corgis, dont elle a eu plus de trente.|She was famous for her love of corgis, owning more than thirty.|Era célebre por su amor a los corgis, de los que tuvo más de treinta.",
+      hum: "En 2022, elle prend le thé avec l'ours Paddington dans un sketch pour son jubilé.|In 2022, she had tea with Paddington Bear in a sketch for her Jubilee.|En 2022 tomó el té con el oso Paddington en un sketch por su jubileo.",
+      bra: "Pendant la Seconde Guerre mondiale, elle est formée comme mécanicienne dans l'armée.|During World War II, she trained as a mechanic in the army.|Durante la Segunda Guerra Mundial se formó como mecánica en el ejército.",
+    },
+  },
+  "Charles III": {
+    x: "5 7 7 8 5 4 8",
+    d: "Roi du Royaume-Uni depuis 2022, passionné d'écologie|King of the United Kingdom since 2022 and environmental campaigner|Rey del Reino Unido desde 2022, apasionado de la ecología",
+    f: {
+      lea: "Il devient roi en 2022, après avoir été le plus long prince de Galles de l'histoire.|He became king in 2022 after being the longest-serving Prince of Wales in history.|Se convirtió en rey en 2022 tras ser el príncipe de Gales más longevo de la historia.",
+      org: "Passionné d'écologie, il cultive un jardin biologique à Highgrove.|An environmental enthusiast, he grows an organic garden at Highgrove.|Apasionado de la ecología, cultiva un jardín ecológico en Highgrove.",
+      tal: "Il peint des aquarelles, une passion de longue date.|He paints watercolours, a long-standing passion.|Pinta acuarelas, una pasión de toda la vida.",
+      cut: "Il a raconté parler à ses plantes pour les aider à pousser.|He has said that he talks to his plants to help them grow.|Ha contado que habla con sus plantas para ayudarlas a crecer.",
+    },
+  },
+  "Lady Diana": {
+    x: "10 10 8 6 8 9 6",
+    d: "Princesse de Galles surnommée la « princesse des cœurs »|Princess of Wales known as the \"People's Princess\"|Princesa de Gales conocida como la «princesa del pueblo»",
+    f: {
+      kin: "En 1987, elle serre la main d'un malade du sida sans gants, un geste historique.|In 1987, she shook hands with an AIDS patient without gloves, a historic gesture.|En 1987 estrechó sin guantes la mano de un enfermo de sida, un gesto histórico.",
+      bra: "En 1997, elle traverse un champ de mines en cours de déminage en Angola.|In 1997, she walked through a minefield being cleared in Angola.|En 1997 cruzó un campo de minas en proceso de desminado en Angola.",
+      soc: "En 1985, elle danse avec John Travolta à la Maison-Blanche.|In 1985, she danced with John Travolta at the White House.|En 1985 bailó con John Travolta en la Casa Blanca.",
+      sty: "Ses tenues, comme la célèbre « robe de la vengeance », en font une icône de mode.|Her outfits, like the famous \"revenge dress\", made her a fashion icon.|Sus atuendos, como el famoso «vestido de la venganza», la convirtieron en icono de moda.",
+    },
+  },
+  "Prince William": {
+    x: "8 8 8 8 6 7 9",
+    d: "Prince de Galles et héritier du trône britannique|Prince of Wales and heir to the British throne|Príncipe de Gales y heredero del trono británico",
+    f: {
+      bra: "Il a été pilote d'hélicoptère de sauvetage dans la Royal Air Force.|He served as a search-and-rescue helicopter pilot in the Royal Air Force.|Fue piloto de helicóptero de rescate en la Real Fuerza Aérea.",
+      lea: "Héritier du trône, il devient prince de Galles en 2022.|Heir to the throne, he became Prince of Wales in 2022.|Heredero al trono, se convirtió en príncipe de Gales en 2022.",
+      kin: "Il crée en 2020 le prix Earthshot pour récompenser des solutions écologiques.|In 2020, he created the Earthshot Prize to reward environmental solutions.|En 2020 creó el premio Earthshot para premiar soluciones ecológicas.",
+      soc: "Supporter d'Aston Villa, il préside aussi la Fédération anglaise de football.|An Aston Villa fan, he is also president of the English Football Association.|Hincha del Aston Villa, también preside la Federación Inglesa de Fútbol.",
+    },
+  },
+  "Prince Harry": {
+    x: "8 7 7 5 9 8 6",
+    d: "Duc de Sussex, fils cadet du roi Charles III|Duke of Sussex and younger son of King Charles III|Duque de Sussex e hijo menor del rey Carlos III",
+    f: {
+      bra: "Il effectue deux missions en Afghanistan avec l'armée britannique.|He served two tours in Afghanistan with the British Army.|Cumplió dos misiones en Afganistán con el ejército británico.",
+      kin: "Il fonde en 2014 les Invictus Games pour les militaires blessés.|In 2014, he founded the Invictus Games for wounded service members.|En 2014 fundó los Invictus Games para militares heridos.",
+      tal: "Ses mémoires « Le Suppléant » battent des records de ventes en 2023.|His memoir \"Spare\" broke sales records in 2023.|Sus memorias «En la sombra» batieron récords de ventas en 2023.",
+      rom: "Il épouse l'actrice Meghan Markle en 2018 au château de Windsor.|He married actress Meghan Markle at Windsor Castle in 2018.|Se casó con la actriz Meghan Markle en el castillo de Windsor en 2018.",
+    },
+  },
+  "Kate Middleton": {
+    x: "9 9 8 7 7 8 9",
+    d: "Princesse de Galles, épouse du prince William|Princess of Wales and wife of Prince William|Princesa de Gales y esposa del príncipe Guillermo",
+    f: {
+      rom: "Elle épouse le prince William en 2011 à l'abbaye de Westminster.|She married Prince William at Westminster Abbey in 2011.|Se casó con el príncipe Guillermo en la abadía de Westminster en 2011.",
+      sty: "Ses tenues partent vite en rupture de stock, un phénomène appelé « effet Kate ».|Her outfits quickly sell out, a phenomenon dubbed the \"Kate effect\".|Sus prendas se agotan enseguida, un fenómeno llamado «efecto Kate».",
+      int: "Elle étudie l'histoire de l'art à l'université de St Andrews.|She studied art history at the University of St Andrews.|Estudió historia del arte en la Universidad de St Andrews.",
+      spd: "Très sportive, elle pratique la voile, le tennis et le hockey.|Very sporty, she enjoys sailing, tennis and hockey.|Muy deportista, practica vela, tenis y hockey.",
+    },
+  },
+  "Meghan Markle": {
+    x: "9 9 6 6 7 8 7",
+    d: "Duchesse de Sussex, ancienne actrice de la série Suits|Duchess of Sussex and former star of the series Suits|Duquesa de Sussex y exactriz de la serie Suits",
+    f: {
+      tal: "Avant son mariage, elle joue Rachel Zane dans la série « Suits ».|Before her marriage, she played Rachel Zane in the series \"Suits\".|Antes de casarse, interpretó a Rachel Zane en la serie «Suits».",
+      rom: "Elle épouse le prince Harry en 2018 à Windsor.|She married Prince Harry at Windsor in 2018.|Se casó con el príncipe Harry en Windsor en 2018.",
+      glu: "Elle présente en 2025 l'émission de cuisine « With Love, Meghan » sur Netflix.|In 2025, she hosted the cooking show \"With Love, Meghan\" on Netflix.|En 2025 presentó el programa de cocina «With Love, Meghan» en Netflix.",
+      kin: "À 11 ans, elle obtient la modification d'une publicité qu'elle jugeait sexiste.|At 11, she got a commercial she found sexist changed.|A los 11 años consiguió que cambiaran un anuncio que consideraba sexista.",
+    },
+  },
+  "Albert II de Monaco": {
+    x: "6 7 7 8 6 5 7",
+    d: "Prince souverain de Monaco depuis 2005, ancien bobeur olympique|Sovereign Prince of Monaco since 2005 and former Olympic bobsledder|Príncipe soberano de Mónaco desde 2005 y exbobsleísta olímpico",
+    f: {
+      spd: "Il participe à cinq Jeux olympiques d'hiver en bobsleigh, de 1988 à 2002.|He competed in bobsleigh at five Winter Olympics, from 1988 to 2002.|Participó en bobsleigh en cinco Juegos Olímpicos de Invierno, de 1988 a 2002.",
+      lea: "Il est prince souverain de Monaco depuis 2005.|He has been Sovereign Prince of Monaco since 2005.|Es príncipe soberano de Mónaco desde 2005.",
+      org: "Il crée en 2006 une fondation pour la protection de l'environnement.|In 2006, he created a foundation for environmental protection.|En 2006 creó una fundación para la protección del medio ambiente.",
+      rom: "Il épouse la nageuse sud-africaine Charlene Wittstock en 2011.|He married South African swimmer Charlene Wittstock in 2011.|Se casó con la nadadora sudafricana Charlene Wittstock en 2011.",
+    },
+  },
+  "Felipe VI": {
+    x: "8 8 7 8 5 5 9",
+    d: "Roi d'Espagne depuis 2014|King of Spain since 2014|Rey de España desde 2014",
+    f: {
+      lea: "Il devient roi d'Espagne en 2014 après l'abdication de son père Juan Carlos.|He became King of Spain in 2014 after his father Juan Carlos abdicated.|Se convirtió en rey de España en 2014 tras la abdicación de su padre Juan Carlos.",
+      spd: "Il participe aux Jeux olympiques de Barcelone en 1992 en voile.|He competed in sailing at the 1992 Barcelona Olympics.|Compitió en vela en los Juegos Olímpicos de Barcelona 1992.",
+      soc: "Il est le porte-drapeau de l'Espagne lors de la cérémonie d'ouverture de 1992.|He was Spain's flag bearer at the 1992 opening ceremony.|Fue el abanderado de España en la ceremonia de apertura de 1992.",
+      scr: "Avec environ 1,97 m, il est l'un des monarques les plus grands d'Europe.|At about 1.97 m, he is one of Europe's tallest monarchs.|Con cerca de 1,97 m, es uno de los monarcas más altos de Europa.",
+    },
+  },
+  "Prince Philip": {
+    x: "7 7 6 6 6 5 9",
+    d: "Duc d'Édimbourg, époux de la reine Elizabeth II|Duke of Edinburgh, husband of Queen Elizabeth II|Duque de Edimburgo, esposo de la reina Isabel II",
+    f: {
+      org: "Il est le prince consort resté le plus longtemps en fonction de l'histoire britannique.|He was the longest-serving royal consort in British history.|Fue el consorte real más longevo de la historia británica.",
+      bra: "Officier de marine, il sert pendant la Seconde Guerre mondiale.|A naval officer, he served during World War II.|Oficial de marina, sirvió durante la Segunda Guerra Mundial.",
+      kin: "Il crée en 1956 le prix du duc d'Édimbourg pour les jeunes.|In 1956, he created the Duke of Edinburgh's Award for young people.|En 1956 creó el Premio del Duque de Edimburgo para jóvenes.",
+      clu: "Il est célèbre pour ses remarques franches et ses gaffes en public.|He was famous for his blunt remarks and public gaffes.|Era famoso por sus comentarios francos y sus meteduras de pata en público.",
+    },
+  },
 };
