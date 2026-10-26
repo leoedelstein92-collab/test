@@ -266,6 +266,9 @@ const CELEB_ROWS = (() => {
   return fs.readdirSync(dir).sort().filter((f) => f.endsWith(".js")).flatMap((f) => require(path.join(dir, f)));
 })();
 
+// Corrections ponctuelles de notes : { univers: { "Nom affiché": { trait: note } } }.
+const CORRECTIONS = require("./data/corrections");
+
 // Talents connus des personnages (cuisinier, chef, mentor…), indexés par nom affiché.
 const CARTOON_TAGS = require("./data/tags");
 
@@ -295,7 +298,7 @@ function levenshtein(a, b) {
 
 // Construit une base : personnages + index de recherche (noms, alias, fautes de frappe).
 // Format d'une ligne : [nom, "alias|alias", "série FR|EN|ES", "17 notes de 0 à 10", "talent|talent" (optionnel)]
-function createDB(rows, extraTags = {}, profiles = {}) {
+function createDB(rows, extraTags = {}, profiles = {}, corrections = {}) {
   const characters = [];
   const duplicates = [];
   const seen = new Set();
@@ -310,6 +313,8 @@ function createDB(rows, extraTags = {}, profiles = {}) {
       const extra = p.x.trim().split(/\s+/).map(Number);
       EXTRA_TRAITS.forEach((t, i) => (traits[t] = extra[i]));
     } else Object.assign(traits, estimateExtras(traits));
+    // Corrections de notes issues des audits de précision (src/data/corrections.js).
+    Object.assign(traits, corrections[name] || {});
     const profile = p ? { desc: splitLangs(p.d), facts: Object.fromEntries(Object.entries(p.f || {}).map(([k, v]) => [k, splitLangs(v)])) } : null;
     const keys = new Set([name, ...aliases.split("|")].map(normalize).filter(Boolean));
     const tagList = [...String(tags).split("|"), ...String(extraTags[name] || "").split("|")].filter(Boolean);
@@ -343,9 +348,9 @@ function createDB(rows, extraTags = {}, profiles = {}) {
 }
 
 const DBS = {
-  cartoon: createDB(CARTOON_ROWS, CARTOON_TAGS, loadProfiles("cartoon")),
-  manga: createDB(MANGA_ROWS, {}, loadProfiles("manga")),
-  celebs: createDB(CELEB_ROWS, {}, loadProfiles("celebs")),
+  cartoon: createDB(CARTOON_ROWS, CARTOON_TAGS, loadProfiles("cartoon"), CORRECTIONS.cartoon),
+  manga: createDB(MANGA_ROWS, {}, loadProfiles("manga"), CORRECTIONS.manga),
+  celebs: createDB(CELEB_ROWS, {}, loadProfiles("celebs"), CORRECTIONS.celebs),
 };
 
 const CHARACTERS = DBS.cartoon.characters;

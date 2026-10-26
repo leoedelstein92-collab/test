@@ -100,6 +100,17 @@ const until = (sock, pred) => new Promise((res) => {
     for (const f of fs.readdirSync(`${__dirname}/../src/profiles`).filter((f) => f.startsWith(`${u}-`)))
       for (const n of Object.keys(require(`../src/profiles/${f}`))) assert(names.has(n), `${f}: profile for unknown character ${n}`);
   }
+  // Contrôles de précision issus des audits : [univers, thème, mode, meilleure réponse, moins bonne]
+  const { rawValue } = require("../src/knowledge-judge");
+  const failures = [];
+  for (const [u, id, mode, better, worse] of require("./accuracy-checks.json")) {
+    const t = THEMES.find((x) => x.id === id);
+    const b = DBS[u].characters.find((c) => c.name === better), w = DBS[u].characters.find((c) => c.name === worse);
+    if (!t || !b || !w) { failures.push(`unknown in check ${u}/${id}: ${better} / ${worse}`); continue; }
+    const rb = rawValue(b, t, u), rw = rawValue(w, t, u);
+    if (!(mode === "least" ? rb < rw : rb > rw)) failures.push(`${u}/${id}/${mode}: ${better} should beat ${worse}`);
+  }
+  assert.deepStrictEqual(failures, [], "accuracy checks");
   const strong = THEMES.find((t) => t.id === "strong");
   const manga = knowledgeJudge({ theme: strong, mode: "most", universe: "manga", lang: "fr", submissions: [
     { playerId: "1", name: "A", answer: "Goku" }, { playerId: "2", name: "B", answer: "Saitama" }, { playerId: "3", name: "C", answer: "Nobita" }] });
