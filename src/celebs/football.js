@@ -30,7 +30,7 @@ module.exports = [
   ["Didier Deschamps", "deschamps|dede|didier deschamps|la dech", F, "5 6 9 1 1 8 6 1 3 6 4 5 8 5 6 10 2", "leader"],
   ["Fabien Barthez", "barthez|fabien barthez|le divin chauve|divin chauve", F, "8 7 6 1 5 9 6 2 3 7 7 4 6 5 5 6 4", ""],
   ["Lilian Thuram", "lilian thuram|thuram lilian", F, "5 8 9 0 1 8 9 1 2 8 5 5 6 3 7 8 2", "hero"],
-  ["Marcel Desailly", "desailly|marcel desailly|le roc|the rock", F, "6 10 7 1 2 8 6 1 3 7 4 8 7 4 6 7 4", ""],
+  ["Marcel Desailly", "desailly|marcel desailly|le roc", F, "6 10 7 1 2 8 6 1 3 7 4 8 7 4 6 7 4", ""],
   ["Bixente Lizarazu", "lizarazu|bixente lizarazu|liza|vicente lizarazu", F, "6 7 7 0 1 8 6 1 2 8 5 5 6 5 7 7 3", ""],
   ["David Trezeguet", "trezeguet|trezegol|david trezeguet|trezegoal", F, "4 7 6 0 2 7 6 2 3 7 5 4 6 2 3 7 7", ""],
   ["Robert Pirès", "pires|robert pires|bobby pires", F, "6 5 7 0 4 7 7 1 3 7 6 2 6 2 4 7 5", ""],

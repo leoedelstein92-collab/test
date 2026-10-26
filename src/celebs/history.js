@@ -23,7 +23,6 @@ module.exports = [
   ["Christophe Colomb", "christophe colomb|christopher columbus|cristobal colon|colomb|columbus|cristoforo colombo", EX, "2 5 6 3 4 9 3 1 2 4 2 4 5 6 6 6 7", "survivor"],
   ["Charlemagne", "charlemagne|carlomagno|charles le grand|charles ier le grand", H, "2 8 8 4 1 8 5 1 5 6 3 8 9 5 5 9 2", "leader"],
   ["Vercingétorix", "vercingetorix", H, "2 8 7 3 1 10 5 1 4 7 3 7 4 6 6 8 9", "hero|doomed"],
-  ["Abraham Lincoln", "abraham lincoln|lincoln|abe lincoln|honest abe", H, "8 6 9 1 2 9 8 1 2 4 4 5 4 3 8 8 9", "leader|doomed"],
   ["George Washington", "george washington", H, "3 7 7 2 1 9 6 1 3 6 3 6 8 4 4 8 3", "leader"],
   ["Toutânkhamon", "toutankhamon|toutankhamoun|tutankhamun|tutankhamen|tutankamon|king tut", H, "1 2 4 1 2 3 5 4 3 2 6 3 10 3 2 2 9", "doomed"],
   ["Ramsès II", "ramses ii|ramses 2|ramses|ramses le grand|ramesses ii|ramses the great", H, "2 7 7 4 1 8 4 2 4 5 3 8 10 6 6 8 1", "leader"],

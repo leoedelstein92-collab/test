@@ -62,6 +62,7 @@ const until = (sock, pred) => new Promise((res) => {
   const TAGS = require("../src/data/tags");
   assert(DBS.cartoon.characters.length > 1300, "cartoon database too small");
   assert(DBS.manga.characters.length > 550, "manga database too small");
+  assert(DBS.celebs.characters.length > 600, "public figures database too small");
   for (const [u, db] of Object.entries(DBS)) {
     assert.deepStrictEqual(db.duplicates, [], `${u}: duplicate character names`);
     assert(db.characters.every((c) => c.values.length === 17 && c.values.every((v) => Number.isInteger(v) && v >= 0 && v <= 10)), `${u}: bad ratings`);

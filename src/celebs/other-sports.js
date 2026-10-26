@@ -51,7 +51,7 @@ module.exports = [
   ["Mike Tyson", "tyson|mike tyson|iron mike", "Boxe|Boxing|Boxeo", "7 10 5 2 3 9 5 2 4 8 3 10 7 8 6 6 5"],
   ["Floyd Mayweather", "mayweather|floyd mayweather|money mayweather|pretty boy floyd", "Boxe|Boxing|Boxeo", "6 8 7 1 1 7 4 1 3 9 4 7 10 6 8 9 1"],
   ["Manny Pacquiao", "pacquiao|manny pacquiao", "Boxe|Boxing|Boxeo", "6 8 6 1 2 9 6 1 3 9 6 6 8 4 5 6 3"],
-  ["Conor McGregor", "mcgregor|conor mcgregor|the notorious|notorious", "MMA|MMA|MMA", "7 8 6 2 3 9 3 1 3 8 3 8 9 9 10 8 5"],
+  ["Conor McGregor", "mcgregor|conor mcgregor|the notorious", "MMA|MMA|MMA", "7 8 6 2 3 9 3 1 3 8 3 8 9 9 10 8 5"],
   ["Khabib Nurmagomedov", "khabib|nurmagomedov|khabib nurmagomedov", "MMA|MMA|MMA", "4 9 7 1 1 9 6 1 2 7 4 9 7 5 4 8 2"],
   ["Francis Ngannou", "ngannou|francis ngannou", "MMA|MMA|MMA", "6 10 6 0 2 10 8 1 3 6 5 10 7 3 4 6 4"],
   ["Ciryl Gane", "gane|ciryl gane|bon gamin", "MMA|MMA|MMA", "6 9 6 0 2 8 8 1 3 8 6 8 6 2 4 7 5"],

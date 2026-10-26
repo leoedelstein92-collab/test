@@ -110,16 +110,6 @@ module.exports = {
       hon: "Sa statue géante trône place de Jaude à Clermont-Ferrand.|A giant statue of him stands on Place de Jaude in Clermont-Ferrand.|Su estatua gigante preside la plaza de Jaude en Clermont-Ferrand.",
     },
   },
-  "Abraham Lincoln": {
-    x: "5 6 10 9 6 5 8",
-    d: "Seizième président des États-Unis, qui abolit l'esclavage|16th US president, who abolished slavery|Decimosexto presidente de EE. UU., que abolió la esclavitud",
-    f: {
-      hon: "Son surnom est « Honest Abe », Abe l'honnête.|His nickname was 'Honest Abe'.|Su apodo era «Honest Abe», Abe el honesto.",
-      lea: "Il dirige le pays pendant la guerre de Sécession.|He led the country through the American Civil War.|Dirigió el país durante la guerra de Secesión.",
-      tal: "Son discours de Gettysburg de 1863 compte à peine 272 mots.|His 1863 Gettysburg Address is only about 272 words long.|Su discurso de Gettysburg de 1863 tiene apenas 272 palabras.",
-      sty: "Il est célèbre pour son grand chapeau haut-de-forme et sa barbe.|He is famous for his tall stovepipe hat and beard.|Es famoso por su alto sombrero de copa y su barba.",
-    },
-  },
   "George Washington": {
     x: "6 6 9 10 5 5 9",
     d: "Général de l'indépendance et premier président des États-Unis|Independence war general and first US president|General de la independencia y primer presidente de EE. UU.",
