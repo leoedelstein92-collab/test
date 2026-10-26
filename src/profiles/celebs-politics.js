@@ -277,4 +277,367 @@ module.exports = {
       cun: "Elle devient ministre de la Culture en 2024.|She became culture minister in 2024.|Se convirtió en ministra de Cultura en 2024.",
     },
   },
+  "Abraham Lincoln": {
+    x: "6 5 10 9 5 4 8",
+    d: "16e président des États-Unis, qui abolit l'esclavage|16th US president, who abolished slavery|16.º presidente de EE. UU., que abolió la esclavitud",
+    f: {
+      lea: "Il dirige les États-Unis pendant la guerre de Sécession.|He led the United States through the Civil War.|Dirigió Estados Unidos durante la guerra de Secesión.",
+      hon: "Il est surnommé « Honest Abe ».|He was nicknamed \"Honest Abe\".|Lo apodaban «Honest Abe» (el honrado Abe).",
+      str: "Lutteur réputé dans sa jeunesse, il est honoré par le Hall of Fame de la lutte américaine.|A renowned wrestler in his youth, he is honoured by the US National Wrestling Hall of Fame.|Reputado luchador en su juventud, lo honra el Salón de la Fama de la lucha de EE. UU.",
+      unl: "Il est assassiné au théâtre Ford à Washington en 1865.|He was assassinated at Ford's Theatre in Washington in 1865.|Fue asesinado en el teatro Ford de Washington en 1865.",
+    },
+  },
+  "John F. Kennedy": {
+    x: "9 9 6 9 8 8 6",
+    d: "35e président des États-Unis, icône des années 1960|35th US president and icon of the 1960s|35.º presidente de EE. UU. e icono de los años sesenta",
+    f: {
+      bra: "Pendant la Seconde Guerre mondiale, il sauve l'équipage de sa vedette PT-109.|In World War II, he saved the crew of his patrol boat PT-109.|En la Segunda Guerra Mundial salvó a la tripulación de su lancha PT-109.",
+      tal: "Il lance « Ich bin ein Berliner » à Berlin-Ouest en 1963.|He declared \"Ich bin ein Berliner\" in West Berlin in 1963.|Pronunció «Ich bin ein Berliner» en Berlín Oeste en 1963.",
+      lea: "Élu en 1960 à 43 ans, il est le plus jeune président élu des États-Unis.|Elected in 1960 at 43, he is the youngest person elected US president.|Elegido en 1960 a los 43 años, es el presidente electo más joven de EE. UU.",
+      unl: "Il est assassiné à Dallas le 22 novembre 1963.|He was assassinated in Dallas on 22 November 1963.|Fue asesinado en Dallas el 22 de noviembre de 1963.",
+    },
+  },
+  "Barack Obama": {
+    x: "8 9 6 9 7 7 9",
+    d: "44e président des États-Unis, prix Nobel de la paix 2009|44th US president and 2009 Nobel Peace Prize laureate|44.º presidente de EE. UU. y Nobel de la Paz 2009",
+    f: {
+      lea: "Il est le premier président afro-américain des États-Unis, de 2009 à 2017.|He was the first African American president of the United States, from 2009 to 2017.|Fue el primer presidente afroamericano de EE. UU., de 2009 a 2017.",
+      kin: "Il reçoit le prix Nobel de la paix en 2009.|He received the Nobel Peace Prize in 2009.|Recibió el Premio Nobel de la Paz en 2009.",
+      hum: "Ses discours au dîner des correspondants de la Maison-Blanche sont célèbres pour leur humour.|His White House Correspondents' Dinner speeches are famous for their humour.|Sus discursos en la cena de corresponsales de la Casa Blanca son famosos por su humor.",
+      tal: "Son slogan « Yes We Can » marque la campagne de 2008.|His \"Yes We Can\" slogan defined the 2008 campaign.|Su lema «Yes We Can» marcó la campaña de 2008.",
+    },
+  },
+  "Michelle Obama": {
+    x: "8 9 7 7 7 7 9",
+    d: "Première dame des États-Unis de 2009 à 2017, autrice à succès|US First Lady from 2009 to 2017 and bestselling author|Primera dama de EE. UU. de 2009 a 2017 y autora de éxito",
+    f: {
+      tal: "Ses mémoires « Devenir », parues en 2018, sont un best-seller mondial.|Her 2018 memoir \"Becoming\" was a worldwide bestseller.|Sus memorias «Mi historia», publicadas en 2018, fueron un éxito mundial.",
+      org: "Elle lance la campagne « Let's Move! » contre l'obésité infantile.|She launched the \"Let's Move!\" campaign against childhood obesity.|Lanzó la campaña «Let's Move!» contra la obesidad infantil.",
+      int: "Diplômée de Princeton et de Harvard, elle est avocate de formation.|A Princeton and Harvard graduate, she is a lawyer by training.|Graduada de Princeton y Harvard, es abogada de formación.",
+      sty: "Ses tenues de Première dame sont très suivies par la presse de mode.|Her outfits as First Lady were closely followed by the fashion press.|Sus atuendos como primera dama fueron muy seguidos por la prensa de moda.",
+    },
+  },
+  "Donald Trump": {
+    x: "5 6 5 10 7 4 6",
+    d: "45e et 47e président des États-Unis, homme d'affaires|45th and 47th US president and businessman|45.º y 47.º presidente de EE. UU. y empresario",
+    f: {
+      lea: "Il est le 45e puis le 47e président des États-Unis.|He is the 45th and the 47th president of the United States.|Es el 45.º y el 47.º presidente de Estados Unidos.",
+      ric: "Promoteur immobilier, il fait construire la Trump Tower à New York.|A real estate developer, he built Trump Tower in New York.|Promotor inmobiliario, construyó la Trump Tower en Nueva York.",
+      tal: "Il anime l'émission « The Apprentice », célèbre pour sa phrase « You're fired! ».|He hosted \"The Apprentice\", famous for his line \"You're fired!\".|Presentó «The Apprentice», famoso por su frase «You're fired!».",
+      glu: "Il est connu pour son goût de la restauration rapide.|He is known for his love of fast food.|Es conocido por su gusto por la comida rápida.",
+    },
+  },
+  "Joe Biden": {
+    x: "6 7 5 8 7 5 6",
+    d: "46e président des États-Unis, ancien vice-président d'Obama|46th US president and Obama's former vice president|46.º presidente de EE. UU. y exvicepresidente de Obama",
+    f: {
+      lea: "Il est le 46e président des États-Unis, de 2021 à 2025.|He was the 46th president of the United States, from 2021 to 2025.|Fue el 46.º presidente de EE. UU., de 2021 a 2025.",
+      glu: "Grand amateur de glace, il en déguste souvent devant les caméras.|A big ice cream fan, he often enjoyed some in front of the cameras.|Gran aficionado al helado, a menudo lo tomaba ante las cámaras.",
+      soc: "Surnommé « Amtrak Joe », il a fait pendant des années le trajet en train du Delaware à Washington.|Nicknamed \"Amtrak Joe\", he commuted by train between Delaware and Washington for years.|Apodado «Amtrak Joe», viajó durante años en tren entre Delaware y Washington.",
+      sty: "Il est connu pour ses lunettes de soleil d'aviateur.|He is known for his aviator sunglasses.|Es conocido por sus gafas de sol de aviador.",
+    },
+  },
+  "Bill Clinton": {
+    x: "7 6 4 9 9 6 6",
+    d: "42e président des États-Unis, de 1993 à 2001|42nd US president, from 1993 to 2001|42.º presidente de EE. UU., de 1993 a 2001",
+    f: {
+      tal: "Il joue du saxophone à la télévision pendant sa campagne de 1992.|He played the saxophone on television during his 1992 campaign.|Tocó el saxofón en televisión durante su campaña de 1992.",
+      int: "Boursier Rhodes, il étudie à l'université d'Oxford.|A Rhodes Scholar, he studied at Oxford University.|Becado Rhodes, estudió en la Universidad de Oxford.",
+      lea: "Il est le 42e président des États-Unis, de 1993 à 2001.|He was the 42nd president of the United States, from 1993 to 2001.|Fue el 42.º presidente de EE. UU., de 1993 a 2001.",
+      glu: "Ses arrêts au McDonald's pendant ses joggings sont restés célèbres.|His McDonald's stops during his jogs became famous.|Sus paradas en McDonald's durante sus carreras se hicieron célebres.",
+    },
+  },
+  "Hillary Clinton": {
+    x: "6 6 5 9 5 4 9",
+    d: "Ancienne secrétaire d'État et candidate à la présidentielle 2016|Former US Secretary of State and 2016 presidential nominee|Exsecretaria de Estado de EE. UU. y candidata presidencial en 2016",
+    f: {
+      lea: "En 2016, elle est la première femme candidate d'un grand parti à la présidentielle américaine.|In 2016, she became the first woman nominated for president by a major US party.|En 2016 fue la primera mujer candidata presidencial de un gran partido en EE. UU.",
+      org: "Elle est secrétaire d'État de 2009 à 2013.|She was Secretary of State from 2009 to 2013.|Fue secretaria de Estado de 2009 a 2013.",
+      int: "Diplômée en droit de Yale, elle est avocate de formation.|A Yale Law graduate, she is a lawyer by training.|Graduada en Derecho por Yale, es abogada de formación.",
+      unl: "En 2016, elle remporte le vote populaire mais perd au collège électoral.|In 2016, she won the popular vote but lost in the Electoral College.|En 2016 ganó el voto popular pero perdió en el Colegio Electoral.",
+    },
+  },
+  "Ronald Reagan": {
+    x: "7 7 6 9 7 6 6",
+    d: "Acteur devenu 40e président des États-Unis|Actor who became the 40th US president|Actor que llegó a ser el 40.º presidente de EE. UU.",
+    f: {
+      tal: "Avant la politique, il tourne dans plus de 50 films à Hollywood.|Before politics, he appeared in more than 50 Hollywood films.|Antes de la política, rodó más de 50 películas en Hollywood.",
+      lea: "Il lance à Berlin en 1987 : « Monsieur Gorbatchev, abattez ce mur ! ».|In Berlin in 1987 he said: \"Mr. Gorbachev, tear down this wall!\"|En Berlín en 1987 dijo: «Señor Gorbachov, ¡derribe este muro!».",
+      glu: "Il garde toujours un bocal de bonbons Jelly Belly sur son bureau.|He always kept a jar of Jelly Belly jelly beans on his desk.|Siempre tenía un bote de caramelos Jelly Belly en su escritorio.",
+      unl: "Il survit à une tentative d'assassinat en 1981.|He survived an assassination attempt in 1981.|Sobrevivió a un intento de asesinato en 1981.",
+    },
+  },
+  "Franklin D. Roosevelt": {
+    x: "6 7 7 10 7 5 8",
+    d: "32e président des États-Unis, élu quatre fois|32nd US president, elected four times|32.º presidente de EE. UU., elegido cuatro veces",
+    f: {
+      lea: "Il est le seul président américain élu quatre fois, de 1932 à 1944.|He is the only US president elected four times, from 1932 to 1944.|Es el único presidente de EE. UU. elegido cuatro veces, de 1932 a 1944.",
+      tal: "Ses « causeries au coin du feu » à la radio rassurent les Américains.|His radio \"fireside chats\" reassured Americans.|Sus «charlas junto a la chimenea» por radio tranquilizaban a los estadounidenses.",
+      org: "Il lance le New Deal pour sortir le pays de la Grande Dépression.|He launched the New Deal to lift the country out of the Great Depression.|Lanzó el New Deal para sacar al país de la Gran Depresión.",
+      cun: "Il dirige les États-Unis pendant la majeure partie de la Seconde Guerre mondiale.|He led the United States through most of World War II.|Dirigió EE. UU. durante la mayor parte de la Segunda Guerra Mundial.",
+    },
+  },
+  "George W. Bush": {
+    x: "6 5 5 8 7 4 6",
+    d: "43e président des États-Unis, ancien gouverneur du Texas|43rd US president and former governor of Texas|43.º presidente de EE. UU. y exgobernador de Texas",
+    f: {
+      spd: "En 2008 à Bagdad, il esquive deux chaussures lancées vers lui.|In Baghdad in 2008, he dodged two shoes thrown at him.|En Bagdad en 2008 esquivó dos zapatos que le lanzaron.",
+      lea: "Il est le 43e président des États-Unis, de 2001 à 2009, après son père, le 41e.|He was the 43rd US president, from 2001 to 2009, after his father, the 41st.|Fue el 43.º presidente de EE. UU., de 2001 a 2009, tras su padre, el 41.º.",
+      tal: "Après sa présidence, il se met à la peinture et expose ses portraits.|After his presidency, he took up painting and exhibited his portraits.|Tras su presidencia se dedicó a la pintura y expuso sus retratos.",
+      org: "Il est gouverneur du Texas de 1995 à 2000.|He was governor of Texas from 1995 to 2000.|Fue gobernador de Texas de 1995 a 2000.",
+    },
+  },
+  "Kamala Harris": {
+    x: "7 7 5 8 6 4 7",
+    d: "Première femme vice-présidente des États-Unis, de 2021 à 2025|First woman US vice president, from 2021 to 2025|Primera mujer vicepresidenta de EE. UU., de 2021 a 2025",
+    f: {
+      lea: "Elle est la première femme vice-présidente des États-Unis, de 2021 à 2025.|She was the first woman vice president of the United States, from 2021 to 2025.|Fue la primera mujer vicepresidenta de EE. UU., de 2021 a 2025.",
+      int: "Elle est procureure générale de Californie de 2011 à 2017.|She was Attorney General of California from 2011 to 2017.|Fue fiscal general de California de 2011 a 2017.",
+      cun: "Elle est la candidate démocrate à la présidentielle de 2024.|She was the Democratic presidential nominee in 2024.|Fue la candidata demócrata a las presidenciales de 2024.",
+    },
+  },
+  "Richard Nixon": {
+    x: "4 4 3 8 3 3 7",
+    d: "37e président des États-Unis, seul à avoir démissionné|37th US president, the only one to resign|37.º presidente de EE. UU., el único que dimitió",
+    f: {
+      unl: "Après l'affaire du Watergate, il devient en 1974 le seul président américain à démissionner.|After the Watergate scandal, he became in 1974 the only US president to resign.|Tras el caso Watergate, en 1974 fue el único presidente de EE. UU. en dimitir.",
+      cun: "Il se rend en Chine en 1972, un voyage diplomatique historique.|He visited China in 1972, a historic diplomatic trip.|Viajó a China en 1972, una visita diplomática histórica.",
+      lea: "Il est le 37e président des États-Unis, de 1969 à 1974.|He was the 37th president of the United States, from 1969 to 1974.|Fue el 37.º presidente de EE. UU., de 1969 a 1974.",
+      tal: "Il joue du piano en public, notamment au Grand Ole Opry en 1974.|He played the piano in public, notably at the Grand Ole Opry in 1974.|Tocaba el piano en público, como en el Grand Ole Opry en 1974.",
+    },
+  },
+  "Jimmy Carter": {
+    x: "6 5 9 7 5 4 8",
+    d: "39e président des États-Unis, prix Nobel de la paix 2002|39th US president and 2002 Nobel Peace Prize laureate|39.º presidente de EE. UU. y Nobel de la Paz 2002",
+    f: {
+      kin: "Il construit des maisons pour les plus démunis avec Habitat for Humanity.|He built homes for people in need with Habitat for Humanity.|Construyó casas para los más necesitados con Habitat for Humanity.",
+      lea: "Il est le 39e président des États-Unis, de 1977 à 1981.|He was the 39th president of the United States, from 1977 to 1981.|Fue el 39.º presidente de EE. UU., de 1977 a 1981.",
+      org: "Avant la politique, il dirige l'exploitation familiale d'arachides en Géorgie.|Before politics, he ran the family peanut farm in Georgia.|Antes de la política dirigió la granja familiar de cacahuetes en Georgia.",
+      int: "Il reçoit le prix Nobel de la paix en 2002.|He received the Nobel Peace Prize in 2002.|Recibió el Premio Nobel de la Paz en 2002.",
+    },
+  },
+  "Winston Churchill": {
+    x: "4 6 6 10 7 4 6",
+    d: "Premier ministre britannique pendant la Seconde Guerre mondiale|British Prime Minister during World War II|Primer ministro británico durante la Segunda Guerra Mundial",
+    f: {
+      bra: "En 1940, il promet aux Britanniques « du sang, du labeur, des larmes et de la sueur ».|In 1940, he offered the British \"blood, toil, tears and sweat\".|En 1940 prometió a los británicos «sangre, esfuerzo, lágrimas y sudor».",
+      tal: "Il reçoit le prix Nobel de littérature en 1953.|He received the Nobel Prize in Literature in 1953.|Recibió el Premio Nobel de Literatura en 1953.",
+      glu: "Ses cigares et son goût pour le champagne font partie de sa légende.|His cigars and love of champagne are part of his legend.|Sus puros y su gusto por el champán forman parte de su leyenda.",
+      lea: "Il popularise le signe V de la victoire pendant la guerre.|He popularised the V for Victory sign during the war.|Popularizó el signo de la V de la victoria durante la guerra.",
+    },
+  },
+  "Margaret Thatcher": {
+    x: "6 7 6 10 4 3 10",
+    d: "Première femme Première ministre du Royaume-Uni, la « Dame de fer »|First woman Prime Minister of the UK, the \"Iron Lady\"|Primera mujer primera ministra del Reino Unido, la «Dama de Hierro»",
+    f: {
+      scr: "La presse soviétique la surnomme la « Dame de fer ».|The Soviet press nicknamed her the \"Iron Lady\".|La prensa soviética la apodó la «Dama de Hierro».",
+      lea: "Elle est Première ministre du Royaume-Uni de 1979 à 1990.|She was Prime Minister of the United Kingdom from 1979 to 1990.|Fue primera ministra del Reino Unido de 1979 a 1990.",
+      org: "Elle est réputée pour ne dormir que quatre heures par nuit.|She was famous for sleeping only four hours a night.|Era famosa por dormir solo cuatro horas por noche.",
+      int: "Chimiste de formation, elle a étudié à Oxford.|A chemist by training, she studied at Oxford.|Química de formación, estudió en Oxford.",
+    },
+  },
+  "Tony Blair": {
+    x: "7 6 5 9 6 5 8",
+    d: "Premier ministre britannique de 1997 à 2007, figure du New Labour|British Prime Minister from 1997 to 2007 and face of New Labour|Primer ministro británico de 1997 a 2007 y rostro del Nuevo Laborismo",
+    f: {
+      lea: "Il est Premier ministre du Royaume-Uni de 1997 à 2007.|He was Prime Minister of the United Kingdom from 1997 to 2007.|Fue primer ministro del Reino Unido de 1997 a 2007.",
+      cun: "Il remporte trois élections législatives d'affilée avec le Parti travailliste.|He won three general elections in a row for the Labour Party.|Ganó tres elecciones generales seguidas con el Partido Laborista.",
+      org: "Il participe à l'accord du Vendredi saint en 1998 en Irlande du Nord.|He helped bring about the 1998 Good Friday Agreement in Northern Ireland.|Participó en el Acuerdo de Viernes Santo de 1998 en Irlanda del Norte.",
+      tal: "Étudiant, il chante dans un groupe de rock, Ugly Rumours.|As a student, he sang in a rock band called Ugly Rumours.|De estudiante cantaba en un grupo de rock, Ugly Rumours.",
+    },
+  },
+  "Boris Johnson": {
+    x: "5 4 4 9 9 5 3",
+    d: "Ancien maire de Londres et Premier ministre du Brexit|Former mayor of London and Brexit-era Prime Minister|Exalcalde de Londres y primer ministro del Brexit",
+    f: {
+      unl: "En 2012, il reste coincé sur une tyrolienne pendant les Jeux olympiques de Londres.|In 2012, he got stuck on a zip wire during the London Olympics.|En 2012 se quedó atascado en una tirolina durante los Juegos de Londres.",
+      lea: "Il est maire de Londres de 2008 à 2016 puis Premier ministre de 2019 à 2022.|He was mayor of London from 2008 to 2016, then Prime Minister from 2019 to 2022.|Fue alcalde de Londres de 2008 a 2016 y primer ministro de 2019 a 2022.",
+      sty: "Sa tignasse blonde ébouriffée est sa marque de fabrique.|His tousled blond mop is his trademark.|Su despeinada mata rubia es su seña de identidad.",
+      int: "Diplômé de lettres classiques à Oxford, il cite volontiers du latin.|A classics graduate from Oxford, he likes to quote Latin.|Licenciado en clásicas por Oxford, suele citar en latín.",
+    },
+  },
+  "Nelson Mandela": {
+    x: "7 8 10 10 8 5 8",
+    d: "Premier président noir d'Afrique du Sud, symbole de la lutte anti-apartheid|First Black president of South Africa and symbol of the anti-apartheid struggle|Primer presidente negro de Sudáfrica y símbolo de la lucha contra el apartheid",
+    f: {
+      bra: "Il passe 27 ans en prison avant d'être libéré en 1990.|He spent 27 years in prison before his release in 1990.|Pasó 27 años en prisión antes de ser liberado en 1990.",
+      lea: "Il devient en 1994 le premier président noir d'Afrique du Sud.|In 1994, he became South Africa's first Black president.|En 1994 se convirtió en el primer presidente negro de Sudáfrica.",
+      kin: "Il reçoit le prix Nobel de la paix en 1993 avec Frederik de Klerk.|He received the 1993 Nobel Peace Prize with Frederik de Klerk.|Recibió el Nobel de la Paz en 1993 junto a Frederik de Klerk.",
+      soc: "En 1995, il remet la Coupe du monde de rugby aux Springboks en portant leur maillot.|In 1995, he presented the Rugby World Cup to the Springboks wearing their jersey.|En 1995 entregó la Copa del Mundo de rugby a los Springboks con su camiseta puesta.",
+    },
+  },
+  "Mahatma Gandhi": {
+    x: "5 6 10 10 6 2 9",
+    d: "Guide de l'indépendance de l'Inde par la non-violence|Leader of India's independence movement through non-violence|Líder de la independencia de la India mediante la no violencia",
+    f: {
+      bra: "En 1930, il mène la marche du sel sur près de 400 km.|In 1930, he led the Salt March over almost 400 km.|En 1930 encabezó la marcha de la sal a lo largo de casi 400 km.",
+      kin: "Il prône la non-violence pour obtenir l'indépendance de l'Inde.|He championed non-violence to win India's independence.|Defendió la no violencia para lograr la independencia de la India.",
+      glu: "Il mène plusieurs grèves de la faim comme moyen de protestation.|He staged several hunger strikes as a form of protest.|Realizó varias huelgas de hambre como forma de protesta.",
+      sty: "Il porte un simple vêtement de coton qu'il file lui-même au rouet.|He wore simple cotton clothing that he spun himself on a spinning wheel.|Vestía una sencilla prenda de algodón que él mismo hilaba con su rueca.",
+    },
+  },
+  "Martin Luther King": {
+    x: "7 7 9 10 7 5 8",
+    d: "Pasteur et leader du mouvement américain des droits civiques|Pastor and leader of the American civil rights movement|Pastor y líder del movimiento por los derechos civiles en EE. UU.",
+    f: {
+      tal: "Il prononce le discours « I Have a Dream » à Washington en 1963.|He delivered the \"I Have a Dream\" speech in Washington in 1963.|Pronunció el discurso «I Have a Dream» en Washington en 1963.",
+      kin: "Il reçoit le prix Nobel de la paix en 1964, à 35 ans.|He received the Nobel Peace Prize in 1964, aged 35.|Recibió el Nobel de la Paz en 1964, a los 35 años.",
+      lea: "Il mène le boycott des bus de Montgomery en 1955-1956.|He led the Montgomery bus boycott in 1955-1956.|Lideró el boicot a los autobuses de Montgomery en 1955-1956.",
+      unl: "Il est assassiné à Memphis en 1968.|He was assassinated in Memphis in 1968.|Fue asesinado en Memphis en 1968.",
+    },
+  },
+  "Angela Merkel": {
+    x: "5 4 6 9 4 3 10",
+    d: "Chancelière d'Allemagne de 2005 à 2021|Chancellor of Germany from 2005 to 2021|Canciller de Alemania de 2005 a 2021",
+    f: {
+      int: "Docteure en physique, elle est chercheuse avant d'entrer en politique.|With a doctorate in physics, she worked as a researcher before politics.|Doctora en Física, fue investigadora antes de entrar en política.",
+      lea: "Elle est la première femme chancelière d'Allemagne, de 2005 à 2021.|She was Germany's first woman chancellor, from 2005 to 2021.|Fue la primera mujer canciller de Alemania, de 2005 a 2021.",
+      cut: "Les Allemands la surnomment affectueusement « Mutti » (maman).|Germans affectionately nicknamed her \"Mutti\" (Mum).|Los alemanes la apodaban cariñosamente «Mutti» (mamá).",
+      sty: "Son geste des mains en losange est devenu sa signature.|Her diamond-shaped hand gesture became her signature.|Su gesto de manos en forma de rombo se convirtió en su sello.",
+    },
+  },
+  "Volodymyr Zelensky": {
+    x: "6 6 5 9 6 5 7",
+    d: "Humoriste devenu président de l'Ukraine en 2019|Comedian who became president of Ukraine in 2019|Humorista que llegó a presidente de Ucrania en 2019",
+    f: {
+      hum: "Humoriste, il joue un professeur devenu président dans la série « Serviteur du peuple ».|A comedian, he played a teacher who becomes president in the series \"Servant of the People\".|Humorista, interpretó a un profesor que llega a presidente en la serie «Servidor del pueblo».",
+      tal: "Il remporte la version ukrainienne de « Danse avec les stars » en 2006.|He won the Ukrainian version of \"Dancing with the Stars\" in 2006.|Ganó la versión ucraniana de «Bailando con las estrellas» en 2006.",
+      lea: "Il est élu président de l'Ukraine en 2019 avec 73 % des voix.|He was elected president of Ukraine in 2019 with 73% of the vote.|Fue elegido presidente de Ucrania en 2019 con el 73 % de los votos.",
+      bra: "Il dirige l'Ukraine depuis l'invasion russe de février 2022.|He has led Ukraine since the Russian invasion of February 2022.|Dirige Ucrania desde la invasión rusa de febrero de 2022.",
+    },
+  },
+  "Vladimir Poutine": {
+    x: "5 5 5 10 3 3 9",
+    d: "Dirigeant de la Russie depuis 1999, ancien officier du KGB|Russia's leader since 1999 and former KGB officer|Líder de Rusia desde 1999 y exoficial del KGB",
+    f: {
+      str: "Ceinture noire de judo, il a coécrit un livre sur ce sport.|A judo black belt, he co-wrote a book about the sport.|Cinturón negro de judo, coescribió un libro sobre este deporte.",
+      lea: "Il dirige la Russie comme président ou Premier ministre depuis 1999.|He has led Russia as president or prime minister since 1999.|Dirige Rusia como presidente o primer ministro desde 1999.",
+      cun: "Il est officier du KGB avant d'entrer en politique.|He was a KGB officer before entering politics.|Fue oficial del KGB antes de entrar en política.",
+    },
+  },
+  "Xi Jinping": {
+    x: "5 5 5 10 3 3 9",
+    d: "Président de la Chine et chef du Parti communiste chinois|President of China and head of the Chinese Communist Party|Presidente de China y líder del Partido Comunista Chino",
+    f: {
+      lea: "Il est secrétaire général du Parti communiste depuis 2012 et président depuis 2013.|He has been Communist Party general secretary since 2012 and president since 2013.|Es secretario general del Partido Comunista desde 2012 y presidente desde 2013.",
+      soc: "Grand amateur de football, il souhaite que la Chine accueille une Coupe du monde.|A big football fan, he wants China to host a World Cup.|Gran aficionado al fútbol, quiere que China organice un Mundial.",
+      cun: "Il lance en 2013 le projet des « Nouvelles routes de la soie ».|In 2013, he launched the \"New Silk Roads\" project.|En 2013 lanzó el proyecto de las «Nuevas Rutas de la Seda».",
+    },
+  },
+  "Mikhaïl Gorbatchev": {
+    x: "5 5 7 9 6 4 7",
+    d: "Dernier dirigeant de l'Union soviétique, prix Nobel de la paix|Last leader of the Soviet Union and Nobel Peace Prize laureate|Último líder de la Unión Soviética y Nobel de la Paz",
+    f: {
+      lea: "Il est le dernier dirigeant de l'Union soviétique, de 1985 à 1991.|He was the last leader of the Soviet Union, from 1985 to 1991.|Fue el último líder de la Unión Soviética, de 1985 a 1991.",
+      int: "Il lance la perestroïka et la glasnost pour réformer l'URSS.|He launched perestroika and glasnost to reform the USSR.|Impulsó la perestroika y la glásnost para reformar la URSS.",
+      kin: "Il reçoit le prix Nobel de la paix en 1990.|He received the Nobel Peace Prize in 1990.|Recibió el Premio Nobel de la Paz en 1990.",
+      glu: "En 1997, il tourne une publicité pour Pizza Hut.|In 1997, he starred in a Pizza Hut commercial.|En 1997 protagonizó un anuncio de Pizza Hut.",
+    },
+  },
+  "Fidel Castro": {
+    x: "4 4 4 10 6 4 6",
+    d: "Chef de la révolution cubaine, à la tête de Cuba pendant près de 50 ans|Leader of the Cuban revolution, who ran Cuba for almost 50 years|Líder de la revolución cubana, al frente de Cuba casi 50 años",
+    f: {
+      tal: "En 1960, il prononce à l'ONU un discours de plus de quatre heures, un record.|In 1960, he gave a speech of over four hours at the UN, a record.|En 1960 pronunció en la ONU un discurso de más de cuatro horas, un récord.",
+      lea: "Il dirige Cuba de 1959 à 2008 après la révolution.|He led Cuba from 1959 to 2008 after the revolution.|Dirigió Cuba de 1959 a 2008 tras la revolución.",
+      unl: "Il échappe à de nombreuses tentatives d'assassinat organisées par la CIA.|He escaped numerous CIA assassination plots.|Escapó a numerosos complots de asesinato de la CIA.",
+      sty: "Son uniforme vert olive et sa barbe sont devenus son image.|His olive-green uniform and beard became his image.|Su uniforme verde olivo y su barba se convirtieron en su imagen.",
+    },
+  },
+  "Justin Trudeau": {
+    x: "8 8 5 8 7 6 6",
+    d: "Premier ministre du Canada de 2015 à 2025|Prime Minister of Canada from 2015 to 2025|Primer ministro de Canadá de 2015 a 2025",
+    f: {
+      lea: "Il est Premier ministre du Canada de 2015 à 2025.|He was Prime Minister of Canada from 2015 to 2025.|Fue primer ministro de Canadá de 2015 a 2025.",
+      int: "Avant la politique, il est professeur de français et de mathématiques.|Before politics, he taught French and mathematics.|Antes de la política fue profesor de francés y matemáticas.",
+      str: "En 2012, il remporte un combat de boxe caritatif contre le sénateur Patrick Brazeau.|In 2012, he won a charity boxing match against Senator Patrick Brazeau.|En 2012 ganó un combate de boxeo benéfico contra el senador Patrick Brazeau.",
+      sty: "Il est connu pour ses chaussettes colorées et originales.|He is known for his colourful, quirky socks.|Es conocido por sus calcetines coloridos y originales.",
+    },
+  },
+  "Javier Milei": {
+    x: "5 5 5 9 6 4 5",
+    d: "Économiste élu président de l'Argentine en 2023|Economist elected president of Argentina in 2023|Economista elegido presidente de Argentina en 2023",
+    f: {
+      scr: "Il brandit une tronçonneuse en meeting pour symboliser la baisse des dépenses publiques.|He waved a chainsaw at rallies to symbolise cutting public spending.|Blandía una motosierra en los mítines para simbolizar el recorte del gasto público.",
+      lea: "Il est élu président de l'Argentine en 2023.|He was elected president of Argentina in 2023.|Fue elegido presidente de Argentina en 2023.",
+      int: "Économiste, il devient célèbre comme commentateur à la télévision.|An economist, he became famous as a TV commentator.|Economista, se hizo famoso como comentarista de televisión.",
+      cut: "Il donne à ses chiens des noms d'économistes, comme Milton et Murray.|He named his dogs after economists, such as Milton and Murray.|Puso a sus perros nombres de economistas, como Milton y Murray.",
+    },
+  },
+  "Lula": {
+    x: "5 5 5 9 8 4 6",
+    d: "Ancien ouvrier métallurgiste devenu président du Brésil|Former metalworker who became president of Brazil|Exobrero metalúrgico que llegó a presidente de Brasil",
+    f: {
+      lea: "Il est président du Brésil de 2003 à 2010 puis de nouveau depuis 2023.|He was president of Brazil from 2003 to 2010 and again since 2023.|Fue presidente de Brasil de 2003 a 2010 y de nuevo desde 2023.",
+      org: "Ancien ouvrier métallurgiste, il devient leader syndical dans les années 1970.|A former metalworker, he became a union leader in the 1970s.|Exobrero metalúrgico, fue líder sindical en los años setenta.",
+      kin: "Son programme « Bolsa Família » soutient des millions de familles modestes.|His \"Bolsa Família\" programme supported millions of low-income families.|Su programa «Bolsa Família» apoyó a millones de familias humildes.",
+    },
+  },
+  "Narendra Modi": {
+    x: "5 7 5 10 6 3 9",
+    d: "Premier ministre de l'Inde depuis 2014|Prime Minister of India since 2014|Primer ministro de la India desde 2014",
+    f: {
+      lea: "Il est Premier ministre de l'Inde depuis 2014.|He has been Prime Minister of India since 2014.|Es primer ministro de la India desde 2014.",
+      org: "Il obtient de l'ONU une Journée internationale du yoga, célébrée depuis 2015.|He secured an International Day of Yoga from the UN, held since 2015.|Logró que la ONU creara el Día Internacional del Yoga, celebrado desde 2015.",
+      soc: "Il est l'un des dirigeants les plus suivis sur les réseaux sociaux.|He is one of the most followed leaders on social media.|Es uno de los líderes más seguidos en las redes sociales.",
+      sty: "Ses gilets sans manches portent désormais son nom en Inde.|His sleeveless vests are now named after him in India.|Sus chalecos sin mangas llevan ahora su nombre en la India.",
+    },
+  },
+  "Jacinda Ardern": {
+    x: "7 6 6 8 7 5 7",
+    d: "Première ministre de Nouvelle-Zélande de 2017 à 2023|Prime Minister of New Zealand from 2017 to 2023|Primera ministra de Nueva Zelanda de 2017 a 2023",
+    f: {
+      lea: "Elle devient Première ministre de Nouvelle-Zélande en 2017, à 37 ans.|She became Prime Minister of New Zealand in 2017, aged 37.|Se convirtió en primera ministra de Nueva Zelanda en 2017, a los 37 años.",
+      cut: "En 2018, elle vient à l'Assemblée générale de l'ONU avec son bébé.|In 2018, she attended the UN General Assembly with her baby.|En 2018 acudió a la Asamblea General de la ONU con su bebé.",
+      kin: "Après l'attentat de Christchurch en 2019, elle fait interdire les armes semi-automatiques.|After the 2019 Christchurch attack, she banned semi-automatic weapons.|Tras el atentado de Christchurch en 2019, prohibió las armas semiautomáticas.",
+      soc: "Avant la politique, elle a été DJ.|Before politics, she worked as a DJ.|Antes de la política fue DJ.",
+    },
+  },
+  "Giorgia Meloni": {
+    x: "7 7 5 9 6 4 8",
+    d: "Première femme à diriger le gouvernement italien, depuis 2022|First woman to head Italy's government, since 2022|Primera mujer al frente del gobierno italiano, desde 2022",
+    f: {
+      lea: "Elle devient en 2022 la première femme présidente du Conseil en Italie.|In 2022, she became Italy's first woman prime minister.|En 2022 fue la primera mujer presidenta del Consejo de Ministros de Italia.",
+      org: "Elle cofonde le parti Fratelli d'Italia en 2012.|She co-founded the Brothers of Italy party in 2012.|Cofundó el partido Hermanos de Italia en 2012.",
+      tal: "Son discours « Io sono Giorgia » devient un remix musical viral en 2019.|Her \"Io sono Giorgia\" speech became a viral music remix in 2019.|Su discurso «Io sono Giorgia» se convirtió en un remix viral en 2019.",
+    },
+  },
+  "Pedro Sánchez": {
+    x: "8 7 5 8 5 5 7",
+    d: "Président du gouvernement espagnol depuis 2018|Prime Minister of Spain since 2018|Presidente del Gobierno de España desde 2018",
+    f: {
+      lea: "Il devient chef du gouvernement en 2018 grâce à la première motion de censure réussie en Espagne.|He became prime minister in 2018 through Spain's first successful no-confidence vote.|Llegó a la presidencia en 2018 con la primera moción de censura exitosa en España.",
+      str: "Dans sa jeunesse, il joue au basket dans les équipes de jeunes d'Estudiantes, à Madrid.|In his youth, he played basketball in the youth teams of Estudiantes in Madrid.|En su juventud jugó al baloncesto en las categorías inferiores del Estudiantes de Madrid.",
+      tal: "Il publie en 2019 un livre intitulé « Manuel de résistance ».|In 2019, he published a book titled \"Manual de resistencia\".|En 2019 publicó el libro «Manual de resistencia».",
+    },
+  },
+  "Ursula von der Leyen": {
+    x: "7 7 5 9 4 4 9",
+    d: "Présidente de la Commission européenne depuis 2019|President of the European Commission since 2019|Presidenta de la Comisión Europea desde 2019",
+    f: {
+      lea: "Elle devient en 2019 la première femme présidente de la Commission européenne.|In 2019, she became the first woman president of the European Commission.|En 2019 fue la primera mujer presidenta de la Comisión Europea.",
+      int: "Médecin de formation, elle parle couramment allemand, anglais et français.|A doctor by training, she speaks fluent German, English and French.|Médica de formación, habla con fluidez alemán, inglés y francés.",
+      org: "Elle est la première femme ministre de la Défense en Allemagne, de 2013 à 2019.|She was Germany's first woman defence minister, from 2013 to 2019.|Fue la primera mujer ministra de Defensa de Alemania, de 2013 a 2019.",
+    },
+  },
+  "Pape François": {
+    x: "5 4 6 9 7 3 7",
+    d: "Pape de 2013 à 2025, premier pape latino-américain|Pope from 2013 to 2025, the first Latin American pope|Papa de 2013 a 2025, el primer papa latinoamericano",
+    f: {
+      lea: "Élu en 2013, il est le premier pape originaire d'Amérique latine.|Elected in 2013, he was the first pope from Latin America.|Elegido en 2013, fue el primer papa latinoamericano.",
+      kin: "Il choisit de vivre dans une résidence plutôt qu'au palais apostolique.|He chose to live in a guesthouse rather than the Apostolic Palace.|Eligió vivir en una residencia en lugar del Palacio Apostólico.",
+      soc: "Il est un supporter passionné du club de football San Lorenzo.|He was a passionate supporter of the San Lorenzo football club.|Era un apasionado hincha del club de fútbol San Lorenzo.",
+      scr: "Dans sa jeunesse, il a travaillé comme videur dans une boîte de nuit.|In his youth, he worked as a nightclub bouncer.|En su juventud trabajó como portero de discoteca.",
+    },
+  },
+  "Jean-Paul II": {
+    x: "6 5 8 9 7 3 8",
+    d: "Pape polonais de 1978 à 2005, canonisé en 2014|Polish pope from 1978 to 2005, canonised in 2014|Papa polaco de 1978 a 2005, canonizado en 2014",
+    f: {
+      str: "Grand sportif, il pratique le ski et la randonnée en montagne pendant son pontificat.|A keen sportsman, he went skiing and hiking during his papacy.|Gran deportista, esquiaba y hacía senderismo durante su pontificado.",
+      lea: "Il est pape de 1978 à 2005, l'un des plus longs pontificats de l'histoire.|He was pope from 1978 to 2005, one of the longest papacies in history.|Fue papa de 1978 a 2005, uno de los pontificados más largos de la historia.",
+      unl: "Il survit à une tentative d'assassinat place Saint-Pierre en 1981.|He survived an assassination attempt in St Peter's Square in 1981.|Sobrevivió a un intento de asesinato en la plaza de San Pedro en 1981.",
+      tal: "Dans sa jeunesse, il est acteur de théâtre en Pologne.|In his youth, he was a stage actor in Poland.|En su juventud fue actor de teatro en Polonia.",
+    },
+  },
 };
