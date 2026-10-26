@@ -10,7 +10,7 @@ const ROUND_OPTIONS = [3, 5, 10];
 const TIMER_OPTIONS = [30, 60, 90];
 const LANGS = ["fr", "en", "es"];
 const MODES = ["most", "least"];
-const UNIVERSES = ["cartoon", "manga"];
+const UNIVERSES = ["cartoon", "manga", "celebs"];
 const MAX_PLAYERS = 12;
 const MAX_AVATAR_LEN = 80_000; // photo importée, déjà redimensionnée côté client
 
@@ -44,6 +44,7 @@ const CHAR_LISTS = {
     ...DBS.manga.characters.filter((c) => !DBS.cartoon.find(c.name)).map((c) => toEntry(c, true)),
   ]),
   manga: JSON.stringify(DBS.manga.characters.map((c) => toEntry(c))),
+  celebs: JSON.stringify(DBS.celebs.characters.map((c) => toEntry(c))),
 };
 app.get("/api/characters/:universe", (req, res) => {
   const list = CHAR_LISTS[req.params.universe];

@@ -96,7 +96,7 @@ const TEXT = {
     refShort: (n) => `Référence absolue sur ce thème : n°${n} de mon classement.`,
     tagShort: (tag) => `Connu pour ${tag}.`,
     criteria: (list) => `Critères : ${list}.`,
-    unknown: { cartoon: "Personnage introuvable dans ma base de dessins animés : quelques points de consolation.", manga: "Personnage introuvable dans ma base de mangas : quelques points de consolation." },
+    unknown: { cartoon: "Personnage introuvable dans ma base de dessins animés : quelques points de consolation.", manga: "Personnage introuvable dans ma base de mangas : quelques points de consolation.", celebs: "Personnalité introuvable dans ma base : quelques points de consolation." },
     empty: "Aucune réponse.",
     summary: (name, character) => `${name} remporte la manche avec ${character} !`,
     noWinner: "Personne n'a marqué de points cette manche.",
@@ -112,7 +112,7 @@ const TEXT = {
     refShort: (n) => `An absolute reference on this theme: #${n} in my ranking.`,
     tagShort: (tag) => `Known for their ${tag}.`,
     criteria: (list) => `Criteria: ${list}.`,
-    unknown: { cartoon: "Character not found in my cartoon database: a few consolation points.", manga: "Character not found in my manga database: a few consolation points." },
+    unknown: { cartoon: "Character not found in my cartoon database: a few consolation points.", manga: "Character not found in my manga database: a few consolation points.", celebs: "Famous person not found in my database: a few consolation points." },
     empty: "No answer.",
     summary: (name, character) => `${name} wins the round with ${character}!`,
     noWinner: "Nobody scored this round.",
@@ -128,7 +128,7 @@ const TEXT = {
     refShort: (n) => `Referencia absoluta en este tema: n.º ${n} de mi clasificación.`,
     tagShort: (tag) => `Conocido por ${tag}.`,
     criteria: (list) => `Criterios: ${list}.`,
-    unknown: { cartoon: "Personaje no encontrado en mi base de dibujos animados: unos puntos de consolación.", manga: "Personaje no encontrado en mi base de mangas: unos puntos de consolación." },
+    unknown: { cartoon: "Personaje no encontrado en mi base de dibujos animados: unos puntos de consolación.", manga: "Personaje no encontrado en mi base de mangas: unos puntos de consolación.", celebs: "Personaje famoso no encontrado en mi base: unos puntos de consolación." },
     empty: "Sin respuesta.",
     summary: (name, character) => `¡${name} gana la ronda con ${character}!`,
     noWinner: "Nadie ha puntuado en esta ronda.",
@@ -154,11 +154,17 @@ function rawValue(c, theme, universe = "cartoon") {
   if (theme.anti && c.tags.has(theme.anti)) return -1;
   let total = 0;
   let sum = 0;
+  let main = null;
   for (const [trait, w] of Object.entries(theme.weights)) {
     total += Math.abs(w) * toward(c.traits[trait], w);
     sum += Math.abs(w);
+    if (!main || Math.abs(w) > Math.abs(main.w)) main = { trait, w };
   }
-  let raw = total / sum;
+  // Le critère principal du thème pèse davantage : un bon score ailleurs ne compense pas qu'à moitié.
+  const mainValue = toward(c.traits[main.trait], main.w);
+  let raw = 0.7 * (total / sum) + 0.3 * mainValue;
+  // Trait « signature » : un fait marquant de son histoire porte sur ce critère, dans le sens du thème.
+  if (c.profile?.facts[main.trait] && mainValue >= 7) raw += 0.4;
   for (const [trait, w] of Object.entries(theme.tie || {})) raw += w * (c.traits[trait] / MAX);
   if (theme.tag && c.tags.has(theme.tag)) raw = Math.max(raw, 9) + 1.5 + raw / 20;
   return raw;

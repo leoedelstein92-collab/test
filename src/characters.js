@@ -257,6 +257,15 @@ function estimateExtras(t) {
   };
 }
 
+// Personnalités publiques (sportifs, acteurs, chanteurs, politiques, figures historiques…) : un fichier par domaine.
+const CELEB_ROWS = (() => {
+  const fs = require("fs");
+  const path = require("path");
+  const dir = path.join(__dirname, "celebs");
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).sort().filter((f) => f.endsWith(".js")).flatMap((f) => require(path.join(dir, f)));
+})();
+
 // Talents connus des personnages (cuisinier, chef, mentor…), indexés par nom affiché.
 const CARTOON_TAGS = require("./data/tags");
 
@@ -336,6 +345,7 @@ function createDB(rows, extraTags = {}, profiles = {}) {
 const DBS = {
   cartoon: createDB(CARTOON_ROWS, CARTOON_TAGS, loadProfiles("cartoon")),
   manga: createDB(MANGA_ROWS, {}, loadProfiles("manga")),
+  celebs: createDB(CELEB_ROWS, {}, loadProfiles("celebs")),
 };
 
 const CHARACTERS = DBS.cartoon.characters;

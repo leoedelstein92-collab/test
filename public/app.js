@@ -29,7 +29,7 @@
     lang: store.get("cc_lang", (navigator.language || "fr").slice(0, 2)),
     avatar: store.get("cc_avatar", `char:${Math.floor(Math.random() * AVATARS.count)}`),
     mode: store.get("cc_mode", "most") === "least" ? "least" : "most",
-    universe: store.get("cc_universe", "cartoon") === "manga" ? "manga" : "cartoon",
+    universe: ["manga", "celebs"].includes(store.get("cc_universe", "cartoon")) ? store.get("cc_universe", "cartoon") : "cartoon",
   };
   if (!I18N[profile.lang]) profile.lang = "fr";
 
@@ -412,10 +412,10 @@
     document.body.classList.toggle("in-room", Boolean(state));
     if (!state) return show("home");
     $$(".roundNum").forEach((el) => (el.textContent = `${state.round}/${state.totalRounds}`));
-    const manga = state.settings.universe === "manga";
-    $$(".uniLabel").forEach((el) => (el.innerHTML = `${icon(manga ? "manga" : "tv")}<span>${esc(t(manga ? "uniManga" : "uniCartoon"))}</span>`));
-    $("#answerLabel").textContent = t(manga ? "yourAnswerManga" : "yourAnswer");
-    $("#answerInput").placeholder = t(manga ? "answerPhManga" : "answerPh");
+    const uni = { cartoon: ["tv", "uniCartoon", "yourAnswer", "answerPh"], manga: ["manga", "uniManga", "yourAnswerManga", "answerPhManga"], celebs: ["celeb", "uniCeleb", "yourAnswerCeleb", "answerPhCeleb"] }[state.settings.universe] || [];
+    $$(".uniLabel").forEach((el) => (el.innerHTML = `${icon(uni[0])}<span>${esc(t(uni[1]))}</span>`));
+    $("#answerLabel").textContent = t(uni[2]);
+    $("#answerInput").placeholder = t(uni[3]);
     $$(".modeLabel").forEach((el) => (el.innerHTML = `${icon(state.settings.mode === "least" ? "flip" : "trophy")}<span>${esc(modeName())}</span>`));
 
     switch (state.phase) {

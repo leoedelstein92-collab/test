@@ -44,6 +44,7 @@ module.exports = {
     mondays: ["Garfield", "Homer Simpson", "Carlo Tentacule", "Grincheux", "Ennui"],
     eco: ["Le Lorax", "Pocahontas", "WALL-E", "Princesse Mononoké", "Totoro", "Lisa Simpson"],
   },
+  celebs: {},
   manga: {
     strong: ["Saitama", "Son Goku", "Whis", "Beerus", "Vegeta", "Jiren", "Broly", "Ryomen Sukuna", "Satoru Gojo", "Kaguya Otsutsuki", "Sosuke Aizen", "Yhwach", "Madara Uchiwa", "Naruto Uzumaki", "Kaido", "Barbe Blanche", "Monkey D. Luffy", "Meruem"],
     fast: ["Minato Namikaze", "Son Goku", "Kizaru", "Ener", "Kirua Zoldyck", "Yoruichi Shihoin", "Zenitsu Agatsuma", "Arale Norimaki", "Koro-sensei", "Byakuya Kuchiki", "Sonic (One Punch Man)", "Hit", "Rock Lee"],

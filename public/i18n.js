@@ -1,6 +1,6 @@
 window.I18N = {
   fr: {
-    tagline: "Le jeu où tes héros de dessins animés et de mangas s'affrontent !",
+    tagline: "Le jeu où tes héros de dessins animés, de mangas et les stars s'affrontent !",
     profile: "Ton profil",
     nickname: "Pseudo",
     nicknamePh: "Ton pseudo…",
@@ -59,7 +59,7 @@ window.I18N = {
     or: "ou",
     howTitle: "Comment jouer ?",
     how1: "Un thème tombe : « Qui est le plus drôle ? »",
-    how2: "Chacun écrit un personnage de dessin animé ou de manga",
+    how2: "Chacun écrit un personnage de dessin animé, de manga ou une célébrité",
     how3: "Le Hibou Juge note chaque réponse sur 100",
     how4: "Le meilleur score après toutes les manches gagne !",
     themeLabel: "Thème",
@@ -73,6 +73,9 @@ window.I18N = {
     uniManga: "Mangas",
     yourAnswerManga: "Ton personnage de manga",
     answerPhManga: "Ex. : Naruto",
+    uniCeleb: "Célébrités",
+    yourAnswerCeleb: "Ta personnalité publique",
+    answerPhCeleb: "Ex. : Kylian Mbappé",
     noMatch: "Aucun personnage trouvé : vérifie l'orthographe (sinon, seulement 5 points).",
     errors: {
       room_not_found: "Partie introuvable.",
@@ -84,7 +87,7 @@ window.I18N = {
     },
   },
   en: {
-    tagline: "The game where your cartoon and manga heroes clash!",
+    tagline: "The game where your cartoon heroes, manga heroes and stars clash!",
     profile: "Your profile",
     nickname: "Nickname",
     nicknamePh: "Your nickname…",
@@ -143,7 +146,7 @@ window.I18N = {
     or: "or",
     howTitle: "How to play?",
     how1: "A theme drops: “Who is the funniest?”",
-    how2: "Everyone writes a cartoon or manga character",
+    how2: "Everyone writes a cartoon or manga character, or a celebrity",
     how3: "The Owl Judge scores each answer out of 100",
     how4: "Highest total after all rounds wins!",
     themeLabel: "Theme",
@@ -157,6 +160,9 @@ window.I18N = {
     uniManga: "Manga",
     yourAnswerManga: "Your manga character",
     answerPhManga: "E.g.: Naruto",
+    uniCeleb: "Celebrities",
+    yourAnswerCeleb: "Your famous person",
+    answerPhCeleb: "E.g.: Taylor Swift",
     noMatch: "No character found: check the spelling (otherwise only 5 points).",
     errors: {
       room_not_found: "Game not found.",
@@ -168,7 +174,7 @@ window.I18N = {
     },
   },
   es: {
-    tagline: "¡El juego donde tus héroes de dibujos animados y manga se enfrentan!",
+    tagline: "¡El juego donde tus héroes de dibujos animados, de manga y los famosos se enfrentan!",
     profile: "Tu perfil",
     nickname: "Apodo",
     nicknamePh: "Tu apodo…",
@@ -227,7 +233,7 @@ window.I18N = {
     or: "o",
     howTitle: "¿Cómo se juega?",
     how1: "Sale un tema: «¿Quién es el más gracioso?»",
-    how2: "Cada uno escribe un personaje de dibujos animados o manga",
+    how2: "Cada uno escribe un personaje de dibujos animados, de manga o un famoso",
     how3: "El Búho Juez puntúa cada respuesta sobre 100",
     how4: "¡Gana la mejor puntuación tras todas las rondas!",
     themeLabel: "Tema",
@@ -241,6 +247,9 @@ window.I18N = {
     uniManga: "Mangas",
     yourAnswerManga: "Tu personaje de manga",
     answerPhManga: "Ej.: Naruto",
+    uniCeleb: "Famosos",
+    yourAnswerCeleb: "Tu personaje famoso",
+    answerPhCeleb: "Ej.: Lionel Messi",
     noMatch: "Ningún personaje encontrado: revisa la ortografía (si no, solo 5 puntos).",
     errors: {
       room_not_found: "Partida no encontrada.",

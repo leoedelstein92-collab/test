@@ -34,7 +34,7 @@ Rules:
 - "summary": one short sentence in {LANG} explaining why the winner tops this round.
 - Return exactly one result per submission, using the given playerId.`;
 
-const UNIVERSE_NAMES = { cartoon: "cartoon character (animated series or animated film)", manga: "manga character (Japanese comics, including their anime adaptations)" };
+const UNIVERSE_NAMES = { cartoon: "cartoon character (animated series or animated film)", manga: "manga character (Japanese comics, including their anime adaptations)", celebs: "real, famous public figure (athlete, actor, singer, politician, historical figure, creator…), judged on their public image and career only, in a fair, non-partisan and respectful way" };
 
 async function judgeRound({ theme, mode, universe = "cartoon", submissions, lang }) {
   if (!client) return knowledgeJudge({ theme, mode, universe, submissions, lang });
