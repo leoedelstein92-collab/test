@@ -432,4 +432,303 @@ module.exports = {
       int: "Elle a remporté le prix d'interprétation à Cannes pour Le Passé.|She won Best Actress at Cannes for The Past.|Ganó el premio a la mejor actriz en Cannes por El pasado.",
     },
   },
+  "Kev Adams": {
+    x: "8 8 7 7 9 7 6",
+    d: "Humoriste et acteur révélé par la série Soda|Comedian and actor who rose to fame in the series Soda|Humorista y actor revelado por la serie Soda",
+    f: {
+      cut: "Il devient l'idole des ados avec la série Soda sur M6.|He became a teen idol with the sitcom Soda on M6.|Se convirtió en ídolo adolescente con la serie Soda en M6.",
+      tal: "Son spectacle The Young Man Show l'a lancé très jeune sur scène.|His stand-up show The Young Man Show launched him on stage very young.|Su espectáculo The Young Man Show lo lanzó muy joven en el escenario.",
+      hum: "Il joue un élève cancre dans la comédie à succès Les Profs.|He plays a hopeless pupil in the hit comedy Les Profs.|Interpreta a un mal alumno en la exitosa comedia Les Profs.",
+      cun: "Il incarne Aladin dans une comédie de 2015 qui revisite le conte.|He plays Aladdin in a 2015 comedy retelling the tale.|Interpreta a Aladino en una comedia de 2015 que reinventa el cuento.",
+    },
+  },
+  "Jamel Debbouze": {
+    x: "6 7 7 8 10 6 6",
+    d: "Humoriste star, fondateur du Jamel Comedy Club|Star comedian, founder of the Jamel Comedy Club|Humorista estrella, fundador del Jamel Comedy Club",
+    f: {
+      lea: "Il a fondé le Jamel Comedy Club pour révéler de jeunes humoristes.|He founded the Jamel Comedy Club to launch young comedians.|Fundó el Jamel Comedy Club para descubrir a jóvenes humoristas.",
+      tal: "Il joue l'architecte Numérobis dans Astérix et Obélix : Mission Cléopâtre.|He plays the architect Numerobis in Asterix & Obelix: Mission Cleopatra.|Interpreta al arquitecto Numerobis en Astérix y Obélix: Misión Cleopatra.",
+      bra: "Il a partagé le prix d'interprétation à Cannes avec les acteurs d'Indigènes en 2006.|He shared Best Actor at Cannes with the cast of Days of Glory in 2006.|Compartió el premio de interpretación en Cannes con el reparto de Días de gloria en 2006.",
+      soc: "Il a créé le festival Marrakech du rire.|He created the Marrakech du rire comedy festival.|Creó el festival de humor Marrakech du rire.",
+    },
+  },
+  "Gad Elmaleh": {
+    x: "8 8 6 6 8 8 7",
+    d: "Humoriste franco-marocain, créateur du personnage de Chouchou|French-Moroccan comedian, creator of the character Chouchou|Humorista franco-marroquí, creador del personaje de Chouchou",
+    f: {
+      hum: "Il a créé Chouchou, personnage culte qu'il porte aussi au cinéma.|He created Chouchou, a cult character he also brought to the big screen.|Creó a Chouchou, personaje de culto que también llevó al cine.",
+      bra: "Il s'est lancé dans le stand-up en anglais aux États-Unis.|He launched an English-language stand-up career in the United States.|Se lanzó al monólogo en inglés en Estados Unidos.",
+      rom: "Il partage l'affiche de la comédie romantique Hors de prix avec Audrey Tautou.|He co-stars with Audrey Tautou in the romantic comedy Priceless.|Comparte cartel con Audrey Tautou en la comedia romántica Un engaño de lujo.",
+      tal: "Ses spectacles comme L'autre c'est moi ont rempli les plus grandes salles.|His shows such as L'autre c'est moi filled the biggest venues.|Sus espectáculos como L'autre c'est moi llenaron las mayores salas.",
+    },
+  },
+  "Florence Foresti": {
+    x: "7 6 7 6 9 5 6",
+    d: "Humoriste star de la scène et maîtresse de cérémonie des César|Star stand-up comedian and host of the César Awards|Humorista estrella de los escenarios y presentadora de los César",
+    f: {
+      hum: "Elle s'est fait connaître dans On a tout essayé de Laurent Ruquier.|She became known on Laurent Ruquier's show On a tout essayé.|Se dio a conocer en On a tout essayé de Laurent Ruquier.",
+      lea: "Elle a présenté la cérémonie des César en 2016 et 2020.|She hosted the César Awards ceremony in 2016 and 2020.|Presentó la ceremonia de los César en 2016 y 2020.",
+      tal: "Elle a rempli Bercy avec son spectacle Foresti Party.|She filled the Bercy arena with her show Foresti Party.|Llenó el pabellón de Bercy con su espectáculo Foresti Party.",
+      clu: "Ses personnages maladroits et ses imitations font partie de ses sketchs les plus célèbres.|Her clumsy characters and impressions are among her most famous sketches.|Sus personajes torpes y sus imitaciones están entre sus sketches más famosos.",
+    },
+  },
+  "Dany Boon": {
+    x: "6 5 8 7 7 6 7",
+    d: "Humoriste et réalisateur de Bienvenue chez les Ch'tis|Comedian and director of Welcome to the Sticks|Humorista y director de Bienvenidos al Norte",
+    f: {
+      ric: "Bienvenue chez les Ch'tis a attiré plus de 20 millions de spectateurs en France.|Welcome to the Sticks drew more than 20 million cinemagoers in France.|Bienvenidos al Norte atrajo a más de 20 millones de espectadores en Francia.",
+      hum: "Son sketch du K-Way est un classique de l'humour français.|His raincoat sketch Le K-Way is a classic of French comedy.|Su sketch del chubasquero Le K-Way es un clásico del humor francés.",
+      kin: "Il célèbre avec tendresse le Nord et le ch'ti, sa région d'origine.|He fondly celebrates northern France and its Ch'ti dialect, where he comes from.|Celebra con cariño el norte de Francia y el dialecto ch'ti, de donde procede.",
+    },
+  },
+  "Kad Merad": {
+    x: "6 6 8 5 8 5 6",
+    d: "Humoriste et acteur des Ch'tis et des Choristes|Comedian and actor in Welcome to the Sticks and The Chorus|Humorista y actor de Bienvenidos al Norte y Los chicos del coro",
+    f: {
+      hum: "Il a formé le duo Kad et Olivier avec Olivier Baroux.|He formed the comedy duo Kad et Olivier with Olivier Baroux.|Formó el dúo cómico Kad et Olivier con Olivier Baroux.",
+      unl: "Dans Bienvenue chez les Ch'tis, il joue un postier muté contre son gré dans le Nord.|In Welcome to the Sticks, he plays a postman transferred to the north against his will.|En Bienvenidos al Norte interpreta a un cartero trasladado al norte contra su voluntad.",
+      tal: "Il a reçu le César du meilleur second rôle pour Je vais bien, ne t'en fais pas.|He won the César for Best Supporting Actor for Don't Worry, I'm Fine.|Ganó el César al mejor actor de reparto por No te preocupes por mí.",
+      cun: "Il incarne un homme politique ambitieux dans la série Baron noir.|He plays an ambitious politician in the series Baron Noir.|Interpreta a un político ambicioso en la serie Baron Noir.",
+    },
+  },
+  "Alain Chabat": {
+    x: "6 6 8 7 8 6 6",
+    d: "Ancien des Nuls, réalisateur d'Astérix et Obélix : Mission Cléopâtre|Former member of Les Nuls, director of Asterix & Obelix: Mission Cleopatra|Exmiembro de Les Nuls, director de Astérix y Obélix: Misión Cleopatra",
+    f: {
+      tal: "Il a réalisé Mission Cléopâtre, où il joue aussi Jules César.|He directed Mission Cleopatra, in which he also plays Julius Caesar.|Dirigió Misión Cleopatra, donde también interpreta a Julio César.",
+      hum: "Il a été l'un des membres de la troupe comique Les Nuls sur Canal+.|He was one of the members of the comedy troupe Les Nuls on Canal+.|Fue uno de los miembros del grupo cómico Les Nuls en Canal+.",
+      soc: "Il anime le Burger Quiz, jeu télévisé décalé.|He hosts Burger Quiz, an offbeat TV game show.|Presenta Burger Quiz, un concurso televisivo disparatado.",
+      cut: "Il a réalisé l'adaptation du Marsupilami au cinéma.|He directed the live-action Marsupilami film.|Dirigió la adaptación al cine del Marsupilami.",
+    },
+  },
+  "Valérie Lemercier": {
+    x: "6 7 7 6 6 5 7",
+    d: "Humoriste et actrice des Visiteurs, réalisatrice d'Aline|Comedian and actress in Les Visiteurs, director of Aline|Humorista y actriz de Los visitantes, directora de Aline",
+    f: {
+      tal: "Elle a reçu le César de la meilleure actrice pour Aline, qu'elle a aussi réalisé.|She won the César for Best Actress for Aline, which she also directed.|Ganó el César a la mejor actriz por Aline, que también dirigió.",
+      hum: "Elle a remporté le César du meilleur second rôle pour Les Visiteurs.|She won the César for Best Supporting Actress for Les Visiteurs.|Ganó el César a la mejor actriz de reparto por Los visitantes.",
+      sty: "Ses personnages de grandes bourgeoises snobs sont devenus célèbres.|Her snobbish upper-class characters became famous.|Sus personajes de burguesas esnobs se hicieron famosos.",
+    },
+  },
+  "José Garcia": {
+    x: "6 6 7 5 8 6 5",
+    d: "Acteur comique de La vérité si je mens !|Comic actor from La vérité si je mens!|Actor cómico de La vérité si je mens!",
+    f: {
+      hum: "Il incarne l'exubérant Serge Benamou dans La vérité si je mens !|He plays the flamboyant Serge Benamou in La vérité si je mens!|Interpreta al exuberante Serge Benamou en La vérité si je mens!",
+      tal: "Il s'est fait connaître dans l'émission Nulle part ailleurs sur Canal+.|He became known on the Canal+ show Nulle part ailleurs.|Se dio a conocer en el programa Nulle part ailleurs de Canal+.",
+      spd: "Son énergie débordante en fait l'un des acteurs comiques les plus survoltés.|His boundless energy makes him one of the most hyperactive comic actors.|Su energía desbordante lo convierte en uno de los actores cómicos más eléctricos.",
+    },
+  },
+  "Franck Dubosc": {
+    x: "7 5 7 6 8 6 5",
+    d: "Humoriste et acteur, Patrick Chirac dans Camping|Comedian and actor, Patrick Chirac in Camping|Humorista y actor, Patrick Chirac en Camping",
+    f: {
+      hum: "Il incarne Patrick Chirac, vacancier dragueur et gaffeur, dans Camping.|He plays Patrick Chirac, a flirtatious, blundering holidaymaker, in Camping.|Interpreta a Patrick Chirac, veraneante ligón y metepatas, en Camping.",
+      rom: "Il se moque de lui-même dans ses spectacles en séducteur raté.|In his shows he mocks himself as a failed ladies' man.|En sus espectáculos se burla de sí mismo como seductor fracasado.",
+      tal: "Il a réalisé et joué dans la comédie Tout le monde debout.|He directed and starred in the comedy Rolling to You.|Dirigió y protagonizó la comedia Todos están de pie.",
+    },
+  },
+  "Élie Semoun": {
+    x: "5 5 7 5 6 5 6",
+    d: "Humoriste des Petites Annonces, interprète de Cyprien|Comedian of the Petites Annonces sketches, who played Cyprien|Humorista de los Petites Annonces, intérprete de Cyprien",
+    f: {
+      hum: "Ses sketchs des Petites Annonces d'Élie ont fait rire la télévision.|His Petites Annonces d'Élie sketches made TV audiences laugh.|Sus sketches de los Petites Annonces d'Élie hicieron reír a la televisión.",
+      cut: "Il incarne le geek Cyprien dans le film du même nom.|He plays the geek Cyprien in the film of the same name.|Interpreta al friki Cyprien en la película del mismo nombre.",
+      org: "Il joue le professeur Latouche dans L'Élève Ducobu.|He plays the teacher Latouche in L'Élève Ducobu.|Interpreta al profesor Latouche en L'Élève Ducobu.",
+    },
+  },
+  "Michaël Youn": {
+    x: "6 6 6 6 9 5 4",
+    d: "Humoriste du Morning Live, alias le rappeur Fatal Bazooka|Comedian of Morning Live, alias the rapper Fatal Bazooka|Humorista del Morning Live, alias el rapero Fatal Bazooka",
+    f: {
+      bra: "Il animait le Morning Live sur M6 avec des défis et cascades loufoques en direct.|He hosted Morning Live on M6 with wild live stunts and challenges.|Presentaba el Morning Live en M6 con retos y acrobacias disparatadas en directo.",
+      tal: "Sous le nom de Fatal Bazooka, il a classé Fous ta cagoule numéro un des ventes.|As Fatal Bazooka, he took Fous ta cagoule to number one in the charts.|Como Fatal Bazooka llevó Fous ta cagoule al número uno de ventas.",
+      clu: "Il a lancé le film Les 11 Commandements, enchaînement de défis absurdes.|He made Les 11 Commandements, a string of absurd stunt challenges.|Hizo la película Les 11 Commandements, una serie de retos absurdos.",
+    },
+  },
+  "Muriel Robin": {
+    x: "5 5 8 7 7 4 7",
+    d: "Humoriste culte, autrice du sketch de L'Addition|Cult comedian, author of the sketch L'Addition|Humorista de culto, autora del sketch L'Addition",
+    f: {
+      hum: "Son sketch L'Addition, où des amis se disputent l'addition au restaurant, est culte.|Her sketch L'Addition, about friends squabbling over a restaurant bill, is a cult classic.|Su sketch L'Addition, sobre amigos que discuten por la cuenta del restaurante, es de culto.",
+      tal: "Elle a rempli les plus grandes salles avec ses one-woman-shows.|She filled the biggest venues with her one-woman shows.|Llenó las mayores salas con sus espectáculos en solitario.",
+      kin: "Elle participe depuis longtemps aux concerts des Enfoirés pour les Restos du Cœur.|She has long taken part in the Enfoirés charity concerts for the Restos du Cœur.|Participa desde hace años en los conciertos benéficos de Les Enfoirés.",
+    },
+  },
+  "Mimie Mathy": {
+    x: "5 5 8 6 8 5 7",
+    d: "Humoriste et actrice, héroïne de Joséphine, ange gardien|Comedian and actress, star of Joséphine, ange gardien|Humorista y actriz, protagonista de Joséphine, ange gardien",
+    f: {
+      kin: "Elle incarne depuis 1997 Joséphine, un ange gardien qui aide les gens en difficulté.|Since 1997 she has played Joséphine, a guardian angel who helps people in trouble.|Desde 1997 interpreta a Joséphine, un ángel de la guarda que ayuda a la gente.",
+      soc: "Elle est l'une des piliers de la troupe des Enfoirés.|She is one of the mainstays of the Enfoirés charity troupe.|Es uno de los pilares de la compañía benéfica Les Enfoirés.",
+      cut: "Elle figure régulièrement parmi les personnalités préférées des Français.|She regularly ranks among the French public's favourite personalities.|Figura a menudo entre las personalidades favoritas de los franceses.",
+    },
+  },
+  "Blanche Gardin": {
+    x: "5 5 8 4 5 4 5",
+    d: "Humoriste à l'humour noir et grinçant, plusieurs fois récompensée|Comedian known for dark, biting humour, multiple award winner|Humorista de humor negro y mordaz, premiada varias veces",
+    f: {
+      hum: "Elle a reçu plusieurs Molières de l'humour.|She has won several Molière Awards for comedy.|Ha recibido varios premios Molière al humor.",
+      int: "Son humour noir et autodérisoire est réputé pour son audace.|Her dark, self-mocking humour is known for its daring.|Su humor negro y autoparódico es famoso por su audacia.",
+      tal: "Elle a créé et joué la série La Meilleure Version de moi-même sur Canal+.|She created and starred in the series La Meilleure Version de moi-même on Canal+.|Creó y protagonizó la serie La Meilleure Version de moi-même en Canal+.",
+    },
+  },
+  "Philippe Lacheau": {
+    x: "7 6 7 7 8 6 6",
+    d: "Réalisateur et acteur de Babysitting et Nicky Larson|Director and star of Babysitting and City Hunter|Director y actor de Babysitting y Nicky Larson",
+    f: {
+      lea: "Il dirige la Bande à Fifi, troupe comique de Babysitting et Alibi.com.|He leads the Bande à Fifi comedy troupe behind Babysitting and Alibi.com.|Dirige la Bande à Fifi, grupo cómico de Babysitting y Alibi.com.",
+      bra: "Il incarne Nicky Larson dans l'adaptation du célèbre manga.|He plays Nicky Larson in the adaptation of the famous City Hunter manga.|Interpreta a Nicky Larson en la adaptación del célebre manga City Hunter.",
+      unl: "Dans Super-héros malgré lui, il joue un acteur amnésique qui se croit super-héros.|In Superwho?, he plays an amnesiac actor who believes he is a superhero.|En Superhéroe a la fuerza interpreta a un actor amnésico que se cree superhéroe.",
+    },
+  },
+  "Alexandre Astier": {
+    x: "5 6 7 9 5 5 9",
+    d: "Créateur et roi Arthur de la série Kaamelott|Creator and King Arthur of the series Kaamelott|Creador y rey Arturo de la serie Kaamelott",
+    f: {
+      lea: "Il incarne le roi Arthur dans Kaamelott, série qu'il écrit et réalise.|He plays King Arthur in Kaamelott, which he writes and directs.|Interpreta al rey Arturo en Kaamelott, serie que escribe y dirige.",
+      tal: "Il compose aussi la musique de Kaamelott.|He also composes the music of Kaamelott.|También compone la música de Kaamelott.",
+      int: "Son spectacle L'Exoconférence parle d'astronomie et de vie extraterrestre.|His stage show L'Exoconférence is about astronomy and alien life.|Su espectáculo L'Exoconférence trata de astronomía y vida extraterrestre.",
+      tem: "Son roi Arthur passe son temps à s'emporter contre des chevaliers incompétents.|His King Arthur keeps losing his temper with incompetent knights.|Su rey Arturo se pasa el tiempo enfadándose con caballeros incompetentes.",
+    },
+  },
+  "Benoît Poelvoorde": {
+    x: "5 6 7 5 8 5 4",
+    d: "Acteur comique belge de Podium et Rien à déclarer|Belgian comic actor of Podium and Nothing to Declare|Actor cómico belga de Podium y Nada que declarar",
+    f: {
+      hum: "Il joue un sosie survolté de Claude François dans Podium.|He plays a manic Claude François impersonator in Podium.|Interpreta a un frenético imitador de Claude François en Podium.",
+      tem: "Il joue un douanier belge qui déteste les Français dans Rien à déclarer.|He plays a Belgian customs officer who hates the French in Nothing to Declare.|Interpreta a un aduanero belga que odia a los franceses en Nada que declarar.",
+      lea: "Il incarne Dieu en personne dans Le Tout Nouveau Testament.|He plays God himself in The Brand New Testament.|Interpreta al mismísimo Dios en El nuevo nuevo testamento.",
+    },
+  },
+  "Éric Judor": {
+    x: "6 6 7 4 8 5 4",
+    d: "Moitié du duo Éric et Ramzy, créateur de la série Platane|One half of the duo Éric et Ramzy, creator of the series Platane|Mitad del dúo Éric et Ramzy, creador de la serie Platane",
+    f: {
+      hum: "Il forme avec Ramzy Bedia le duo culte Éric et Ramzy.|With Ramzy Bedia he forms the cult comedy duo Éric et Ramzy.|Con Ramzy Bedia forma el dúo de culto Éric et Ramzy.",
+      clu: "Dans La Tour Montparnasse infernale, il joue un laveur de vitres complètement à côté de la plaque.|In La Tour Montparnasse infernale, he plays a totally clueless window cleaner.|En La Tour Montparnasse infernale interpreta a un limpiacristales completamente despistado.",
+      tal: "Il a créé et joué la série Platane, où il interprète son propre rôle.|He created and starred in the series Platane, playing himself.|Creó y protagonizó la serie Platane, donde se interpreta a sí mismo.",
+    },
+  },
+  "Ramzy Bedia": {
+    x: "6 6 7 4 8 5 4",
+    d: "Moitié du duo Éric et Ramzy, acteur de comédies|One half of the duo Éric et Ramzy, comedy actor|Mitad del dúo Éric et Ramzy, actor de comedias",
+    f: {
+      hum: "Il forme avec Éric Judor le duo culte Éric et Ramzy.|With Éric Judor he forms the cult comedy duo Éric et Ramzy.|Con Éric Judor forma el dúo de culto Éric et Ramzy.",
+      clu: "Il joue des personnages naïfs et lunaires, comme dans La Tour Montparnasse infernale.|He plays naive, spaced-out characters, as in La Tour Montparnasse infernale.|Interpreta personajes ingenuos y despistados, como en La Tour Montparnasse infernale.",
+      tal: "Il a joué dans la sitcom culte H sur Canal+.|He starred in the cult sitcom H on Canal+.|Actuó en la serie de culto H en Canal+.",
+    },
+  },
+  "Didier Bourdon": {
+    x: "5 5 7 6 7 5 6",
+    d: "Membre des Inconnus, coréalisateur des Trois Frères|Member of Les Inconnus, co-director of Les Trois Frères|Miembro de Les Inconnus, codirector de Les Trois Frères",
+    f: {
+      hum: "Il forme le trio Les Inconnus avec Bernard Campan et Pascal Légitimus.|He forms the trio Les Inconnus with Bernard Campan and Pascal Légitimus.|Forma el trío Les Inconnus con Bernard Campan y Pascal Légitimus.",
+      tal: "Les Trois Frères a reçu le César du meilleur premier film.|Les Trois Frères won the César for Best First Film.|Les Trois Frères ganó el César a la mejor ópera prima.",
+      cun: "Les parodies des Inconnus à la télévision sont devenues cultes.|Les Inconnus' TV parodies became cult classics.|Las parodias televisivas de Les Inconnus se volvieron de culto.",
+    },
+  },
+  "Cyril Hanouna": {
+    x: "5 5 5 8 9 4 5",
+    d: "Animateur de télévision, présentateur de Touche pas à mon poste !|TV host, presenter of Touche pas à mon poste!|Presentador de televisión, conductor de Touche pas à mon poste!",
+    f: {
+      tal: "Il anime Touche pas à mon poste !, talk-show quotidien lancé en 2010.|He hosts Touche pas à mon poste!, a daily talk show launched in 2010.|Presenta Touche pas à mon poste!, programa diario lanzado en 2010.",
+      soc: "Ses chroniqueurs l'appellent Baba.|His team of pundits calls him Baba.|Sus colaboradores lo llaman Baba.",
+      cun: "Il est connu pour ses canulars et jeux en direct avec le public.|He is known for his live pranks and games with the audience.|Es conocido por sus bromas y juegos en directo con el público.",
+    },
+  },
+  "Nagui": {
+    x: "6 6 7 6 8 5 8",
+    d: "Animateur de N'oubliez pas les paroles ! et de Taratata|Host of N'oubliez pas les paroles! and Taratata|Presentador de N'oubliez pas les paroles! y Taratata",
+    f: {
+      tal: "Il anime le jeu N'oubliez pas les paroles ! sur France 2 depuis 2007.|He has hosted the game show N'oubliez pas les paroles! on France 2 since 2007.|Presenta el concurso N'oubliez pas les paroles! en France 2 desde 2007.",
+      soc: "Il a créé l'émission musicale Taratata, avec des artistes en live.|He created the music show Taratata, featuring live performances.|Creó el programa musical Taratata, con actuaciones en directo.",
+      spd: "Il est réputé pour son débit rapide et ses vannes à la volée.|He is known for his rapid-fire delivery and quick quips.|Es famoso por su rapidez al hablar y sus bromas al vuelo.",
+      int: "Il est né à Alexandrie, en Égypte.|He was born in Alexandria, Egypt.|Nació en Alejandría, Egipto.",
+    },
+  },
+  "Michel Drucker": {
+    x: "6 6 8 6 7 5 9",
+    d: "Animateur historique de la télévision française, présentateur de Vivement dimanche|Veteran French TV host, presenter of Vivement dimanche|Veterano presentador de la televisión francesa, conductor de Vivement dimanche",
+    f: {
+      org: "Il a une carrière de plus de soixante ans à la télévision.|He has had a TV career spanning more than sixty years.|Tiene una carrera de más de sesenta años en televisión.",
+      kin: "Il reçoit les invités de Vivement dimanche sur son célèbre canapé rouge.|He welcomes Vivement dimanche guests on his famous red sofa.|Recibe a los invitados de Vivement dimanche en su famoso sofá rojo.",
+      spd: "Grand amateur de vélo, il roule régulièrement sur de longues distances.|A keen cyclist, he regularly rides long distances.|Gran aficionado a la bicicleta, recorre a menudo largas distancias.",
+      tal: "Il a commenté des matchs de football avant de devenir présentateur de variétés.|He commentated on football matches before becoming a variety show host.|Comentó partidos de fútbol antes de presentar programas de variedades.",
+    },
+  },
+  "Jean-Pierre Foucault": {
+    x: "6 6 8 6 7 5 7",
+    d: "Animateur de Qui veut gagner des millions ? et de Miss France|Host of Who Wants to Be a Millionaire? and Miss France|Presentador de ¿Quién quiere ser millonario? y Miss Francia",
+    f: {
+      tal: "Il a animé la version française de Qui veut gagner des millions ?|He hosted the French version of Who Wants to Be a Millionaire?|Presentó la versión francesa de ¿Quién quiere ser millonario?",
+      sty: "Il a présenté pendant des années l'élection de Miss France.|He presented the Miss France pageant for many years.|Presentó durante años el certamen de Miss Francia.",
+      soc: "Il a animé la grande émission de variétés Sacrée Soirée sur TF1.|He hosted the big TF1 variety show Sacrée Soirée.|Presentó el gran programa de variedades Sacrée Soirée en TF1.",
+    },
+  },
+  "Stéphane Bern": {
+    x: "6 8 8 5 8 5 8",
+    d: "Animateur de Secrets d'histoire, spécialiste des têtes couronnées|Host of Secrets d'histoire, royalty expert|Presentador de Secrets d'histoire, experto en realeza",
+    f: {
+      int: "Il présente l'émission Secrets d'histoire sur France 2 depuis 2007.|He has hosted the history programme Secrets d'histoire on France 2 since 2007.|Presenta el programa de historia Secrets d'histoire en France 2 desde 2007.",
+      kin: "Il a été chargé d'une mission pour sauver le patrimoine, avec le Loto du patrimoine.|He was given a mission to save heritage sites, including the Heritage Lottery.|Fue encargado de una misión para salvar el patrimonio, con la Lotería del patrimonio.",
+      tal: "Il commente les mariages et cérémonies royales à la télévision.|He commentates royal weddings and ceremonies on TV.|Comenta en televisión las bodas y ceremonias reales.",
+      ric: "Il a acheté et restauré le Collège royal et militaire de Thiron-Gardais.|He bought and restored the Royal Military College of Thiron-Gardais.|Compró y restauró el Colegio real y militar de Thiron-Gardais.",
+    },
+  },
+  "Laurent Ruquier": {
+    x: "5 6 7 6 8 4 7",
+    d: "Animateur de On n'est pas couché et des Grosses Têtes|Host of On n'est pas couché and Les Grosses Têtes|Presentador de On n'est pas couché y Les Grosses Têtes",
+    f: {
+      tal: "Il a animé le talk-show On n'est pas couché sur France 2 de 2006 à 2020.|He hosted the talk show On n'est pas couché on France 2 from 2006 to 2020.|Presentó el programa On n'est pas couché en France 2 de 2006 a 2020.",
+      hum: "Il a animé l'émission de radio Les Grosses Têtes sur RTL.|He hosted the radio show Les Grosses Têtes on RTL.|Presentó el programa de radio Les Grosses Têtes en RTL.",
+      lea: "Il a révélé de nombreux humoristes dans On a tout essayé.|He launched many comedians on his show On a tout essayé.|Lanzó a numerosos humoristas en su programa On a tout essayé.",
+    },
+  },
+  "Yann Barthès": {
+    x: "7 7 7 6 7 5 8",
+    d: "Animateur du Petit Journal puis de Quotidien|Host of Le Petit Journal, then Quotidien|Presentador de Le Petit Journal y luego de Quotidien",
+    f: {
+      hum: "Il a animé Le Petit Journal sur Canal+ avec ses décryptages moqueurs.|He hosted Le Petit Journal on Canal+, known for its mocking breakdowns.|Presentó Le Petit Journal en Canal+, famoso por sus análisis burlones.",
+      tal: "Il présente le talk-show Quotidien sur TMC depuis 2016.|He has hosted the talk show Quotidien on TMC since 2016.|Presenta el programa Quotidien en TMC desde 2016.",
+      cun: "Ses montages ironiques d'images d'actualité ont fait sa réputation.|His ironic edits of news footage made his reputation.|Sus montajes irónicos de imágenes de actualidad hicieron su fama.",
+    },
+  },
+  "Denis Brogniart": {
+    x: "7 6 7 7 6 5 8",
+    d: "Animateur du jeu d'aventure Koh-Lanta|Host of the adventure game show Koh-Lanta|Presentador del concurso de aventura Koh-Lanta",
+    f: {
+      bra: "Il présente Koh-Lanta, jeu de survie sur une île, depuis 2002.|He has hosted Koh-Lanta, a survival game show on an island, since 2002.|Presenta Koh-Lanta, concurso de supervivencia en una isla, desde 2002.",
+      hum: "Son « Ah ! » lancé aux aventuriers est devenu une expression culte.|His exclamation \"Ah!\" to the contestants became a cult catchphrase.|Su exclamación «¡Ah!» a los concursantes se volvió una expresión de culto.",
+      tal: "Journaliste sportif, il commente aussi des compétitions pour TF1.|A sports journalist, he also commentates on events for TF1.|Periodista deportivo, también comenta competiciones para TF1.",
+    },
+  },
+  "Nikos Aliagas": {
+    x: "7 7 7 6 8 6 7",
+    d: "Animateur franco-grec de la Star Academy et de The Voice|French-Greek host of Star Academy and The Voice|Presentador franco-griego de Star Academy y The Voice",
+    f: {
+      soc: "Il anime la Star Academy depuis sa création en 2001.|He has hosted Star Academy since it began in 2001.|Presenta Star Academy desde su creación en 2001.",
+      tal: "Il présente aussi l'émission musicale The Voice sur TF1.|He also hosts the music show The Voice on TF1.|También presenta el programa musical The Voice en TF1.",
+      int: "Photographe passionné, il a publié des livres de portraits.|A passionate photographer, he has published books of portraits.|Fotógrafo apasionado, ha publicado libros de retratos.",
+      kin: "Fier de ses origines grecques, il parle couramment le grec.|Proud of his Greek roots, he speaks Greek fluently.|Orgulloso de sus raíces griegas, habla griego con fluidez.",
+    },
+  },
+  "Jean-Luc Reichmann": {
+    x: "6 6 8 6 8 5 7",
+    d: "Animateur des 12 Coups de midi et acteur de Léo Mattéï|Host of Les 12 Coups de midi and star of Léo Mattéï|Presentador de Les 12 Coups de midi y actor de Léo Mattéï",
+    f: {
+      tal: "Il anime le jeu Les 12 Coups de midi sur TF1 depuis 2010.|He has hosted the game show Les 12 Coups de midi on TF1 since 2010.|Presenta el concurso Les 12 Coups de midi en TF1 desde 2010.",
+      kin: "Il joue un policier de la brigade des mineurs dans la série Léo Mattéï.|He plays a child-protection police officer in the series Léo Mattéï.|Interpreta a un policía de la brigada de menores en la serie Léo Mattéï.",
+      soc: "Sa bonne humeur avec les candidats est l'une de ses marques de fabrique.|His cheerful rapport with contestants is one of his trademarks.|Su buen humor con los concursantes es una de sus señas de identidad.",
+    },
+  },
+  "Julien Lepers": {
+    x: "6 6 8 5 7 5 8",
+    d: "Animateur historique de Questions pour un champion|Long-time host of the quiz show Questions pour un champion|Presentador histórico del concurso Questions pour un champion",
+    f: {
+      int: "Il a animé Questions pour un champion de 1988 à 2016.|He hosted the quiz Questions pour un champion from 1988 to 2016.|Presentó el concurso Questions pour un champion de 1988 a 2016.",
+      spd: "Il est célèbre pour enchaîner les questions à toute vitesse.|He is famous for firing off questions at top speed.|Es famoso por encadenar las preguntas a toda velocidad.",
+      tal: "Il a écrit la chanson Pour le plaisir, chantée par Herbert Léonard.|He wrote the song Pour le plaisir, sung by Herbert Léonard.|Escribió la canción Pour le plaisir, interpretada por Herbert Léonard.",
+    },
+  },
 };
