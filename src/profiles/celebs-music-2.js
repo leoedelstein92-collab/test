@@ -580,4 +580,304 @@ module.exports = {
       tal: "Elle est connue pour sa discrétion médiatique.|She is known for her low media profile.|Es conocida por su discreción mediática.",
     },
   },
+  "Whitney Houston": {
+    x: "9 8 7 6 6 9 6",
+    d: "Diva américaine à la voix légendaire, star de Bodyguard|American diva with a legendary voice, star of The Bodyguard|Diva estadounidense de voz legendaria, estrella de El guardaespaldas",
+    f: {
+      ric: "Sa reprise de I Will Always Love You, en 1992, est l'un des singles les plus vendus de l'histoire.|Her 1992 cover of I Will Always Love You is one of the best-selling singles ever.|Su versión de I Will Always Love You, de 1992, es uno de los sencillos más vendidos de la historia.",
+      bra: "Son interprétation de l'hymne américain au Super Bowl 1991 est restée légendaire.|Her rendition of the US anthem at the 1991 Super Bowl became legendary.|Su interpretación del himno estadounidense en la Super Bowl de 1991 se volvió legendaria.",
+      lea: "Elle détient le record de sept numéros un consécutifs aux États-Unis.|She holds the record of seven consecutive number ones in the US.|Tiene el récord de siete números uno consecutivos en Estados Unidos.",
+      rom: "Elle a joué aux côtés de Kevin Costner dans le film Bodyguard.|She starred opposite Kevin Costner in the film The Bodyguard.|Protagonizó junto a Kevin Costner la película El guardaespaldas.",
+    },
+  },
+  "Britney Spears": {
+    x: "9 7 6 6 7 7 5",
+    d: "Princesse de la pop, révélée par ...Baby One More Time|Princess of Pop, who broke through with ...Baby One More Time|Princesa del pop, revelada por ...Baby One More Time",
+    f: {
+      ric: "Son premier single, ...Baby One More Time, en 1998, a été un tube planétaire.|Her 1998 debut single ...Baby One More Time was a global smash.|Su primer sencillo, ...Baby One More Time, de 1998, fue un éxito planetario.",
+      spd: "Ses chorégraphies millimétrées ont marqué la pop des années 2000.|Her sharp choreography defined 2000s pop.|Sus coreografías precisas marcaron el pop de los años 2000.",
+      bra: "Elle a chanté I'm a Slave 4 U avec un python sur les épaules aux MTV VMA 2001.|She performed I'm a Slave 4 U with a python on her shoulders at the 2001 MTV VMAs.|Cantó I'm a Slave 4 U con una pitón sobre los hombros en los MTV VMA de 2001.",
+      org: "Son tube Toxic lui a valu un Grammy Award en 2005.|Her hit Toxic earned her a Grammy Award in 2005.|Su éxito Toxic le valió un premio Grammy en 2005.",
+    },
+  },
+  "Christina Aguilera": {
+    x: "8 8 7 7 6 7 7",
+    d: "Chanteuse américaine à la voix puissante, révélée par Genie in a Bottle|American singer with a powerful voice, launched by Genie in a Bottle|Cantante estadounidense de voz potente, lanzada por Genie in a Bottle",
+    f: {
+      ric: "Son tube Genie in a Bottle, en 1999, a lancé sa carrière.|Her 1999 hit Genie in a Bottle launched her career.|Su éxito Genie in a Bottle, de 1999, lanzó su carrera.",
+      soc: "Elle a chanté Lady Marmalade avec Pink, Mýa et Lil' Kim pour Moulin Rouge en 2001.|She sang Lady Marmalade with Pink, Mýa and Lil' Kim for Moulin Rouge in 2001.|Cantó Lady Marmalade con Pink, Mýa y Lil' Kim para Moulin Rouge en 2001.",
+      lea: "Elle a été coach de la version américaine de The Voice.|She was a coach on the American version of The Voice.|Fue coach de la versión estadounidense de The Voice.",
+      kin: "Elle a débuté enfant dans l'émission Mickey Mouse Club.|She started as a child on The Mickey Mouse Club.|Empezó de niña en el programa The Mickey Mouse Club.",
+    },
+  },
+  "Cher": {
+    x: "8 10 7 7 7 8 7",
+    d: "Icône américaine de la pop surnommée la déesse de la pop|American pop icon nicknamed the Goddess of Pop|Icono estadounidense del pop apodada la diosa del pop",
+    f: {
+      ric: "Son tube Believe, en 1998, a popularisé l'effet Auto-Tune dans la pop.|Her 1998 hit Believe popularised the Auto-Tune effect in pop.|Su éxito Believe, de 1998, popularizó el efecto Auto-Tune en el pop.",
+      bra: "Elle a remporté l'Oscar de la meilleure actrice pour Éclair de lune en 1988.|She won the Oscar for best actress for Moonstruck in 1988.|Ganó el Óscar a la mejor actriz por Hechizo de luna en 1988.",
+      sty: "Ses tenues spectaculaires sont entrées dans l'histoire de la mode.|Her spectacular outfits went down in fashion history.|Sus espectaculares atuendos pasaron a la historia de la moda.",
+      lea: "Elle a classé des tubes numéro un sur six décennies consécutives.|She has had number-one hits across six consecutive decades.|Ha tenido éxitos número uno en seis décadas consecutivas.",
+    },
+  },
+  "Miley Cyrus": {
+    x: "8 8 7 6 8 6 5",
+    d: "Ex-star de Disney devenue chanteuse pop à succès|Former Disney star turned hit pop singer|Exestrella de Disney convertida en cantante pop de éxito",
+    f: {
+      cut: "Elle a été révélée par la série Disney Hannah Montana.|She rose to fame with the Disney series Hannah Montana.|Se dio a conocer con la serie de Disney Hannah Montana.",
+      ric: "Son tube Flowers, en 2023, lui a valu ses premiers Grammy Awards.|Her 2023 hit Flowers earned her first Grammy Awards.|Su éxito Flowers, de 2023, le valió sus primeros premios Grammy.",
+      bra: "Son clip Wrecking Ball, en 2013, la montre sur une boule de démolition.|Her 2013 Wrecking Ball video shows her on a demolition ball.|Su vídeo Wrecking Ball, de 2013, la muestra sobre una bola de demolición.",
+      soc: "Dolly Parton est sa marraine.|Dolly Parton is her godmother.|Dolly Parton es su madrina.",
+    },
+  },
+  "Pink": {
+    x: "8 8 8 7 7 6 7",
+    d: "Chanteuse pop-rock américaine aux concerts acrobatiques|American pop-rock singer with acrobatic concerts|Cantante pop-rock estadounidense de conciertos acrobáticos",
+    f: {
+      bra: "Elle chante suspendue dans les airs lors de numéros acrobatiques en concert.|She sings while flying through the air in acrobatic concert numbers.|Canta suspendida en el aire en números acrobáticos durante sus conciertos.",
+      ric: "Son tube Get the Party Started, en 2001, a été un succès mondial.|Her 2001 hit Get the Party Started was a worldwide success.|Su éxito Get the Party Started, de 2001, fue un éxito mundial.",
+      str: "Ancienne gymnaste, elle est réputée pour sa condition physique.|A former gymnast, she is known for her physical fitness.|Exgimnasta, es conocida por su forma física.",
+      tem: "Son tube So What, en 2008, affiche son caractère bien trempé.|Her 2008 hit So What shows off her strong character.|Su éxito So What, de 2008, muestra su fuerte carácter.",
+    },
+  },
+  "Olivia Rodrigo": {
+    x: "8 8 7 6 6 7 7",
+    d: "Jeune star de la pop révélée par drivers license|Young pop star who broke through with drivers license|Joven estrella del pop revelada por drivers license",
+    f: {
+      ric: "Son premier single, drivers license, a battu des records de streaming en 2021.|Her debut single drivers license broke streaming records in 2021.|Su primer sencillo, drivers license, batió récords de streaming en 2021.",
+      int: "Elle a remporté trois Grammy Awards en 2022, dont celui de la révélation.|She won three Grammy Awards in 2022, including Best New Artist.|Ganó tres premios Grammy en 2022, entre ellos el de mejor artista nuevo.",
+      cut: "Elle a débuté comme actrice dans des séries Disney.|She started as an actress in Disney series.|Empezó como actriz en series de Disney.",
+      tem: "Ses chansons pop-punk comme good 4 u expriment colère et frustration.|Her pop-punk songs like good 4 u express anger and frustration.|Sus canciones pop-punk como good 4 u expresan rabia y frustración.",
+    },
+  },
+  "Sabrina Carpenter": {
+    x: "9 9 7 7 8 8 7",
+    d: "Star de la pop américaine, voix du tube Espresso|American pop star, voice of the hit Espresso|Estrella del pop estadounidense, voz del éxito Espresso",
+    f: {
+      ric: "Son tube Espresso a été l'un des plus gros succès mondiaux de 2024.|Her hit Espresso was one of the biggest worldwide hits of 2024.|Su éxito Espresso fue uno de los mayores éxitos mundiales de 2024.",
+      hum: "Elle est connue pour son humour malicieux sur scène.|She is known for her mischievous humour on stage.|Es conocida por su humor pícaro en el escenario.",
+      int: "Son album Short n' Sweet a remporté un Grammy Award en 2025.|Her album Short n' Sweet won a Grammy Award in 2025.|Su álbum Short n' Sweet ganó un premio Grammy en 2025.",
+      cut: "Elle a débuté comme actrice dans la série Disney Le Monde de Riley.|She started as an actress in the Disney series Girl Meets World.|Empezó como actriz en la serie de Disney Girl Meets World.",
+    },
+  },
+  "Lana Del Rey": {
+    x: "9 9 7 5 4 9 6",
+    d: "Chanteuse américaine à l'univers mélancolique et rétro|American singer with a melancholic, retro universe|Cantante estadounidense de universo melancólico y retro",
+    f: {
+      ric: "Son titre Video Games, en 2011, l'a révélée au monde entier.|Her 2011 song Video Games made her known worldwide.|Su tema Video Games, de 2011, la dio a conocer en todo el mundo.",
+      sty: "Son esthétique rétro inspirée de l'Amérique des années 1950 et 1960 est sa signature.|Her retro aesthetic inspired by 1950s-60s America is her trademark.|Su estética retro inspirada en la América de los años 50 y 60 es su sello.",
+      rom: "Son tube Summertime Sadness est un classique de la pop mélancolique.|Her hit Summertime Sadness is a melancholic pop classic.|Su éxito Summertime Sadness es un clásico del pop melancólico.",
+      tal: "Elle est connue pour sa voix douce et son attitude réservée.|She is known for her soft voice and reserved manner.|Es conocida por su voz suave y su actitud reservada.",
+    },
+  },
+  "George Michael": {
+    x: "9 9 7 7 7 9 6",
+    d: "Star britannique de la pop, ex-Wham!, voix de Careless Whisper|British pop star, ex-Wham!, voice of Careless Whisper|Estrella británica del pop, ex Wham!, voz de Careless Whisper",
+    f: {
+      ric: "Son album Faith a remporté le Grammy de l'album de l'année en 1989.|His album Faith won the Grammy for Album of the Year in 1989.|Su álbum Faith ganó el Grammy al álbum del año en 1989.",
+      kin: "Il a reversé les droits de Last Christmas à la lutte contre la famine en Éthiopie.|He donated the royalties of Last Christmas to Ethiopian famine relief.|Donó los derechos de Last Christmas a la lucha contra la hambruna en Etiopía.",
+      rom: "Son slow Careless Whisper, en 1984, est l'un des plus célèbres de l'histoire.|His 1984 ballad Careless Whisper is one of the most famous ever.|Su balada Careless Whisper, de 1984, es una de las más famosas de la historia.",
+      soc: "Il a formé le duo Wham! avec Andrew Ridgeley au début des années 1980.|He formed the duo Wham! with Andrew Ridgeley in the early 1980s.|Formó el dúo Wham! con Andrew Ridgeley a principios de los 80.",
+    },
+  },
+  "Phil Collins": {
+    x: "5 5 8 7 6 6 8",
+    d: "Batteur et chanteur britannique, de Genesis à In the Air Tonight|British drummer and singer, from Genesis to In the Air Tonight|Batería y cantante británico, de Genesis a In the Air Tonight",
+    f: {
+      spd: "Il a joué au Live Aid 1985 à Londres puis à Philadelphie le même jour grâce au Concorde.|He played Live Aid 1985 in London and Philadelphia on the same day thanks to Concorde.|Tocó en el Live Aid de 1985 en Londres y Filadelfia el mismo día gracias al Concorde.",
+      ric: "Son roulement de batterie dans In the Air Tonight est l'un des plus célèbres du rock.|His drum fill in In the Air Tonight is one of rock's most famous.|Su redoble de batería en In the Air Tonight es uno de los más famosos del rock.",
+      int: "Il a remporté l'Oscar de la meilleure chanson pour Tarzan de Disney.|He won the Oscar for best song for Disney's Tarzan.|Ganó el Óscar a la mejor canción por Tarzán de Disney.",
+      lea: "Il est devenu le chanteur de Genesis après le départ de Peter Gabriel.|He became Genesis' singer after Peter Gabriel left.|Se convirtió en el cantante de Genesis tras la salida de Peter Gabriel.",
+    },
+  },
+  "Spice Girls": {
+    x: "8 9 6 7 10 6 5",
+    d: "Girls band britannique culte des années 1990, chantres du Girl Power|Cult British girl group of the 1990s, champions of Girl Power|Grupo femenino británico de culto de los 90, abanderadas del Girl Power",
+    f: {
+      ric: "Elles sont le girls band le plus vendu de l'histoire.|They are the best-selling girl group of all time.|Son el grupo femenino más vendido de la historia.",
+      soc: "Leur premier single, Wannabe, en 1996, a été numéro un dans des dizaines de pays.|Their 1996 debut single Wannabe hit number one in dozens of countries.|Su primer sencillo, Wannabe, de 1996, fue número uno en decenas de países.",
+      sty: "Chacune avait son surnom et son style : Scary, Sporty, Baby, Ginger et Posh.|Each had her own nickname and style: Scary, Sporty, Baby, Ginger and Posh.|Cada una tenía su apodo y su estilo: Scary, Sporty, Baby, Ginger y Posh.",
+      lea: "Leur slogan Girl Power est devenu un phénomène de société.|Their Girl Power slogan became a cultural phenomenon.|Su lema Girl Power se convirtió en un fenómeno social.",
+    },
+  },
+  "One Direction": {
+    x: "9 8 7 6 8 9 5",
+    d: "Boys band britannique né dans l'émission The X Factor|British boy band formed on the show The X Factor|Boy band británica nacida en el programa The X Factor",
+    f: {
+      lea: "Le groupe a été formé dans l'émission The X Factor en 2010.|The band was formed on The X Factor in 2010.|El grupo se formó en el programa The X Factor en 2010.",
+      ric: "Leur tube What Makes You Beautiful a lancé une vague de fans dans le monde entier.|Their hit What Makes You Beautiful sparked worldwide fan mania.|Su éxito What Makes You Beautiful desató una ola de fans en todo el mundo.",
+      cut: "Ils ont été l'un des boys bands les plus adulés des années 2010.|They were one of the most adored boy bands of the 2010s.|Fueron una de las boy bands más adoradas de los años 2010.",
+      hum: "Ils étaient connus pour leurs fous rires et leurs pitreries en interview.|They were known for their giggles and antics in interviews.|Eran conocidos por sus risas y payasadas en las entrevistas.",
+    },
+  },
+  "Backstreet Boys": {
+    x: "8 7 7 6 7 8 8",
+    d: "Boys band américain le plus vendu de l'histoire|Best-selling American boy band of all time|La boy band estadounidense más vendida de la historia",
+    f: {
+      ric: "Ils sont le boys band le plus vendu de tous les temps.|They are the best-selling boy band of all time.|Son la boy band más vendida de todos los tiempos.",
+      rom: "Leur ballade I Want It That Way, en 1999, est un classique.|Their 1999 ballad I Want It That Way is a classic.|Su balada I Want It That Way, de 1999, es un clásico.",
+      spd: "La chorégraphie d'Everybody (Backstreet's Back) est restée culte.|The choreography of Everybody (Backstreet's Back) became iconic.|La coreografía de Everybody (Backstreet's Back) se volvió de culto.",
+      org: "Ils tournent toujours ensemble plus de trente ans après leurs débuts.|They are still touring together more than thirty years after their debut.|Siguen de gira juntos más de treinta años después de sus inicios.",
+    },
+  },
+  "Amy Winehouse": {
+    x: "7 9 6 4 6 7 3",
+    d: "Chanteuse britannique soul et jazz, voix de Back to Black|British soul and jazz singer, voice of Back to Black|Cantante británica de soul y jazz, voz de Back to Black",
+    f: {
+      ric: "Elle a remporté cinq Grammy Awards en une seule soirée en 2008.|She won five Grammy Awards in a single night in 2008.|Ganó cinco premios Grammy en una sola noche en 2008.",
+      sty: "Sa coiffure choucroute et son eye-liner sont devenus iconiques.|Her beehive hairdo and eyeliner became iconic.|Su peinado colmena y su delineador se volvieron icónicos.",
+      int: "Son album Back to Black, en 2006, est un classique de la soul moderne.|Her 2006 album Back to Black is a modern soul classic.|Su álbum Back to Black, de 2006, es un clásico del soul moderno.",
+      unl: "Elle est morte en 2011 à seulement 27 ans.|She died in 2011 aged only 27.|Murió en 2011 con solo 27 años.",
+    },
+  },
+  "Imagine Dragons": {
+    x: "7 7 7 7 6 6 8",
+    d: "Groupe de pop-rock américain de Las Vegas, auteur de Radioactive|American pop-rock band from Las Vegas, behind Radioactive|Grupo de pop-rock estadounidense de Las Vegas, autor de Radioactive",
+    f: {
+      ric: "Leur tube Radioactive est resté 87 semaines dans le classement américain.|Their hit Radioactive spent 87 weeks on the US chart.|Su éxito Radioactive pasó 87 semanas en la lista estadounidense.",
+      str: "Leur titre Believer, en 2017, est devenu un hymne des salles de sport.|Their 2017 song Believer became a gym anthem.|Su tema Believer, de 2017, se convirtió en himno de los gimnasios.",
+      org: "Ils ont remporté un Grammy Award pour Radioactive en 2014.|They won a Grammy Award for Radioactive in 2014.|Ganaron un premio Grammy por Radioactive en 2014.",
+      bra: "Le groupe a été formé à Las Vegas en 2008.|The band was formed in Las Vegas in 2008.|El grupo se formó en Las Vegas en 2008.",
+    },
+  },
+  "Led Zeppelin": {
+    x: "7 9 6 7 6 7 5",
+    d: "Groupe de hard rock britannique légendaire, auteur de Stairway to Heaven|Legendary British hard rock band, behind Stairway to Heaven|Legendario grupo británico de hard rock, autor de Stairway to Heaven",
+    f: {
+      ric: "Leur titre Stairway to Heaven, en 1971, est l'un des plus célèbres du rock.|Their 1971 track Stairway to Heaven is one of rock's most famous.|Su tema Stairway to Heaven, de 1971, es uno de los más famosos del rock.",
+      lea: "Ils sont considérés comme les pères du hard rock et du heavy metal.|They are considered fathers of hard rock and heavy metal.|Están considerados padres del hard rock y el heavy metal.",
+      soc: "Leur concert de reformation à Londres en 2007 a reçu des millions de demandes de billets.|Their 2007 London reunion concert drew millions of ticket requests.|Su concierto de reunión en Londres en 2007 recibió millones de solicitudes de entradas.",
+      scr: "Le guitariste Jimmy Page jouait parfois de la guitare avec un archet de violon.|Guitarist Jimmy Page sometimes played guitar with a violin bow.|El guitarrista Jimmy Page tocaba a veces la guitarra con un arco de violín.",
+    },
+  },
+  "Jimi Hendrix": {
+    x: "7 9 6 5 6 7 4",
+    d: "Guitariste américain de génie, révolutionnaire du rock|American guitar genius who revolutionised rock|Genio estadounidense de la guitarra que revolucionó el rock",
+    f: {
+      int: "Il est souvent cité comme le plus grand guitariste de tous les temps.|He is often named the greatest guitarist of all time.|A menudo se le considera el mejor guitarrista de todos los tiempos.",
+      bra: "Il a mis le feu à sa guitare sur scène au festival de Monterey en 1967.|He set his guitar on fire on stage at the 1967 Monterey festival.|Prendió fuego a su guitarra en el escenario del festival de Monterey en 1967.",
+      spd: "Sa version de l'hymne américain à Woodstock en 1969 est restée mythique.|His version of the US anthem at Woodstock in 1969 became legendary.|Su versión del himno estadounidense en Woodstock en 1969 se volvió mítica.",
+      unl: "Il est mort en 1970 à seulement 27 ans.|He died in 1970 aged only 27.|Murió en 1970 con solo 27 años.",
+    },
+  },
+  "Bruce Springsteen": {
+    x: "7 7 8 8 7 7 8",
+    d: "Rockeur américain surnommé The Boss, voix de Born in the U.S.A.|American rocker nicknamed The Boss, voice of Born in the U.S.A.|Rockero estadounidense apodado The Boss, voz de Born in the U.S.A.",
+    f: {
+      lea: "Il est surnommé The Boss depuis le début de sa carrière.|He has been nicknamed The Boss since early in his career.|Lo apodan The Boss desde el inicio de su carrera.",
+      str: "Ses concerts marathon dépassent souvent trois heures.|His marathon concerts often last more than three hours.|Sus conciertos maratonianos suelen durar más de tres horas.",
+      ric: "Son album Born in the U.S.A., en 1984, s'est vendu à des dizaines de millions d'exemplaires.|His 1984 album Born in the U.S.A. sold tens of millions of copies.|Su álbum Born in the U.S.A., de 1984, vendió decenas de millones de copias.",
+      int: "Il a remporté l'Oscar de la meilleure chanson pour Streets of Philadelphia.|He won the Oscar for best song for Streets of Philadelphia.|Ganó el Óscar a la mejor canción por Streets of Philadelphia.",
+    },
+  },
+  "Bon Jovi": {
+    x: "9 7 7 7 7 8 7",
+    d: "Groupe de rock américain mené par Jon Bon Jovi|American rock band led by Jon Bon Jovi|Grupo de rock estadounidense liderado por Jon Bon Jovi",
+    f: {
+      ric: "Leur tube Livin' on a Prayer, en 1986, est un hymne des stades.|Their 1986 hit Livin' on a Prayer is a stadium anthem.|Su éxito Livin' on a Prayer, de 1986, es un himno de estadio.",
+      kin: "Jon Bon Jovi a ouvert des restaurants solidaires où chacun paie ce qu'il peut.|Jon Bon Jovi opened community restaurants where people pay what they can.|Jon Bon Jovi abrió restaurantes solidarios donde cada uno paga lo que puede.",
+      soc: "Leur titre It's My Life, en 2000, les a fait découvrir à une nouvelle génération.|Their 2000 song It's My Life won over a new generation.|Su tema It's My Life, de 2000, los dio a conocer a una nueva generación.",
+      cut: "Jon Bon Jovi est resté une icône pour sa crinière et son sourire.|Jon Bon Jovi remained an icon for his mane and smile.|Jon Bon Jovi siguió siendo un icono por su melena y su sonrisa.",
+    },
+  },
+  "Guns N' Roses": {
+    x: "6 8 4 6 7 6 2",
+    d: "Groupe de hard rock américain d'Axl Rose et Slash|American hard rock band of Axl Rose and Slash|Grupo estadounidense de hard rock de Axl Rose y Slash",
+    f: {
+      ric: "Leur album Appetite for Destruction est le premier album le plus vendu de l'histoire aux États-Unis.|Their album Appetite for Destruction is the best-selling debut album in US history.|Su álbum Appetite for Destruction es el debut más vendido de la historia en EE. UU.",
+      sty: "Le guitariste Slash est reconnaissable à son chapeau haut-de-forme.|Guitarist Slash is recognisable by his top hat.|El guitarrista Slash es reconocible por su sombrero de copa.",
+      tem: "Axl Rose est connu pour son tempérament explosif sur scène.|Axl Rose is known for his explosive temper on stage.|Axl Rose es conocido por su temperamento explosivo en el escenario.",
+      org: "Le groupe était réputé pour monter sur scène avec beaucoup de retard.|The band was known for going on stage very late.|El grupo era conocido por salir al escenario con mucho retraso.",
+    },
+  },
+  "Red Hot Chili Peppers": {
+    x: "6 7 6 6 9 6 6",
+    d: "Groupe de funk rock californien, auteur de Californication|Californian funk rock band, behind Californication|Grupo californiano de funk rock, autor de Californication",
+    f: {
+      ric: "Leur album Californication, en 1999, s'est vendu à plus de 15 millions d'exemplaires.|Their 1999 album Californication sold over 15 million copies.|Su álbum Californication, de 1999, vendió más de 15 millones de copias.",
+      spd: "Le bassiste Flea est célèbre pour son jeu de basse slap survolté.|Bassist Flea is famous for his frenetic slap bass playing.|El bajista Flea es famoso por su frenético bajo slap.",
+      soc: "Ils ont joué à la mi-temps du Super Bowl 2014 avec Bruno Mars.|They played the 2014 Super Bowl halftime show with Bruno Mars.|Tocaron en el medio tiempo de la Super Bowl de 2014 con Bruno Mars.",
+      rom: "Leur ballade Under the Bridge, en 1992, est un classique.|Their 1992 ballad Under the Bridge is a classic.|Su balada Under the Bridge, de 1992, es un clásico.",
+    },
+  },
+  "Linkin Park": {
+    x: "6 6 7 7 5 5 8",
+    d: "Groupe américain de nu metal, auteur de In the End et Numb|American nu metal band, behind In the End and Numb|Grupo estadounidense de nu metal, autor de In the End y Numb",
+    f: {
+      ric: "Leur premier album, Hybrid Theory, est l'un des plus vendus du XXIe siècle.|Their debut album Hybrid Theory is one of the best-selling of the 21st century.|Su primer álbum, Hybrid Theory, es uno de los más vendidos del siglo XXI.",
+      scr: "Ils mêlent rock puissant, rap et cris rageurs.|They blend powerful rock, rap and furious screams.|Mezclan rock potente, rap y gritos rabiosos.",
+      unl: "Le groupe a perdu son chanteur Chester Bennington en 2017.|The band lost its singer Chester Bennington in 2017.|El grupo perdió a su cantante Chester Bennington en 2017.",
+      bra: "Ils ont fait leur retour en 2024 avec l'album From Zero et une nouvelle chanteuse.|They returned in 2024 with the album From Zero and a new singer.|Volvieron en 2024 con el álbum From Zero y una nueva cantante.",
+    },
+  },
+  "Iron Maiden": {
+    x: "5 8 7 7 6 4 9",
+    d: "Groupe britannique de heavy metal et sa mascotte Eddie|British heavy metal band and its mascot Eddie|Grupo británico de heavy metal y su mascota Eddie",
+    f: {
+      scr: "Leur mascotte zombie, Eddie, apparaît sur toutes leurs pochettes.|Their zombie mascot Eddie appears on all their album covers.|Su mascota zombi, Eddie, aparece en todas sus portadas.",
+      int: "Leur chanteur Bruce Dickinson pilote lui-même l'avion de la tournée, Ed Force One.|Their singer Bruce Dickinson flies the tour plane, Ed Force One, himself.|Su cantante Bruce Dickinson pilota él mismo el avión de la gira, Ed Force One.",
+      ric: "Leur album The Number of the Beast, en 1982, est un classique du metal.|Their 1982 album The Number of the Beast is a metal classic.|Su álbum The Number of the Beast, de 1982, es un clásico del metal.",
+      org: "Ils tournent sans relâche dans le monde entier depuis la fin des années 1970.|They have toured the world relentlessly since the late 1970s.|Llevan girando sin descanso por todo el mundo desde finales de los 70.",
+    },
+  },
+  "Ozzy Osbourne": {
+    x: "4 7 5 7 8 5 3",
+    d: "Chanteur de Black Sabbath surnommé le prince des ténèbres|Black Sabbath singer nicknamed the Prince of Darkness|Cantante de Black Sabbath apodado el príncipe de las tinieblas",
+    f: {
+      scr: "Il est surnommé le prince des ténèbres, figure du heavy metal.|He is nicknamed the Prince of Darkness, an icon of heavy metal.|Lo apodan el príncipe de las tinieblas, icono del heavy metal.",
+      clu: "En 1982, il a mordu sur scène une chauve-souris qu'il croyait en caoutchouc.|In 1982 he bit a bat on stage that he thought was made of rubber.|En 1982 mordió en el escenario un murciélago que creía de goma.",
+      hum: "La téléréalité The Osbournes a montré sa vie de famille déjantée en 2002.|The reality show The Osbournes showed his wacky family life in 2002.|El reality The Osbournes mostró su alocada vida familiar en 2002.",
+      ric: "Il a fondé Black Sabbath, dont l'album Paranoid, en 1970, a fait naître le metal.|He co-founded Black Sabbath, whose 1970 album Paranoid helped birth metal.|Cofundó Black Sabbath, cuyo álbum Paranoid, de 1970, dio origen al metal.",
+    },
+  },
+  "Muse": {
+    x: "6 7 7 7 5 6 8",
+    d: "Groupe de rock britannique aux concerts spectaculaires|British rock band with spectacular concerts|Grupo de rock británico de conciertos espectaculares",
+    f: {
+      ric: "Ils ont remporté deux Grammy Awards du meilleur album rock.|They have won two Grammy Awards for best rock album.|Han ganado dos premios Grammy al mejor álbum de rock.",
+      int: "Le chanteur Matt Bellamy est réputé pour sa virtuosité à la guitare et au piano.|Singer Matt Bellamy is known for his virtuosity on guitar and piano.|El cantante Matt Bellamy es conocido por su virtuosismo en guitarra y piano.",
+      lea: "Ils ont été le premier groupe à remplir le nouveau stade de Wembley, en 2007.|They were the first band to sell out the new Wembley Stadium, in 2007.|Fueron el primer grupo en llenar el nuevo estadio de Wembley, en 2007.",
+      soc: "Leur tube Supermassive Black Hole, en 2006, est devenu un classique.|Their 2006 hit Supermassive Black Hole became a classic.|Su éxito Supermassive Black Hole, de 2006, se convirtió en un clásico.",
+    },
+  },
+  "Oasis": {
+    x: "6 8 5 7 8 6 4",
+    d: "Groupe de britpop des frères Gallagher, auteur de Wonderwall|Britpop band of the Gallagher brothers, behind Wonderwall|Grupo de britpop de los hermanos Gallagher, autor de Wonderwall",
+    f: {
+      tem: "Les disputes entre les frères Liam et Noel Gallagher sont légendaires.|The rows between brothers Liam and Noel Gallagher are legendary.|Las peleas entre los hermanos Liam y Noel Gallagher son legendarias.",
+      ric: "Leur tube Wonderwall, en 1995, est l'un des hymnes de la britpop.|Their 1995 hit Wonderwall is one of britpop's anthems.|Su éxito Wonderwall, de 1995, es uno de los himnos del britpop.",
+      lea: "Leurs concerts de Knebworth en 1996 ont réuni 250 000 personnes en deux soirs.|Their 1996 Knebworth gigs drew 250,000 people over two nights.|Sus conciertos de Knebworth en 1996 reunieron a 250.000 personas en dos noches.",
+      soc: "Leur tournée de reformation en 2025 a été l'événement musical de l'année.|Their 2025 reunion tour was the music event of the year.|Su gira de reunión en 2025 fue el acontecimiento musical del año.",
+    },
+  },
+  "John Lennon": {
+    x: "7 9 8 8 6 8 5",
+    d: "Cofondateur des Beatles, auteur de Imagine|Co-founder of the Beatles, author of Imagine|Cofundador de los Beatles, autor de Imagine",
+    f: {
+      kin: "Sa chanson Imagine, en 1971, est devenue un hymne mondial à la paix.|His 1971 song Imagine became a global anthem for peace.|Su canción Imagine, de 1971, se convirtió en un himno mundial a la paz.",
+      lea: "Il a fondé le groupe qui allait devenir les Beatles.|He founded the group that would become the Beatles.|Fundó el grupo que se convertiría en los Beatles.",
+      sty: "Ses lunettes rondes sont devenues une icône de la pop culture.|His round glasses became a pop culture icon.|Sus gafas redondas se convirtieron en un icono de la cultura pop.",
+      unl: "Il a été assassiné devant chez lui à New York en 1980.|He was shot dead outside his home in New York in 1980.|Fue asesinado frente a su casa en Nueva York en 1980.",
+    },
+  },
+  "Paul McCartney": {
+    x: "8 8 8 8 7 8 8",
+    d: "Ex-Beatles, l'un des compositeurs les plus prolifiques de l'histoire|Ex-Beatle, one of history's most prolific songwriters|Ex Beatle, uno de los compositores más prolíficos de la historia",
+    f: {
+      ric: "Il est devenu le premier musicien britannique milliardaire.|He became Britain's first billionaire musician.|Se convirtió en el primer músico británico milmillonario.",
+      int: "Sa chanson Yesterday est l'une des plus reprises de l'histoire.|His song Yesterday is one of the most covered songs in history.|Su canción Yesterday es una de las más versionadas de la historia.",
+      org: "Il continue de faire des tournées mondiales à plus de 80 ans.|He is still doing world tours in his eighties.|Sigue haciendo giras mundiales con más de 80 años.",
+      kin: "Il milite depuis longtemps pour le végétarisme et la cause animale.|He has long campaigned for vegetarianism and animal welfare.|Lleva mucho tiempo defendiendo el vegetarianismo y los animales.",
+    },
+  },
+  "Sting": {
+    x: "8 7 8 7 5 8 9",
+    d: "Chanteur et bassiste britannique, ex-leader de The Police|British singer and bassist, former frontman of The Police|Cantante y bajista británico, ex líder de The Police",
+    f: {
+      int: "Avant la gloire, il a été instituteur en Angleterre.|Before fame, he worked as a primary school teacher in England.|Antes de la fama, fue maestro de escuela en Inglaterra.",
+      ric: "Le tube Every Breath You Take de The Police, en 1983, est un classique.|The Police's 1983 hit Every Breath You Take is a classic.|El éxito Every Breath You Take de The Police, de 1983, es un clásico.",
+      kin: "Il a cofondé la Rainforest Foundation pour protéger la forêt amazonienne.|He co-founded the Rainforest Foundation to protect the Amazon.|Cofundó la Rainforest Foundation para proteger la Amazonia.",
+      org: "Il est réputé pour sa discipline, entre yoga et hygiène de vie stricte.|He is known for his discipline, with yoga and a strict lifestyle.|Es conocido por su disciplina, con yoga y un estilo de vida estricto.",
+    },
+  },
 };

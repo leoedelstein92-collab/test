@@ -298,4 +298,280 @@ module.exports = {
       rom: "Il est Nino, l'amoureux timide d'Amélie Poulain.|He is Nino, Amélie's shy love interest.|Es Nino, el tímido enamorado de Amélie.",
     },
   },
+  "Lambert Wilson": {
+    x: "8 8 8 6 6 7 7",
+    d: "Acteur élégant et polyglotte, du Mérovingien de Matrix à Cousteau|Elegant multilingual actor, from Matrix's Merovingian to Cousteau|Actor elegante y políglota, del Merovingio de Matrix a Cousteau",
+    f: {
+      cun: "Il incarne le Mérovingien, trafiquant d'informations, dans Matrix Reloaded.|He plays the Merovingian, the information trafficker, in The Matrix Reloaded.|Interpreta al Merovingio, traficante de información, en Matrix Reloaded.",
+      int: "Il joue un moine de Tibhirine dans Des hommes et des dieux, Grand Prix à Cannes.|He plays a Tibhirine monk in Of Gods and Men, Grand Prix winner at Cannes.|Interpreta a un monje de Tibhirine en De dioses y hombres, Gran Premio en Cannes.",
+      tal: "Il a été maître de cérémonie du Festival de Cannes.|He served as master of ceremonies at the Cannes Film Festival.|Fue maestro de ceremonias del Festival de Cannes.",
+      bra: "Il incarne le commandant Cousteau dans L'Odyssée.|He plays Jacques Cousteau in The Odyssey.|Interpreta al comandante Cousteau en La odisea.",
+    },
+  },
+  "Romain Duris": {
+    x: "7 7 6 5 7 7 5",
+    d: "Acteur fétiche de Cédric Klapisch, de L'Auberge espagnole à Eiffel|Cédric Klapisch's favourite actor, from L'Auberge espagnole to Eiffel|Actor fetiche de Cédric Klapisch, de Una casa de locos a Eiffel",
+    f: {
+      soc: "Il joue Xavier, l'étudiant Erasmus de L'Auberge espagnole.|He plays Xavier, the Erasmus student in L'Auberge espagnole.|Interpreta a Xavier, el estudiante Erasmus de Una casa de locos.",
+      rom: "Il est un briseur de couples professionnel dans L'Arnacœur.|He plays a professional couple-breaker in Heartbreaker.|Es un rompeparejas profesional en Los seductores.",
+      tal: "Il joue un pianiste tiraillé dans De battre mon cœur s'est arrêté.|He plays a torn pianist in The Beat That My Heart Skipped.|Interpreta a un pianista atormentado en De latir mi corazón se ha parado.",
+      lea: "Il incarne Gustave Eiffel dans le film Eiffel en 2021.|He plays Gustave Eiffel in the 2021 film Eiffel.|Interpreta a Gustave Eiffel en la película Eiffel de 2021.",
+    },
+  },
+  "Clovis Cornillac": {
+    x: "6 5 7 6 6 5 6",
+    d: "Acteur et réalisateur, Astérix aux Jeux olympiques|Actor and director, Asterix at the Olympic Games|Actor y director, Astérix en los Juegos Olímpicos",
+    f: {
+      str: "Il incarne Astérix dans Astérix aux Jeux olympiques en 2008.|He plays Asterix in Asterix at the Olympic Games (2008).|Interpreta a Astérix en Astérix en los Juegos Olímpicos (2008).",
+      tal: "Il remporte le César du meilleur second rôle pour Un long dimanche de fiançailles.|He won the César for Best Supporting Actor for A Very Long Engagement.|Ganó el César al mejor actor de reparto por Largo domingo de noviazgo.",
+      lea: "Il passe à la réalisation avec Un peu, beaucoup, aveuglément.|He turned director with Blind Date.|Pasó a la dirección con Un peu, beaucoup, aveuglément.",
+    },
+  },
+  "Alexandra Lamy": {
+    x: "8 7 7 5 8 7 5",
+    d: "Actrice révélée par Un gars, une fille, reine de la comédie populaire|Actress made famous by Un gars, une fille, queen of popular comedy|Actriz revelada por Un gars, une fille, reina de la comedia popular",
+    f: {
+      hum: "Elle forme avec Jean Dujardin le couple culte de la série Un gars, une fille.|With Jean Dujardin she formed the cult couple of the series Un gars, une fille.|Con Jean Dujardin formó la pareja de culto de la serie Un gars, une fille.",
+      kin: "Elle joue une aide-soignante dans Tout le monde debout de Franck Dubosc.|She plays a care worker in Franck Dubosc's Rolling to You.|Interpreta a una cuidadora en Todos en pie de Franck Dubosc.",
+      cut: "Elle tient le rôle de la mère dans Ricky de François Ozon.|She plays the mother in François Ozon's Ricky.|Interpreta a la madre en Ricky de François Ozon.",
+    },
+  },
+  "Isabelle Nanty": {
+    x: "4 5 8 5 7 4 5",
+    d: "Actrice et metteuse en scène, Cathy des Tuche|Actress and stage director, Cathy in Les Tuche|Actriz y directora de escena, Cathy de Les Tuche",
+    f: {
+      hum: "Elle joue Cathy, la mère de famille des Tuche.|She plays Cathy, the mother of the Tuche family.|Interpreta a Cathy, la madre de la familia Tuche.",
+      tal: "Elle incarne la concierge Georgette dans Le Fabuleux Destin d'Amélie Poulain.|She plays Georgette in Amélie.|Interpreta a Georgette en Amélie.",
+      lea: "Elle a mis en scène de nombreux spectacles, notamment pour Muriel Robin.|She has directed many stage shows, notably for Muriel Robin.|Ha dirigido numerosos espectáculos, sobre todo para Muriel Robin.",
+    },
+  },
+  "Jean-Paul Rouve": {
+    x: "5 5 7 5 7 4 5",
+    d: "Comédien des Robins des Bois, Jeff Tuche au cinéma|Les Robins des Bois comedian, Jeff Tuche on screen|Cómico de Les Robins des Bois, Jeff Tuche en el cine",
+    f: {
+      hum: "Il incarne Jeff Tuche, le père de la famille la plus fauchée de France, dans Les Tuche.|He plays Jeff Tuche, father of France's most broke family, in Les Tuche.|Interpreta a Jeff Tuche, padre de la familia más pobre de Francia, en Les Tuche.",
+      tal: "Il remporte le César du meilleur espoir masculin pour Podium.|He won the César for Most Promising Actor for Podium.|Ganó el César al actor revelación por Podium.",
+      soc: "Il a fait ses débuts avec la troupe des Robins des Bois.|He started out with the comedy troupe Les Robins des Bois.|Debutó con la compañía cómica Les Robins des Bois.",
+      kin: "Il joue le père d'Édith Piaf dans La Môme.|He plays Édith Piaf's father in La Vie en Rose.|Interpreta al padre de Édith Piaf en La vida en rosa.",
+    },
+  },
+  "Guillaume Gallienne": {
+    x: "5 8 8 6 7 5 7",
+    d: "Sociétaire de la Comédie-Française, auteur des Garçons et Guillaume|Comédie-Française member, author of Me, Myself and Mum|Miembro de la Comédie-Française, autor de Guillaume y los chicos",
+    f: {
+      tal: "Les Garçons et Guillaume, à table ! remporte cinq César dont meilleur film et meilleur acteur.|Me, Myself and Mum won five César awards, including Best Film and Best Actor.|Guillaume y los chicos, ¡a la mesa! ganó cinco César, entre ellos mejor película y mejor actor.",
+      int: "Il est sociétaire de la Comédie-Française.|He is a sociétaire of the Comédie-Française.|Es miembro de pleno derecho de la Comédie-Française.",
+      hum: "Il joue à la fois lui-même et sa propre mère dans son film.|He plays both himself and his own mother in his film.|Interpreta a la vez a sí mismo y a su propia madre en su película.",
+      kin: "Il lit les grands classiques à la radio dans Ça peut pas faire de mal sur France Inter.|He reads great classics on the radio in Ça peut pas faire de mal on France Inter.|Lee grandes clásicos en la radio en Ça peut pas faire de mal, en France Inter.",
+    },
+  },
+  "Audrey Fleurot": {
+    x: "9 8 7 6 6 8 5",
+    d: "Actrice rousse star de la série HPI|Red-haired actress, star of the series HPI|Actriz pelirroja, estrella de la serie HPI",
+    f: {
+      int: "Elle joue Morgane Alvaro, femme de ménage au QI de 160, dans la série HPI.|She plays Morgane Alvaro, a cleaner with an IQ of 160, in the series HPI.|Interpreta a Morgane Alvaro, limpiadora con un CI de 160, en la serie HPI.",
+      cun: "Elle incarne l'avocate Joséphine Karlsson dans la série Engrenages.|She plays lawyer Joséphine Karlsson in the series Spiral.|Interpreta a la abogada Joséphine Karlsson en la serie Engrenages.",
+      tal: "Elle est la Dame du Lac dans Kaamelott.|She plays the Lady of the Lake in Kaamelott.|Es la Dama del Lago en Kaamelott.",
+      sty: "Ses tenues colorées et extravagantes dans HPI sont devenues sa signature.|Her colourful, flamboyant outfits in HPI became her signature.|Sus atuendos coloridos y extravagantes en HPI se volvieron su sello.",
+    },
+  },
+  "Laure Calamy": {
+    x: "6 6 8 5 8 6 5",
+    d: "Actrice pétillante de Dix pour cent et d'Antoinette dans les Cévennes|Bubbly actress from Call My Agent! and My Donkey, My Lover & I|Actriz chispeante de Diez por ciento y Antoinette en las Cevenas",
+    f: {
+      tal: "Elle remporte le César de la meilleure actrice pour Antoinette dans les Cévennes.|She won the César for Best Actress for My Donkey, My Lover & I.|Ganó el César a la mejor actriz por Antoinette en las Cevenas.",
+      hum: "Elle joue Noémie, l'assistante dévouée et amoureuse de la série Dix pour cent.|She plays Noémie, the devoted assistant in love, in Call My Agent!.|Interpreta a Noémie, la asistente entregada y enamorada de Diez por ciento.",
+      bra: "Dans Antoinette dans les Cévennes, elle fait une randonnée avec un âne nommé Patrick.|In My Donkey, My Lover & I, she hikes with a donkey named Patrick.|En Antoinette en las Cevenas, hace senderismo con un burro llamado Patrick.",
+    },
+  },
+  "François Civil": {
+    x: "8 6 7 5 7 8 5",
+    d: "Acteur de la nouvelle génération, d'Artagnan des Trois Mousquetaires|Actor of the new generation, d'Artagnan in The Three Musketeers|Actor de la nueva generación, D'Artagnan de Los tres mosqueteros",
+    f: {
+      bra: "Il incarne d'Artagnan dans Les Trois Mousquetaires en 2023.|He plays d'Artagnan in The Three Musketeers (2023).|Interpreta a D'Artagnan en Los tres mosqueteros (2023).",
+      int: "Il joue un sous-marinier à l'ouïe exceptionnelle dans Le Chant du loup.|He plays a submariner with exceptional hearing in The Wolf's Call.|Interpreta a un submarinista de oído excepcional en El canto del lobo.",
+      str: "Il fait partie de la brigade de BAC Nord.|He is part of the police squad in BAC Nord.|Forma parte de la brigada policial de BAC Nord.",
+    },
+  },
+  "Cécile de France": {
+    x: "7 6 8 5 7 6 6",
+    d: "Actrice belge révélée par L'Auberge espagnole|Belgian actress made famous by L'Auberge espagnole|Actriz belga revelada por Una casa de locos",
+    f: {
+      tal: "Elle reçoit le César du meilleur espoir féminin pour L'Auberge espagnole.|She won the César for Most Promising Actress for L'Auberge espagnole.|Ganó el César a la actriz revelación por Una casa de locos.",
+      bra: "Elle survit au tsunami dans Au-delà de Clint Eastwood.|She survives the tsunami in Clint Eastwood's Hereafter.|Sobrevive al tsunami en Más allá de la vida de Clint Eastwood.",
+      soc: "Elle remporte un second César pour Les Poupées russes.|She won a second César for Russian Dolls.|Ganó un segundo César por Las muñecas rusas.",
+    },
+  },
+  "Xavier Dolan": {
+    x: "7 8 7 8 5 6 7",
+    d: "Cinéaste et acteur québécois prodige, primé à Cannes|Prodigy Québec filmmaker and actor, Cannes prize winner|Cineasta y actor quebequés prodigio, premiado en Cannes",
+    f: {
+      lea: "Il réalise son premier film, J'ai tué ma mère, à 19 ans.|He directed his first film, I Killed My Mother, at 19.|Dirigió su primera película, Yo maté a mi madre, a los 19 años.",
+      tal: "Juste la fin du monde remporte le Grand Prix du Festival de Cannes en 2016.|It's Only the End of the World won the Grand Prix at Cannes in 2016.|Solo el fin del mundo ganó el Gran Premio del Festival de Cannes en 2016.",
+      int: "Mommy reçoit le prix du jury à Cannes en 2014.|Mommy won the Jury Prize at Cannes in 2014.|Mommy ganó el Premio del Jurado en Cannes en 2014.",
+      cut: "Il a doublé Ron Weasley dans la version québécoise de Harry Potter.|He voiced Ron Weasley in the Québec French dub of Harry Potter.|Dobló a Ron Weasley en la versión quebequesa de Harry Potter.",
+    },
+  },
+  "Roger Carel": {
+    x: "4 5 8 5 7 4 7",
+    d: "Grand comédien de doublage, voix d'Astérix et de C-3PO|Great dubbing actor, French voice of Asterix and C-3PO|Gran actor de doblaje, voz francesa de Astérix y C-3PO",
+    f: {
+      tal: "Il a prêté sa voix à Astérix dans les films d'animation pendant près de 50 ans.|He voiced Asterix in the animated films for nearly 50 years.|Puso voz a Astérix en las películas de animación durante casi 50 años.",
+      int: "Il est la voix française du robot C-3PO dans Star Wars.|He is the French voice of the robot C-3PO in Star Wars.|Es la voz francesa del robot C-3PO en Star Wars.",
+      cut: "Il a doublé Kermit la grenouille et l'extraterrestre Alf.|He dubbed Kermit the Frog and the alien ALF.|Dobló a la rana Gustavo y al extraterrestre Alf.",
+    },
+  },
+  "Richard Darbois": {
+    x: "5 5 7 5 5 6 7",
+    d: "Voix française d'Harrison Ford, de Buzz l'Éclair et du Génie d'Aladdin|French voice of Harrison Ford, Buzz Lightyear and Aladdin's Genie|Voz francesa de Harrison Ford, Buzz Lightyear y el Genio de Aladdín",
+    f: {
+      bra: "Il est la voix française d'Harrison Ford, d'Indiana Jones à Han Solo.|He is Harrison Ford's French voice, from Indiana Jones to Han Solo.|Es la voz francesa de Harrison Ford, de Indiana Jones a Han Solo.",
+      hum: "Il double le Génie dans la version française d'Aladdin de Disney.|He voices the Genie in the French version of Disney's Aladdin.|Dobla al Genio en la versión francesa de Aladdín de Disney.",
+      tal: "Il est la voix française de Buzz l'Éclair dans Toy Story.|He is the French voice of Buzz Lightyear in Toy Story.|Es la voz francesa de Buzz Lightyear en Toy Story.",
+    },
+  },
+  "Patrick Poivey": {
+    x: "5 5 7 5 5 6 7",
+    d: "Voix française de Bruce Willis pendant plus de trente ans|Bruce Willis's French voice for over thirty years|Voz francesa de Bruce Willis durante más de treinta años",
+    f: {
+      bra: "Il a doublé Bruce Willis dans Die Hard et la plupart de ses films.|He dubbed Bruce Willis in Die Hard and most of his films.|Dobló a Bruce Willis en La jungla de cristal y en la mayoría de sus películas.",
+      tal: "Sa voix est l'une des plus connues du doublage français.|His voice is one of the best known in French dubbing.|Su voz es una de las más conocidas del doblaje francés.",
+      spd: "Il a aussi doublé Don Johnson dans Deux flics à Miami.|He also dubbed Don Johnson in Miami Vice.|También dobló a Don Johnson en Corrupción en Miami.",
+    },
+  },
+  "Brigitte Lecordier": {
+    x: "4 5 8 4 7 4 7",
+    d: "Comédienne de doublage, voix de Son Goku enfant et de Oui-Oui|Dubbing actress, voice of young Goku and Noddy|Actriz de doblaje, voz de Goku niño y de Noddy",
+    f: {
+      bra: "Elle est la voix française de Son Goku enfant et de Son Gohan dans Dragon Ball.|She is the French voice of young Goku and Gohan in Dragon Ball.|Es la voz francesa de Goku niño y de Gohan en Dragon Ball.",
+      cut: "Elle double le petit personnage Oui-Oui.|She voices the little character Noddy (Oui-Oui).|Dobla al pequeño personaje Noddy (Oui-Oui).",
+      tal: "Elle a prêté sa voix à des centaines de personnages d'enfants.|She has voiced hundreds of child characters.|Ha puesto voz a cientos de personajes infantiles.",
+    },
+  },
+  "Raymond Devos": {
+    x: "4 5 9 4 6 4 7",
+    d: "Humoriste virtuose des jeux de mots et de l'absurde|Comedian and virtuoso of wordplay and the absurd|Humorista virtuoso de los juegos de palabras y el absurdo",
+    f: {
+      tal: "Il est le maître incontesté des jeux de mots, comme dans Parler pour ne rien dire.|He is the undisputed master of wordplay, as in Parler pour ne rien dire.|Es el maestro indiscutible de los juegos de palabras, como en Parler pour ne rien dire.",
+      int: "Ses sketches absurdes sont étudiés à l'école pour leur virtuosité verbale.|His absurd sketches are studied in schools for their verbal virtuosity.|Sus sketches absurdos se estudian en la escuela por su virtuosismo verbal.",
+      hum: "Il jouait aussi de nombreux instruments sur scène, du piano à la harpe.|He also played many instruments on stage, from piano to harp.|También tocaba muchos instrumentos en escena, del piano al arpa.",
+    },
+  },
+  "Pierre Desproges": {
+    x: "4 6 8 4 4 4 7",
+    d: "Humoriste à l'humour noir et grinçant, maître de l'ironie|Comedian of dark, biting humour, master of irony|Humorista de humor negro y mordaz, maestro de la ironía",
+    f: {
+      hum: "Il est célèbre pour la phrase « On peut rire de tout, mais pas avec n'importe qui ».|He is famous for saying \"You can laugh at anything, but not with just anyone\".|Es célebre por la frase «Se puede reír de todo, pero no con cualquiera».",
+      evi: "Il joue le procureur féroce du Tribunal des flagrants délires sur France Inter.|He played the ferocious prosecutor of Le Tribunal des flagrants délires on France Inter.|Interpretaba al feroz fiscal de Le Tribunal des flagrants délires en France Inter.",
+      int: "Ses chroniques de La Minute nécessaire de monsieur Cyclopède sont cultes.|His La Minute nécessaire de monsieur Cyclopède segments are cult classics.|Sus segmentos de La Minute nécessaire de monsieur Cyclopède son de culto.",
+    },
+  },
+  "Guy Bedos": {
+    x: "5 5 7 6 7 5 5",
+    d: "Humoriste engagé, roi de la revue de presse sur scène|Politically engaged comedian, king of the on-stage press review|Humorista comprometido, rey de la revista de prensa en escena",
+    f: {
+      tal: "Sa revue de presse satirique était le moment fort de ses spectacles.|His satirical press review was the highlight of his shows.|Su revista de prensa satírica era el momento estelar de sus espectáculos.",
+      hum: "Son sketch Vacances à Marrakech avec Sophie Daumier est un classique.|His sketch Vacances à Marrakech with Sophie Daumier is a classic.|Su sketch Vacances à Marrakech con Sophie Daumier es un clásico.",
+      soc: "Il joue l'un des amis d'Un éléphant ça trompe énormément.|He plays one of the friends in Pardon Mon Affaire.|Interpreta a uno de los amigos de Un elefante se equivoca muchísimo.",
+    },
+  },
+  "Thierry Le Luron": {
+    x: "6 7 6 6 9 5 6",
+    d: "Imitateur vedette des années 1970-80, roi de l'imitation politique|Star impressionist of the 1970s-80s, king of political impressions|Imitador estrella de los años 70-80, rey de la imitación política",
+    f: {
+      tal: "Il imitait à la perfection les hommes politiques et les chanteurs de son époque.|He perfectly impersonated the politicians and singers of his time.|Imitaba a la perfección a los políticos y cantantes de su época.",
+      soc: "Il a organisé en 1985 un faux mariage très médiatisé avec Coluche.|In 1985 he staged a highly publicised mock wedding with Coluche.|En 1985 organizó una falsa boda muy mediática con Coluche.",
+      hum: "Il a été l'un des imitateurs les plus populaires de la télévision des années 1970-80.|He was one of the most popular TV impressionists of the 1970s-80s.|Fue uno de los imitadores más populares de la televisión de los años 70-80.",
+    },
+  },
+  "Élie Kakou": {
+    x: "5 7 6 5 8 4 5",
+    d: "Humoriste aux personnages hauts en couleur, dont Madame Sarfati|Comedian of colourful characters, including Madame Sarfati|Humorista de personajes pintorescos, entre ellos Madame Sarfati",
+    f: {
+      hum: "Son personnage de Madame Sarfati, mère juive tunisienne, est culte.|His character Madame Sarfati, a Tunisian Jewish mother, is a cult classic.|Su personaje de Madame Sarfati, madre judía tunecina, es de culto.",
+      tal: "Il enchaînait sur scène de nombreux personnages, comme le Para ou l'attachée de presse.|On stage he switched between many characters, like the paratrooper or the press attaché.|En escena encadenaba muchos personajes, como el paracaidista o la agregada de prensa.",
+      kin: "Il était adoré du public pour sa tendresse et sa folie douce.|The public adored him for his tenderness and gentle madness.|El público lo adoraba por su ternura y su dulce locura.",
+    },
+  },
+  "Smaïn": {
+    x: "5 6 7 5 7 5 5",
+    d: "Humoriste révélé par Le Petit Théâtre de Bouvard|Comedian discovered on Le Petit Théâtre de Bouvard|Humorista revelado en Le Petit Théâtre de Bouvard",
+    f: {
+      tal: "Il a été révélé par l'émission Le Petit Théâtre de Bouvard.|He was discovered on the show Le Petit Théâtre de Bouvard.|Fue revelado en el programa Le Petit Théâtre de Bouvard.",
+      hum: "Il tient le rôle principal de la comédie L'Œil au beur(re) noir.|He stars in the comedy L'Œil au beur(re) noir.|Protagoniza la comedia L'Œil au beur(re) noir.",
+      soc: "Il a été l'un des humoristes les plus populaires des années 1980-90.|He was one of the most popular comedians of the 1980s-90s.|Fue uno de los humoristas más populares de los años 80-90.",
+    },
+  },
+  "Pascal Légitimus": {
+    x: "6 6 7 5 7 5 6",
+    d: "Membre des Inconnus, acteur des Trois Frères|Member of Les Inconnus, actor in Les Trois Frères|Miembro de Les Inconnus, actor de Les Trois Frères",
+    f: {
+      hum: "Il forme avec Didier Bourdon et Bernard Campan le trio des Inconnus.|With Didier Bourdon and Bernard Campan he forms the trio Les Inconnus.|Con Didier Bourdon y Bernard Campan forma el trío Les Inconnus.",
+      tal: "Le sketch des Chasseurs des Inconnus est un classique de l'humour français.|Les Inconnus' Hunters sketch is a classic of French comedy.|El sketch de los Cazadores de Les Inconnus es un clásico del humor francés.",
+      soc: "Les Trois Frères remporte le César du meilleur premier film.|Les Trois Frères won the César for Best First Film.|Les Trois Frères ganó el César a la mejor ópera prima.",
+    },
+  },
+  "Bernard Campan": {
+    x: "5 5 8 5 5 5 6",
+    d: "Membre des Inconnus devenu acteur dramatique|Member of Les Inconnus turned dramatic actor|Miembro de Les Inconnus convertido en actor dramático",
+    f: {
+      hum: "Il fait partie du trio des Inconnus avec Didier Bourdon et Pascal Légitimus.|He is part of the trio Les Inconnus with Didier Bourdon and Pascal Légitimus.|Forma parte del trío Les Inconnus con Didier Bourdon y Pascal Légitimus.",
+      tal: "Il joue dans Les Trois Frères, l'un des grands succès comiques des années 1990.|He stars in Les Trois Frères, one of the great comedy hits of the 1990s.|Actúa en Les Trois Frères, uno de los grandes éxitos cómicos de los 90.",
+      int: "Il s'est imposé dans des rôles dramatiques comme Se souvenir des belles choses.|He made his mark in dramatic roles like Se souvenir des belles choses.|Se impuso en papeles dramáticos como Se souvenir des belles choses.",
+    },
+  },
+  "Chantal Lauby": {
+    x: "6 6 7 5 7 5 6",
+    d: "Membre des Nuls, actrice de Qu'est-ce qu'on a fait au Bon Dieu ?|Member of Les Nuls, actress in Serial (Bad) Weddings|Miembro de Les Nuls, actriz de Dios mío, ¿pero qué te hemos hecho?",
+    f: {
+      hum: "Elle fait partie des Nuls avec Alain Chabat, Dominique Farrugia et Bruno Carette.|She was part of Les Nuls with Alain Chabat, Dominique Farrugia and Bruno Carette.|Formó parte de Les Nuls con Alain Chabat, Dominique Farrugia y Bruno Carette.",
+      kin: "Elle joue la mère des quatre filles Verneuil dans Qu'est-ce qu'on a fait au Bon Dieu ?.|She plays the mother of the four Verneuil daughters in Serial (Bad) Weddings.|Interpreta a la madre de las cuatro hijas Verneuil en Dios mío, ¿pero qué te hemos hecho?.",
+      tal: "Elle incarne l'attachée de presse Odile Deray dans La Cité de la peur.|She plays press agent Odile Deray in La Cité de la peur.|Interpreta a la agente de prensa Odile Deray en La Cité de la peur.",
+    },
+  },
+  "Dominique Farrugia": {
+    x: "5 5 7 7 6 4 6",
+    d: "Membre des Nuls, réalisateur et producteur|Member of Les Nuls, director and producer|Miembro de Les Nuls, director y productor",
+    f: {
+      hum: "Il a fait partie des Nuls, troupe culte de Canal+.|He was part of Les Nuls, Canal+'s cult comedy troupe.|Formó parte de Les Nuls, la compañía de culto de Canal+.",
+      lea: "Il a fondé la chaîne de télévision Comédie !.|He founded the TV channel Comédie !.|Fundó el canal de televisión Comédie !.",
+      tal: "Il réalise Delphine 1, Yvan 0 et Trafic d'influence.|He directed Delphine 1, Yvan 0 and Trafic d'influence.|Dirigió Delphine 1, Yvan 0 y Trafic d'influence.",
+    },
+  },
+  "Pierre-François Martin-Laval": {
+    x: "5 5 7 6 7 4 6",
+    d: "Comédien des Robins des Bois, réalisateur des Profs|Les Robins des Bois comedian, director of Les Profs|Cómico de Les Robins des Bois, director de Les Profs",
+    f: {
+      hum: "Il a fait partie de la troupe des Robins des Bois, surnommé Pef.|Known as Pef, he was part of the troupe Les Robins des Bois.|Conocido como Pef, formó parte de la compañía Les Robins des Bois.",
+      lea: "Il réalise la comédie à succès Les Profs en 2013.|He directed the hit comedy Les Profs in 2013.|Dirigió la exitosa comedia Les Profs en 2013.",
+      clu: "Il adapte au cinéma Gaston Lagaffe, le roi des gaffes, en 2018.|He brought the famously clumsy Gaston Lagaffe to the screen in 2018.|Llevó al cine a Gaston Lagaffe, el rey de las meteduras de pata, en 2018.",
+    },
+  },
+  "Marina Foïs": {
+    x: "6 7 8 5 6 5 6",
+    d: "Actrice venue des Robins des Bois, de la comédie au drame|Actress from Les Robins des Bois, from comedy to drama|Actriz salida de Les Robins des Bois, de la comedia al drama",
+    f: {
+      hum: "Elle a débuté dans la troupe comique des Robins des Bois.|She started out in the comedy troupe Les Robins des Bois.|Debutó en la compañía cómica Les Robins des Bois.",
+      bra: "Elle joue une policière de la brigade des mineurs dans Polisse.|She plays a child-protection police officer in Polisse.|Interpreta a una policía de la brigada de menores en Polisse.",
+      cun: "Elle se dispute la garde des enfants avec Laurent Lafitte dans Papa ou maman.|She battles Laurent Lafitte over custody in Papa ou maman.|Se disputa la custodia de los niños con Laurent Lafitte en Papa ou maman.",
+    },
+  },
+  "Jean-Marie Bigard": {
+    x: "4 4 5 4 8 3 4",
+    d: "Humoriste au style gaulois, premier à remplir le Stade de France|Comedian with bawdy humour, the first to fill the Stade de France|Humorista de humor picante, el primero en llenar el Stade de France",
+    f: {
+      bra: "En 2004, il est le premier humoriste à jouer seul au Stade de France.|In 2004 he became the first comedian to perform solo at the Stade de France.|En 2004 fue el primer humorista en actuar solo en el Stade de France.",
+      hum: "Son sketch de la chauve-souris est l'un des plus célèbres de l'humour français.|His bat sketch is one of the most famous in French comedy.|Su sketch del murciélago es uno de los más célebres del humor francés.",
+      tal: "Il a enchaîné les tournées record dans les années 1990.|He rose to fame in the 1990s with record-breaking stand-up tours.|Saltó a la fama en los 90 con giras de récord.",
+    },
+  },
+  "Patrick Timsit": {
+    x: "5 6 7 6 7 5 6",
+    d: "Humoriste et acteur de Pédale douce et du Cousin|Comedian and actor from Pédale douce and Le Cousin|Humorista y actor de Pédale douce y Le Cousin",
+    f: {
+      hum: "Il joue dans la comédie à succès Pédale douce.|He stars in the hit comedy Pédale douce.|Actúa en la exitosa comedia Pédale douce.",
+      cun: "Il joue un indic de police dans Le Cousin d'Alain Corneau.|He plays a police informer in Alain Corneau's Le Cousin.|Interpreta a un confidente policial en Le Cousin de Alain Corneau.",
+      tal: "Ses one-man-shows au ton grinçant ont rempli les salles dans les années 1990.|His edgy one-man shows packed venues in the 1990s.|Sus monólogos mordaces llenaron salas en los años 90.",
+    },
+  },
 };

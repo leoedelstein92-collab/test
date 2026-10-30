@@ -656,4 +656,412 @@ module.exports = {
       ric: "Il a remporté la Ligue Europa 2023 avec le FC Séville.|He won the 2023 Europa League with Sevilla.|Ganó la Europa League 2023 con el Sevilla.",
     },
   },
+  "Rodri": {
+    x: "6 5 9 8 5 5 9",
+    d: "Milieu défensif espagnol de Manchester City, Ballon d'or 2024|Spanish Manchester City holding midfielder, 2024 Ballon d'Or|Mediocentro español del Manchester City, Balón de Oro 2024",
+    f: {
+      tal: "Il a remporté le Ballon d'or 2024.|He won the 2024 Ballon d'Or.|Ganó el Balón de Oro 2024.",
+      cun: "Il a marqué le but vainqueur de la finale de la Ligue des champions 2023 contre l'Inter.|He scored the winning goal in the 2023 Champions League final against Inter.|Marcó el gol de la victoria en la final de la Champions 2023 ante el Inter.",
+      lea: "Il a été élu meilleur joueur de l'Euro 2024, remporté par l'Espagne.|He was named player of the tournament at Euro 2024, won by Spain.|Fue elegido mejor jugador de la Eurocopa 2024, ganada por España.",
+      unl: "Une grave blessure au genou l'a privé de la majeure partie de la saison 2024-2025.|A serious knee injury kept him out of most of the 2024-25 season.|Una grave lesión de rodilla lo apartó de casi toda la temporada 2024-25.",
+    },
+  },
+  "Bukayo Saka": {
+    x: "7 7 8 7 6 5 8",
+    d: "Ailier anglais formé à Arsenal, star des Gunners|English winger from Arsenal's academy, the Gunners' star|Extremo inglés formado en el Arsenal, estrella de los Gunners",
+    f: {
+      tal: "Formé à Arsenal, il est devenu l'un des meilleurs ailiers de Premier League.|An Arsenal academy graduate, he became one of the Premier League's best wingers.|Formado en el Arsenal, se convirtió en uno de los mejores extremos de la Premier.",
+      unl: "Il a manqué le dernier tir au but anglais en finale de l'Euro 2020.|He missed England's last penalty in the Euro 2020 final shootout.|Falló el último penalti de Inglaterra en la tanda de la final de la Euro 2020.",
+      cut: "Il est apprécié pour son sourire et son attitude humble.|He is liked for his smile and humble attitude.|Es apreciado por su sonrisa y su actitud humilde.",
+    },
+  },
+  "Virgil van Dijk": {
+    x: "8 7 8 9 6 6 9",
+    d: "Défenseur central néerlandais et capitaine de Liverpool|Dutch centre-back and Liverpool captain|Defensa central neerlandés y capitán del Liverpool",
+    f: {
+      tal: "Il a été élu joueur UEFA de l'année en 2019 et deuxième du Ballon d'or.|He was UEFA Player of the Year in 2019 and Ballon d'Or runner-up.|Fue jugador UEFA del año en 2019 y segundo en el Balón de Oro.",
+      ric: "Il a remporté la Ligue des champions 2019 avec Liverpool.|He won the 2019 Champions League with Liverpool.|Ganó la Champions League 2019 con el Liverpool.",
+      lea: "Il est capitaine de Liverpool et de l'équipe des Pays-Bas.|He captains both Liverpool and the Netherlands.|Es capitán del Liverpool y de los Países Bajos.",
+      scr: "Il est réputé pour sa taille, son calme et sa domination aérienne.|He is known for his height, composure and aerial dominance.|Es conocido por su altura, su calma y su dominio aéreo.",
+    },
+  },
+  "Florian Wirtz": {
+    x: "6 6 8 7 5 5 8",
+    d: "Meneur de jeu allemand, révélé au Bayer Leverkusen|German playmaker who made his name at Bayer Leverkusen|Mediapunta alemán, revelado en el Bayer Leverkusen",
+    f: {
+      tal: "Il a été champion d'Allemagne invaincu avec Leverkusen en 2024.|He won the German league unbeaten with Leverkusen in 2024.|Fue campeón de Alemania invicto con el Leverkusen en 2024.",
+      ric: "Liverpool l'a recruté en 2025 pour une somme record.|Liverpool signed him in 2025 for a record fee.|El Liverpool lo fichó en 2025 por una cifra récord.",
+      cun: "Il est réputé pour sa vision du jeu et ses dernières passes.|He is known for his vision and final passes.|Es conocido por su visión de juego y sus últimos pases.",
+    },
+  },
+  "Jamal Musiala": {
+    x: "7 6 8 6 6 5 7",
+    d: "Dribbleur allemand du Bayern Munich, formé en partie en Angleterre|German Bayern Munich dribbler, partly raised in England|Regateador alemán del Bayern de Múnich, criado en parte en Inglaterra",
+    f: {
+      spd: "Il est célèbre pour ses dribbles serrés dans les petits espaces.|He is famous for close dribbling in tight spaces.|Es famoso por su regate en espacios reducidos.",
+      soc: "Il a joué pour les sélections de jeunes anglaises avant de choisir l'Allemagne.|He played for England's youth teams before choosing Germany.|Jugó con las categorías inferiores de Inglaterra antes de elegir Alemania.",
+      tal: "Il a été co-meilleur buteur de l'Euro 2024.|He was joint top scorer at Euro 2024.|Fue máximo goleador conjunto de la Eurocopa 2024.",
+      unl: "Il s'est gravement blessé à la jambe lors de la Coupe du monde des clubs 2025.|He suffered a serious leg injury at the 2025 Club World Cup.|Sufrió una grave lesión en la pierna en el Mundial de Clubes 2025.",
+    },
+  },
+  "Toni Kroos": {
+    x: "6 6 9 7 5 5 10",
+    d: "Milieu allemand au jeu de passes métronomique, légende du Real Madrid|German midfielder with metronomic passing, Real Madrid legend|Centrocampista alemán de pase metronómico, leyenda del Real Madrid",
+    f: {
+      tal: "Il a remporté six Ligues des champions, une avec le Bayern et cinq avec le Real.|He won six Champions Leagues, one with Bayern and five with Real.|Ganó seis Champions League, una con el Bayern y cinco con el Real.",
+      int: "Il est réputé pour la précision quasi parfaite de ses passes.|He is known for his near-perfect passing accuracy.|Es conocido por la precisión casi perfecta de sus pases.",
+      lea: "Il a été champion du monde 2014 avec l'Allemagne.|He won the 2014 World Cup with Germany.|Fue campeón del mundo en 2014 con Alemania.",
+      org: "Il a pris sa retraite au sommet, après l'Euro 2024.|He retired at the top, after Euro 2024.|Se retiró en la cima, tras la Eurocopa 2024.",
+    },
+  },
+  "Thomas Müller": {
+    x: "6 5 8 8 9 5 8",
+    d: "Attaquant allemand malicieux, légende du Bayern Munich|Mischievous German forward, Bayern Munich legend|Pícaro delantero alemán, leyenda del Bayern de Múnich",
+    f: {
+      cun: "Il s'est lui-même surnommé « Raumdeuter », l'interprète des espaces.|He nicknamed himself 'Raumdeuter', the space interpreter.|Se apodó a sí mismo 'Raumdeuter', el intérprete de espacios.",
+      tal: "Il a été meilleur buteur de la Coupe du monde 2010 et champion du monde 2014.|He was top scorer at the 2010 World Cup and won the 2014 World Cup.|Fue máximo goleador del Mundial 2010 y campeón del mundo en 2014.",
+      hum: "Il est connu pour son humour et ses interviews pleines d'autodérision.|He is known for his humour and self-deprecating interviews.|Es conocido por su humor y sus entrevistas llenas de autoironía.",
+      lea: "Il détient le record de matchs joués avec le Bayern Munich.|He holds the record for appearances for Bayern Munich.|Tiene el récord de partidos con el Bayern de Múnich.",
+    },
+  },
+  "Thibaut Courtois": {
+    x: "7 6 7 7 5 5 8",
+    d: "Gardien belge géant du Real Madrid|Giant Belgian Real Madrid goalkeeper|Portero belga gigante del Real Madrid",
+    f: {
+      tal: "Il a été élu homme du match de la finale de la Ligue des champions 2022.|He was named man of the match in the 2022 Champions League final.|Fue elegido mejor jugador de la final de la Champions 2022.",
+      str: "Il mesure deux mètres, l'un des plus grands gardiens du monde.|At two metres tall, he is one of the tallest goalkeepers in the world.|Con dos metros, es uno de los porteros más altos del mundo.",
+      lea: "Il a été élu meilleur gardien de la Coupe du monde 2018.|He won the Golden Glove at the 2018 World Cup.|Ganó el Guante de Oro del Mundial 2018.",
+    },
+  },
+  "Son Heung-min": {
+    x: "8 7 8 8 7 6 8",
+    d: "Attaquant sud-coréen, légende de Tottenham et star de l'Asie|South Korean forward, Tottenham legend and Asian star|Delantero surcoreano, leyenda del Tottenham y estrella asiática",
+    f: {
+      tal: "Il a été co-meilleur buteur de Premier League en 2021-2022.|He was the joint Premier League top scorer in 2021-22.|Fue máximo goleador conjunto de la Premier en 2021-22.",
+      spd: "Il a reçu le prix Puskás 2020 pour un but en solitaire contre Burnley.|He won the 2020 Puskás Award for a solo goal against Burnley.|Ganó el premio Puskás 2020 por un gol en solitario ante el Burnley.",
+      lea: "Capitaine de Tottenham, il a soulevé la Ligue Europa 2025.|As Tottenham captain, he lifted the 2025 Europa League.|Como capitán del Tottenham, levantó la Europa League 2025.",
+      kin: "Il est réputé pour son sourire et son fair-play.|He is known for his smile and sportsmanship.|Es conocido por su sonrisa y su deportividad.",
+    },
+  },
+  "Lautaro Martínez": {
+    x: "7 6 7 8 6 5 8",
+    d: "Buteur argentin et capitaine de l'Inter Milan|Argentine striker and Inter Milan captain|Delantero argentino y capitán del Inter de Milán",
+    f: {
+      tal: "Il a marqué le but vainqueur de la finale de la Copa América 2024.|He scored the winning goal in the 2024 Copa América final.|Marcó el gol de la victoria en la final de la Copa América 2024.",
+      lea: "Il est le capitaine de l'Inter Milan, champion d'Italie en 2024.|He captains Inter Milan, Italian champions in 2024.|Es capitán del Inter de Milán, campeón de Italia en 2024.",
+      ric: "Il a été champion du monde 2022 avec l'Argentine.|He won the 2022 World Cup with Argentina.|Fue campeón del mundo en 2022 con Argentina.",
+    },
+  },
+  "Emiliano Martínez": {
+    x: "6 6 6 8 7 5 7",
+    d: "Gardien argentin champion du monde, roi des tirs au but|Argentine world champion goalkeeper, penalty-shootout king|Portero argentino campeón del mundo, rey de las tandas de penaltis",
+    f: {
+      bra: "Il a réalisé un arrêt décisif face à Kolo Muani à la dernière minute de la finale 2022.|He made a decisive save from Kolo Muani in the last minute of the 2022 final.|Hizo una parada decisiva ante Kolo Muani en el último minuto de la final de 2022.",
+      tal: "Il a reçu le Gant d'or de la Coupe du monde 2022.|He won the Golden Glove at the 2022 World Cup.|Ganó el Guante de Oro del Mundial 2022.",
+      cun: "Il est célèbre pour déstabiliser les tireurs adverses lors des séances de tirs au but.|He is famous for unsettling opposing takers during shootouts.|Es famoso por desconcentrar a los lanzadores rivales en las tandas de penaltis.",
+      hum: "Il est surnommé « Dibu ».|He is nicknamed 'Dibu'.|Lo apodan 'Dibu'.",
+    },
+  },
+  "Eden Hazard": {
+    x: "7 5 8 7 7 5 5",
+    d: "Dribbleur belge révélé à Lille, star de Chelsea|Belgian dribbler who rose at Lille, Chelsea star|Regateador belga revelado en el Lille, estrella del Chelsea",
+    f: {
+      tal: "Il a été champion de France avec Lille en 2011.|He won the French league with Lille in 2011.|Fue campeón de Francia con el Lille en 2011.",
+      spd: "Il était réputé pour ses dribbles et ses accélérations.|He was known for his dribbling and acceleration.|Era conocido por su regate y sus aceleraciones.",
+      lea: "Capitaine de la Belgique, il a terminé troisième du Mondial 2018.|As Belgium captain, he finished third at the 2018 World Cup.|Como capitán de Bélgica, terminó tercero en el Mundial 2018.",
+      unl: "Son passage au Real Madrid a été freiné par les blessures.|His spell at Real Madrid was hampered by injuries.|Su etapa en el Real Madrid se vio frenada por las lesiones.",
+    },
+  },
+  "Arjen Robben": {
+    x: "5 5 7 7 4 4 8",
+    d: "Ailier néerlandais gaucher, maître du crochet vers l'intérieur|Left-footed Dutch winger, master of cutting inside|Extremo zurdo neerlandés, maestro del recorte hacia dentro",
+    f: {
+      cun: "Son geste signature était de rentrer vers l'axe pour frapper du gauche, que tout le monde connaissait.|His signature move was cutting inside to shoot with his left, which everyone knew.|Su jugada característica era recortar hacia dentro para chutar con la zurda.",
+      tal: "Il a marqué le but vainqueur de la finale de la Ligue des champions 2013.|He scored the winning goal in the 2013 Champions League final.|Marcó el gol de la victoria en la final de la Champions 2013.",
+      unl: "Il a manqué une occasion en or en finale de la Coupe du monde 2010.|He missed a golden chance in the 2010 World Cup final.|Falló una ocasión de oro en la final del Mundial 2010.",
+      spd: "Il était l'un des ailiers les plus rapides de son époque.|He was one of the fastest wingers of his era.|Era uno de los extremos más rápidos de su época.",
+    },
+  },
+  "Dennis Bergkamp": {
+    x: "6 6 8 7 4 5 9",
+    d: "Attaquant néerlandais élégant, légende d'Arsenal|Elegant Dutch forward, Arsenal legend|Elegante delantero neerlandés, leyenda del Arsenal",
+    f: {
+      cun: "Son contrôle et son but contre l'Argentine au Mondial 1998 sont restés mythiques.|His control and goal against Argentina at the 1998 World Cup became legendary.|Su control y su gol ante Argentina en el Mundial 1998 se volvieron míticos.",
+      tal: "Il a fait partie des « Invincibles » d'Arsenal, invaincus en 2003-2004.|He was one of Arsenal's 'Invincibles', unbeaten in 2003-04.|Formó parte de los 'Invencibles' del Arsenal, invictos en 2003-04.",
+      unl: "Il refusait de prendre l'avion, d'où son surnom de « Hollandais non volant ».|He refused to fly, hence his nickname 'the Non-Flying Dutchman'.|Se negaba a viajar en avión, de ahí su apodo de 'el Holandés no volador'.",
+    },
+  },
+  "Ruud Gullit": {
+    x: "8 8 7 8 7 6 7",
+    d: "Star néerlandaise aux dreadlocks, Ballon d'or 1987|Dreadlocked Dutch star, 1987 Ballon d'Or winner|Estrella neerlandesa de rastas, Balón de Oro 1987",
+    f: {
+      tal: "Il a remporté le Ballon d'or 1987.|He won the 1987 Ballon d'Or.|Ganó el Balón de Oro 1987.",
+      lea: "Capitaine, il a mené les Pays-Bas au titre européen en 1988.|As captain, he led the Netherlands to the 1988 European title.|Como capitán, llevó a los Países Bajos al título europeo de 1988.",
+      sty: "Ses dreadlocks en ont fait l'une des silhouettes les plus reconnaissables du football.|His dreadlocks made him one of football's most recognisable figures.|Sus rastas lo convirtieron en una de las figuras más reconocibles del fútbol.",
+      ric: "Il a gagné deux Coupes des champions avec l'AC Milan.|He won two European Cups with AC Milan.|Ganó dos Copas de Europa con el AC Milan.",
+    },
+  },
+  "Rivaldo": {
+    x: "4 5 7 6 4 4 7",
+    d: "Gaucher brésilien, Ballon d'or 1999 et champion du monde 2002|Left-footed Brazilian, 1999 Ballon d'Or and 2002 world champion|Zurdo brasileño, Balón de Oro 1999 y campeón del mundo 2002",
+    f: {
+      tal: "Il a remporté le Ballon d'or 1999.|He won the 1999 Ballon d'Or.|Ganó el Balón de Oro 1999.",
+      bra: "Son retourné contre Valence en 2001 a qualifié le Barça pour la Ligue des champions.|His bicycle kick against Valencia in 2001 sent Barça into the Champions League.|Su chilena ante el Valencia en 2001 clasificó al Barça para la Champions.",
+      lea: "Il a été champion du monde 2002 avec le Brésil.|He won the 2002 World Cup with Brazil.|Fue campeón del mundo en 2002 con Brasil.",
+    },
+  },
+  "Romário": {
+    x: "6 6 5 7 8 5 4",
+    d: "Buteur brésilien champion du monde 1994, devenu sénateur|Brazilian striker, 1994 world champion, later a senator|Delantero brasileño campeón del mundo 1994, luego senador",
+    f: {
+      tal: "Il a été élu meilleur joueur de la Coupe du monde 1994, remportée par le Brésil.|He was named best player of the 1994 World Cup, won by Brazil.|Fue elegido mejor jugador del Mundial 1994, ganado por Brasil.",
+      cun: "Il était réputé pour ses finitions dans la surface malgré sa petite taille.|He was known for his finishing in the box despite his small size.|Era conocido por su definición en el área pese a su baja estatura.",
+      lea: "Il a été élu sénateur de Rio de Janeiro en 2014.|He was elected senator for Rio de Janeiro in 2014.|Fue elegido senador por Río de Janeiro en 2014.",
+      cut: "Il est surnommé « Baixinho », le petit.|He is nicknamed 'Baixinho', the little one.|Lo apodan 'Baixinho', el bajito.",
+    },
+  },
+  "Zico": {
+    x: "6 6 9 8 6 5 8",
+    d: "Meneur de jeu brésilien surnommé le « Pelé blanc »|Brazilian playmaker nicknamed the 'White Pelé'|Mediapunta brasileño apodado el 'Pelé blanco'",
+    f: {
+      tal: "Il a remporté la Copa Libertadores et la Coupe intercontinentale 1981 avec Flamengo.|He won the 1981 Copa Libertadores and Intercontinental Cup with Flamengo.|Ganó la Copa Libertadores y la Intercontinental de 1981 con el Flamengo.",
+      cun: "Il était réputé pour ses coups francs.|He was famous for his free kicks.|Era famoso por sus tiros libres.",
+      lea: "Il a été sélectionneur du Japon et a contribué à l'essor du football japonais.|He coached Japan and helped the rise of Japanese football.|Fue seleccionador de Japón y contribuyó al auge del fútbol japonés.",
+      unl: "Il n'a jamais gagné la Coupe du monde malgré la grande équipe du Brésil de 1982.|He never won the World Cup despite Brazil's great 1982 team.|Nunca ganó el Mundial pese al gran Brasil de 1982.",
+    },
+  },
+  "Sócrates Brasileiro": {
+    x: "7 6 8 8 7 5 5",
+    d: "Capitaine brésilien barbu, médecin et meneur de jeu élégant|Bearded Brazilian captain, doctor and elegant playmaker|Capitán brasileño barbudo, médico y elegante mediapunta",
+    f: {
+      int: "Il était diplômé en médecine, d'où son surnom de « Doutor ».|He was a qualified doctor, hence his nickname 'Doutor'.|Era licenciado en medicina, de ahí su apodo de 'Doutor'.",
+      lea: "Il a été capitaine de la célèbre équipe du Brésil au Mondial 1982.|He captained Brazil's famous team at the 1982 World Cup.|Fue capitán del célebre Brasil del Mundial 1982.",
+      hon: "Il a été une figure de la « Démocratie corinthiane », où les joueurs votaient les décisions du club.|He was a leading figure of 'Corinthians Democracy', where players voted on club decisions.|Fue figura de la 'Democracia Corinthiana', donde los jugadores votaban las decisiones del club.",
+      cun: "Il était célèbre pour ses talonnades.|He was famous for his backheels.|Era famoso por sus taconazos.",
+    },
+  },
+  "Garrincha": {
+    x: "5 4 7 3 9 6 3",
+    d: "Ailier brésilien génial, double champion du monde 1958 et 1962|Brilliant Brazilian winger, World Cup winner in 1958 and 1962|Genial extremo brasileño, campeón del mundo en 1958 y 1962",
+    f: {
+      tal: "Il a été le grand héros du Brésil champion du monde en 1962.|He was the great hero of Brazil's 1962 World Cup win.|Fue el gran héroe del Brasil campeón del mundo en 1962.",
+      hum: "Il était surnommé « Alegria do Povo », la joie du peuple.|He was nicknamed 'Alegria do Povo', the joy of the people.|Lo apodaban 'Alegria do Povo', la alegría del pueblo.",
+      spd: "Il est considéré comme l'un des plus grands dribbleurs de l'histoire.|He is considered one of the greatest dribblers in history.|Es considerado uno de los mejores regateadores de la historia.",
+      lea: "Il a remporté la Coupe du monde 1958 et 1962 avec le Brésil.|He won the 1958 and 1962 World Cups with Brazil.|Ganó los Mundiales de 1958 y 1962 con Brasil.",
+    },
+  },
+  "Hristo Stoichkov": {
+    x: "5 6 6 8 6 5 6",
+    d: "Attaquant bulgare au tempérament de feu, Ballon d'or 1994|Fiery Bulgarian striker, 1994 Ballon d'Or|Delantero búlgaro de carácter fuerte, Balón de Oro 1994",
+    f: {
+      tal: "Il a remporté le Ballon d'or 1994.|He won the 1994 Ballon d'Or.|Ganó el Balón de Oro 1994.",
+      bra: "Il a mené la Bulgarie en demi-finale de la Coupe du monde 1994.|He led Bulgaria to the 1994 World Cup semi-finals.|Llevó a Bulgaria a las semifinales del Mundial 1994.",
+      tem: "Il était connu pour son caractère explosif sur le terrain.|He was known for his explosive temper on the pitch.|Era conocido por su carácter explosivo en el campo.",
+      ric: "Il a gagné la Coupe des champions 1992 avec la « Dream Team » du Barça.|He won the 1992 European Cup with Barça's 'Dream Team'.|Ganó la Copa de Europa 1992 con el 'Dream Team' del Barça.",
+    },
+  },
+  "Andriy Shevchenko": {
+    x: "7 6 8 8 5 5 8",
+    d: "Buteur ukrainien, Ballon d'or 2004 et légende de l'AC Milan|Ukrainian striker, 2004 Ballon d'Or and AC Milan legend|Delantero ucraniano, Balón de Oro 2004 y leyenda del AC Milan",
+    f: {
+      tal: "Il a remporté le Ballon d'or 2004.|He won the 2004 Ballon d'Or.|Ganó el Balón de Oro 2004.",
+      bra: "Il a marqué le tir au but décisif de la finale de la Ligue des champions 2003.|He scored the decisive penalty in the 2003 Champions League final.|Marcó el penalti decisivo de la final de la Champions 2003.",
+      lea: "Il est devenu président de la fédération ukrainienne de football en 2024.|He became president of the Ukrainian football federation in 2024.|Se convirtió en presidente de la federación ucraniana de fútbol en 2024.",
+    },
+  },
+  "Pavel Nedvěd": {
+    x: "6 5 8 7 5 5 9",
+    d: "Milieu tchèque blond et infatigable, Ballon d'or 2003|Tireless blond Czech midfielder, 2003 Ballon d'Or|Incansable centrocampista checo rubio, Balón de Oro 2003",
+    f: {
+      tal: "Il a remporté le Ballon d'or 2003.|He won the 2003 Ballon d'Or.|Ganó el Balón de Oro 2003.",
+      spd: "Il était surnommé « Furia Ceca » pour son énergie inépuisable.|He was nicknamed 'Furia Ceca' for his endless energy.|Lo apodaban 'Furia Ceca' por su energía inagotable.",
+      hon: "Il est resté à la Juventus après sa relégation en Serie B en 2006.|He stayed at Juventus after their relegation to Serie B in 2006.|Se quedó en la Juventus tras su descenso a la Serie B en 2006.",
+      unl: "Suspendu, il a manqué la finale de la Ligue des champions 2003.|Suspended, he missed the 2003 Champions League final.|Sancionado, se perdió la final de la Champions de 2003.",
+    },
+  },
+  "Gabriel Batistuta": {
+    x: "8 6 8 7 5 6 7",
+    d: "Buteur argentin surnommé « Batigol », légende de la Fiorentina|Argentine striker nicknamed 'Batigol', Fiorentina legend|Delantero argentino apodado 'Batigol', leyenda de la Fiorentina",
+    f: {
+      str: "Il était célèbre pour la puissance de ses frappes.|He was famous for the power of his shots.|Era famoso por la potencia de sus disparos.",
+      hon: "Il est resté à la Fiorentina après sa descente en Serie B en 1993.|He stayed with Fiorentina after their relegation to Serie B in 1993.|Se quedó en la Fiorentina tras su descenso a la Serie B en 1993.",
+      tal: "Il a enfin été champion d'Italie avec l'AS Roma en 2001.|He finally won the Italian league with AS Roma in 2001.|Por fin fue campeón de Italia con la Roma en 2001.",
+      lea: "Il a gagné deux Copa América avec l'Argentine, en 1991 et 1993.|He won two Copa Américas with Argentina, in 1991 and 1993.|Ganó dos Copas América con Argentina, en 1991 y 1993.",
+    },
+  },
+  "Fabio Cannavaro": {
+    x: "7 6 8 9 6 5 8",
+    d: "Défenseur italien capitaine champion du monde 2006|Italian defender who captained the 2006 world champions|Defensa italiano capitán del campeón del mundo 2006",
+    f: {
+      tal: "Il a remporté le Ballon d'or 2006, une rareté pour un défenseur.|He won the 2006 Ballon d'Or, a rarity for a defender.|Ganó el Balón de Oro 2006, algo raro para un defensa.",
+      lea: "Capitaine, il a soulevé la Coupe du monde 2006 face à la France.|As captain, he lifted the 2006 World Cup against France.|Como capitán, levantó el Mundial 2006 ante Francia.",
+      spd: "Il compensait sa taille modeste par sa détente et son anticipation.|He made up for his modest height with his leap and anticipation.|Compensaba su baja estatura con su salto y su anticipación.",
+    },
+  },
+  "Frank Lampard": {
+    x: "7 6 8 8 6 5 9",
+    d: "Milieu buteur anglais, meilleur marqueur de l'histoire de Chelsea|Goalscoring English midfielder, Chelsea's all-time top scorer|Centrocampista goleador inglés, máximo artillero de la historia del Chelsea",
+    f: {
+      tal: "Il est le meilleur buteur de l'histoire de Chelsea avec 211 buts.|He is Chelsea's all-time top scorer with 211 goals.|Es el máximo goleador de la historia del Chelsea con 211 goles.",
+      unl: "Son but refusé contre l'Allemagne au Mondial 2010 a relancé le débat sur la vidéo.|His disallowed goal against Germany at the 2010 World Cup reignited the technology debate.|Su gol anulado ante Alemania en el Mundial 2010 reavivó el debate tecnológico.",
+      ric: "Il a remporté la Ligue des champions 2012 avec Chelsea.|He won the 2012 Champions League with Chelsea.|Ganó la Champions League 2012 con el Chelsea.",
+      lea: "Il est devenu entraîneur après sa carrière, notamment à Chelsea.|He became a coach after his career, including at Chelsea.|Se hizo entrenador tras su carrera, entre otros en el Chelsea.",
+    },
+  },
+  "Fernando Torres": {
+    x: "8 6 7 6 5 6 7",
+    d: "Buteur espagnol surnommé « El Niño », de l'Atlético à Liverpool|Spanish striker nicknamed 'El Niño', from Atlético to Liverpool|Delantero español apodado 'El Niño', del Atlético al Liverpool",
+    f: {
+      tal: "Il a marqué le but vainqueur de la finale de l'Euro 2008 contre l'Allemagne.|He scored the winner in the Euro 2008 final against Germany.|Marcó el gol de la victoria en la final de la Euro 2008 ante Alemania.",
+      cut: "Son visage juvénile lui a valu le surnom d'« El Niño ».|His boyish face earned him the nickname 'El Niño'.|Su cara aniñada le valió el apodo de 'El Niño'.",
+      ric: "Il a remporté la Coupe du monde 2010 avec l'Espagne.|He won the 2010 World Cup with Spain.|Ganó el Mundial 2010 con España.",
+      spd: "À Liverpool, il était redouté pour ses appels en profondeur.|At Liverpool, he was feared for his runs in behind.|En el Liverpool, era temido por sus desmarques al espacio.",
+    },
+  },
+  "Carles Puyol": {
+    x: "6 5 10 9 5 5 9",
+    d: "Défenseur catalan aux cheveux bouclés, capitaine du Barça|Curly-haired Catalan defender, Barça captain|Defensa catalán de pelo rizado, capitán del Barça",
+    f: {
+      bra: "Il est réputé pour son engagement total et son courage défensif.|He is known for his total commitment and defensive courage.|Es conocido por su entrega total y su valentía defensiva.",
+      tal: "Son coup de tête a qualifié l'Espagne pour la finale du Mondial 2010 contre l'Allemagne.|His header sent Spain to the 2010 World Cup final against Germany.|Su cabezazo clasificó a España para la final del Mundial 2010 ante Alemania.",
+      kin: "Il a laissé Éric Abidal soulever la Ligue des champions 2011.|He let Éric Abidal lift the 2011 Champions League trophy.|Dejó que Éric Abidal levantara la Champions League 2011.",
+      lea: "Capitaine du Barça, il a remporté trois Ligues des champions.|As Barça captain, he won three Champions Leagues.|Como capitán del Barça, ganó tres Champions League.",
+    },
+  },
+  "Luís Figo": {
+    x: "7 7 7 8 6 5 8",
+    d: "Ailier portugais, Ballon d'or 2000, passé du Barça au Real|Portuguese winger, 2000 Ballon d'Or, who moved from Barça to Real|Extremo portugués, Balón de Oro 2000, que pasó del Barça al Real",
+    f: {
+      tal: "Il a remporté le Ballon d'or 2000.|He won the 2000 Ballon d'Or.|Ganó el Balón de Oro 2000.",
+      bra: "Son transfert du Barça au Real Madrid en 2000 a été l'un des plus retentissants de l'histoire.|His 2000 move from Barça to Real Madrid was one of the most explosive transfers ever.|Su traspaso del Barça al Real Madrid en 2000 fue uno de los más sonados de la historia.",
+      ric: "Il a gagné la Ligue des champions 2002 avec le Real Madrid.|He won the 2002 Champions League with Real Madrid.|Ganó la Champions League 2002 con el Real Madrid.",
+    },
+  },
+  "Juan Román Riquelme": {
+    x: "4 5 7 7 4 4 6",
+    d: "Meneur de jeu argentin au rythme lent, idole de Boca Juniors|Slow-tempo Argentine playmaker, Boca Juniors idol|Mediapunta argentino de ritmo pausado, ídolo de Boca Juniors",
+    f: {
+      cun: "Il est considéré comme l'archétype du numéro 10 classique.|He is seen as the archetype of the classic number 10.|Es considerado el arquetipo del clásico número 10.",
+      tal: "Il a remporté plusieurs Copa Libertadores avec Boca Juniors.|He won several Copa Libertadores titles with Boca Juniors.|Ganó varias Copas Libertadores con Boca Juniors.",
+      lea: "Il est devenu président de Boca Juniors en 2023.|He became president of Boca Juniors in 2023.|Se convirtió en presidente de Boca Juniors en 2023.",
+      laz: "Il jouait à un rythme lent et contrôlé, dictant le tempo du match.|He played at a slow, controlled pace, dictating the tempo.|Jugaba a un ritmo lento y controlado, marcando el tempo del partido.",
+    },
+  },
+  "Carlos Valderrama": {
+    x: "6 8 7 8 7 5 6",
+    d: "Meneur colombien à la célèbre crinière blonde|Colombian playmaker with a famous blond mane|Mediapunta colombiano de famosa melena rubia",
+    f: {
+      sty: "Sa grande chevelure blonde frisée est devenue légendaire.|His huge curly blond hair became legendary.|Su enorme melena rubia rizada se volvió legendaria.",
+      lea: "Il a été capitaine de la Colombie lors de trois Coupes du monde.|He captained Colombia at three World Cups.|Fue capitán de Colombia en tres Mundiales.",
+      soc: "Il a joué à Montpellier à la fin des années 1980.|He played for Montpellier in the late 1980s.|Jugó en el Montpellier a finales de los ochenta.",
+      cun: "Il était réputé pour ses passes millimétrées.|He was known for his pinpoint passes.|Era conocido por sus pases milimétricos.",
+    },
+  },
+  "René Higuita": {
+    x: "4 8 5 6 8 5 4",
+    d: "Gardien colombien excentrique, inventeur du « coup du scorpion »|Eccentric Colombian goalkeeper who invented the 'scorpion kick'|Portero colombiano excéntrico, inventor del 'escorpión'",
+    f: {
+      bra: "Il a repoussé un tir en « coup du scorpion » à Wembley en 1995.|He cleared a shot with a 'scorpion kick' at Wembley in 1995.|Despejó un disparo con el 'escorpión' en Wembley en 1995.",
+      clu: "Au Mondial 1990, Roger Milla lui a chipé le ballon loin de son but pour marquer.|At the 1990 World Cup, Roger Milla stole the ball from him far from goal to score.|En el Mundial 1990, Roger Milla le robó el balón lejos de la portería para marcar.",
+      cun: "Il était célèbre pour ses sorties et ses dribbles loin de sa surface.|He was famous for leaving his area and dribbling far from goal.|Era famoso por salir del área y regatear lejos de su portería.",
+      hum: "Il était surnommé « El Loco » pour son style audacieux.|He was nicknamed 'El Loco' for his daring style.|Lo apodaban 'El Loco' por su estilo atrevido.",
+    },
+  },
+  "Hidetoshi Nakata": {
+    x: "8 9 8 7 5 6 8",
+    d: "Milieu japonais pionnier en Europe et icône de la mode|Japanese midfielder who pioneered in Europe and fashion icon|Centrocampista japonés pionero en Europa e icono de la moda",
+    f: {
+      tal: "Il a été champion d'Italie avec l'AS Roma en 2001.|He won the Italian league with AS Roma in 2001.|Fue campeón de Italia con la Roma en 2001.",
+      sty: "Il est reconnu comme une icône de la mode.|He is recognised as a fashion icon.|Es reconocido como un icono de la moda.",
+      lea: "Il a été l'une des premières stars japonaises du football européen, à Pérouse.|He was one of the first Japanese stars in European football, at Perugia.|Fue una de las primeras estrellas japonesas del fútbol europeo, en el Perugia.",
+      org: "Il a pris sa retraite à seulement 29 ans, après le Mondial 2006.|He retired at just 29, after the 2006 World Cup.|Se retiró con solo 29 años, tras el Mundial 2006.",
+    },
+  },
+  "Paul Gascoigne": {
+    x: "4 4 5 6 9 5 3",
+    d: "Milieu anglais génial et facétieux surnommé « Gazza »|Brilliant, mischievous English midfielder nicknamed 'Gazza'|Genial y travieso centrocampista inglés apodado 'Gazza'",
+    f: {
+      kin: "Ses larmes en demi-finale du Mondial 1990 ont ému toute l'Angleterre.|His tears in the 1990 World Cup semi-final moved all of England.|Sus lágrimas en la semifinal del Mundial 1990 conmovieron a toda Inglaterra.",
+      tal: "Son but contre l'Écosse à l'Euro 1996 est l'un des plus célèbres de l'histoire anglaise.|His goal against Scotland at Euro 96 is one of England's most famous.|Su gol ante Escocia en la Euro 96 es uno de los más célebres de Inglaterra.",
+      hum: "Il était connu pour ses farces et ses pitreries.|He was known for his pranks and clowning.|Era conocido por sus bromas y payasadas.",
+      soc: "Il a joué à la Lazio de Rome au début des années 1990.|He played for Lazio in the early 1990s.|Jugó en la Lazio a principios de los noventa.",
+    },
+  },
+  "Miroslav Klose": {
+    x: "6 5 9 7 5 5 9",
+    d: "Buteur allemand, recordman de buts en Coupe du monde|German striker, record World Cup goalscorer|Delantero alemán, máximo goleador de la historia de los Mundiales",
+    f: {
+      tal: "Il détient le record de 16 buts en Coupe du monde.|He holds the record of 16 World Cup goals.|Tiene el récord de 16 goles en Mundiales.",
+      cut: "Il célébrait ses buts par un salto avant.|He celebrated his goals with a front flip.|Celebraba sus goles con un salto mortal.",
+      hon: "Il a signalé à l'arbitre un but qu'il avait marqué de la main avec la Lazio.|He told the referee he had scored a goal with his hand while at Lazio.|Avisó al árbitro de que había marcado un gol con la mano con la Lazio.",
+      lea: "Il a été champion du monde 2014 avec l'Allemagne.|He won the 2014 World Cup with Germany.|Fue campeón del mundo en 2014 con Alemania.",
+    },
+  },
+  "Megan Rapinoe": {
+    x: "7 8 8 9 8 5 7",
+    d: "Star américaine du football féminin et militante pour l'égalité|American women's football star and equality campaigner|Estrella estadounidense del fútbol femenino y activista por la igualdad",
+    f: {
+      tal: "Elle a remporté le Ballon d'or et le titre mondial en 2019.|She won the Ballon d'Or and the World Cup in 2019.|Ganó el Balón de Oro y el Mundial en 2019.",
+      hon: "Elle s'est engagée pour l'égalité salariale dans le football.|She campaigned for equal pay in football.|Luchó por la igualdad salarial en el fútbol.",
+      sty: "Elle était reconnaissable à ses cheveux teints et à sa célébration bras écartés.|She was recognisable by her dyed hair and arms-wide celebration.|Era reconocible por su pelo teñido y su celebración con los brazos abiertos.",
+      soc: "Elle a joué une saison à l'Olympique lyonnais.|She played a season at Olympique Lyonnais.|Jugó una temporada en el Olympique de Lyon.",
+    },
+  },
+  "Ada Hegerberg": {
+    x: "7 6 9 8 5 5 9",
+    d: "Buteuse norvégienne de l'OL, première lauréate du Ballon d'or féminin|Norwegian Lyon striker, first winner of the women's Ballon d'Or|Delantera noruega del Lyon, primera ganadora del Balón de Oro femenino",
+    f: {
+      tal: "Elle a remporté le tout premier Ballon d'or féminin en 2018.|She won the very first women's Ballon d'Or in 2018.|Ganó el primer Balón de Oro femenino en 2018.",
+      lea: "Elle est la meilleure buteuse de l'histoire de la Ligue des champions féminine.|She is the all-time top scorer in the women's Champions League.|Es la máxima goleadora de la historia de la Champions femenina.",
+      hon: "Elle a boycotté la sélection norvégienne pendant plusieurs années pour réclamer l'égalité.|She boycotted the Norway team for several years to demand equality.|Boicoteó a la selección noruega durante varios años para reclamar igualdad.",
+    },
+  },
+  "Amandine Henry": {
+    x: "6 6 8 8 5 5 8",
+    d: "Milieu française, capitaine des Bleues et star de l'OL|French midfielder, France captain and Lyon star|Centrocampista francesa, capitana de Francia y estrella del Lyon",
+    f: {
+      tal: "Elle a remporté de nombreuses Ligues des champions avec l'Olympique lyonnais.|She won many Champions Leagues with Olympique Lyonnais.|Ganó numerosas Champions League con el Olympique de Lyon.",
+      lea: "Elle a été capitaine de l'équipe de France lors du Mondial 2019 à domicile.|She captained France at the home 2019 World Cup.|Fue capitana de Francia en el Mundial 2019 en casa.",
+      str: "Elle a reçu le Ballon d'argent de la Coupe du monde 2015.|She won the Silver Ball at the 2015 World Cup.|Ganó el Balón de Plata del Mundial 2015.",
+    },
+  },
+  "Eugénie Le Sommer": {
+    x: "6 6 8 7 6 5 8",
+    d: "Attaquante française, meilleure buteuse de l'histoire des Bleues|French forward, France women's all-time top scorer|Delantera francesa, máxima goleadora de la historia de Francia",
+    f: {
+      tal: "Elle est la meilleure buteuse de l'histoire de l'équipe de France féminine.|She is France women's all-time top scorer.|Es la máxima goleadora de la historia de la selección femenina de Francia.",
+      ric: "Elle a remporté de nombreuses Ligues des champions avec l'OL.|She won many Champions Leagues with Lyon.|Ganó numerosas Champions League con el Lyon.",
+      spd: "Elle est réputée pour sa vivacité et son sens du but.|She is known for her quickness and eye for goal.|Es conocida por su viveza y su olfato goleador.",
+    },
+  },
+  "Aitana Bonmatí": {
+    x: "6 6 9 8 5 5 9",
+    d: "Milieu espagnole du FC Barcelone, multiple Ballon d'or|Spanish FC Barcelona midfielder, multiple Ballon d'Or winner|Centrocampista española del FC Barcelona, varias veces Balón de Oro",
+    f: {
+      tal: "Elle a remporté le Ballon d'or à plusieurs reprises à partir de 2023.|She won the Ballon d'Or several times from 2023.|Ganó el Balón de Oro varias veces a partir de 2023.",
+      lea: "Elle a été élue meilleure joueuse de la Coupe du monde 2023, remportée par l'Espagne.|She was named best player of the 2023 World Cup, won by Spain.|Fue elegida mejor jugadora del Mundial 2023, ganado por España.",
+      cun: "Elle est réputée pour sa vision du jeu et son intelligence tactique.|She is known for her vision and tactical intelligence.|Es conocida por su visión de juego y su inteligencia táctica.",
+      ric: "Elle a gagné plusieurs Ligues des champions avec le Barça.|She has won several Champions Leagues with Barça.|Ha ganado varias Champions League con el Barça.",
+    },
+  },
+  "Arrigo Sacchi": {
+    x: "5 5 8 9 5 4 10",
+    d: "Entraîneur italien révolutionnaire du grand AC Milan|Revolutionary Italian coach of the great AC Milan|Entrenador italiano revolucionario del gran AC Milan",
+    f: {
+      tal: "Il a remporté deux Coupes des champions avec l'AC Milan, en 1989 et 1990.|He won two European Cups with AC Milan, in 1989 and 1990.|Ganó dos Copas de Europa con el AC Milan, en 1989 y 1990.",
+      cun: "Il a révolutionné la tactique avec le pressing et la défense en zone.|He revolutionised tactics with pressing and zonal defending.|Revolucionó la táctica con la presión y la defensa en zona.",
+      hum: "N'ayant jamais été pro, il a répondu qu'on n'a pas besoin d'avoir été cheval pour devenir jockey.|Never a pro player, he replied that you don't need to have been a horse to be a jockey.|Sin haber sido profesional, respondió que no hace falta haber sido caballo para ser jockey.",
+      lea: "Il a mené l'Italie en finale de la Coupe du monde 1994.|He led Italy to the 1994 World Cup final.|Llevó a Italia a la final del Mundial 1994.",
+    },
+  },
+  "Xabi Alonso": {
+    x: "8 8 8 9 5 6 9",
+    d: "Milieu espagnol élégant devenu entraîneur à succès|Elegant Spanish midfielder turned successful coach|Elegante centrocampista español convertido en entrenador de éxito",
+    f: {
+      tal: "Joueur, il a été champion du monde 2010 et double champion d'Europe avec l'Espagne.|As a player, he won the 2010 World Cup and two European titles with Spain.|Como jugador, fue campeón del mundo en 2010 y dos veces de Europa con España.",
+      cun: "Entraîneur, il a mené Leverkusen à un titre invaincu en Bundesliga en 2024.|As coach, he led Leverkusen to an unbeaten Bundesliga title in 2024.|Como entrenador, llevó al Leverkusen a una Bundesliga invicta en 2024.",
+      lea: "Il est devenu entraîneur du Real Madrid en 2025.|He became Real Madrid coach in 2025.|Se convirtió en entrenador del Real Madrid en 2025.",
+      ric: "Il a gagné la Ligue des champions avec Liverpool en 2005 et le Real en 2014.|He won the Champions League with Liverpool in 2005 and Real in 2014.|Ganó la Champions League con el Liverpool en 2005 y el Real en 2014.",
+    },
+  },
 };
