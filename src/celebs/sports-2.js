@@ -100,7 +100,6 @@ module.exports = [
   ["Seve Ballesteros", "ballesteros|seve ballesteros|severiano ballesteros|seve", "Golf|Golf|Golf", "6 7 8 0 2 9 7 1 2 5 6 5 8 4 6 9 6"],
   ["Kelly Slater", "kelly slater", "Surf|Surfing|Surf", "5 8 7 0 1 10 7 1 2 8 6 4 8 2 4 8 2"],
   ["Kauli Vaast", "vaast|kauli vaast", "Surf|Surfing|Surf", "6 7 6 0 2 9 8 1 2 8 7 4 4 2 4 6 2"],
-  ["Alex Honnold", "honnold|alex honnold", "Escalade|Climbing|Escalada", "5 8 8 0 1 10 8 1 2 5 5 5 6 1 4 9 2"],
   ["Tom Brady", "tom brady|brady", "Football américain|American football|Fútbol americano", "5 8 9 0 1 9 7 0 2 5 5 6 10 4 5 10 3", "leader"],
   ["Patrick Mahomes", "mahomes|patrick mahomes", "Football américain|American football|Fútbol americano", "6 8 8 0 2 9 8 1 3 8 6 5 9 2 5 9 4"],
   ["Jerry Rice", "jerry rice", "Football américain|American football|Fútbol americano", "4 8 7 0 1 8 7 0 2 10 5 5 8 2 4 8 2", "speedster"],
