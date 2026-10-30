@@ -574,4 +574,405 @@ module.exports = {
       tal: "Ses one-man-shows au ton grinçant ont rempli les salles dans les années 1990.|His edgy one-man shows packed venues in the 1990s.|Sus monólogos mordaces llenaron salas en los años 90.",
     },
   },
+  "Anne Roumanoff": {
+    x: "6 8 7 6 7 5 7",
+    d: "Humoriste à la robe rouge, reine du stand-up d'observation|Comedian in a red dress, queen of observational stand-up|Humorista del vestido rojo, reina del humor de observación",
+    f: {
+      sty: "Elle monte sur scène vêtue de sa célèbre robe rouge.|She performs on stage in her famous red dress.|Sube al escenario con su famoso vestido rojo.",
+      tal: "Son sketch Radio Bistrot est l'un de ses plus connus.|Her Radio Bistrot sketch is one of her best known.|Su sketch Radio Bistrot es uno de los más conocidos.",
+      hum: "Sa rubrique « On ne nous dit pas tout » chez Michel Drucker l'a rendue populaire.|Her \"On ne nous dit pas tout\" segment on Michel Drucker's show made her popular.|Su sección «On ne nous dit pas tout» en el programa de Michel Drucker la hizo popular.",
+    },
+  },
+  "Bruno Solo": {
+    x: "5 5 6 5 8 5 4",
+    d: "Acteur et animateur, Jean-Claude Convenant de Caméra Café|Actor and TV host, Jean-Claude Convenant in Caméra Café|Actor y presentador, Jean-Claude Convenant de Caméra Café",
+    f: {
+      laz: "Il joue Jean-Claude Convenant, commercial roublard et tire-au-flanc de Caméra Café.|He plays Jean-Claude Convenant, the crafty, work-shy salesman in Caméra Café.|Interpreta a Jean-Claude Convenant, comercial pícaro y vago de Caméra Café.",
+      hum: "Il forme avec Yvan Le Bolloc'h le duo vedette de Caméra Café.|With Yvan Le Bolloc'h he forms the star duo of Caméra Café.|Con Yvan Le Bolloc'h forma el dúo estrella de Caméra Café.",
+      soc: "Il joue Yvan dans la saga La Vérité si je mens !.|He plays Yvan in the La Vérité si je mens ! films.|Interpreta a Yvan en la saga La Vérité si je mens !.",
+    },
+  },
+  "Laurent Gerra": {
+    x: "5 6 6 6 8 4 7",
+    d: "Imitateur star de la radio et de la scène|Star impressionist of radio and stage|Imitador estrella de la radio y el escenario",
+    f: {
+      tal: "Il imite des centaines de voix, de Johnny Hallyday à Michel Drucker.|He imitates hundreds of voices, from Johnny Hallyday to Michel Drucker.|Imita cientos de voces, de Johnny Hallyday a Michel Drucker.",
+      hum: "Ses chroniques matinales sur RTL sont devenues un rendez-vous incontournable.|His morning segments on RTL became a must-listen.|Sus crónicas matinales en RTL se volvieron una cita imprescindible.",
+      glu: "Grand amateur de bonne chère et de vin, il ne s'en cache pas.|A great lover of good food and wine, he makes no secret of it.|Gran amante de la buena mesa y el vino, no lo oculta.",
+    },
+  },
+  "Nicolas Canteloup": {
+    x: "5 5 6 6 7 4 7",
+    d: "Imitateur vedette de TF1 et d'Europe 1|Star impressionist on TF1 and Europe 1|Imitador estrella de TF1 y Europe 1",
+    f: {
+      tal: "Sa Revue de presque sur Europe 1 a fait rire des millions d'auditeurs.|His Revue de presque on Europe 1 made millions of listeners laugh.|Su Revue de presque en Europe 1 hizo reír a millones de oyentes.",
+      hum: "Son programme C'est Canteloup est diffusé avant le journal de 20 heures de TF1.|His show C'est Canteloup aired before TF1's 8 pm news.|Su programa C'est Canteloup se emitía antes del telediario de las 20 h de TF1.",
+      cun: "Il imite les présidents de la République et les grands sportifs.|He impersonates French presidents and sports stars.|Imita a los presidentes de la República y a grandes deportistas.",
+    },
+  },
+  "François Damiens": {
+    x: "5 4 6 5 7 4 4",
+    d: "Humoriste et acteur belge, roi de la caméra cachée|Belgian comedian and actor, king of hidden camera|Humorista y actor belga, rey de la cámara oculta",
+    f: {
+      cun: "Ses caméras cachées dans la peau de François l'embrouille sont devenues cultes.|His hidden-camera pranks as François l'embrouille became cult classics.|Sus cámaras ocultas como François l'embrouille se volvieron de culto.",
+      kin: "Il joue le père sourd et agriculteur de La Famille Bélier.|He plays the deaf farmer father in La Famille Bélier.|Interpreta al padre sordo y granjero de La familia Bélier.",
+      hum: "Il incarne le dragueur Claudy dans la comédie belge Dikkenek.|He plays the womaniser Claudy in the Belgian comedy Dikkenek.|Interpreta al ligón Claudy en la comedia belga Dikkenek.",
+      scr: "Ses canulars imperturbables mettent ses victimes dans des situations très tendues.|His deadpan pranks put his victims in very tense situations.|Sus bromas impasibles ponen a sus víctimas en situaciones muy tensas.",
+    },
+  },
+  "Alex Lutz": {
+    x: "5 7 8 6 6 5 7",
+    d: "Humoriste et acteur, créateur de Catherine et Liliane|Comedian and actor, creator of Catherine et Liliane|Humorista y actor, creador de Catherine et Liliane",
+    f: {
+      hum: "Il joue Catherine, l'une des deux secrétaires de Catherine et Liliane sur Canal+.|He plays Catherine, one of the two secretaries in Catherine et Liliane on Canal+.|Interpreta a Catherine, una de las dos secretarias de Catherine et Liliane en Canal+.",
+      tal: "Il remporte le César du meilleur acteur pour Guy, qu'il a aussi réalisé.|He won the César for Best Actor for Guy, which he also directed.|Ganó el César al mejor actor por Guy, que también dirigió.",
+      rom: "Il réalise et joue Une nuit avec Karin Viard.|He directed and starred in Une nuit with Karin Viard.|Dirigió y protagonizó Une nuit con Karin Viard.",
+    },
+  },
+  "Thomas Ngijol": {
+    x: "6 6 7 6 6 5 6",
+    d: "Humoriste du Jamel Comedy Club, coréalisateur de Case départ|Jamel Comedy Club comedian, co-director of Case départ|Humorista del Jamel Comedy Club, codirector de Case départ",
+    f: {
+      hum: "Il s'est fait connaître au Jamel Comedy Club.|He made his name at the Jamel Comedy Club.|Se dio a conocer en el Jamel Comedy Club.",
+      bra: "Il coréalise et joue Case départ, comédie sur l'esclavage, avec Fabrice Éboué.|He co-directed and starred in Case départ, a slavery comedy, with Fabrice Éboué.|Codirigió y protagonizó Case départ, comedia sobre la esclavitud, con Fabrice Éboué.",
+      lea: "Il réalise Fastlife, où il joue un athlète obsédé par la célébrité.|He directed Fastlife, playing an athlete obsessed with fame.|Dirigió Fastlife, donde interpreta a un atleta obsesionado con la fama.",
+    },
+  },
+  "Fabrice Éboué": {
+    x: "6 6 7 6 6 5 6",
+    d: "Humoriste à l'humour grinçant, réalisateur de Coexister|Comedian with biting humour, director of Coexister|Humorista de humor mordaz, director de Coexister",
+    f: {
+      hum: "Il s'est fait connaître au Jamel Comedy Club avec un humour provocateur.|He made his name at the Jamel Comedy Club with provocative humour.|Se dio a conocer en el Jamel Comedy Club con un humor provocador.",
+      bra: "Il coréalise Case départ avec Thomas Ngijol.|He co-directed Case départ with Thomas Ngijol.|Codirigió Case départ con Thomas Ngijol.",
+      cun: "Il réalise Coexister, comédie sur un groupe de religieux qui chantent ensemble.|He directed Coexister, a comedy about clergymen forming a pop group.|Dirigió Coexister, comedia sobre religiosos que forman un grupo musical.",
+    },
+  },
+  "Kyan Khojandi": {
+    x: "5 5 7 5 6 5 5",
+    d: "Humoriste créateur et interprète de la série Bref.|Comedian who created and starred in the series Bref.|Humorista creador y protagonista de la serie Bref.",
+    f: {
+      tal: "Sa série Bref., diffusée sur Canal+, est devenue un phénomène en 2011.|His series Bref., aired on Canal+, became a phenomenon in 2011.|Su serie Bref., emitida en Canal+, fue un fenómeno en 2011.",
+      unl: "Son personnage de Bref. enchaîne les petits ratés du quotidien racontés à toute vitesse.|His Bref. character goes through everyday failures told at breakneck speed.|Su personaje de Bref. encadena pequeños fracasos cotidianos contados a toda velocidad.",
+      spd: "Chaque épisode de Bref. raconte une histoire en moins de deux minutes.|Each Bref. episode tells a story in under two minutes.|Cada episodio de Bref. cuenta una historia en menos de dos minutos.",
+      hum: "Il retrouve son personnage dans Bref. 2, en 2025.|He returned to his character in Bref. 2 in 2025.|Recuperó a su personaje en Bref. 2, en 2025.",
+    },
+  },
+  "Ahmed Sylla": {
+    x: "6 6 7 5 8 5 5",
+    d: "Humoriste et acteur révélé par On n'demande qu'à en rire|Comedian and actor discovered on On n'demande qu'à en rire|Humorista y actor revelado en On n'demande qu'à en rire",
+    f: {
+      bra: "Il joue un jeune de banlieue qui gravit l'Everest dans L'Ascension.|He plays a young man from the suburbs who climbs Everest in The Climb.|Interpreta a un joven de la periferia que escala el Everest en L'Ascension.",
+      tal: "Il a été révélé par l'émission On n'demande qu'à en rire de Laurent Ruquier.|He was discovered on Laurent Ruquier's show On n'demande qu'à en rire.|Fue revelado en el programa On n'demande qu'à en rire de Laurent Ruquier.",
+      kin: "Il est connu pour sa bonne humeur et son sourire communicatif.|He is known for his good mood and contagious smile.|Es conocido por su buen humor y su sonrisa contagiosa.",
+    },
+  },
+  "Malik Bentalha": {
+    x: "6 6 7 5 7 5 6",
+    d: "Humoriste du Jamel Comedy Club, héros de Taxi 5|Jamel Comedy Club comedian, star of Taxi 5|Humorista del Jamel Comedy Club, protagonista de Taxi 5",
+    f: {
+      spd: "Il est le chauffeur de la mythique Peugeot 407 blanche dans Taxi 5.|He drives the legendary white Peugeot 407 in Taxi 5.|Conduce el mítico Peugeot 407 blanco en Taxi 5.",
+      hum: "Il a été révélé très jeune par le Jamel Comedy Club.|He was discovered very young by the Jamel Comedy Club.|Fue revelado muy joven por el Jamel Comedy Club.",
+      tal: "Ses spectacles de stand-up remplissent les plus grandes salles de France.|His stand-up shows fill France's biggest venues.|Sus espectáculos de stand-up llenan las mayores salas de Francia.",
+    },
+  },
+  "Inès Reg": {
+    x: "7 8 6 6 8 6 5",
+    d: "Humoriste devenue virale avec sa vidéo sur les paillettes|Comedian who went viral with her glitter video|Humorista que se hizo viral con su vídeo sobre la purpurina",
+    f: {
+      tal: "Sa phrase « C'est quand que tu vas mettre des paillettes dans ma vie, Kevin ? » est devenue un phénomène viral en 2019.|Her line \"Put some glitter in my life, Kevin\" went viral in 2019.|Su frase «Pon purpurina en mi vida, Kevin» se volvió viral en 2019.",
+      hum: "Elle remplit les salles avec son spectacle Hors normes.|She packs venues with her show Hors normes.|Llena salas con su espectáculo Hors normes.",
+      sty: "Elle cultive un look flamboyant et pailleté.|She cultivates a flamboyant, glittery look.|Cultiva un look llamativo y lleno de purpurina.",
+      bra: "Elle a participé à Danse avec les stars en 2023.|She took part in Dancing with the Stars France in 2023.|Participó en Bailando con las estrellas de Francia en 2023.",
+    },
+  },
+  "Jeff Panacloc": {
+    x: "5 5 6 6 7 4 7",
+    d: "Ventriloque star, inséparable du singe Jean-Marc|Star ventriloquist, inseparable from Jean-Marc the monkey|Ventrílocuo estrella, inseparable del mono Jean-Marc",
+    f: {
+      hum: "Sa marionnette Jean-Marc, singe insolent et incontrôlable, est sa vedette.|His puppet Jean-Marc, an insolent and uncontrollable monkey, is his star.|Su marioneta Jean-Marc, un mono insolente e incontrolable, es su estrella.",
+      tal: "Il fait parler sa marionnette sans bouger les lèvres.|He makes his puppet talk without moving his lips.|Hace hablar a su marioneta sin mover los labios.",
+      cun: "Il porte Jean-Marc au cinéma dans Jeff Panacloc : À la poursuite de Jean-Marc en 2023.|He took Jean-Marc to the big screen in Jeff Panacloc: À la poursuite de Jean-Marc in 2023.|Llevó a Jean-Marc al cine en Jeff Panacloc: À la poursuite de Jean-Marc en 2023.",
+    },
+  },
+  "Léon Zitrone": {
+    x: "4 6 8 6 6 3 8",
+    d: "Journaliste et commentateur vedette des débuts de la télévision|Star journalist and commentator of early French television|Periodista y comentarista estrella de los inicios de la televisión",
+    f: {
+      tal: "Sa voix commentait les grandes cérémonies, mariages royaux et défilés du 14 Juillet.|His voice covered great ceremonies, royal weddings and Bastille Day parades.|Su voz comentaba grandes ceremonias, bodas reales y desfiles del 14 de julio.",
+      spd: "Il était le commentateur emblématique des courses hippiques du tiercé.|He was the iconic commentator of horse races.|Era el comentarista emblemático de las carreras de caballos.",
+      soc: "Il anime Intervilles avec Guy Lux.|He hosted Intervilles with Guy Lux.|Presentó Intervilles con Guy Lux.",
+    },
+  },
+  "Guy Lux": {
+    x: "4 5 7 7 7 3 7",
+    d: "Animateur pionnier des grands jeux télévisés|Pioneering host of big TV game shows|Presentador pionero de los grandes concursos televisivos",
+    f: {
+      lea: "Il est à l'origine d'Intervilles, avec ses célèbres vachettes.|He created Intervilles, famous for its young cows.|Creó Intervilles, famoso por sus vaquillas.",
+      soc: "Il a participé à la création de Jeux sans frontières.|He helped create Jeux sans frontières.|Participó en la creación de Juegos sin fronteras.",
+      tal: "Il anime Le Palmarès des chansons, grande émission de variétés.|He hosted Le Palmarès des chansons, a big variety show.|Presentó Le Palmarès des chansons, gran programa de variedades.",
+    },
+  },
+  "Pierre Bellemare": {
+    x: "5 6 8 7 5 4 8",
+    d: "Conteur de radio et animateur, pionnier de la télévision|Radio storyteller and host, a television pioneer|Narrador de radio y presentador, pionero de la televisión",
+    f: {
+      tal: "Il captivait les auditeurs en racontant des histoires vraies extraordinaires à la radio.|He captivated listeners by telling extraordinary true stories on the radio.|Cautivaba a los oyentes contando historias reales extraordinarias en la radio.",
+      cun: "Il a lancé le téléachat à la télévision française.|He launched teleshopping on French television.|Lanzó la televenta en la televisión francesa.",
+      int: "Il anime le jeu culte La Tête et les Jambes.|He hosted the cult game show La Tête et les Jambes.|Presentó el concurso de culto La Tête et les Jambes.",
+    },
+  },
+  "Jacques Martin": {
+    x: "4 5 6 7 8 4 6",
+    d: "Animateur vedette des dimanches, créateur de L'École des fans|Star Sunday TV host, creator of L'École des fans|Presentador estrella de los domingos, creador de L'École des fans",
+    f: {
+      kin: "Dans L'École des fans, des enfants chantaient devant leur idole et tous recevaient 10.|In L'École des fans, children sang for their idol and all got a score of 10.|En L'École des fans, niños cantaban ante su ídolo y todos recibían un 10.",
+      hum: "Il crée l'émission satirique Le Petit Rapporteur.|He created the satirical show Le Petit Rapporteur.|Creó el programa satírico Le Petit Rapporteur.",
+      soc: "Son émission Dimanche Martin a occupé les après-midi des Français pendant des années.|His show Dimanche Martin filled French Sunday afternoons for years.|Su programa Dimanche Martin ocupó las tardes de domingo durante años.",
+    },
+  },
+  "Philippe Bouvard": {
+    x: "4 6 6 7 7 3 7",
+    d: "Journaliste et animateur, créateur des Grosses Têtes|Journalist and host, creator of Les Grosses Têtes|Periodista y presentador, creador de Les Grosses Têtes",
+    f: {
+      tal: "Il crée Les Grosses Têtes sur RTL en 1977.|He created Les Grosses Têtes on RTL in 1977.|Creó Les Grosses Têtes en RTL en 1977.",
+      lea: "Son Petit Théâtre de Bouvard a révélé Muriel Robin, Mimie Mathy et Les Inconnus.|His Petit Théâtre de Bouvard launched Muriel Robin, Mimie Mathy and Les Inconnus.|Su Petit Théâtre de Bouvard reveló a Muriel Robin, Mimie Mathy y Les Inconnus.",
+      hum: "Ses bons mots et sa répartie sont devenus légendaires.|His witticisms and quick repartee became legendary.|Sus ocurrencias y su rapidez de respuesta se volvieron legendarias.",
+    },
+  },
+  "Bernard Pivot": {
+    x: "4 6 9 6 6 4 8",
+    d: "Journaliste littéraire, animateur d'Apostrophes et roi de la dictée|Literary journalist, host of Apostrophes and king of dictation|Periodista literario, presentador de Apostrophes y rey del dictado",
+    f: {
+      int: "Il anime Apostrophes, émission littéraire culte, de 1975 à 1990.|He hosted the cult literary show Apostrophes from 1975 to 1990.|Presentó el programa literario de culto Apostrophes de 1975 a 1990.",
+      tal: "Ses dictées géantes des Dicos d'or, pleines de pièges, sont célèbres.|His giant dictations, the Dicos d'or, full of traps, are famous.|Sus dictados gigantes, los Dicos d'or, llenos de trampas, son célebres.",
+      lea: "Il a présidé l'Académie Goncourt.|He presided over the Académie Goncourt.|Presidió la Académie Goncourt.",
+      glu: "Grand amateur de vin, il a écrit un Dictionnaire amoureux du vin.|A great wine lover, he wrote a Dictionnaire amoureux du vin.|Gran amante del vino, escribió un Dictionnaire amoureux du vin.",
+    },
+  },
+  "Dorothée": {
+    x: "6 6 8 6 8 5 7",
+    d: "Animatrice et chanteuse star de la jeunesse avec le Club Dorothée|Children's TV host and singer, star of Club Dorothée|Presentadora y cantante infantil, estrella del Club Dorothée",
+    f: {
+      cut: "Elle anime le Club Dorothée sur TF1, programme culte des enfants de 1987 à 1997.|She hosted Club Dorothée on TF1, a cult kids' show from 1987 to 1997.|Presentó el Club Dorothée en TF1, programa infantil de culto de 1987 a 1997.",
+      tal: "Ses chansons comme Hou la menteuse se sont vendues par millions.|Her songs like Hou la menteuse sold millions.|Sus canciones como Hou la menteuse vendieron millones.",
+      kin: "Elle a fait découvrir les dessins animés japonais à toute une génération.|She introduced a whole generation to Japanese cartoons.|Dio a conocer los dibujos animados japoneses a toda una generación.",
+    },
+  },
+  "Jean-Pierre Coffe": {
+    x: "4 6 8 5 7 3 6",
+    d: "Critique gastronomique au franc-parler et aux coups de gueule célèbres|Outspoken food critic famous for his rants|Crítico gastronómico franco y famoso por sus arrebatos",
+    f: {
+      tem: "Ses coups de gueule contre la malbouffe à la télévision sont restés célèbres.|His televised rants against junk food are legendary.|Sus arrebatos contra la comida basura en televisión son legendarios.",
+      glu: "Il anime l'émission Ça se bouffe pas, ça se mange sur France Inter.|He hosted the show Ça se bouffe pas, ça se mange on France Inter.|Presentó el programa Ça se bouffe pas, ça se mange en France Inter.",
+      sty: "Ses lunettes et ses tenues colorées étaient sa signature.|His glasses and colourful outfits were his signature.|Sus gafas y su ropa colorida eran su sello.",
+    },
+  },
+  "Geneviève de Fontenay": {
+    x: "5 8 7 8 6 4 8",
+    d: "Dame au chapeau, figure historique du concours Miss France|Lady in the hat, historic figure of the Miss France pageant|La dama del sombrero, figura histórica del concurso Miss Francia",
+    f: {
+      sty: "Elle apparaissait toujours coiffée d'un grand chapeau.|She always appeared wearing a large hat.|Siempre aparecía con un gran sombrero.",
+      lea: "Elle a dirigé le comité Miss France pendant des décennies.|She ran the Miss France committee for decades.|Dirigió el comité Miss Francia durante décadas.",
+      tem: "Elle était connue pour défendre avec fermeté sa vision du concours.|She was known for firmly defending her vision of the pageant.|Era conocida por defender con firmeza su visión del concurso.",
+    },
+  },
+  "Patrick Sébastien": {
+    x: "4 5 6 7 9 4 6",
+    d: "Animateur, imitateur et chanteur des Sardines|Host, impressionist and singer of Les Sardines|Presentador, imitador y cantante de Les Sardines",
+    f: {
+      soc: "Sa chanson Les Sardines est devenue un incontournable des fêtes.|His song Les Sardines became a party staple.|Su canción Les Sardines se convirtió en imprescindible de las fiestas.",
+      tal: "Il anime Le Plus Grand Cabaret du monde sur France 2.|He hosted Le Plus Grand Cabaret du monde on France 2.|Presentó Le Plus Grand Cabaret du monde en France 2.",
+      hum: "Il a débuté comme imitateur avant de devenir animateur vedette.|He started as an impressionist before becoming a star host.|Empezó como imitador antes de convertirse en presentador estrella.",
+    },
+  },
+  "Thierry Ardisson": {
+    x: "5 9 6 7 7 5 7",
+    d: "L'homme en noir, animateur de Tout le monde en parle|The man in black, host of Tout le monde en parle|El hombre de negro, presentador de Tout le monde en parle",
+    f: {
+      sty: "Toujours vêtu de noir, il était surnommé « l'homme en noir ».|Always dressed in black, he was nicknamed \"the man in black\".|Siempre vestido de negro, lo apodaban «el hombre de negro».",
+      int: "Il anime Tout le monde en parle sur France 2 de 1998 à 2006.|He hosted Tout le monde en parle on France 2 from 1998 to 2006.|Presentó Tout le monde en parle en France 2 de 1998 a 2006.",
+      cun: "Ancien publicitaire, il a inventé des slogans restés célèbres.|A former ad man, he coined slogans that became famous.|Antiguo publicista, inventó eslóganes que se hicieron célebres.",
+      tal: "Il anime ensuite Salut les Terriens ! sur Canal+ puis C8.|He later hosted Salut les Terriens ! on Canal+ then C8.|Después presentó Salut les Terriens ! en Canal+ y luego en C8.",
+    },
+  },
+  "Antoine de Caunes": {
+    x: "6 7 7 6 8 5 6",
+    d: "Animateur, humoriste et acteur, de Rapido à Eurotrash|Host, comedian and actor, from Rapido to Eurotrash|Presentador, humorista y actor, de Rapido a Eurotrash",
+    f: {
+      hum: "Il présente Eurotrash sur Channel 4 avec Jean Paul Gaultier.|He hosted Eurotrash on Channel 4 with Jean Paul Gaultier.|Presentó Eurotrash en Channel 4 con Jean Paul Gaultier.",
+      tal: "Il a présenté plusieurs fois la cérémonie des César.|He hosted the César ceremony several times.|Presentó varias veces la ceremonia de los César.",
+      soc: "Il anime le magazine rock Rapido et brille dans Nulle part ailleurs sur Canal+.|He hosted the rock show Rapido and shone on Nulle part ailleurs on Canal+.|Presentó el magacín rock Rapido y brilló en Nulle part ailleurs en Canal+.",
+    },
+  },
+  "Michel Denisot": {
+    x: "5 7 7 7 6 4 7",
+    d: "Journaliste et animateur du Grand Journal, ex-dirigeant du PSG|Journalist and host of Le Grand Journal, former PSG boss|Periodista y presentador de Le Grand Journal, exdirigente del PSG",
+    f: {
+      lea: "Il a dirigé le Paris Saint-Germain dans les années 1990.|He ran Paris Saint-Germain in the 1990s.|Dirigió el Paris Saint-Germain en los años 90.",
+      tal: "Il anime Le Grand Journal sur Canal+ de 2004 à 2013.|He hosted Le Grand Journal on Canal+ from 2004 to 2013.|Presentó Le Grand Journal en Canal+ de 2004 a 2013.",
+      cun: "Il est réputé pour son calme et son flegme à l'antenne.|He is known for his calm composure on air.|Es conocido por su calma y su flema en antena.",
+    },
+  },
+  "Arthur": {
+    x: "6 6 6 8 7 5 7",
+    d: "Animateur et producteur, star des Enfants de la télé|Host and producer, star of Les Enfants de la télé|Presentador y productor, estrella de Les Enfants de la télé",
+    f: {
+      soc: "Il anime Les Enfants de la télé, émission culte d'archives et de fous rires.|He hosted Les Enfants de la télé, a cult show of archives and laughter.|Presentó Les Enfants de la télé, programa de culto de archivos y risas.",
+      hum: "Il présente Vendredi tout est permis, où les invités relèvent des défis comiques.|He hosted Vendredi tout est permis, where guests take on comic challenges.|Presentó Vendredi tout est permis, donde los invitados hacen retos cómicos.",
+      ric: "Il a fondé une société de production devenue l'une des plus importantes de France.|He founded a production company that became one of France's biggest.|Fundó una productora que se convirtió en una de las mayores de Francia.",
+    },
+  },
+  "Vincent Lagaf'": {
+    x: "4 5 6 5 9 4 5",
+    d: "Animateur et humoriste du Bigdil et du Juste Prix|Host and comedian of Le Bigdil and Le Juste Prix|Presentador y humorista de Le Bigdil y Le Juste Prix",
+    f: {
+      hum: "Il anime Le Bigdil, jeu déjanté de TF1 avec ses personnages loufoques.|He hosted Le Bigdil, TF1's zany game show with its wacky characters.|Presentó Le Bigdil, el disparatado concurso de TF1 con sus personajes locos.",
+      ric: "Il présente Le Juste Prix, où les candidats doivent deviner le prix des objets.|He hosted Le Juste Prix, where contestants guess the price of items.|Presentó Le Juste Prix, donde los concursantes adivinan el precio de objetos.",
+      tal: "Il a connu un tube en 1990 avec la chanson Bo le lavabo.|He had a hit in 1990 with the song Bo le lavabo.|Tuvo un éxito en 1990 con la canción Bo le lavabo.",
+    },
+  },
+  "Laurence Boccolini": {
+    x: "5 6 7 7 7 4 7",
+    d: "Animatrice du Maillon faible au ton cinglant|Host of The Weakest Link with a cutting tone|Presentadora de El rival más débil de tono cortante",
+    f: {
+      scr: "Elle anime Le Maillon faible sur TF1 avec un ton glacial et cinglant.|She hosted The Weakest Link on TF1 with an icy, cutting tone.|Presentó El rival más débil en TF1 con un tono gélido y cortante.",
+      tal: "Sa phrase « Vous êtes le maillon faible, au revoir ! » est devenue culte.|Her line \"You are the weakest link, goodbye!\" became iconic.|Su frase «Eres el eslabón más débil, ¡adiós!» se volvió de culto.",
+      hum: "Hors plateau, elle est connue pour son humour et son autodérision.|Off set, she is known for her humour and self-mockery.|Fuera del plató, es conocida por su humor y su autoironía.",
+    },
+  },
+  "Karine Le Marchand": {
+    x: "7 7 7 6 8 7 6",
+    d: "Animatrice de L'amour est dans le pré sur M6|Host of L'amour est dans le pré on M6|Presentadora de L'amour est dans le pré en M6",
+    f: {
+      rom: "Elle anime L'amour est dans le pré, où des agriculteurs cherchent l'âme sœur.|She hosts L'amour est dans le pré, where farmers look for love.|Presenta L'amour est dans le pré, donde granjeros buscan pareja.",
+      int: "Elle interroge des personnalités politiques sur leur vie dans Une ambition intime.|She interviews politicians about their lives in Une ambition intime.|Entrevista a políticos sobre su vida en Une ambition intime.",
+      kin: "Son ton complice et bienveillant avec les agriculteurs a fait le succès de l'émission.|Her warm, friendly manner with the farmers made the show a hit.|Su tono cómplice y amable con los granjeros hizo el éxito del programa.",
+    },
+  },
+  "Sophie Davant": {
+    x: "7 7 8 6 7 5 7",
+    d: "Animatrice de France Télévisions, d'Affaire conclue à C'est au programme|France Télévisions host, from Affaire conclue to C'est au programme|Presentadora de France Télévisions, de Affaire conclue a C'est au programme",
+    f: {
+      cun: "Elle anime Affaire conclue, où des particuliers vendent leurs objets à des acheteurs.|She hosts Affaire conclue, where people sell their items to dealers.|Presenta Affaire conclue, donde particulares venden objetos a compradores.",
+      kin: "Elle a animé Toute une histoire, émission de témoignages sur France 2.|She hosted Toute une histoire, a testimony show on France 2.|Presentó Toute une histoire, programa de testimonios en France 2.",
+      tal: "Elle a présenté le magazine C'est au programme pendant des années.|She hosted the magazine show C'est au programme for years.|Presentó el magacín C'est au programme durante años.",
+    },
+  },
+  "Cyril Féraud": {
+    x: "7 7 8 6 7 5 8",
+    d: "Animateur de jeux sur France 3, de Slam à La Carte aux trésors|France 3 game-show host, from Slam to La Carte aux trésors|Presentador de concursos en France 3, de Slam a La Carte aux trésors",
+    f: {
+      int: "Il anime Slam, jeu de lettres et de mots croisés sur France 3.|He hosts Slam, a crossword game show on France 3.|Presenta Slam, concurso de palabras cruzadas en France 3.",
+      spd: "Il présente La Carte aux trésors, où des candidats se déplacent en hélicoptère.|He hosts La Carte aux trésors, where contestants travel by helicopter.|Presenta La Carte aux trésors, donde los concursantes viajan en helicóptero.",
+      kin: "Il est réputé pour sa gentillesse envers les candidats.|He is known for his kindness to contestants.|Es conocido por su amabilidad con los concursantes.",
+    },
+  },
+  "Benjamin Castaldi": {
+    x: "6 6 6 5 7 5 6",
+    d: "Animateur de Loft Story, pionnier de la téléréalité française|Host of Loft Story, pioneer of French reality TV|Presentador de Loft Story, pionero de la telerrealidad francesa",
+    f: {
+      tal: "Il présente Loft Story en 2001, première téléréalité française.|He hosted Loft Story in 2001, France's first reality show.|Presentó Loft Story en 2001, el primer reality francés.",
+      cun: "Il anime ensuite Secret Story sur TF1.|He then hosted Secret Story on TF1.|Después presentó Secret Story en TF1.",
+      soc: "Il devient chroniqueur de Touche pas à mon poste !.|He became a pundit on Touche pas à mon poste !.|Se convirtió en colaborador de Touche pas à mon poste !.",
+    },
+  },
+  "Frédéric Lopez": {
+    x: "6 7 8 6 8 5 7",
+    d: "Animateur de Rendez-vous en terre inconnue|Host of Rendez-vous en terre inconnue|Presentador de Rendez-vous en terre inconnue",
+    f: {
+      kin: "Il emmène des célébrités à la rencontre de peuples isolés dans Rendez-vous en terre inconnue.|He takes celebrities to meet remote peoples in Rendez-vous en terre inconnue.|Lleva a famosos a conocer pueblos aislados en Rendez-vous en terre inconnue.",
+      bra: "L'émission l'a conduit dans des régions reculées du monde entier.|The show took him to remote regions all over the world.|El programa lo llevó a regiones remotas de todo el mundo.",
+      soc: "Il anime La Parenthèse inattendue, où des invités se confient loin des plateaux.|He hosted La Parenthèse inattendue, where guests open up away from the studio.|Presentó La Parenthèse inattendue, donde los invitados se confían lejos de los platós.",
+    },
+  },
+  "Claire Chazal": {
+    x: "8 8 8 6 5 6 8",
+    d: "Présentatrice historique du journal du week-end de TF1|Long-time anchor of TF1's weekend news|Histórica presentadora del telediario del fin de semana de TF1",
+    f: {
+      tal: "Elle présente le journal du week-end de TF1 de 1991 à 2015.|She anchored TF1's weekend news from 1991 to 2015.|Presentó el telediario del fin de semana de TF1 de 1991 a 2015.",
+      org: "Son calme et sa rigueur à l'antenne ont fait d'elle une figure rassurante.|Her calm and rigour on air made her a reassuring figure.|Su calma y rigor en antena la convirtieron en una figura tranquilizadora.",
+      int: "Elle a aussi publié plusieurs livres, dont des romans.|She has also published several books, including novels.|También ha publicado varios libros, entre ellos novelas.",
+    },
+  },
+  "Jean-Pierre Pernaut": {
+    x: "5 5 7 6 6 4 8",
+    d: "Présentateur du 13 heures de TF1 pendant 33 ans|Anchor of TF1's 1 pm news for 33 years|Presentador del telediario de las 13 h de TF1 durante 33 años",
+    f: {
+      org: "Il présente le journal de 13 heures de TF1 de 1988 à 2020.|He anchored TF1's 1 pm news from 1988 to 2020.|Presentó el telediario de las 13 h de TF1 de 1988 a 2020.",
+      kin: "Il a mis à l'honneur les régions, les artisans et les villages de France.|He put France's regions, craftspeople and villages in the spotlight.|Puso en valor las regiones, los artesanos y los pueblos de Francia.",
+      ric: "Il a animé l'émission Combien ça coûte ?.|He hosted the show Combien ça coûte ?.|Presentó el programa Combien ça coûte ?.",
+    },
+  },
+  "David Pujadas": {
+    x: "6 7 8 6 5 5 8",
+    d: "Présentateur du 20 heures de France 2 pendant seize ans|Anchor of France 2's 8 pm news for sixteen years|Presentador del telediario de las 20 h de France 2 durante dieciséis años",
+    f: {
+      tal: "Il présente le 20 heures de France 2 de 2001 à 2017.|He anchored France 2's 8 pm news from 2001 to 2017.|Presentó el telediario de las 20 h de France 2 de 2001 a 2017.",
+      int: "Il anime ensuite 24 h Pujadas sur LCI.|He then hosted 24 h Pujadas on LCI.|Después presentó 24 h Pujadas en LCI.",
+      org: "Il est connu pour son ton posé et sa rigueur.|He is known for his composed tone and rigour.|Es conocido por su tono sereno y su rigor.",
+    },
+  },
+  "Laurent Delahousse": {
+    x: "8 8 8 5 5 7 8",
+    d: "Présentateur du 20 heures du week-end sur France 2|Weekend 8 pm news anchor on France 2|Presentador del telediario de las 20 h del fin de semana en France 2",
+    f: {
+      tal: "Il présente le journal du week-end de France 2 depuis la fin des années 2000.|He has anchored France 2's weekend news since the late 2000s.|Presenta el telediario del fin de semana de France 2 desde finales de los 2000.",
+      int: "Il anime le magazine Un jour, un destin consacré aux grandes personnalités.|He hosts Un jour, un destin, a show about great figures.|Presenta Un jour, un destin, programa dedicado a grandes personalidades.",
+      sty: "Son élégance et son style soigné sont souvent remarqués.|His elegance and polished style are often noted.|Su elegancia y su estilo cuidado suelen destacarse.",
+    },
+  },
+  "Anne-Sophie Lapix": {
+    x: "7 7 8 7 6 5 8",
+    d: "Journaliste, présentatrice du 20 heures de France 2|Journalist, anchor of France 2's 8 pm news|Periodista, presentadora del telediario de las 20 h de France 2",
+    f: {
+      tal: "Elle présente le 20 heures de France 2 de 2017 à 2025.|She anchored France 2's 8 pm news from 2017 to 2025.|Presentó el telediario de las 20 h de France 2 de 2017 a 2025.",
+      soc: "Elle a animé C à vous sur France 5.|She hosted C à vous on France 5.|Presentó C à vous en France 5.",
+      bra: "Ses interviews politiques sont réputées pour leur fermeté.|Her political interviews are known for being tough.|Sus entrevistas políticas son conocidas por su firmeza.",
+    },
+  },
+  "Léa Salamé": {
+    x: "7 7 8 8 6 5 8",
+    d: "Journaliste politique, de France Inter au 20 heures de France 2|Political journalist, from France Inter to France 2's 8 pm news|Periodista política, de France Inter al telediario de las 20 h de France 2",
+    f: {
+      tal: "Elle a coanimé la matinale de France Inter, la plus écoutée de France.|She co-hosted France Inter's morning show, the most listened to in France.|Copresentó el matinal de France Inter, el más escuchado de Francia.",
+      soc: "Elle anime le talk-show Quelle époque ! sur France 2.|She hosted the talk show Quelle époque ! on France 2.|Presentó el programa Quelle époque ! en France 2.",
+      lea: "Elle prend la présentation du 20 heures de France 2 en 2025.|She became anchor of France 2's 8 pm news in 2025.|Asumió la presentación del telediario de las 20 h de France 2 en 2025.",
+    },
+  },
+  "Élise Lucet": {
+    x: "6 6 9 7 5 4 8",
+    d: "Journaliste d'investigation, présentatrice de Cash Investigation|Investigative journalist, host of Cash Investigation|Periodista de investigación, presentadora de Cash Investigation",
+    f: {
+      bra: "Elle est célèbre pour interpeller les patrons qui refusent ses interviews.|She is famous for confronting bosses who refuse her interviews.|Es famosa por abordar a los jefes que rechazan sus entrevistas.",
+      int: "Elle présente Cash Investigation sur France 2 depuis 2012.|She has hosted Cash Investigation on France 2 since 2012.|Presenta Cash Investigation en France 2 desde 2012.",
+      hon: "Ses enquêtes dénoncent les pratiques de grandes entreprises.|Her investigations expose the practices of big companies.|Sus investigaciones denuncian prácticas de grandes empresas.",
+    },
+  },
+  "Pascal Praud": {
+    x: "5 6 6 7 6 4 7",
+    d: "Journaliste sportif devenu animateur de débats sur CNews|Sports journalist turned debate-show host on CNews|Periodista deportivo convertido en presentador de debates en CNews",
+    f: {
+      tal: "Il anime L'Heure des pros, émission de débats sur CNews.|He hosts L'Heure des pros, a debate show on CNews.|Presenta L'Heure des pros, programa de debate en CNews.",
+      spd: "Il a longtemps été journaliste sportif, notamment à Téléfoot.|He was a sports journalist for many years, notably on Téléfoot.|Fue periodista deportivo durante años, sobre todo en Téléfoot.",
+      soc: "Il est un supporter déclaré du FC Nantes.|He is an outspoken FC Nantes supporter.|Es un declarado aficionado del FC Nantes.",
+    },
+  },
+  "Thierry Roland": {
+    x: "4 5 6 5 8 4 5",
+    d: "Commentateur légendaire du football à la télévision française|Legendary football commentator on French television|Legendario comentarista de fútbol en la televisión francesa",
+    f: {
+      tal: "Après la finale de 1998, il lance : « Après avoir vu ça, on peut mourir tranquille ! ».|After the 1998 final he exclaimed: \"After seeing that, we can die in peace!\".|Tras la final de 1998 exclamó: «¡Después de ver esto, podemos morir tranquilos!».",
+      soc: "Il a formé avec Jean-Michel Larqué un duo de commentateurs culte.|With Jean-Michel Larqué he formed a cult commentary duo.|Con Jean-Michel Larqué formó un dúo de comentaristas de culto.",
+      hum: "Ses sorties spontanées au micro sont restées célèbres.|His spontaneous on-air outbursts are famous.|Sus salidas espontáneas en antena son célebres.",
+    },
+  },
+  "Nelson Monfort": {
+    x: "5 6 8 5 7 4 7",
+    d: "Journaliste sportif polyglotte de France Télévisions|Multilingual sports journalist at France Télévisions|Periodista deportivo políglota de France Télévisions",
+    f: {
+      tal: "Il interviewe les champions dans leur langue, souvent en anglais au bord des pistes.|He interviews champions in their own language, often in English trackside.|Entrevista a los campeones en su idioma, a menudo en inglés a pie de pista.",
+      hum: "Il forme avec Philippe Candeloro un duo comique aux commentaires du patinage.|With Philippe Candeloro he forms a comic duo commentating figure skating.|Con Philippe Candeloro forma un dúo cómico comentando patinaje artístico.",
+      kin: "Il est connu pour sa courtoisie et son enthousiasme.|He is known for his courtesy and enthusiasm.|Es conocido por su cortesía y su entusiasmo.",
+    },
+  },
 };

@@ -110,7 +110,6 @@ module.exports = [
   ["Cyril Féraud", "feraud|cyril feraud", TV, "7 3 7 0 3 4 8 1 4 5 7 1 6 2 9 5 2"],
   ["Benjamin Castaldi", "castaldi|benjamin castaldi", TV, "6 3 6 0 3 4 6 2 4 4 5 2 7 3 8 5 3"],
   ["Frédéric Lopez", "frederic lopez|fred lopez", TV, "6 4 7 0 2 6 10 1 4 4 7 0 6 1 8 5 2", "friend"],
-  ["Jamy Gourmaud", "jamy|jamy gourmaud|c est pas sorcier", TV, "7 3 9 0 3 5 9 1 4 4 7 0 5 1 9 6 2", "teacher"],
 
   // Journalistes
   ["Claire Chazal", "chazal|claire chazal", TV, "3 2 7 0 1 4 7 1 3 3 6 2 7 2 7 5 2"],
