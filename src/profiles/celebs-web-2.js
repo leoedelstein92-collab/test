@@ -863,16 +863,6 @@ module.exports = {
       sty: "Il portait toujours sa tenue kaki avec un short.|He always wore his khaki outfit with shorts.|Siempre llevaba su ropa caqui con pantalón corto.",
     },
   },
-  "Jacques-Yves Cousteau": {
-    x: "6 8 7 9 6 5 9",
-    d: "Commandant et océanographe français, explorateur des mers|French commander and oceanographer, explorer of the seas|Comandante y oceanógrafo francés, explorador de los mares",
-    f: {
-      int: "Il a coinventé le scaphandre autonome moderne en 1943.|He co-invented the modern aqualung in 1943.|Coinventó la escafandra autónoma moderna en 1943.",
-      sty: "Son bonnet rouge est devenu son emblème.|His red cap became his emblem.|Su gorro rojo se convirtió en su emblema.",
-      tal: "Son film Le Monde du silence a remporté la Palme d'or en 1956.|His film The Silent World won the Palme d'Or in 1956.|Su película El mundo del silencio ganó la Palma de Oro en 1956.",
-      lea: "Il a exploré les océans du monde à bord de son navire, la Calypso.|He explored the world's oceans aboard his ship, the Calypso.|Exploró los océanos del mundo a bordo de su barco, el Calypso.",
-    },
-  },
   "Antoine de Maximy": {
     x: "5 3 9 6 10 4 6",
     d: "Réalisateur et voyageur français de J'irai dormir chez vous|French filmmaker and traveller of J'irai dormir chez vous|Realizador y viajero francés de J'irai dormir chez vous",

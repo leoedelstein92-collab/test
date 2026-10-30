@@ -115,7 +115,6 @@ module.exports = [
   ["Alex Honnold", "alex honnold|honnold", EXPLO, "5 8 8 0 1 10 7 1 4 6 5 1 6 1 4 8 1", "hero"],
   ["Reinhold Messner", "reinhold messner|messner", EXPLO, "4 9 8 0 1 10 6 0 3 7 4 5 6 5 6 9 5", "survivor"],
   ["Steve Irwin", "steve irwin|crocodile hunter|chasseur de crocodiles", EXPLO, "9 8 6 0 5 10 9 0 4 8 8 2 6 1 10 6 7", "hero"],
-  ["Jacques-Yves Cousteau", "jacques yves cousteau|jacques-yves cousteau|commandant cousteau|cousteau", EXPLO, "5 5 9 0 2 10 7 0 4 4 6 3 7 4 7 9 2", "leader|hero"],
   ["Antoine de Maximy", "antoine de maximy|j irai dormir chez vous|maximy", EXPLO, "9 5 7 0 6 9 9 1 6 5 7 1 5 2 10 7 4", "friend"],
   ["Nicolas Vanier", "nicolas vanier|vanier", EXPLO, "4 8 7 0 2 10 7 0 4 6 5 3 6 3 5 8 4", "survivor"],
   ["Felix Baumgartner", "felix baumgartner|fearless felix|baumgartner", EXPLO, "4 7 7 0 2 10 5 0 3 10 4 4 7 5 4 8 7", "speedster"],
