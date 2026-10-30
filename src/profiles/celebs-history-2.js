@@ -400,16 +400,6 @@ module.exports = {
       hon: "L'épave de l'Endurance est retrouvée en 2022 au fond de la mer de Weddell.|The wreck of the Endurance was found in 2022 at the bottom of the Weddell Sea.|Los restos del Endurance se hallaron en 2022 en el fondo del mar de Weddell.",
     },
   },
-  "Jacques-Yves Cousteau": {
-    x: "6 8 6 8 7 5 7",
-    d: "Officier de marine et explorateur des océans au bonnet rouge|Naval officer and ocean explorer in a red cap|Oficial de marina y explorador de los océanos de gorro rojo",
-    f: {
-      int: "Il met au point le scaphandre autonome avec Émile Gagnan en 1943.|He developed the aqualung with Émile Gagnan in 1943.|Desarrolló la escafandra autónoma con Émile Gagnan en 1943.",
-      tal: "Son film Le Monde du silence remporte la Palme d'or à Cannes en 1956.|His film The Silent World won the Palme d'Or at Cannes in 1956.|Su película El mundo del silencio ganó la Palma de Oro en Cannes en 1956.",
-      sty: "Son bonnet rouge et sa silhouette élancée deviennent célèbres dans le monde entier.|His red cap and slender figure became famous worldwide.|Su gorro rojo y su figura esbelta se hicieron famosos en todo el mundo.",
-      bra: "Il parcourt les mers pendant des décennies à bord de la Calypso.|He sailed the seas for decades aboard the Calypso.|Recorrió los mares durante décadas a bordo del Calypso.",
-    },
-  },
   "Edmund Hillary": {
     x: "6 4 9 7 6 4 8",
     d: "Alpiniste néo-zélandais, premier vainqueur de l'Everest avec Tenzing Norgay|New Zealand mountaineer, first to climb Everest with Tenzing Norgay|Alpinista neozelandés, primero en coronar el Everest con Tenzing Norgay",

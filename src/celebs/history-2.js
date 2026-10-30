@@ -53,7 +53,6 @@ module.exports = [
   ["Jacques Cartier", "jacques cartier", EX, "2 6 7 2 2 8 5 1 3 5 3 5 4 4 5 6 5"],
   ["Roald Amundsen", "amundsen|roald amundsen", EX, "2 8 9 1 1 10 5 0 2 7 3 6 4 4 3 9 7", "survivor"],
   ["Ernest Shackleton", "shackleton|ernest shackleton|sir ernest shackleton", EX, "5 8 8 0 2 10 8 0 3 5 4 6 3 4 7 9 9", "leader|hero|survivor"],
-  ["Jacques-Yves Cousteau", "cousteau|jacques yves cousteau|jacques cousteau|commandant cousteau", EX, "4 5 8 1 1 8 6 1 3 5 6 3 6 4 7 6 3"],
   ["Edmund Hillary", "edmund hillary|sir edmund hillary", EX, "4 9 7 0 1 10 9 0 3 6 5 5 4 3 4 6 3", "hero"],
 
   // Sciences

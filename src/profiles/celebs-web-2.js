@@ -630,4 +630,403 @@ module.exports = {
       lea: "Elle a été faite dame par la reine en 2019.|She was made a dame in 2019.|Fue nombrada dama en 2019.",
     },
   },
+  // Chefs
+  "Anne-Sophie Pic": {
+    x: "8 8 8 9 5 5 10",
+    d: "Cheffe française triplement étoilée de la Maison Pic à Valence|French three-Michelin-star chef of Maison Pic in Valence|Chef francesa con tres estrellas de la Maison Pic en Valence",
+    f: {
+      lea: "Elle a obtenu trois étoiles Michelin en 2007, rare pour une femme en France.|She won three Michelin stars in 2007, rare for a woman in France.|Obtuvo tres estrellas Michelin en 2007, algo raro para una mujer en Francia.",
+      org: "Elle a repris la maison familiale où son grand-père et son père étaient déjà étoilés.|She took over the family restaurant where her grandfather and father were already starred.|Se hizo cargo del restaurante familiar donde su abuelo y su padre ya tenían estrellas.",
+      int: "Formée d'abord en école de commerce, elle a appris la cuisine en autodidacte.|First trained in business school, she taught herself to cook.|Formada primero en una escuela de negocios, aprendió a cocinar de forma autodidacta.",
+    },
+  },
+  "Pierre Hermé": {
+    x: "6 8 8 8 5 5 10",
+    d: "Pâtissier français, roi du macaron|French pastry chef, king of the macaron|Pastelero francés, rey del macaron",
+    f: {
+      glu: "Son gâteau Ispahan associe rose, litchi et framboise.|His Ispahan cake combines rose, lychee and raspberry.|Su pastel Ispahan combina rosa, lichi y frambuesa.",
+      sty: "Vogue l'a surnommé le Picasso de la pâtisserie.|Vogue nicknamed him the Picasso of pastry.|Vogue lo apodó el Picasso de la pastelería.",
+      org: "Il est entré en apprentissage chez Lenôtre à 14 ans.|He started an apprenticeship at Lenôtre at 14.|Empezó como aprendiz en Lenôtre a los 14 años.",
+      lea: "Il a été élu meilleur chef pâtissier du monde en 2016.|He was named the world's best pastry chef in 2016.|Fue elegido mejor pastelero del mundo en 2016.",
+    },
+  },
+  "Cédric Grolet": {
+    x: "7 8 8 8 5 5 10",
+    d: "Pâtissier français star d'Instagram, roi des fruits en trompe-l'œil|French pastry chef and Instagram star, king of trompe-l'œil fruits|Pastelero francés estrella de Instagram, rey de las frutas trampantojo",
+    f: {
+      cun: "Ses pâtisseries en forme de vrais fruits trompent l'œil.|His pastries shaped like real fruit fool the eye.|Sus pasteles con forma de frutas reales engañan al ojo.",
+      lea: "Il a été chef pâtissier de l'hôtel Le Meurice à Paris.|He was head pastry chef at the Le Meurice hotel in Paris.|Fue jefe de pastelería del hotel Le Meurice en París.",
+      tal: "Il est l'un des pâtissiers les plus suivis sur Instagram.|He is one of the most followed pastry chefs on Instagram.|Es uno de los pasteleros más seguidos en Instagram.",
+    },
+  },
+  "Michel Guérard": {
+    x: "6 7 8 8 6 5 9",
+    d: "Chef français, inventeur de la cuisine minceur|French chef, inventor of cuisine minceur|Chef francés, inventor de la cocina minceur",
+    f: {
+      int: "Il a inventé la cuisine minceur, gastronomique mais légère.|He invented cuisine minceur, gourmet but light.|Inventó la cocina minceur, gastronómica pero ligera.",
+      lea: "Son restaurant d'Eugénie-les-Bains a gardé trois étoiles pendant plus de quarante ans.|His restaurant in Eugénie-les-Bains kept three stars for over forty years.|Su restaurante de Eugénie-les-Bains mantuvo tres estrellas durante más de cuarenta años.",
+      cun: "Il a été l'un des pionniers de la nouvelle cuisine.|He was one of the pioneers of nouvelle cuisine.|Fue uno de los pioneros de la nouvelle cuisine.",
+    },
+  },
+  "Mory Sacko": {
+    x: "8 8 8 8 7 5 9",
+    d: "Chef français étoilé, mêlant cuisines française, africaine et japonaise|French Michelin-starred chef blending French, African and Japanese cuisines|Chef francés con estrella, que mezcla cocinas francesa, africana y japonesa",
+    f: {
+      tal: "Il s'est révélé au grand public dans Top Chef en 2020.|He rose to fame on Top Chef in 2020.|Se dio a conocer al gran público en Top Chef en 2020.",
+      lea: "Son restaurant parisien MoSuke a décroché une étoile Michelin en 2021.|His Paris restaurant MoSuke won a Michelin star in 2021.|Su restaurante parisino MoSuke obtuvo una estrella Michelin en 2021.",
+      kin: "Il présente l'émission Cuisine ouverte sur France 3.|He hosts the show Cuisine ouverte on France 3.|Presenta el programa Cuisine ouverte en France 3.",
+    },
+  },
+  "Juan Arbelaez": {
+    x: "8 8 8 7 9 7 7",
+    d: "Chef colombien installé à Paris, révélé par Top Chef|Colombian chef based in Paris, revealed by Top Chef|Chef colombiano afincado en París, revelado por Top Chef",
+    f: {
+      tal: "Il s'est fait connaître dans Top Chef en 2013.|He became known on Top Chef in 2013.|Se dio a conocer en Top Chef en 2013.",
+      lea: "Il a ouvert plusieurs restaurants à Paris, dont Plantxa.|He has opened several restaurants in Paris, including Plantxa.|Ha abierto varios restaurantes en París, entre ellos Plantxa.",
+      soc: "Il est connu pour sa bonne humeur et son énergie à la télévision.|He is known for his cheerfulness and energy on TV.|Es conocido por su buen humor y su energía en televisión.",
+    },
+  },
+  "Massimo Bottura": {
+    x: "6 7 8 8 9 5 8",
+    d: "Chef italien de l'Osteria Francescana à Modène|Italian chef of Osteria Francescana in Modena|Chef italiano de la Osteria Francescana en Módena",
+    f: {
+      lea: "Son Osteria Francescana a été classée meilleur restaurant du monde en 2016 et 2018.|His Osteria Francescana was ranked the world's best restaurant in 2016 and 2018.|Su Osteria Francescana fue elegida mejor restaurante del mundo en 2016 y 2018.",
+      hum: "Son dessert Oops! J'ai fait tomber la tarte au citron imite un gâteau écrasé.|His dessert Oops! I Dropped the Lemon Tart looks like a smashed cake.|Su postre ¡Ups! Se me cayó la tarta de limón imita un pastel aplastado.",
+      kin: "Il a créé des Refettorio, des cantines solidaires cuisinant les invendus.|He created the Refettorio, charity canteens cooking surplus food.|Creó los Refettorio, comedores solidarios que cocinan excedentes.",
+    },
+  },
+  "Ferran Adrià": {
+    x: "5 7 8 9 5 4 9",
+    d: "Chef espagnol d'elBulli, pionnier de la cuisine moléculaire|Spanish chef of elBulli, pioneer of molecular cuisine|Chef español de elBulli, pionero de la cocina molecular",
+    f: {
+      cun: "Il a popularisé les espumas et la sphérification.|He popularised foams and spherification.|Popularizó las espumas y la esferificación.",
+      lea: "Son restaurant elBulli a été élu cinq fois meilleur restaurant du monde.|His restaurant elBulli was named world's best restaurant five times.|Su restaurante elBulli fue elegido cinco veces mejor restaurante del mundo.",
+      bra: "Il a fermé elBulli en 2011 au sommet de sa gloire pour en faire une fondation.|He closed elBulli in 2011 at its peak to turn it into a foundation.|Cerró elBulli en 2011 en su apogeo para convertirlo en una fundación.",
+    },
+  },
+  "Julia Child": {
+    x: "6 6 9 8 9 6 8",
+    d: "Cheffe américaine qui a fait découvrir la cuisine française aux États-Unis|American chef who introduced French cooking to the United States|Chef estadounidense que dio a conocer la cocina francesa en Estados Unidos",
+    f: {
+      tal: "Son livre Mastering the Art of French Cooking, paru en 1961, est un classique.|Her book Mastering the Art of French Cooking, published in 1961, is a classic.|Su libro Mastering the Art of French Cooking, de 1961, es un clásico.",
+      hum: "Dans son émission The French Chef, elle gardait le sourire même quand un plat ratait.|On her show The French Chef she kept smiling even when a dish failed.|En su programa The French Chef seguía sonriendo incluso cuando un plato salía mal.",
+      int: "Elle a appris la cuisine au Cordon Bleu à Paris.|She learned to cook at Le Cordon Bleu in Paris.|Aprendió a cocinar en Le Cordon Bleu de París.",
+      cut: "Meryl Streep l'a incarnée dans le film Julie et Julia.|Meryl Streep played her in the film Julie & Julia.|Meryl Streep la interpretó en la película Julie y Julia.",
+    },
+  },
+  "Nigella Lawson": {
+    x: "9 8 8 7 8 9 7",
+    d: "Auteure culinaire et animatrice britannique|British food writer and TV cook|Escritora gastronómica y presentadora británica",
+    f: {
+      glu: "Elle est célèbre pour ses recettes gourmandes et généreuses.|She is famous for her indulgent, generous recipes.|Es famosa por sus recetas golosas y generosas.",
+      tal: "Son livre How to Eat et son émission Nigella Bites l'ont rendue célèbre.|Her book How to Eat and her show Nigella Bites made her famous.|Su libro How to Eat y su programa Nigella Bites la hicieron famosa.",
+      hum: "Sa prononciation très originale du mot microwave est devenue virale en 2020.|Her very original pronunciation of microwave went viral in 2020.|Su original pronunciación de la palabra microwave se hizo viral en 2020.",
+    },
+  },
+  "Maïté": {
+    x: "5 4 9 6 9 4 6",
+    d: "Cuisinière française star de La Cuisine des Mousquetaires|French cook, star of La Cuisine des Mousquetaires|Cocinera francesa, estrella de La Cuisine des Mousquetaires",
+    f: {
+      tal: "Elle a animé La Cuisine des Mousquetaires avec Micheline pendant des années.|She hosted La Cuisine des Mousquetaires with Micheline for years.|Presentó La Cuisine des Mousquetaires con Micheline durante años.",
+      scr: "Sa séquence où elle assomme une anguille est restée culte.|Her scene stunning an eel has become a cult moment.|Su escena en la que aturde una anguila se ha vuelto de culto.",
+      glu: "Elle défendait une cuisine du Sud-Ouest généreuse, au beurre et à la graisse de canard.|She championed generous south-western cooking with butter and duck fat.|Defendía una cocina del suroeste generosa, con mantequilla y grasa de pato.",
+    },
+  },
+  "Mercotte": {
+    x: "6 8 9 7 7 4 9",
+    d: "Blogueuse culinaire française, jurée du Meilleur Pâtissier|French food blogger, judge on Le Meilleur Pâtissier|Bloguera gastronómica francesa, jurado de Le Meilleur Pâtissier",
+    f: {
+      lea: "Elle est jurée du Meilleur Pâtissier sur M6 aux côtés de Cyril Lignac.|She is a judge on Le Meilleur Pâtissier on M6 alongside Cyril Lignac.|Es jurado de Le Meilleur Pâtissier en M6 junto a Cyril Lignac.",
+      cun: "Elle est réputée pour ses dégustations exigeantes et ses remarques précises.|She is known for her demanding tastings and precise remarks.|Es conocida por sus exigentes catas y sus comentarios precisos.",
+      tal: "Elle s'est d'abord fait connaître avec son blog de recettes, notamment de macarons.|She first became known through her recipe blog, especially for macarons.|Se dio a conocer primero con su blog de recetas, sobre todo de macarons.",
+    },
+  },
+  "Guy Savoy": {
+    x: "6 7 8 8 7 5 9",
+    d: "Chef français installé à la Monnaie de Paris|French chef based at the Monnaie de Paris|Chef francés instalado en la Monnaie de París",
+    f: {
+      lea: "Son restaurant a été classé plusieurs années meilleur restaurant du monde par La Liste.|His restaurant was ranked the world's best by La Liste for several years.|Su restaurante fue elegido varios años mejor del mundo por La Liste.",
+      glu: "Sa soupe d'artichaut à la truffe noire est son plat signature.|His artichoke and black truffle soup is his signature dish.|Su sopa de alcachofa con trufa negra es su plato estrella.",
+      kin: "Gordon Ramsay a fait partie de sa brigade à ses débuts.|Gordon Ramsay worked in his kitchen early in his career.|Gordon Ramsay trabajó en su cocina en sus inicios.",
+    },
+  },
+  // Astronautes
+  "Youri Gagarine": {
+    x: "8 6 9 8 7 5 9",
+    d: "Cosmonaute soviétique, premier homme dans l'espace|Soviet cosmonaut, first human in space|Cosmonauta soviético, primer hombre en el espacio",
+    f: {
+      bra: "Le 12 avril 1961, il est devenu le premier homme à voyager dans l'espace.|On 12 April 1961 he became the first human to travel into space.|El 12 de abril de 1961 se convirtió en el primer hombre en viajar al espacio.",
+      tal: "Au décollage, il a lancé son célèbre Poyekhali !, c'est-à-dire C'est parti !|At lift-off he shouted his famous Poyekhali!, meaning Let's go!|Al despegar gritó su famoso ¡Poyekhali!, es decir ¡Vámonos!",
+      cut: "Son grand sourire a fait le tour du monde.|His broad smile went around the world.|Su gran sonrisa dio la vuelta al mundo.",
+      spd: "Son vol à bord de Vostok 1 a fait le tour de la Terre en 108 minutes.|His Vostok 1 flight circled the Earth in 108 minutes.|Su vuelo en la Vostok 1 dio la vuelta a la Tierra en 108 minutos.",
+    },
+  },
+  "Valentina Terechkova": {
+    x: "7 5 8 8 5 5 9",
+    d: "Cosmonaute soviétique, première femme dans l'espace|Soviet cosmonaut, first woman in space|Cosmonauta soviética, primera mujer en el espacio",
+    f: {
+      bra: "En juin 1963, elle est devenue la première femme dans l'espace à bord de Vostok 6.|In June 1963 she became the first woman in space aboard Vostok 6.|En junio de 1963 se convirtió en la primera mujer en el espacio a bordo de la Vostok 6.",
+      tal: "Son indicatif radio était Tchaïka, la mouette.|Her radio call sign was Chaika, the seagull.|Su indicativo de radio era Chaika, la gaviota.",
+      str: "Ancienne ouvrière du textile, elle pratiquait le parachutisme.|A former textile worker, she was a keen parachutist.|Antigua obrera textil, practicaba el paracaidismo.",
+    },
+  },
+  "Jean-Loup Chrétien": {
+    x: "6 5 9 8 5 4 9",
+    d: "Spationaute français, premier Français dans l'espace|French astronaut, the first Frenchman in space|Astronauta francés, primer francés en el espacio",
+    f: {
+      bra: "En 1982, il est devenu le premier Français et le premier Européen de l'Ouest dans l'espace.|In 1982 he became the first Frenchman and first Western European in space.|En 1982 se convirtió en el primer francés y el primer europeo occidental en el espacio.",
+      str: "En 1988, il a été le premier non-Américain et non-Soviétique à sortir dans l'espace.|In 1988 he became the first non-American, non-Soviet to perform a spacewalk.|En 1988 fue el primer no estadounidense ni soviético en hacer un paseo espacial.",
+      lea: "Il a volé à bord de vaisseaux soviétiques et de la navette américaine.|He flew on both Soviet spacecraft and the American Space Shuttle.|Voló en naves soviéticas y en el transbordador estadounidense.",
+    },
+  },
+  "Sophie Adenot": {
+    x: "7 5 9 8 6 4 10",
+    d: "Astronaute française de l'Agence spatiale européenne|French astronaut of the European Space Agency|Astronauta francesa de la Agencia Espacial Europea",
+    f: {
+      bra: "Elle a été sélectionnée par l'ESA en 2022 parmi plus de 22 000 candidats.|She was selected by ESA in 2022 from over 22,000 applicants.|Fue seleccionada por la ESA en 2022 entre más de 22.000 candidatos.",
+      spd: "Elle était pilote d'essai d'hélicoptères dans l'armée de l'air française.|She was a helicopter test pilot in the French Air Force.|Era piloto de pruebas de helicópteros en el Ejército del Aire francés.",
+      lea: "Elle a été choisie pour la mission εpsilon vers la Station spatiale internationale.|She was chosen for the εpsilon mission to the International Space Station.|Fue elegida para la misión εpsilon a la Estación Espacial Internacional.",
+    },
+  },
+  "Chris Hadfield": {
+    x: "7 6 9 8 8 4 9",
+    d: "Astronaute canadien, premier Canadien commandant de l'ISS|Canadian astronaut, first Canadian commander of the ISS|Astronauta canadiense, primer canadiense comandante de la ISS",
+    f: {
+      tal: "Sa reprise de Space Oddity de David Bowie, filmée dans l'ISS en 2013, est devenue virale.|His cover of David Bowie's Space Oddity, filmed on the ISS in 2013, went viral.|Su versión de Space Oddity de David Bowie, grabada en la ISS en 2013, se hizo viral.",
+      lea: "Il a été le premier Canadien à commander la Station spatiale internationale.|He was the first Canadian to command the International Space Station.|Fue el primer canadiense en comandar la Estación Espacial Internacional.",
+      int: "Il a écrit le best-seller An Astronaut's Guide to Life on Earth.|He wrote the best-seller An Astronaut's Guide to Life on Earth.|Escribió el éxito An Astronaut's Guide to Life on Earth.",
+    },
+  },
+  "Sunita Williams": {
+    x: "7 5 9 8 7 4 9",
+    d: "Astronaute américaine de la NASA aux nombreux records|American NASA astronaut with many records|Astronauta estadounidense de la NASA con numerosos récords",
+    f: {
+      unl: "Sa mission Starliner de 2024, prévue pour huit jours, a duré environ neuf mois.|Her 2024 Starliner mission, planned for eight days, lasted about nine months.|Su misión Starliner de 2024, prevista para ocho días, duró unos nueve meses.",
+      spd: "Elle a couru le marathon de Boston sur un tapis de course dans l'espace en 2007.|She ran the Boston Marathon on a treadmill in space in 2007.|Corrió la maratón de Boston en una cinta en el espacio en 2007.",
+      str: "Elle détient l'un des plus longs temps cumulés de sorties dans l'espace pour une femme.|She holds one of the longest cumulative spacewalk times for a woman.|Tiene uno de los mayores tiempos acumulados de paseos espaciales para una mujer.",
+    },
+  },
+  "Sally Ride": {
+    x: "7 5 9 8 5 4 9",
+    d: "Astronaute et physicienne américaine, première Américaine dans l'espace|American astronaut and physicist, first American woman in space|Astronauta y física estadounidense, primera estadounidense en el espacio",
+    f: {
+      bra: "En 1983, elle est devenue la première Américaine dans l'espace à bord de Challenger.|In 1983 she became the first American woman in space aboard Challenger.|En 1983 se convirtió en la primera estadounidense en el espacio a bordo del Challenger.",
+      int: "Elle avait un doctorat de physique de l'université Stanford.|She held a PhD in physics from Stanford University.|Tenía un doctorado en física por la Universidad de Stanford.",
+      kin: "Elle a créé Sally Ride Science pour donner aux filles le goût des sciences.|She created Sally Ride Science to get girls interested in science.|Creó Sally Ride Science para acercar las ciencias a las chicas.",
+    },
+  },
+  "Scott Kelly": {
+    x: "6 5 9 8 5 4 9",
+    d: "Astronaute américain, célèbre pour son année dans l'espace|American astronaut famous for his year in space|Astronauta estadounidense, famoso por su año en el espacio",
+    f: {
+      str: "Il a passé 340 jours d'affilée dans la Station spatiale internationale en 2015 et 2016.|He spent 340 consecutive days on the International Space Station in 2015 and 2016.|Pasó 340 días seguidos en la Estación Espacial Internacional en 2015 y 2016.",
+      int: "La NASA a comparé sa santé à celle de son jumeau Mark resté sur Terre.|NASA compared his health with that of his twin Mark, who stayed on Earth.|La NASA comparó su salud con la de su gemelo Mark, que se quedó en la Tierra.",
+      tal: "Ses photos de la Terre depuis l'espace ont été très partagées.|His photos of Earth from space were widely shared.|Sus fotos de la Tierra desde el espacio se compartieron mucho.",
+    },
+  },
+  // Aventuriers et explorateurs
+  "Bear Grylls": {
+    x: "7 6 8 8 6 5 8",
+    d: "Aventurier britannique, star de l'émission de survie Man vs Wild|British adventurer, star of the survival show Man vs Wild|Aventurero británico, estrella del programa de supervivencia El último superviviente",
+    f: {
+      glu: "Dans Man vs Wild, il mange insectes et animaux crus pour survivre.|On Man vs Wild he eats insects and raw animals to survive.|En El último superviviente come insectos y animales crudos para sobrevivir.",
+      bra: "Il a gravi l'Everest en 1998, à seulement 23 ans.|He climbed Everest in 1998, aged only 23.|Escaló el Everest en 1998, con solo 23 años.",
+      lea: "Il est devenu chef des scouts du Royaume-Uni.|He became Chief Scout of the United Kingdom.|Se convirtió en jefe de los scouts del Reino Unido.",
+      soc: "Il a emmené Barack Obama en Alaska pour l'émission Running Wild.|He took Barack Obama to Alaska for the show Running Wild.|Llevó a Barack Obama a Alaska para el programa Running Wild.",
+    },
+  },
+  "Alex Honnold": {
+    x: "6 4 8 6 4 4 10",
+    d: "Grimpeur américain, roi de l'escalade en solo intégral|American climber, king of free solo climbing|Escalador estadounidense, rey de la escalada en solitario integral",
+    f: {
+      bra: "En 2017, il a escaladé El Capitan sans corde, une première historique.|In 2017 he climbed El Capitan without a rope, a historic first.|En 2017 escaló El Capitán sin cuerda, una primicia histórica.",
+      tal: "Le documentaire Free Solo sur son ascension a remporté l'Oscar en 2019.|The documentary Free Solo about his climb won the Oscar in 2019.|El documental Free Solo sobre su ascenso ganó el Óscar en 2019.",
+      org: "Il a longtemps vécu dans une camionnette pour grimper toute l'année.|He long lived in a van to climb all year round.|Vivió mucho tiempo en una furgoneta para escalar todo el año.",
+    },
+  },
+  "Reinhold Messner": {
+    x: "6 5 8 8 4 4 9",
+    d: "Alpiniste italien, légende de l'himalayisme|Italian mountaineer, a legend of Himalayan climbing|Alpinista italiano, leyenda del himalayismo",
+    f: {
+      bra: "En 1978, il a gravi l'Everest sans oxygène avec Peter Habeler, une première.|In 1978 he climbed Everest without oxygen with Peter Habeler, a first.|En 1978 escaló el Everest sin oxígeno con Peter Habeler, una primicia.",
+      str: "Il a été le premier à gravir les quatorze sommets de plus de 8 000 mètres.|He was the first to climb all fourteen peaks over 8,000 metres.|Fue el primero en escalar los catorce picos de más de 8.000 metros.",
+      lea: "Il a aussi traversé l'Antarctique à pied.|He also crossed Antarctica on foot.|También cruzó la Antártida a pie.",
+    },
+  },
+  "Steve Irwin": {
+    x: "6 5 9 7 10 5 7",
+    d: "Naturaliste australien surnommé le Chasseur de crocodiles|Australian naturalist known as the Crocodile Hunter|Naturalista australiano apodado el Cazador de cocodrilos",
+    f: {
+      bra: "Dans The Crocodile Hunter, il approchait crocodiles et serpents à mains nues.|In The Crocodile Hunter he approached crocodiles and snakes bare-handed.|En The Crocodile Hunter se acercaba a cocodrilos y serpientes con las manos desnudas.",
+      tal: "Son exclamation Crikey! est devenue culte.|His exclamation Crikey! became iconic.|Su exclamación ¡Crikey! se hizo de culto.",
+      kin: "Il dirigeait l'Australia Zoo et se battait pour la protection des animaux.|He ran Australia Zoo and fought for animal conservation.|Dirigía el Australia Zoo y luchaba por la protección de los animales.",
+      sty: "Il portait toujours sa tenue kaki avec un short.|He always wore his khaki outfit with shorts.|Siempre llevaba su ropa caqui con pantalón corto.",
+    },
+  },
+  "Jacques-Yves Cousteau": {
+    x: "6 8 7 9 6 5 9",
+    d: "Commandant et océanographe français, explorateur des mers|French commander and oceanographer, explorer of the seas|Comandante y oceanógrafo francés, explorador de los mares",
+    f: {
+      int: "Il a coinventé le scaphandre autonome moderne en 1943.|He co-invented the modern aqualung in 1943.|Coinventó la escafandra autónoma moderna en 1943.",
+      sty: "Son bonnet rouge est devenu son emblème.|His red cap became his emblem.|Su gorro rojo se convirtió en su emblema.",
+      tal: "Son film Le Monde du silence a remporté la Palme d'or en 1956.|His film The Silent World won the Palme d'Or in 1956.|Su película El mundo del silencio ganó la Palma de Oro en 1956.",
+      lea: "Il a exploré les océans du monde à bord de son navire, la Calypso.|He explored the world's oceans aboard his ship, the Calypso.|Exploró los océanos del mundo a bordo de su barco, el Calypso.",
+    },
+  },
+  "Antoine de Maximy": {
+    x: "5 3 9 6 10 4 6",
+    d: "Réalisateur et voyageur français de J'irai dormir chez vous|French filmmaker and traveller of J'irai dormir chez vous|Realizador y viajero francés de J'irai dormir chez vous",
+    f: {
+      soc: "Dans J'irai dormir chez vous, il se fait inviter à dormir chez des inconnus du monde entier.|In J'irai dormir chez vous he gets strangers around the world to let him sleep at their home.|En J'irai dormir chez vous consigue que desconocidos de todo el mundo lo inviten a dormir.",
+      cun: "Il filme seul grâce à des caméras fixées sur un harnais.|He films alone using cameras fixed to a harness.|Graba solo gracias a cámaras fijadas a un arnés.",
+      sty: "Il voyage toujours avec sa célèbre chemise rouge.|He always travels in his famous red shirt.|Siempre viaja con su famosa camisa roja.",
+    },
+  },
+  "Nicolas Vanier": {
+    x: "6 5 8 8 5 5 9",
+    d: "Aventurier et cinéaste français du Grand Nord|French adventurer and filmmaker of the Far North|Aventurero y cineasta francés del Gran Norte",
+    f: {
+      str: "Il a traversé le Canada et la Sibérie en traîneau à chiens.|He crossed Canada and Siberia by dog sled.|Cruzó Canadá y Siberia en trineo de perros.",
+      tal: "Il a réalisé les films Le Dernier Trappeur et Belle et Sébastien.|He directed the films Le Dernier Trappeur and Belle et Sébastien.|Dirigió las películas Le Dernier Trappeur y Belle et Sébastien.",
+      kin: "Son film Donne-moi des ailes raconte le voyage d'un enfant avec des oies sauvages.|His film Donne-moi des ailes tells of a boy's journey with wild geese.|Su película Donne-moi des ailes cuenta el viaje de un niño con gansos salvajes.",
+    },
+  },
+  "Felix Baumgartner": {
+    x: "6 4 8 7 4 5 9",
+    d: "Parachutiste autrichien, auteur d'un saut depuis la stratosphère|Austrian skydiver who jumped from the stratosphere|Paracaidista austriaco que saltó desde la estratosfera",
+    f: {
+      spd: "En 2012, il a franchi le mur du son en chute libre lors du saut Red Bull Stratos.|In 2012 he broke the sound barrier in free fall during the Red Bull Stratos jump.|En 2012 rompió la barrera del sonido en caída libre en el salto Red Bull Stratos.",
+      bra: "Il a sauté d'une capsule à environ 39 kilomètres d'altitude.|He jumped from a capsule about 39 kilometres up.|Saltó desde una cápsula a unos 39 kilómetros de altura.",
+      str: "Il a traversé la Manche en 2003 avec une aile en carbone.|In 2003 he crossed the English Channel with a carbon wing.|En 2003 cruzó el canal de la Mancha con un ala de carbono.",
+    },
+  },
+  // Magiciens
+  "Harry Houdini": {
+    x: "6 7 7 8 6 5 9",
+    d: "Illusionniste américain d'origine hongroise, roi de l'évasion|Hungarian-born American illusionist, king of escape|Ilusionista estadounidense de origen húngaro, rey del escapismo",
+    f: {
+      bra: "Il s'échappait de camisoles de force suspendu la tête en bas.|He escaped from straitjackets while hanging upside down.|Escapaba de camisas de fuerza colgado boca abajo.",
+      cun: "Son numéro de la cellule de torture chinoise le plongeait enchaîné dans l'eau.|His Chinese Water Torture Cell act plunged him chained into water.|Su número de la celda de tortura china lo sumergía encadenado en agua.",
+      hon: "Il a dénoncé les faux médiums qui prétendaient parler aux morts.|He exposed fake mediums who claimed to talk to the dead.|Desenmascaró a falsos médiums que decían hablar con los muertos.",
+    },
+  },
+  "David Blaine": {
+    x: "5 6 7 7 4 4 10",
+    d: "Magicien américain, maître des exploits d'endurance|American magician, master of endurance stunts|Mago estadounidense, maestro de las hazañas de resistencia",
+    f: {
+      str: "Il a retenu sa respiration plus de 17 minutes en direct à la télévision en 2008.|He held his breath for over 17 minutes live on TV in 2008.|Contuvo la respiración más de 17 minutos en directo en televisión en 2008.",
+      bra: "Il est resté enfermé dans un bloc de glace à New York en 2000.|He stayed encased in a block of ice in New York in 2000.|Permaneció encerrado en un bloque de hielo en Nueva York en 2000.",
+      glu: "Il a passé 44 jours sans manger dans une boîte suspendue au-dessus de la Tamise.|He spent 44 days without food in a box suspended over the Thames.|Pasó 44 días sin comer en una caja suspendida sobre el Támesis.",
+    },
+  },
+  "Dynamo": {
+    x: "6 6 7 7 5 4 8",
+    d: "Magicien britannique de l'émission Magician Impossible|British magician of the show Magician Impossible|Mago británico del programa Magician Impossible",
+    f: {
+      cun: "En 2011, il a semblé marcher sur l'eau de la Tamise à Londres.|In 2011 he appeared to walk on the water of the Thames in London.|En 2011 pareció caminar sobre el agua del Támesis en Londres.",
+      tal: "Son émission Dynamo: Magician Impossible a été un grand succès.|His show Dynamo: Magician Impossible was a big hit.|Su programa Dynamo: Magician Impossible fue un gran éxito.",
+      bra: "Il a lévité à côté d'un bus à impériale en plein Londres.|He levitated alongside a double-decker bus in central London.|Levitó junto a un autobús de dos pisos en pleno Londres.",
+    },
+  },
+  "Criss Angel": {
+    x: "5 8 6 8 6 6 8",
+    d: "Illusionniste américain, star de l'émission Mindfreak|American illusionist, star of the show Mindfreak|Ilusionista estadounidense, estrella del programa Mindfreak",
+    f: {
+      tal: "Son émission Criss Angel Mindfreak a popularisé la magie de rue spectaculaire.|His show Criss Angel Mindfreak popularised spectacular street magic.|Su programa Criss Angel Mindfreak popularizó la magia callejera espectacular.",
+      cun: "Il a semblé léviter entre deux immeubles de Las Vegas.|He appeared to levitate between two buildings in Las Vegas.|Pareció levitar entre dos edificios de Las Vegas.",
+      sty: "Il est connu pour son look rock, tout en noir.|He is known for his all-black rock look.|Es conocido por su estética rockera, toda de negro.",
+    },
+  },
+  "Éric Antoine": {
+    x: "6 7 8 7 9 4 6",
+    d: "Magicien humoriste français, juré de La France a un incroyable talent|French comic magician, judge on La France a un incroyable talent|Mago humorista francés, jurado de La France a un incroyable talent",
+    f: {
+      lea: "Il est membre du jury de La France a un incroyable talent.|He is a judge on La France a un incroyable talent.|Es miembro del jurado de La France a un incroyable talent.",
+      hum: "Ses spectacles mélangent grandes illusions et humour déjanté.|His shows mix grand illusions with wacky humour.|Sus espectáculos mezclan grandes ilusiones y humor disparatado.",
+      tal: "Il est reconnaissable à sa grande taille et à son énergie débordante.|He is recognisable by his great height and boundless energy.|Se le reconoce por su gran estatura y su energía desbordante.",
+    },
+  },
+  "Gérard Majax": {
+    x: "5 6 9 6 6 4 8",
+    d: "Illusionniste français, star de la magie à la télévision|French illusionist, a star of TV magic|Ilusionista francés, estrella de la magia en televisión",
+    f: {
+      tal: "Il a popularisé la magie à la télévision française dans les années 1970 et 1980.|He popularised magic on French TV in the 1970s and 1980s.|Popularizó la magia en la televisión francesa en los años 1970 y 1980.",
+      hon: "Il a montré en direct comment imiter les prétendus pouvoirs de tordre les cuillères.|He showed live on TV how to fake so-called spoon-bending powers.|Mostró en directo cómo imitar los supuestos poderes para doblar cucharas.",
+      cun: "Il dévoilait volontiers les trucs des faux voyants.|He readily revealed the tricks of fake psychics.|Desvelaba con gusto los trucos de los falsos videntes.",
+    },
+  },
+  "Shin Lim": {
+    x: "7 8 8 6 4 5 10",
+    d: "Magicien canado-américain, roi de la manipulation de cartes|Canadian-American magician, king of card manipulation|Mago canadiense-estadounidense, rey de la manipulación de cartas",
+    f: {
+      lea: "Il a remporté America's Got Talent en 2018 puis AGT: The Champions en 2019.|He won America's Got Talent in 2018 and then AGT: The Champions in 2019.|Ganó America's Got Talent en 2018 y AGT: The Champions en 2019.",
+      cun: "Il a piégé deux fois Penn & Teller dans Fool Us.|He fooled Penn & Teller twice on Fool Us.|Engañó dos veces a Penn & Teller en Fool Us.",
+      tal: "Ses tours sont présentés sans un mot, sur fond de musique.|His tricks are performed without a word, set to music.|Sus trucos se presentan sin una palabra, con música de fondo.",
+    },
+  },
+  "Garcimore": {
+    x: "5 5 8 3 8 4 3",
+    d: "Magicien comique d'origine espagnole, star de la télé française|Spanish-born comic magician, star of French TV|Mago cómico de origen español, estrella de la televisión francesa",
+    f: {
+      clu: "Il était célèbre pour ses tours de magie volontairement ratés.|He was famous for his deliberately failed magic tricks.|Era famoso por sus trucos de magia fallidos a propósito.",
+      tal: "Son fort accent espagnol faisait partie de son personnage.|His strong Spanish accent was part of his character.|Su fuerte acento español formaba parte de su personaje.",
+      hum: "Il a été un habitué des émissions de variétés des années 1970 et 1980.|He was a regular on variety shows in the 1970s and 1980s.|Fue un habitual de los programas de variedades de los años 1970 y 1980.",
+    },
+  },
+  "Penn & Teller": {
+    x: "5 6 9 8 6 3 9",
+    d: "Duo américain de magiciens, l'un bavard et l'autre muet|American magician duo, one talkative and one silent|Dúo estadounidense de magos, uno hablador y otro mudo",
+    f: {
+      tal: "Sur scène, Penn parle sans arrêt tandis que Teller ne dit jamais un mot.|On stage, Penn talks non-stop while Teller never says a word.|En el escenario Penn habla sin parar mientras Teller nunca dice una palabra.",
+      cun: "Dans Fool Us, ils mettent au défi des magiciens de les tromper.|In Fool Us they challenge magicians to fool them.|En Fool Us desafían a magos a engañarlos.",
+      org: "Leur spectacle à Las Vegas est l'un des plus longs de l'histoire de la ville.|Their Las Vegas show is one of the longest-running in the city's history.|Su espectáculo en Las Vegas es uno de los más longevos de la historia de la ciudad.",
+    },
+  },
+  // Vulgarisateurs scientifiques
+  "Jamy Gourmaud": {
+    x: "5 5 9 7 8 4 8",
+    d: "Journaliste et vulgarisateur français de C'est pas sorcier|French journalist and science populariser of C'est pas sorcier|Periodista y divulgador francés de C'est pas sorcier",
+    f: {
+      int: "Il a expliqué les sciences dans C'est pas sorcier pendant vingt ans, depuis son camion.|He explained science on C'est pas sorcier for twenty years, from his truck.|Explicó la ciencia en C'est pas sorcier durante veinte años, desde su camión.",
+      soc: "Il formait un duo célèbre avec Fred Courant.|He formed a famous duo with Fred Courant.|Formaba un famoso dúo con Fred Courant.",
+      tal: "Il anime Le Monde de Jamy et la chaîne YouTube Épicurieux.|He hosts Le Monde de Jamy and the YouTube channel Épicurieux.|Presenta Le Monde de Jamy y el canal de YouTube Épicurieux.",
+    },
+  },
+  "Hubert Reeves": {
+    x: "6 5 9 6 6 4 7",
+    d: "Astrophysicien québécois, conteur des étoiles|Quebec astrophysicist, storyteller of the stars|Astrofísico quebequés, narrador de las estrellas",
+    f: {
+      int: "Son livre Patience dans l'azur a fait découvrir l'astronomie à des millions de lecteurs.|His book Patience dans l'azur introduced millions of readers to astronomy.|Su libro Patience dans l'azur acercó la astronomía a millones de lectores.",
+      kin: "Il a présidé l'association Humanité et Biodiversité.|He chaired the association Humanité et Biodiversité.|Presidió la asociación Humanité et Biodiversité.",
+      cut: "Sa barbe blanche et sa voix douce sont restées célèbres.|His white beard and gentle voice remain famous.|Su barba blanca y su voz suave siguen siendo célebres.",
+    },
+  },
+  "Neil deGrasse Tyson": {
+    x: "5 6 8 7 7 4 8",
+    d: "Astrophysicien américain, star de la vulgarisation scientifique|American astrophysicist, star of science popularisation|Astrofísico estadounidense, estrella de la divulgación científica",
+    f: {
+      tal: "Il a présenté la série documentaire Cosmos en 2014.|He hosted the documentary series Cosmos in 2014.|Presentó la serie documental Cosmos en 2014.",
+      lea: "Il dirige le planétarium Hayden de New York.|He directs the Hayden Planetarium in New York.|Dirige el planetario Hayden de Nueva York.",
+      hum: "Des enfants lui ont écrit pour protester quand son planétarium a retiré Pluton des planètes.|Children wrote to him in protest when his planetarium dropped Pluto from the planets.|Unos niños le escribieron para protestar cuando su planetario sacó a Plutón de los planetas.",
+    },
+  },
+  "David Attenborough": {
+    x: "6 10 8 6 4 4 9",
+    d: "Naturaliste et documentariste britannique, voix de la nature|British naturalist and documentary maker, the voice of nature|Naturalista y documentalista británico, la voz de la naturaleza",
+    f: {
+      int: "Il a présenté La Vie sur Terre, Planète Terre et Blue Planet.|He presented Life on Earth, Planet Earth and Blue Planet.|Presentó La vida en la Tierra, Planeta Tierra y Planeta azul.",
+      kin: "De nombreuses espèces animales et végétales portent son nom.|Many animal and plant species are named after him.|Muchas especies animales y vegetales llevan su nombre.",
+      lea: "Il a été anobli et est devenu Sir David Attenborough.|He was knighted and became Sir David Attenborough.|Fue nombrado caballero y se convirtió en Sir David Attenborough.",
+      tal: "Sa voix est l'une des plus reconnaissables des documentaires animaliers.|His voice is one of the most recognisable in wildlife documentaries.|Su voz es una de las más reconocibles de los documentales de naturaleza.",
+    },
+  },
+  "Bill Nye": {
+    x: "5 7 8 6 7 3 7",
+    d: "Vulgarisateur scientifique américain, le Science Guy|American science populariser, the Science Guy|Divulgador científico estadounidense, el Science Guy",
+    f: {
+      tal: "Son émission Bill Nye the Science Guy a appris les sciences à une génération d'enfants.|His show Bill Nye the Science Guy taught science to a generation of children.|Su programa Bill Nye the Science Guy enseñó ciencias a una generación de niños.",
+      sty: "Il porte toujours un nœud papillon.|He always wears a bow tie.|Siempre lleva pajarita.",
+      int: "Ancien ingénieur chez Boeing, il a dirigé la Planetary Society.|A former Boeing engineer, he led the Planetary Society.|Exingeniero de Boeing, dirigió la Planetary Society.",
+    },
+  },
 };
