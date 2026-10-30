@@ -1,0 +1,143 @@
+// Personnalités publiques : cinéma international (suite). Notes d'après leur image publique et leur carrière.
+// Notes (0-10) : hum str int evi clu bra kin laz glu spd cut scr ric tem tal cun unl
+const C = "Cinéma|Film|Cine";
+const TV = "Cinéma et séries|Film and TV|Cine y series";
+const R = "Réalisation|Directing|Dirección";
+const HUM = "Humour|Comedy|Humor";
+const TELE = "Télévision|Television|Televisión";
+
+module.exports = [
+  // Âge d'or et classiques
+  ["Cary Grant", "cary grant|archibald leach", C, "6 4 7 1 2 6 6 1 3 5 6 2 8 3 6 7 2"],
+  ["Ingrid Bergman", "ingrid bergman", C, "4 3 7 0 1 7 7 1 3 3 7 3 7 3 5 6 3"],
+  ["Greta Garbo", "greta garbo|garbo|la divine", C, "2 3 7 1 1 5 4 3 2 3 5 6 8 4 1 6 2"],
+  ["Fred Astaire", "fred astaire|astaire", C, "6 5 6 0 1 6 7 0 2 9 7 1 7 2 4 6 1", "dancer"],
+  ["Gene Kelly", "gene kelly", C, "7 7 6 0 2 7 7 0 3 9 7 3 7 4 6 6 2", "dancer"],
+  ["Buster Keaton", "buster keaton|l homme qui ne rit jamais|the great stone face", C, "9 7 6 0 8 10 6 1 3 8 6 2 5 2 1 7 8", "survivor"],
+  ["Laurel et Hardy", "laurel et hardy|laurel and hardy|laurel y hardy|stan laurel|oliver hardy", C, "10 4 3 0 10 5 8 3 7 3 9 1 4 5 5 2 9", "friend"],
+  ["Paul Newman", "paul newman", C, "5 6 7 1 2 8 9 1 4 8 6 4 8 3 4 7 2", "speedster"],
+  ["Robert Redford", "robert redford|redford", C, "4 5 8 0 1 7 7 1 3 5 6 4 9 3 3 7 2"],
+  ["Jane Fonda", "jane fonda", C, "5 5 7 1 2 8 7 0 2 6 6 5 9 5 7 6 2"],
+  ["Bud Spencer", "bud spencer|carlo pedersoli", C, "8 10 5 0 3 8 8 4 9 3 7 8 6 5 4 4 2", "glutton|friend"],
+  ["Terence Hill", "terence hill|mario girotti", C, "8 7 6 0 2 8 8 3 6 9 7 3 6 2 5 8 2", "friend"],
+  ["Orson Welles", "orson welles|welles", R, "7 4 10 1 2 7 5 2 8 3 3 7 6 7 9 9 5"],
+
+  // Stars hollywoodiennes
+  ["Nicolas Cage", "nicolas cage|nicholas cage|nic cage", C, "7 6 6 1 6 8 6 2 4 6 4 6 8 5 7 5 7"],
+  ["Kevin Costner", "kevin costner|costner", C, "4 7 7 0 2 8 7 1 3 6 5 5 9 3 3 6 5"],
+  ["Liam Neeson", "liam neeson|neeson", C, "4 8 7 1 1 9 7 1 3 6 4 9 8 4 3 8 3", "hero"],
+  ["Tom Hardy", "tom hardy", C, "4 9 6 1 2 9 6 1 4 6 4 9 8 6 2 7 3"],
+  ["Jake Gyllenhaal", "jake gyllenhaal|gyllenhaal", C, "5 7 7 1 2 7 6 1 3 6 6 5 8 4 4 7 3"],
+  ["Matthew McConaughey", "matthew mcconaughey|mcconaughey", C, "8 7 7 0 2 8 7 2 4 6 6 4 9 2 9 7 2"],
+  ["Mark Ruffalo", "mark ruffalo|ruffalo", C, "6 7 7 0 6 7 9 1 4 4 7 5 8 3 5 5 5"],
+  ["Chris Pratt", "chris pratt|pratt", C, "9 8 5 0 6 8 7 2 7 6 7 4 8 2 7 4 3"],
+  ["Paul Rudd", "paul rudd|rudd", C, "9 6 6 0 4 7 9 1 4 6 9 2 8 1 7 5 2", "friend"],
+  ["Ben Affleck", "ben affleck", C, "6 7 7 1 4 7 6 3 6 5 4 5 9 4 5 7 5"],
+  ["Robert Pattinson", "robert pattinson|pattinson|rpattz", C, "7 5 7 0 6 6 6 3 4 5 6 5 8 3 6 6 3"],
+  ["Idris Elba", "idris elba|elba", TV, "5 8 7 1 2 8 7 1 3 6 4 8 8 4 5 7 3"],
+  ["Gary Oldman", "gary oldman|oldman", C, "5 6 9 1 2 7 6 1 4 4 3 9 8 5 4 9 3"],
+  ["Michael Caine", "michael caine|sir michael caine", C, "7 5 8 1 1 7 7 1 4 4 4 6 8 3 7 7 2"],
+  ["Ian McKellen", "ian mckellen|mckellen|sir ian mckellen", C, "8 4 9 0 2 7 9 1 4 3 7 5 8 2 8 8 2", "teacher"],
+  ["Patrick Stewart", "patrick stewart|sir patrick stewart", TV, "6 5 9 0 1 8 8 1 3 3 5 7 8 3 6 8 2", "leader"],
+  ["Hugh Grant", "hugh grant", C, "9 4 7 1 5 5 6 3 4 4 7 2 8 6 7 6 3"],
+  ["Orlando Bloom", "orlando bloom", C, "4 6 6 0 3 8 7 1 3 8 7 2 8 2 4 5 4"],
+  ["Viggo Mortensen", "viggo mortensen|mortensen|viggo", C, "4 8 8 0 2 9 8 1 3 6 5 6 7 3 4 7 5", "hero"],
+  ["Elijah Wood", "elijah wood", C, "6 3 6 0 3 7 9 1 3 4 9 1 7 2 5 4 4", "friend"],
+  ["Pierce Brosnan", "pierce brosnan|brosnan", C, "5 7 7 1 1 8 7 1 3 6 5 5 8 3 4 7 2"],
+  ["Ewan McGregor", "ewan mcgregor", C, "7 6 7 0 3 8 8 1 4 6 7 2 8 2 7 6 3"],
+  ["Mark Hamill", "mark hamill|hamill", C, "8 5 7 0 3 8 9 1 4 5 7 2 8 2 7 6 4", "friend"],
+  ["Carrie Fisher", "carrie fisher", C, "9 4 8 0 3 9 7 1 3 4 6 5 7 4 8 7 4", "leader"],
+  ["Tom Hiddleston", "tom hiddleston|hiddleston", C, "7 5 8 1 3 6 8 1 3 5 7 4 8 2 7 9 2", "dancer"],
+  ["Rupert Grint", "rupert grint|grint", C, "8 4 5 0 6 6 8 4 7 4 8 1 8 2 5 4 5"],
+  ["Alan Rickman", "alan rickman|rickman", C, "6 4 9 1 1 6 7 1 3 3 4 9 7 4 4 9 2"],
+  ["Maggie Smith", "maggie smith|dame maggie smith", TV, "8 2 9 0 1 7 6 1 3 2 6 7 8 5 7 8 2", "teacher"],
+  ["Helena Bonham Carter", "helena bonham carter|bonham carter", C, "7 3 8 1 4 6 7 1 4 3 6 6 8 4 6 7 3"],
+  ["Ralph Fiennes", "ralph fiennes", C, "4 5 8 1 1 6 6 1 3 4 4 9 8 4 3 8 2"],
+  ["Chadwick Boseman", "chadwick boseman|boseman", C, "4 7 8 0 1 9 9 0 2 7 6 6 7 2 4 7 4", "hero"],
+
+  // Stars européennes
+  ["Mads Mikkelsen", "mads mikkelsen|mikkelsen", C, "5 7 8 1 1 7 6 1 3 6 5 9 7 3 3 8 2", "dancer"],
+  ["Javier Bardem", "javier bardem|bardem", C, "5 7 8 1 1 7 7 1 4 4 3 9 8 4 4 8 2"],
+  ["Antonio Banderas", "antonio banderas|banderas", C, "7 6 7 0 2 8 8 1 4 6 7 3 8 3 7 6 3"],
+  ["Roberto Benigni", "roberto benigni|benigni", C, "10 3 7 0 7 6 9 1 5 7 8 1 7 2 10 5 3"],
+
+  // Actrices
+  ["Cate Blanchett", "cate blanchett|blanchett", C, "5 3 9 0 1 7 7 1 3 3 5 6 8 3 5 8 2"],
+  ["Jodie Foster", "jodie foster", C, "4 4 10 0 1 8 7 1 2 4 6 5 8 3 4 8 2"],
+  ["Halle Berry", "halle berry", C, "5 6 6 0 3 8 7 1 3 7 6 5 8 3 5 6 4"],
+  ["Cameron Diaz", "cameron diaz", C, "9 5 6 0 6 7 8 2 5 6 8 2 9 2 7 5 3"],
+  ["Uma Thurman", "uma thurman|thurman", C, "4 7 7 1 2 9 6 1 3 7 5 7 8 4 4 7 4", "dancer"],
+  ["Keira Knightley", "keira knightley|knightley", C, "5 5 7 0 2 8 7 1 3 5 6 4 8 3 5 6 2"],
+  ["Judi Dench", "judi dench|dame judi dench|dench", C, "7 2 9 0 2 7 8 1 3 2 6 7 8 3 6 8 2", "leader"],
+  ["Michelle Yeoh", "michelle yeoh|yeoh", C, "5 8 8 0 1 10 8 0 3 8 6 7 8 2 5 7 3", "hero"],
+  ["Salma Hayek", "salma hayek|hayek", C, "7 5 7 0 2 8 7 1 4 5 7 4 9 4 7 6 2", "dancer"],
+  ["Viola Davis", "viola davis", TV, "4 5 9 0 1 8 8 0 2 4 6 6 8 4 6 7 2", "leader"],
+  ["Kristen Stewart", "kristen stewart|kstew", C, "4 5 7 0 4 7 6 2 3 5 5 4 8 4 2 6 3"],
+  ["Anya Taylor-Joy", "anya taylor-joy|anya taylor joy", TV, "4 4 7 0 2 7 7 1 3 5 7 4 8 2 5 8 2"],
+
+  // Comédiens
+  ["Ben Stiller", "ben stiller|stiller", C, "9 4 7 0 7 6 7 1 4 5 6 2 9 4 6 6 7"],
+  ["Will Ferrell", "will ferrell|ferrell", C, "10 6 5 0 8 6 8 2 6 5 7 2 9 2 8 4 5"],
+  ["Steve Carell", "steve carell|carell", TV, "9 4 7 0 7 6 9 1 4 4 7 2 9 2 8 5 4"],
+  ["Jack Black", "jack black", C, "10 6 6 0 7 7 8 3 7 5 7 3 8 2 9 5 4", "teacher"],
+  ["Kevin Hart", "kevin hart", HUM, "10 5 6 0 6 6 7 1 5 8 7 2 9 4 10 6 4"],
+  ["Sacha Baron Cohen", "sacha baron cohen|baron cohen|borat|ali g", C, "10 4 9 1 6 10 6 1 4 5 3 3 8 3 8 10 4"],
+  ["Mike Myers", "mike myers", C, "10 4 7 0 6 5 7 2 6 4 6 2 8 3 7 5 3"],
+  ["Leslie Nielsen", "leslie nielsen|nielsen", C, "10 4 6 0 9 6 8 2 4 4 6 2 7 1 6 4 8"],
+  ["Danny DeVito", "danny devito|devito|danny de vito", C, "9 4 7 1 5 6 8 2 7 3 8 3 8 5 8 7 4"],
+  ["John Cleese", "john cleese|cleese", HUM, "10 4 9 1 7 5 5 1 4 6 3 5 8 7 8 7 4"],
+  ["Ricky Gervais", "ricky gervais|gervais", HUM, "10 4 8 2 3 8 5 2 5 3 4 5 9 5 9 7 2"],
+  ["Jerry Seinfeld", "jerry seinfeld|seinfeld", HUM, "10 3 8 0 2 5 6 1 4 4 5 2 10 3 9 7 2"],
+
+  // Séries
+  ["Bryan Cranston", "bryan cranston|cranston", TV, "6 5 9 1 2 7 6 1 4 4 3 9 8 6 6 10 5"],
+  ["Aaron Paul", "aaron paul", TV, "6 5 5 0 6 6 8 2 5 6 7 3 7 4 7 4 7"],
+  ["Emilia Clarke", "emilia clarke", TV, "8 4 7 0 6 7 8 1 4 4 8 4 8 2 7 6 4"],
+  ["Kit Harington", "kit harington|harington|kit harrington", TV, "5 6 6 0 4 7 7 1 4 5 7 4 8 3 4 5 6"],
+  ["Peter Dinklage", "peter dinklage|dinklage", TV, "8 4 9 0 2 7 7 1 6 3 6 5 8 3 9 8 3"],
+  ["Millie Bobby Brown", "millie bobby brown|mbb", TV, "6 5 6 0 3 7 8 1 6 5 9 6 8 3 6 5 3"],
+  ["Courteney Cox", "courteney cox|courtney cox", TV, "7 4 6 0 4 6 7 1 4 5 7 3 9 3 6 6 3"],
+  ["Lisa Kudrow", "lisa kudrow|kudrow", TV, "9 3 7 0 6 5 8 2 4 4 8 1 9 2 7 5 3", "friend"],
+  ["Matt LeBlanc", "matt leblanc|matt le blanc", TV, "8 6 4 0 6 6 8 4 9 5 7 2 9 2 6 4 4", "glutton|friend"],
+  ["David Schwimmer", "david schwimmer|schwimmer", TV, "8 4 7 0 7 5 7 1 4 4 7 2 9 3 6 5 7"],
+  ["Hugh Laurie", "hugh laurie", TV, "8 4 10 1 3 6 5 3 4 5 4 6 8 5 6 9 4"],
+  ["Jim Parsons", "jim parsons", TV, "8 2 9 0 7 3 7 1 4 3 8 1 9 3 8 6 4"],
+  ["Sarah Jessica Parker", "sarah jessica parker|sjp", TV, "7 3 6 0 4 5 7 1 4 4 7 2 9 3 8 5 2"],
+  ["Eva Longoria", "eva longoria|longoria", TV, "7 4 7 0 3 6 8 1 4 5 7 3 9 3 7 6 2"],
+  ["David Hasselhoff", "david hasselhoff|hasselhoff|the hoff", TV, "8 6 4 0 7 6 7 2 5 6 6 3 8 3 7 4 6"],
+  ["Wentworth Miller", "wentworth miller", TV, "3 6 9 0 1 8 7 1 2 5 6 5 7 3 2 10 3"],
+  ["Sofía Vergara", "sofia vergara|vergara", TV, "9 4 6 0 5 6 7 1 5 4 7 3 9 5 9 5 3"],
+  ["Lee Jung-jae", "lee jung-jae|lee jung jae", TV, "4 6 7 0 3 7 7 1 3 5 5 5 8 3 3 6 6", "survivor"],
+  ["Álvaro Morte", "alvaro morte|el profesor", TV, "4 5 9 0 2 7 6 1 3 4 5 5 7 3 5 10 3", "leader"],
+  ["Úrsula Corberó", "ursula corbero|corbero", TV, "6 5 6 0 6 8 6 1 4 7 7 5 7 7 6 6 5"],
+
+  // Bollywood et Asie
+  ["Shah Rukh Khan", "shah rukh khan|srk|king khan|shahrukh khan", C, "8 5 8 0 2 7 9 1 4 5 7 4 10 3 9 7 2"],
+  ["Amitabh Bachchan", "amitabh bachchan|amitabh|big b", C, "6 5 8 0 1 7 8 1 3 4 5 7 10 3 7 7 4"],
+  ["Aishwarya Rai", "aishwarya rai|aishwarya|aishwarya rai bachchan", C, "4 4 7 0 2 6 7 1 3 4 7 3 9 2 5 6 2", "dancer"],
+  ["Priyanka Chopra", "priyanka chopra|priyanka chopra jonas|chopra", C, "6 5 8 0 3 8 8 1 4 5 6 4 9 3 7 8 2"],
+  ["Jet Li", "jet li|li lianjie", C, "4 9 7 0 1 9 7 1 2 9 5 7 8 2 3 7 3", "hero|speedster"],
+  ["Takeshi Kitano", "takeshi kitano|kitano|beat takeshi", R, "9 5 8 1 4 8 5 1 4 4 4 8 8 5 7 8 4"],
+
+  // Réalisateurs et animation
+  ["Walt Disney", "walt disney|walter elias disney", R, "7 3 9 0 2 7 7 0 3 4 7 2 10 4 6 9 3", "leader"],
+  ["Peter Jackson", "peter jackson", R, "6 5 9 0 2 7 8 1 6 4 7 2 10 2 5 8 2", "leader"],
+  ["Ridley Scott", "ridley scott", R, "4 5 9 1 1 7 5 0 3 5 3 7 9 6 4 8 2", "leader"],
+  ["Francis Ford Coppola", "francis ford coppola", R, "5 4 10 1 2 8 6 1 7 3 4 6 8 5 7 8 6"],
+  ["Wes Anderson", "wes anderson", R, "7 2 9 0 2 5 7 1 3 3 7 1 8 2 4 7 2"],
+  ["Guillermo del Toro", "guillermo del toro", R, "8 4 9 0 2 7 9 1 6 3 8 3 8 2 8 7 3"],
+  ["Alfonso Cuarón", "alfonso cuaron|cuaron", R, "4 3 9 0 1 6 7 1 3 3 5 3 8 3 4 8 2"],
+  ["Pedro Almodóvar", "pedro almodovar|almodovar", R, "6 3 9 0 2 7 7 1 4 3 5 3 8 4 7 7 2"],
+  ["Sergio Leone", "sergio leone|leone", R, "5 4 9 1 2 6 6 2 6 3 4 6 7 5 5 9 3"],
+  ["Federico Fellini", "federico fellini|fellini", R, "7 3 9 0 3 6 7 2 6 3 5 3 7 5 7 8 3"],
+  ["Akira Kurosawa", "akira kurosawa|kurosawa", R, "3 5 10 1 1 8 6 0 3 4 3 8 7 6 3 9 3", "leader"],
+  ["Bong Joon-ho", "bong joon-ho|bong joon ho", R, "7 3 10 0 3 6 7 1 5 3 6 3 8 3 6 9 2"],
+  ["Matt Groening", "matt groening|groening", R, "9 3 8 0 3 5 7 2 5 3 7 1 9 2 5 6 2"],
+  ["Stan Lee", "stan lee|stanley lieber", C, "9 3 8 0 2 6 9 1 4 4 8 2 9 2 10 7 2"],
+
+  // Animateurs télé
+  ["Oprah Winfrey", "oprah winfrey|oprah", TELE, "6 4 9 0 2 8 10 1 6 3 6 3 10 3 10 8 2", "leader"],
+  ["Jimmy Fallon", "jimmy fallon|fallon", TELE, "9 4 6 0 7 6 9 1 5 5 8 1 9 1 9 5 3", "friend"],
+  ["Stephen Colbert", "stephen colbert", TELE, "9 3 9 0 3 7 7 1 4 4 5 3 9 3 9 8 2"],
+  ["Jimmy Kimmel", "jimmy kimmel|kimmel", TELE, "9 4 7 1 3 7 7 1 5 4 5 3 9 4 9 7 3"],
+];
