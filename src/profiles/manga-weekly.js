@@ -361,4 +361,364 @@ module.exports = {
       sty: "Il porte une tenue moderne et fume sans cesse dans un Japon ancien.|He wears modern clothes and chain-smokes in old Japan.|Viste ropa moderna y fuma sin parar en el Japón antiguo.",
     },
   },
+  "Sawako Kuronuma": {
+    x: "6 3 10 2 2 7 7",
+    d: "Lycéenne timide surnommée d'après un film d'horreur, rêvant d'amis|Shy schoolgirl nicknamed after a horror film, longing for friends|Estudiante tímida apodada como una película de terror, que sueña con amigos",
+    f: {
+      scr: "Ses camarades la surnomment Sadako et la croient capable de voir les fantômes.|Classmates call her Sadako and think she can see ghosts.|Sus compañeros la llaman Sadako y creen que ve fantasmas.",
+      kin: "Elle accepte toutes les corvées de la classe pour se rendre utile.|She takes on every class chore just to be useful.|Acepta todas las tareas de la clase para ser útil.",
+      soc: "Elle peine à se faire des amis malgré sa gentillesse.|She struggles to make friends despite her kindness.|Le cuesta hacer amigos pese a su amabilidad.",
+    },
+  },
+  "Shota Kazehaya": {
+    x: "9 7 8 6 9 8 6",
+    d: "Lycéen populaire et rayonnant qui ose parler à la fille rejetée|Popular, radiant boy who dares talk to the outcast girl|Chico popular y radiante que se atreve a hablar con la chica marginada",
+    f: {
+      kin: "Il est le premier à saluer Sawako dès la rentrée.|He's the first to greet Sawako at the start of the year.|Es el primero en saludar a Sawako al empezar el curso.",
+      soc: "Il est apprécié de toute la classe pour son naturel.|The whole class likes him for his easygoing nature.|Toda la clase lo aprecia por su naturalidad.",
+      rom: "Il est amoureux de Sawako depuis le jour de leur rencontre.|He has loved Sawako since the day they met.|Está enamorado de Sawako desde el día en que la conoció.",
+    },
+  },
+  "Taiki Inomata": {
+    x: "6 5 9 5 5 8 8",
+    d: "Lycéen joueur de badminton, amoureux de son aînée basketteuse|Badminton-playing teen in love with an older basketball star|Estudiante jugador de bádminton enamorado de una estrella del baloncesto mayor que él",
+    f: {
+      rom: "Il est amoureux de Chinatsu, une élève plus âgée de son lycée.|He's in love with Chinatsu, an older student at his school.|Está enamorado de Chinatsu, una alumna mayor de su instituto.",
+      org: "Il s'entraîne au badminton chaque matin avant les cours.|He practises badminton every morning before class.|Entrena bádminton cada mañana antes de clase.",
+      bra: "Il vise les championnats nationaux pour être à la hauteur de Chinatsu.|He aims for nationals to be worthy of Chinatsu.|Apunta a los campeonatos nacionales para estar a la altura de Chinatsu.",
+    },
+  },
+  "Chinatsu Kano": {
+    x: "8 6 8 6 6 6 8",
+    d: "Star du basket qui vient vivre chez un camarade plus jeune|Basketball star who moves in with a younger schoolmate's family|Estrella del baloncesto que se muda a casa de un compañero más joven",
+    f: {
+      soc: "Elle s'installe chez les Inomata quand ses parents partent à l'étranger.|She moves in with the Inomatas when her parents go abroad.|Se instala con los Inomata cuando sus padres se van al extranjero.",
+      hon: "Elle cache à tout le lycée qu'elle vit sous le même toit que Taiki.|She hides from the school that she lives under Taiki's roof.|Oculta a todo el instituto que vive bajo el mismo techo que Taiki.",
+      spd: "Elle est la meneuse vedette de l'équipe de basket.|She's the star player of the basketball team.|Es la jugadora estrella del equipo de baloncesto.",
+    },
+  },
+  "Yumeko Jabami": {
+    x: "9 7 5 3 7 4 3",
+    d: "Lycéenne joueuse compulsive qui adore le frisson du risque|Compulsive gambler schoolgirl who lives for the thrill of risk|Estudiante ludópata que vive por la emoción del riesgo",
+    f: {
+      bra: "Elle mise des sommes folles juste pour le plaisir du risque.|She bets insane sums just for the thrill of risk.|Apuesta sumas locas solo por el placer del riesgo.",
+      cun: "Elle déjoue la triche de ses adversaires à l'académie Hyakkaou.|She exposes her opponents' cheating at Hyakkaou Academy.|Desenmascara las trampas de sus rivales en la academia Hyakkaou.",
+      scr: "Ses yeux rougeoient et son visage se tord d'excitation en plein jeu.|Her eyes glow red and her face twists with excitement mid-game.|Sus ojos brillan en rojo y su cara se retuerce de excitación al jugar.",
+    },
+  },
+  "Mary Saotome": {
+    x: "7 7 5 6 6 3 4",
+    d: "Joueuse orgueilleuse humiliée puis devenue alliée de Yumeko|Proud gambler humiliated, then turned Yumeko's ally|Jugadora orgullosa humillada y luego aliada de Yumeko",
+    f: {
+      unl: "Elle perd contre Yumeko et devient une « animal de compagnie » de l'école.|She loses to Yumeko and becomes one of the school's \"house pets\".|Pierde contra Yumeko y se convierte en una \"mascota\" de la escuela.",
+      tem: "Elle s'emporte facilement et méprise les autres joueurs.|She flares up easily and looks down on other gamblers.|Se enfada fácilmente y desprecia a los demás jugadores.",
+      cun: "Elle triche avec l'aide de complices lors de sa première partie.|She cheats with accomplices in her first game.|Hace trampa con cómplices en su primera partida.",
+    },
+  },
+  "Tatsuya Uesugi": {
+    x: "6 3 6 5 6 7 2",
+    d: "Jumeau paresseux qui reprend le rêve de baseball de son frère|Lazy twin who takes up his brother's baseball dream|Gemelo perezoso que retoma el sueño de béisbol de su hermano",
+    f: {
+      laz: "Il laisse son jumeau Kazuya briller et cultive sa nonchalance.|He lets his twin Kazuya shine and cultivates his laziness.|Deja brillar a su gemelo Kazuya y cultiva su pereza.",
+      bra: "Il devient lanceur après la mort de Kazuya pour emmener Minami au Koshien.|He becomes a pitcher after Kazuya's death to take Minami to Koshien.|Se hace lanzador tras la muerte de Kazuya para llevar a Minami al Koshien.",
+      rom: "Il aime Minami depuis l'enfance sans oser le dire.|He has loved Minami since childhood without daring to say it.|Ama a Minami desde la infancia sin atreverse a decirlo.",
+    },
+  },
+  "Kazuya Uesugi": {
+    x: "7 5 9 7 7 7 9",
+    d: "Jumeau modèle et lanceur vedette promis au Koshien|Model twin and star pitcher bound for Koshien|Gemelo modélico y lanzador estrella camino del Koshien",
+    f: {
+      org: "Il s'entraîne avec sérieux et réussit tout ce qu'il entreprend.|He trains seriously and succeeds at everything he tries.|Entrena en serio y triunfa en todo lo que emprende.",
+      unl: "Il meurt renversé par un camion en sauvant un enfant le jour d'un match décisif.|He dies hit by a truck while saving a child on the day of a key game.|Muere atropellado por un camión al salvar a un niño el día de un partido clave.",
+      rom: "Il veut emmener Minami au Koshien.|He wants to take Minami to Koshien.|Quiere llevar a Minami al Koshien.",
+    },
+  },
+  "Minami Asakura": {
+    x: "9 6 8 5 8 6 7",
+    d: "Voisine et amie d'enfance des jumeaux, rêvant du Koshien|Twins' neighbor and childhood friend who dreams of Koshien|Vecina y amiga de la infancia de los gemelos que sueña con el Koshien",
+    f: {
+      glu: "Elle aide son père dans son café Minami-Kaze.|She helps her father run his café, Minami-Kaze.|Ayuda a su padre en su cafetería Minami-Kaze.",
+      tal: "Elle devient une gymnaste rythmique de haut niveau.|She becomes a top rhythmic gymnast.|Se convierte en una gimnasta rítmica de alto nivel.",
+      kin: "Elle soutient l'équipe de baseball en tant que manager.|She supports the baseball team as its manager.|Apoya al equipo de béisbol como mánager.",
+    },
+  },
+  "Kyosuke Kasuga": {
+    x: "5 4 4 3 6 6 3",
+    d: "Lycéen aux pouvoirs psychiques, indécis entre deux filles|Teen with psychic powers torn between two girls|Estudiante con poderes psíquicos indeciso entre dos chicas",
+    f: {
+      int: "Il vient d'une famille d'espers qui doit cacher ses pouvoirs.|He comes from a family of espers who must hide their powers.|Viene de una familia de espers que debe ocultar sus poderes.",
+      rom: "Il hésite sans fin entre Madoka et sa jeune amie Hikaru.|He wavers endlessly between Madoka and her young friend Hikaru.|Duda sin fin entre Madoka y su joven amiga Hikaru.",
+      unl: "Ses pouvoirs se déclenchent au pire moment et le mettent dans l'embarras.|His powers kick in at the worst times and embarrass him.|Sus poderes se activan en el peor momento y lo ponen en apuros.",
+    },
+  },
+  "Madoka Ayukawa": {
+    x: "9 9 7 5 3 7 6",
+    d: "Lycéenne à la réputation de rebelle, saxophoniste au cœur tendre|Schoolgirl with a delinquent reputation, a saxophonist with a soft heart|Estudiante con fama de rebelde, saxofonista de buen corazón",
+    f: {
+      tal: "Elle joue du saxophone et travaille au café ABCB.|She plays the saxophone and works at the ABCB café.|Toca el saxofón y trabaja en la cafetería ABCB.",
+      scr: "Elle fait peur aux voyous du lycée par sa réputation.|Her reputation scares the school's thugs.|Su reputación asusta a los matones del instituto.",
+      rom: "Elle cache ses sentiments pour Kyosuke derrière un air distant.|She hides her feelings for Kyosuke behind a cool front.|Oculta sus sentimientos por Kyosuke tras un aire distante.",
+    },
+  },
+  "Megumi Noda": {
+    x: "6 3 8 1 7 9 0",
+    d: "Pianiste excentrique et désordonnée au talent instinctif|Eccentric, messy pianist with instinctive talent|Pianista excéntrica y desordenada con un talento instintivo",
+    f: {
+      org: "Son appartement est un dépotoir que Chiaki finit par nettoyer.|Her apartment is a dump that Chiaki ends up cleaning.|Su piso es un vertedero que Chiaki acaba limpiando.",
+      tal: "Elle joue du piano à l'oreille avec une grande liberté.|She plays piano by ear with great freedom.|Toca el piano de oído con gran libertad.",
+      rom: "Elle s'attache à Chiaki qu'elle appelle son prince.|She clings to Chiaki, whom she calls her prince.|Se apega a Chiaki, a quien llama su príncipe.",
+    },
+  },
+  "Shinichi Chiaki": {
+    x: "9 9 7 7 4 4 10",
+    d: "Étudiant perfectionniste qui rêve de devenir chef d'orchestre|Perfectionist music student who dreams of becoming a conductor|Estudiante perfeccionista que sueña con ser director de orquesta",
+    f: {
+      unl: "Sa peur de l'avion et de la mer l'empêche d'aller étudier en Europe.|His fear of flying and the sea keeps him from studying in Europe.|Su miedo a volar y al mar le impide estudiar en Europa.",
+      lea: "Il dirige l'orchestre R☆S formé d'étudiants.|He conducts the student R☆S Orchestra.|Dirige la orquesta estudiantil R☆S.",
+      glu: "Il cuisine très bien et nourrit Nodame.|He's an excellent cook and feeds Nodame.|Cocina muy bien y alimenta a Nodame.",
+    },
+  },
+  "Chise Hatori": {
+    x: "6 4 8 2 2 6 5",
+    d: "Orpheline qui se vend aux enchères et devient apprentie mage|Orphan who sells herself at auction and becomes a mage's apprentice|Huérfana que se vende en una subasta y se convierte en aprendiz de mago",
+    f: {
+      unl: "Elle se vend elle-même aux enchères, n'ayant nulle part où aller.|She sells herself at auction, having nowhere else to go.|Se vende a sí misma en una subasta al no tener adónde ir.",
+      int: "Elle est une Sleigh Beggy qui attire et produit énormément de magie.|She's a Sleigh Beggy who attracts and produces huge amounts of magic.|Es una Sleigh Beggy que atrae y produce enormes cantidades de magia.",
+      soc: "Elle a toujours vécu rejetée à cause de ce qu'elle voit.|She has always been shunned because of what she sees.|Siempre ha sido rechazada por lo que ve.",
+    },
+  },
+  "Elias Ainsworth": {
+    x: "2 6 6 7 2 5 7",
+    d: "Mage à tête de crâne animal qui achète une apprentie|Mage with an animal-skull head who buys an apprentice|Mago con cabeza de cráneo animal que compra una aprendiz",
+    f: {
+      scr: "Il a une tête en forme de crâne de bête et peut se transformer en monstre.|He has a beast's skull for a head and can turn monstrous.|Tiene un cráneo de bestia por cabeza y puede volverse monstruoso.",
+      kin: "Il ne comprend pas les émotions humaines et apprend auprès de Chise.|He doesn't understand human emotions and learns them from Chise.|No entiende las emociones humanas y las aprende con Chise.",
+      ric: "Il achète Chise pour cinq millions de livres.|He buys Chise for five million pounds.|Compra a Chise por cinco millones de libras.",
+    },
+  },
+  "Yona": {
+    x: "9 7 9 8 6 6 5",
+    d: "Princesse naïve devenue guerrière après la trahison de son cousin|Naive princess turned warrior after her cousin's betrayal|Princesa ingenua convertida en guerrera tras la traición de su primo",
+    f: {
+      unl: "Son cousin Soo-won assassine son père, le roi Il.|Her cousin Soo-won murders her father, King Il.|Su primo Soo-won asesina a su padre, el rey Il.",
+      lea: "Elle part réunir les quatre guerriers dragons de la légende.|She sets out to gather the four legendary dragon warriors.|Parte a reunir a los cuatro guerreros dragón de la leyenda.",
+      bra: "Elle apprend le tir à l'arc pour ne plus dépendre des autres.|She learns archery so she no longer relies on others.|Aprende tiro con arco para no depender de los demás.",
+    },
+  },
+  "Son Hak": {
+    x: "8 6 8 7 5 8 6",
+    d: "Garde du corps surnommé la Bête du Tonnerre, fidèle à sa princesse|Bodyguard nicknamed the Thunder Beast, loyal to his princess|Guardaespaldas apodado la Bestia del Trueno, fiel a su princesa",
+    f: {
+      str: "Il est le guerrier le plus redouté du royaume de Kouka.|He's the most feared warrior in the Kingdom of Kouka.|Es el guerrero más temido del reino de Kouka.",
+      rom: "Il aime Yona en secret depuis l'enfance.|He has secretly loved Yona since childhood.|Ama en secreto a Yona desde la infancia.",
+      hum: "Il taquine sans cesse la princesse avec ironie.|He constantly teases the princess with irony.|Bromea sin parar con la princesa con ironía.",
+    },
+  },
+  "Nanami Momozono": {
+    x: "7 5 8 5 7 8 6",
+    d: "Lycéenne sans abri devenue déesse d'un sanctuaire|Homeless schoolgirl who becomes a shrine's land god|Estudiante sin hogar convertida en diosa de un santuario",
+    f: {
+      unl: "Elle se retrouve à la rue à cause des dettes de jeu de son père.|She ends up homeless because of her father's gambling debts.|Acaba en la calle por las deudas de juego de su padre.",
+      lea: "Un baiser de Mikage fait d'elle la nouvelle déesse du sanctuaire.|A kiss from Mikage makes her the shrine's new land god.|Un beso de Mikage la convierte en la nueva diosa del santuario.",
+      rom: "Elle tombe amoureuse de son familier, le renard Tomoe.|She falls in love with her familiar, the fox Tomoe.|Se enamora de su familiar, el zorro Tomoe.",
+    },
+  },
+  "Tomoe (Kamisama Kiss)": {
+    x: "10 8 5 4 2 6 8",
+    d: "Renard démon arrogant, familier d'une déesse débutante|Arrogant fox demon serving a novice goddess|Zorro demonio arrogante, familiar de una diosa novata",
+    f: {
+      tem: "Il méprise d'abord Nanami et refuse de la servir.|He at first despises Nanami and refuses to serve her.|Al principio desprecia a Nanami y se niega a servirla.",
+      glu: "Il tient le sanctuaire, fait le ménage et cuisine à la perfection.|He runs the shrine, cleans and cooks to perfection.|Lleva el santuario, limpia y cocina a la perfección.",
+      evi: "Il était un yokai sauvage et cruel avant de servir Mikage.|He was a wild, cruel yokai before serving Mikage.|Era un yokai salvaje y cruel antes de servir a Mikage.",
+    },
+  },
+  "Bojji": {
+    x: "4 3 10 7 5 2 5",
+    d: "Prince sourd et chétif qui rêve d'être le meilleur roi|Deaf, frail prince who dreams of being the greatest king|Príncipe sordo y débil que sueña con ser el mejor rey",
+    f: {
+      unl: "Il est sourd, petit et moqué par tout le royaume.|He's deaf, tiny and mocked by the whole kingdom.|Es sordo, pequeño y objeto de burla de todo el reino.",
+      bra: "Il ne renonce jamais à devenir roi malgré les trahisons.|He never gives up on becoming king despite betrayals.|Nunca renuncia a ser rey pese a las traiciones.",
+      spd: "Il esquive les attaques avec une agilité étonnante.|He dodges attacks with astonishing agility.|Esquiva los ataques con una agilidad asombrosa.",
+    },
+  },
+  "Kage (Ranking of Kings)": {
+    x: "3 2 6 3 6 2 4",
+    d: "Dernier survivant du clan des Ombres, ami fidèle du prince|Last survivor of the Shadow Clan, the prince's loyal friend|Último superviviente del clan de las Sombras, amigo fiel del príncipe",
+    f: {
+      evi: "Il vole d'abord les vêtements de Bojji.|He first steals Bojji's clothes.|Al principio roba la ropa de Bojji.",
+      int: "Il comprend Bojji sans paroles grâce au langage des signes.|He understands Bojji without words through sign language.|Entiende a Bojji sin palabras gracias al lenguaje de signos.",
+      unl: "Son clan a été massacré et il vit dans la misère.|His clan was massacred and he lives in poverty.|Su clan fue masacrado y vive en la miseria.",
+    },
+  },
+  "Baki Hanma": {
+    x: "6 5 6 4 3 3 5",
+    d: "Jeune combattant qui veut surpasser son père, l'homme le plus fort|Young fighter set on surpassing his father, the strongest man alive|Joven luchador decidido a superar a su padre, el hombre más fuerte",
+    f: {
+      bra: "Il affronte les combattants les plus dangereux du monde dans une arène souterraine.|He faces the world's deadliest fighters in an underground arena.|Se enfrenta a los luchadores más peligrosos del mundo en una arena subterránea.",
+      str: "Il est champion de l'arène souterraine dès l'adolescence.|He's champion of the underground arena as a teenager.|Es campeón de la arena subterránea desde la adolescencia.",
+      glu: "Il s'entraîne en mangeant des quantités énormes de nourriture.|He trains while eating enormous amounts of food.|Entrena comiendo enormes cantidades de comida.",
+    },
+  },
+  "Yujiro Hanma": {
+    x: "4 6 3 9 2 2 3",
+    d: "Créature la plus forte de la Terre, surnommée l'Ogre|The strongest creature on Earth, known as the Ogre|La criatura más fuerte de la Tierra, apodado el Ogro",
+    f: {
+      str: "Il est considéré comme la créature la plus forte de la planète.|He's considered the strongest creature on the planet.|Se le considera la criatura más fuerte del planeta.",
+      scr: "Les muscles de son dos forment le visage d'un démon.|His back muscles form the face of a demon.|Los músculos de su espalda forman la cara de un demonio.",
+      evi: "Il méprise son fils et ne vit que pour le combat.|He scorns his son and lives only for combat.|Desprecia a su hijo y solo vive para el combate.",
+    },
+  },
+  "Yatora Yaguchi": {
+    x: "7 8 6 5 8 3 7",
+    d: "Lycéen populaire et blasé qui découvre sa passion pour la peinture|Popular, jaded teen who discovers a passion for painting|Estudiante popular y aburrido que descubre su pasión por la pintura",
+    f: {
+      tal: "Il se découvre une vocation en peignant Shibuya à l'aube.|He finds his calling by painting Shibuya at dawn.|Descubre su vocación al pintar Shibuya al amanecer.",
+      org: "Il travaille sans relâche pour entrer aux Beaux-Arts de Tokyo.|He works relentlessly to get into Tokyo's top arts university.|Trabaja sin descanso para entrar en la universidad de artes de Tokio.",
+      cun: "Il obtient de bonnes notes tout en sortant avec des voyous.|He gets top grades while hanging out with delinquents.|Saca buenas notas mientras sale con gamberros.",
+    },
+  },
+  "Mitsumi Iwakura": {
+    x: "6 3 10 7 9 4 8",
+    d: "Lycéenne de la campagne montée à Tokyo, maladroite et sincère|Country girl moved to Tokyo, clumsy and sincere|Chica de pueblo llegada a Tokio, torpe y sincera",
+    f: {
+      org: "Elle a planifié toute sa vie pour devenir fonctionnaire et aider sa région.|She has planned her whole life to become a civil servant and help her hometown.|Ha planificado toda su vida para ser funcionaria y ayudar a su región.",
+      clu: "Elle se perd et arrive en retard dès le premier jour du lycée.|She gets lost and arrives late on her very first day.|Se pierde y llega tarde el primer día de instituto.",
+      kin: "Sa franchise désarmante rapproche ses camarades.|Her disarming honesty brings her classmates together.|Su franqueza desarmante une a sus compañeros.",
+    },
+  },
+  "Kaiji Ito": {
+    x: "3 2 7 5 5 3 2",
+    d: "Jeune chômeur endetté qui joue sa vie dans des jeux mortels|Indebted young slacker who bets his life on deadly games|Joven desempleado endeudado que se juega la vida en juegos mortales",
+    f: {
+      unl: "Il hérite d'une énorme dette après s'être porté garant d'un ami.|He inherits a huge debt after co-signing for a friend.|Hereda una enorme deuda tras avalar a un amigo.",
+      cun: "Il retourne des jeux truqués grâce à des plans audacieux.|He turns rigged games around with daring plans.|Da la vuelta a juegos amañados con planes audaces.",
+      laz: "Il passe ses journées à boire et à ne rien faire avant ses dettes.|He spends his days drinking and idling before his debts catch up.|Pasa los días bebiendo y sin hacer nada antes de sus deudas.",
+    },
+  },
+  "Ryoma Echizen": {
+    x: "8 7 6 6 2 1 6",
+    d: "Prodige du tennis arrogant qui répète « Tu dois encore progresser »|Arrogant tennis prodigy who keeps saying \"You still have lots more to work on\"|Prodigio arrogante del tenis que repite \"Aún te falta mucho\"",
+    f: {
+      tal: "Il répète sa réplique fétiche « Mada mada dane ».|He keeps repeating his catchphrase \"Mada mada dane\".|Repite su frase favorita \"Mada mada dane\".",
+      spd: "Il est titulaire de Seigaku dès sa première année.|He's a Seigaku regular in his first year.|Es titular de Seigaku desde su primer año.",
+      soc: "Il est distant et peu bavard avec ses coéquipiers.|He's aloof and quiet with his teammates.|Es distante y poco hablador con sus compañeros.",
+    },
+  },
+  "Goro Shigeno": {
+    x: "6 4 6 8 7 5 5",
+    d: "Lanceur fonceur qui suit les traces de son père jusqu'aux ligues majeures|Headstrong pitcher following his father's path to the major leagues|Lanzador impetuoso que sigue los pasos de su padre hasta las Grandes Ligas",
+    f: {
+      unl: "Son père meurt après avoir été frappé par une balle de Joe Gibson.|His father dies after being hit by a pitch from Joe Gibson.|Su padre muere tras recibir un pelotazo de Joe Gibson.",
+      bra: "Il réapprend à lancer de la main gauche après une blessure à l'épaule.|He relearns pitching left-handed after a shoulder injury.|Vuelve a aprender a lanzar con la izquierda tras lesionarse el hombro.",
+      tem: "Il s'emporte et défie tous ceux qui se mettent en travers de sa route.|He loses his temper and challenges anyone in his way.|Se enfada y desafía a quien se interponga en su camino.",
+    },
+  },
+  "Hitomi Kisugi": {
+    x: "9 9 2 8 7 7 8",
+    d: "Cambrioleuse élégante qui vole les œuvres de son père disparu|Elegant thief stealing back her missing father's artworks|Elegante ladrona que roba las obras de su padre desaparecido",
+    f: {
+      hon: "Elle cache à son fiancé policier qu'elle est une voleuse.|She hides from her detective fiancé that she's a thief.|Le oculta a su novio policía que es ladrona.",
+      lea: "Elle forme le trio Cat's Eye avec ses sœurs Rui et Ai.|She forms the Cat's Eye trio with her sisters Rui and Ai.|Forma el trío Cat's Eye con sus hermanas Rui y Ai.",
+      cun: "Elle annonce ses vols par une carte de visite et réussit quand même.|She announces her heists with a calling card and still pulls them off.|Anuncia sus robos con una tarjeta y aun así los consigue.",
+    },
+  },
+  "Ichigo Momomiya": {
+    x: "8 8 6 7 8 9 4",
+    d: "Collégienne aux gènes de chat qui combat les extraterrestres|Schoolgirl with cat genes who fights aliens|Colegiala con genes de gato que lucha contra extraterrestres",
+    f: {
+      cut: "Elle sort des oreilles et une queue de chat quand elle est émue.|Cat ears and a tail pop out when she gets flustered.|Le salen orejas y cola de gato cuando se pone nerviosa.",
+      rom: "Elle est folle amoureuse de Masaya Aoyama.|She's madly in love with Masaya Aoyama.|Está locamente enamorada de Masaya Aoyama.",
+      soc: "Elle travaille comme serveuse au Café Mew Mew.|She works as a waitress at Café Mew Mew.|Trabaja de camarera en el Café Mew Mew.",
+    },
+  },
+  "Chihaya Ayase": {
+    x: "9 3 8 7 6 3 3",
+    d: "Lycéenne passionnée de karuta qui vise le titre de Reine|Karuta-obsessed schoolgirl aiming to become Queen|Estudiante apasionada del karuta que aspira al título de Reina",
+    f: {
+      spd: "Elle est réputée pour sa vitesse foudroyante sur les cartes.|She's known for her lightning speed at grabbing cards.|Es famosa por su rapidez fulminante con las cartas.",
+      lea: "Elle fonde le club de karuta de son lycée.|She founds her high school's karuta club.|Funda el club de karuta de su instituto.",
+      bea: "On dit d'elle qu'elle est une beauté gâchée tant elle ne pense qu'au karuta.|She's called a wasted beauty since she only thinks of karuta.|La llaman belleza desperdiciada porque solo piensa en el karuta.",
+    },
+  },
+  "Manji (L'Habitant de l'infini)": {
+    x: "4 5 6 3 3 2 2",
+    d: "Samouraï immortel qui doit tuer mille criminels pour expier|Immortal samurai who must kill a thousand evil men to atone|Samurái inmortal que debe matar a mil malvados para expiar",
+    f: {
+      unl: "Des vers sacrés le rendent immortel et guérissent toutes ses blessures.|Sacred bloodworms make him immortal and heal all his wounds.|Unos gusanos sagrados lo hacen inmortal y curan todas sus heridas.",
+      kin: "Il protège la jeune Rin dans sa quête de vengeance.|He protects young Rin on her quest for revenge.|Protege a la joven Rin en su búsqueda de venganza.",
+      evi: "Il a tué son propre maître et cent policiers.|He killed his own master and a hundred lawmen.|Mató a su propio señor y a cien agentes.",
+    },
+  },
+  "Ogami Itto": {
+    x: "5 5 9 8 0 2 10",
+    d: "Ancien bourreau du shogun devenu assassin avec son fils|Former shogun's executioner turned assassin with his son|Antiguo verdugo del shogun convertido en asesino con su hijo",
+    f: {
+      unl: "Il est trahi par le clan Yagyu qui fait assassiner sa femme.|He's framed by the Yagyu clan, who have his wife murdered.|Es traicionado por el clan Yagyu, que hace asesinar a su esposa.",
+      kin: "Il parcourt le Japon en poussant son fils Daigoro dans un landau.|He roams Japan pushing his son Daigoro in a baby cart.|Recorre Japón empujando a su hijo Daigoro en un carrito.",
+      str: "Il manie le sabre avec une maîtrise inégalée.|He wields the sword with unmatched mastery.|Maneja la espada con una maestría inigualable.",
+    },
+  },
+  "Golgo 13": {
+    x: "6 7 6 2 0 1 10",
+    d: "Tueur à gages légendaire, tireur d'élite froid et infaillible|Legendary hitman, a cold and infallible sniper|Legendario asesino a sueldo, francotirador frío e infalible",
+    f: {
+      scr: "Il frappe quiconque se tient derrière lui sans prévenir.|He strikes anyone who stands behind him without warning.|Golpea a cualquiera que se ponga detrás de él sin avisar.",
+      cun: "Il ne rate presque jamais une cible avec son fusil M16.|He almost never misses a target with his M16 rifle.|Casi nunca falla un objetivo con su fusil M16.",
+      tal: "Il ne prononce que quelques mots par mission.|He speaks only a few words per mission.|Solo dice unas pocas palabras por misión.",
+    },
+  },
+  "Sunraku": {
+    x: "4 1 7 4 5 2 5",
+    d: "Lycéen chasseur de jeux pourris qui excelle dans un jeu de réalité virtuelle|Teen 'trash game' hunter who excels in a virtual-reality game|Estudiante cazador de juegos basura que destaca en un juego de realidad virtual",
+    f: {
+      sty: "Il joue torse nu avec une tête d'oiseau en guise de masque.|He plays shirtless with a bird head as a mask.|Juega sin camiseta con una cabeza de pájaro como máscara.",
+      spd: "Il compte sur sa vitesse et ses réflexes plutôt que sur son équipement.|He relies on speed and reflexes rather than gear.|Confía en su velocidad y reflejos más que en su equipo.",
+      bra: "Il défie des monstres uniques que personne n'a jamais vaincus.|He takes on unique monsters no one has ever beaten.|Desafía a monstruos únicos que nadie ha derrotado.",
+    },
+  },
+  "Kei Nagai": {
+    x: "5 3 6 6 2 0 8",
+    d: "Lycéen froid et calculateur qui découvre qu'il est immortel|Cold, calculating student who discovers he is immortal|Estudiante frío y calculador que descubre que es inmortal",
+    f: {
+      unl: "Il découvre qu'il est un Ajin après avoir été tué par un camion.|He learns he's an Ajin after being killed by a truck.|Descubre que es un Ajin tras morir atropellado por un camión.",
+      cun: "Il élabore des plans implacables pour échapper au gouvernement.|He devises ruthless plans to escape the government.|Elabora planes implacables para escapar del gobierno.",
+      kin: "Il abandonne volontiers les autres pour se protéger.|He readily abandons others to protect himself.|Abandona con facilidad a los demás para protegerse.",
+    },
+  },
+  "Lucy (Elfen Lied)": {
+    x: "8 3 2 2 1 4 3",
+    d: "Mutante à cornes aux bras invisibles, partagée entre tueuse et enfant|Horned mutant with invisible arms, torn between killer and child|Mutante con cuernos y brazos invisibles, dividida entre asesina y niña",
+    f: {
+      evi: "Elle massacre les gardes en s'évadant du laboratoire.|She slaughters the guards while escaping the lab.|Masacra a los guardias al escapar del laboratorio.",
+      cut: "Sa personnalité Nyu ne sait dire que « Nyu ».|Her Nyu personality can only say \"Nyu\".|Su personalidad Nyu solo sabe decir \"Nyu\".",
+      unl: "Elle a été rejetée et maltraitée depuis l'enfance à cause de ses cornes.|She has been shunned and abused since childhood because of her horns.|Ha sido rechazada y maltratada desde niña por sus cuernos.",
+    },
+  },
+  "Clare": {
+    x: "7 5 8 5 2 2 8",
+    d: "Guerrière mi-humaine mi-démon, dernière de son organisation|Half-human, half-demon warrior, the lowest ranked of her order|Guerrera mitad humana mitad demonio, la última de su organización",
+    f: {
+      unl: "Elle est classée numéro 47, la dernière des Claymores.|She's ranked No. 47, the lowest of the Claymores.|Está clasificada número 47, la última de las Claymore.",
+      bra: "Elle veut venger Teresa, la guerrière qui l'a recueillie.|She seeks revenge for Teresa, the warrior who took her in.|Quiere vengar a Teresa, la guerrera que la acogió.",
+      soc: "Elle reste froide et peu bavarde avec les humains.|She remains cold and quiet with humans.|Se mantiene fría y callada con los humanos.",
+    },
+  },
+  "Gally": {
+    x: "8 5 9 6 4 6 5",
+    d: "Cyborg amnésique retrouvée dans une décharge, experte en arts martiaux|Amnesiac cyborg found in a scrapyard, a martial arts expert|Ciborg amnésica hallada en un vertedero, experta en artes marciales",
+    f: {
+      unl: "Le docteur Ido la retrouve dans la décharge sans souvenirs.|Doctor Ido finds her in the scrapyard with no memories.|El doctor Ido la encuentra en el vertedero sin recuerdos.",
+      str: "Elle maîtrise le Panzer Kunst, un art martial pour cyborgs.|She masters Panzer Kunst, a martial art for cyborgs.|Domina el Panzer Kunst, un arte marcial para ciborgs.",
+      bra: "Elle devient chasseuse de primes pour traquer les criminels.|She becomes a bounty hunter to track down criminals.|Se convierte en cazarrecompensas para atrapar criminales.",
+    },
+  },
+  "Ohma Tokita": {
+    x: "5 3 6 6 3 2 5",
+    d: "Combattant redoutable des duels Kengan surnommé l'Ashura|Fearsome Kengan fighter nicknamed the Ashura|Temible luchador de los duelos Kengan apodado el Ashura",
+    f: {
+      str: "Il utilise la technique Advance qui pousse son cœur à la limite.|He uses the Advance technique that pushes his heart to its limit.|Usa la técnica Advance que lleva su corazón al límite.",
+      glu: "Il dévore des repas gigantesques entre deux combats.|He devours gigantic meals between fights.|Devora comidas gigantescas entre combates.",
+      unl: "Son cœur s'épuise à chaque utilisation de sa technique.|His heart wears out each time he uses his technique.|Su corazón se agota cada vez que usa su técnica.",
+    },
+  },
 };

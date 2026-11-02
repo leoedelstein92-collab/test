@@ -31,6 +31,17 @@ const MI = "Maison Ikkoku";
 const UY = "Lamu|Urusei Yatsura|Lamu";
 const NAT = "Le Pacte des Yôkai|Natsume's Book of Friends|Natsume Yuujinchou";
 const YC = "Laid-Back Camp|Laid-Back Camp|Yuru Camp";
+const KNT = "Sawako|Kimi ni Todoke|Kimi ni Todoke";
+const BBX = "Blue Box|Blue Box|Blue Box";
+const KAK = "Kakegurui";
+const TCH = "Touch";
+const KOR = "Max et Compagnie|Kimagure Orange Road|Johnny y sus amigas";
+const NOD = "Nodame Cantabile";
+const MAG2 = "The Ancient Magus Bride|The Ancient Magus' Bride|The Ancient Magus' Bride";
+const YON = "Yona, princesse de l'aube|Yona of the Dawn|Yona, princesa del amanecer";
+const KSK = "Kamisama Hajimemashita|Kamisama Kiss|Kamisama Kiss";
+const ROK = "Ranking of Kings";
+const BAKI = "Baki";
 
 module.exports = [
   // Toilet-Bound Hanako-kun
@@ -149,4 +160,56 @@ module.exports = [
   ["Sazae Fuguta", "sazae|sazae san", "Sazae-san", "8 3 4 0 8 5 8 2 5 6 4 0 3 3 8 2 6", "chef"],
   ["Kusuo Saiki", "saiki|kusuo|saiki k", "The Disastrous Life of Saiki K.", "6 10 9 0 1 5 5 6 6 10 2 1 2 6 1 8 9"],
   ["Ginko", "gingko|ginko mushishi", "Mushishi", "3 3 8 0 1 6 7 3 2 3 2 2 1 1 4 6 5", "survivor"],
+  // Sawako
+  ["Sawako Kuronuma", "sawako|sadako kimi ni todoke", KNT, "3 2 6 0 7 5 10 1 3 3 7 5 2 1 2 1 7", "friend"],
+  ["Shota Kazehaya", "kazehaya|shouta kazehaya", KNT, "5 5 6 0 2 6 9 1 3 6 6 0 2 2 6 3 2"],
+  // Blue Box
+  ["Taiki Inomata", "taiki|taiki inomata", BBX, "4 6 6 0 3 7 8 1 4 7 5 0 2 2 4 3 4"],
+  ["Chinatsu Kano", "chinatsu|chinatsu kano", BBX, "4 6 6 0 2 7 8 1 3 7 7 0 3 2 3 3 4"],
+  // Kakegurui
+  ["Yumeko Jabami", "yumeko|jabami", KAK, "6 2 9 4 1 10 6 2 4 4 7 8 7 3 6 9 2"],
+  ["Mary Saotome", "mary saotome|meari saotome", KAK, "5 3 6 4 3 7 4 2 3 4 5 2 5 8 7 7 7"],
+  // Touch
+  ["Tatsuya Uesugi", "tatsuya|tatsuya uesugi", TCH, "7 6 5 0 5 7 7 8 5 6 3 0 1 2 5 4 5", "survivor"],
+  ["Kazuya Uesugi", "kazuya|kazuya uesugi", TCH, "3 6 7 0 1 6 8 1 3 7 4 0 1 1 4 3 10", "doomed|hero"],
+  ["Minami Asakura", "minami|minami asakura|minami-chan", TCH, "4 3 7 0 2 6 9 1 4 5 8 0 2 3 5 4 4", "chef"],
+  // Max et Compagnie
+  ["Kyosuke Kasuga", "kyosuke|kyousuke kasuga", KOR, "6 3 5 0 8 4 7 4 4 6 4 0 1 2 5 3 8"],
+  ["Madoka Ayukawa", "madoka|madoka ayukawa", KOR, "3 6 8 2 1 7 7 2 3 6 7 3 4 6 3 6 3"],
+  // Nodame Cantabile
+  ["Megumi Noda", "nodame|megumi noda", NOD, "9 2 5 0 9 4 7 8 8 3 7 1 2 3 8 3 6", "glutton"],
+  ["Shinichi Chiaki", "chiaki|shinichi chiaki", NOD, "5 4 9 1 2 5 5 1 3 4 4 1 7 8 5 4 5", "chef|teacher"],
+  // The Ancient Magus' Bride
+  ["Chise Hatori", "chise|chise hatori", MAG2, "2 2 6 0 3 7 8 2 3 3 6 1 0 2 2 3 9", "survivor"],
+  ["Elias Ainsworth", "elias|elias ainsworth", MAG2, "2 8 9 2 3 6 5 1 2 4 1 8 6 3 3 6 3", "teacher"],
+  // Yona, princesse de l'aube
+  ["Yona", "princesse yona|yona princess|yona of the dawn", YON, "4 4 6 0 5 8 8 2 4 5 7 0 8 4 5 4 9", "leader|survivor"],
+  ["Son Hak", "hak|son hak", YON, "6 9 6 1 2 9 6 3 4 8 3 4 2 4 5 6 5", "hero"],
+  // Kamisama Kiss
+  ["Nanami Momozono", "nanami momozono", KSK, "5 3 5 0 6 7 8 1 4 4 7 0 1 4 6 4 8"],
+  ["Tomoe (Kamisama Kiss)", "tomoe|tomoe kamisama kiss", KSK, "4 8 8 4 1 7 4 4 3 7 6 4 2 8 4 7 4", "chef"],
+  // Ranking of Kings
+  ["Bojji", "boji|prince bojji|bojji ranking of kings", ROK, "4 4 6 0 5 10 10 1 3 7 8 0 7 1 0 3 9", "hero|survivor"],
+  ["Kage (Ranking of Kings)", "kage|kage ranking of kings", ROK, "6 3 6 1 4 7 9 2 4 7 7 1 0 3 7 6 8", "friend"],
+  // Baki
+  ["Baki Hanma", "baki|baki hanma", BAKI, "3 9 5 1 1 10 6 2 7 9 2 4 2 5 2 5 6"],
+  ["Yujiro Hanma", "yujiro|yuujirou hanma|ogre", BAKI, "3 10 7 8 0 10 1 2 6 9 0 10 7 9 4 6 1"],
+  // Autres séries
+  ["Yatora Yaguchi", "yatora|yaguchi", "Blue Period", "5 4 7 1 3 6 7 3 4 4 4 1 2 4 5 7 5"],
+  ["Mitsumi Iwakura", "mitsumi|iwakura", "Skip and Loafer", "7 3 7 0 7 6 9 1 4 4 7 0 1 2 7 2 6", "friend"],
+  ["Kaiji Ito", "kaiji|kaiji itou", "Kaiji", "3 4 7 1 6 7 6 6 4 4 1 2 0 6 4 8 10", "survivor"],
+  ["Ryoma Echizen", "ryoma|echizen|ryouma echizen", "Prince of Tennis", "3 6 7 0 1 8 4 4 4 9 5 0 2 6 1 6 2"],
+  ["Goro Shigeno", "goro|goro shigeno|goro honda", "Major", "4 7 4 0 4 10 7 1 5 7 3 0 2 8 5 3 8", "hero"],
+  ["Hitomi Kisugi", "hitomi|cat's eye|cats eye|signe cat's eyes", "Cat's Eye", "4 5 8 1 2 8 7 2 3 8 6 0 6 4 4 9 4"],
+  ["Ichigo Momomiya", "ichigo momomiya|mew ichigo|ichigo mew mew", "Tokyo Mew Mew", "6 5 4 0 7 7 8 2 5 7 9 0 1 6 7 3 6", "hero"],
+  ["Chihaya Ayase", "chihaya|chihaya ayase", "Chihayafuru", "6 4 5 0 7 7 8 3 6 9 6 0 2 4 6 2 5", "speedster"],
+  ["Manji (L'Habitant de l'infini)", "manji|manji blade of the immortal", "L'Habitant de l'infini|Blade of the Immortal|La espada del inmortal", "5 8 4 3 2 8 5 3 4 7 1 7 0 6 6 4 6", "survivor"],
+  ["Ogami Itto", "itto ogami|ogami itto|lone wolf", "Lone Wolf and Cub", "1 9 8 4 0 10 5 1 2 8 1 8 1 5 1 8 7", "survivor"],
+  ["Golgo 13", "duke togo|golgo", "Golgo 13", "0 9 9 6 0 10 1 1 2 8 0 9 8 3 0 9 0"],
+  ["Sunraku", "rakuro hizutome|sunraku shangri la", "Shangri-La Frontier", "7 5 7 1 3 8 6 3 4 9 3 3 1 4 7 8 7", "speedster"],
+  ["Kei Nagai", "kei nagai|nagai", "Ajin", "1 4 9 4 1 6 2 2 2 5 2 4 2 5 2 9 8", "survivor"],
+  ["Lucy (Elfen Lied)", "nyu|lucy elfen lied", "Elfen Lied", "2 9 6 8 6 6 3 2 3 7 6 9 0 7 3 5 9", "doomed"],
+  ["Clare", "clare claymore", "Claymore", "1 8 6 0 1 9 6 1 2 8 3 5 1 3 1 5 7", "survivor"],
+  ["Gally", "alita|gally|alita battle angel", "Gunnm|Battle Angel Alita|Alita, ángel de combate", "3 9 6 0 3 10 7 1 4 9 5 3 0 6 4 5 7", "hero|survivor"],
+  ["Ohma Tokita", "ohma|tokita ohma|ashura", "Kengan Ashura", "3 9 5 2 1 9 4 3 7 8 1 6 1 7 2 6 6"],
 ];

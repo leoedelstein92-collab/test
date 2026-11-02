@@ -39,6 +39,19 @@ const GRF = "Le Tombeau des lucioles|Grave of the Fireflies|La tumba de las luci
 const YKW = "Yo-kai Watch";
 const RRB = "Qui veut la peau de Roger Rabbit|Who Framed Roger Rabbit|¿Quién engañó a Roger Rabbit?";
 const ADF = "La Famille Addams|The Addams Family|Los locos Addams";
+const KUB = "Kubo et l'armure magique|Kubo and the Two Strings|Kubo y las dos cuerdas mágicas";
+const FRW = "Frankenweenie";
+const MTR = "Bienvenue chez les Robinson|Meet the Robinsons|La familia del futuro";
+const RLO = "Le Roi et l'Oiseau|The King and the Mockingbird|El rey y el pájaro";
+const MIN = "Arthur et les Minimoys|Arthur and the Invisibles|Arthur y los Minimoys";
+const SWR = "Star Wars Rebels";
+const CSA = "Cartoon Saloon";
+const TSW = "Tom Sawyer";
+const CUP = "Le Cuphead Show !|The Cuphead Show!|¡El show de Cuphead!";
+const CPE = "Cyberpunk: Edgerunners";
+const SMF = "Smiling Friends";
+const SIN = "Sinbad : La Légende des sept mers|Sinbad: Legend of the Seven Seas|Simbad: La leyenda de los siete mares";
+const OWL = "Les Chroniques de la Maison du Hibou|The Owl House|The Owl House";
 
 module.exports = [
   // Rango
@@ -205,4 +218,78 @@ module.exports = [
   ["Lady Oscar", "oscar de jarjayes|oscar francois de jarjayes", "Lady Oscar|The Rose of Versailles|Lady Oscar", "2 7 7 0 1 10 8 0 2 7 4 2 8 6 4 5 9", "hero|doomed"],
   ["Princesse Sarah", "sara crewe|sarah crewe|princesse sara|princesita sara", "Princesse Sarah|Princess Sarah|La princesita Sara", "2 2 7 0 2 7 10 1 2 3 8 0 6 1 6 2 10", "survivor"],
   ["Rémi sans famille", "remi|remi sans famille|nobody's boy remi", "Rémi sans famille|Nobody's Boy: Remi|Remi, el niño de nadie", "3 3 5 0 3 8 9 1 3 5 7 0 0 1 4 3 10", "survivor"],
+  // Kubo et l'armure magique
+  ["Kubo", "kubo", KUB, "5 3 7 0 3 9 8 1 3 5 7 1 1 3 7 6 9", "hero|survivor"],
+  ["Singe (Kubo)", "monkey kubo|singe kubo|mono kubo", KUB, "3 7 8 0 1 9 8 1 3 6 3 3 1 6 4 7 8", "doomed"],
+  // Frankenweenie
+  ["Victor Frankenstein (Frankenweenie)", "victor frankenstein|victor frankenweenie", FRW, "3 2 9 0 4 6 8 1 2 3 5 1 2 2 3 4 7"],
+  ["Sparky", "sparky frankenweenie", FRW, "5 4 2 0 6 7 10 2 4 7 9 4 0 1 0 1 8", "friend"],
+  // Bienvenue chez les Robinson
+  ["Lewis Robinson", "lewis|cornelius robinson", MTR, "4 2 10 0 6 7 8 1 2 4 6 0 3 3 6 5 8"],
+  ["L'homme au chapeau melon", "bowler hat guy|goob|chapeau melon|el hombre del bombin", MTR, "8 3 3 6 9 4 3 4 4 4 2 3 1 7 9 5 9"],
+  // Le Roi et l'Oiseau
+  ["Le Roi (Le Roi et l'Oiseau)", "charles v et trois font huit et huit font seize|le roi charles|king charles", RLO, "2 3 5 9 3 2 0 4 3 2 0 6 10 9 3 6 3"],
+  ["L'Oiseau (Le Roi et l'Oiseau)", "l'oiseau moqueur|the mockingbird|el pajaro", RLO, "8 4 8 1 2 9 7 2 3 7 4 0 1 6 10 9 3", "hero"],
+  // Arthur et les Minimoys
+  ["Arthur (Minimoys)", "arthur minimoys|arthur montgolfier", MIN, "4 4 7 0 4 9 8 1 3 6 6 0 2 3 5 6 5", "hero"],
+  ["Sélénia", "selenia", MIN, "4 7 6 0 2 9 6 1 3 7 7 0 6 8 5 5 3"],
+  ["Maltazard", "maltazard le maudit|malthazar", MIN, "3 8 7 10 2 5 0 2 3 4 0 9 6 9 5 8 5"],
+  // Star Wars Rebels / The Clone Wars
+  ["Ezra Bridger", "ezra", SWR, "6 6 6 1 4 8 7 2 4 7 6 1 0 4 6 8 5", "hero|survivor"],
+  ["Hera Syndulla", "hera", SWR, "4 6 8 0 2 9 8 1 3 6 5 1 2 5 5 6 3", "leader"],
+  ["Chopper (Star Wars Rebels)", "c1 10p|chopper rebels|chopper droide", SWR, "7 4 5 3 5 6 3 2 0 4 3 2 0 9 3 6 5"],
+  ["Asajj Ventress", "ventress|asajj", "Star Wars: The Clone Wars", "4 8 7 7 1 8 3 1 2 8 2 7 2 7 4 8 7", "doomed"],
+  ["Padmé Amidala", "padme|padme amidala|reine amidala|queen amidala", "Star Wars: The Clone Wars", "3 5 8 0 2 8 9 1 2 5 6 0 7 3 6 6 8", "leader|doomed"],
+  ["Omega (The Bad Batch)", "omega bad batch|omega clone", "Star Wars: The Bad Batch", "5 3 7 0 4 8 9 1 3 5 9 0 0 2 6 6 6", "survivor"],
+  // Cartoon Saloon
+  ["Robyn Goodfellowe", "robyn wolfwalkers", "Le Peuple Loup|Wolfwalkers|Wolfwalkers", "5 5 6 0 5 9 8 1 3 6 7 1 1 6 5 5 6", "hero"],
+  ["Mebh", "mebh og mactire|mebh wolfwalkers", "Le Peuple Loup|Wolfwalkers|Wolfwalkers", "7 6 4 0 3 8 7 2 6 8 8 3 0 6 7 4 5"],
+  ["Saoirse", "saoirse selkie", "Le Chant de la mer|Song of the Sea|La canción del mar", "4 3 5 0 3 6 8 1 3 4 10 0 0 1 0 3 7"],
+  ["Ben (Le Chant de la mer)", "ben chant de la mer|ben song of the sea", "Le Chant de la mer|Song of the Sea|La canción del mar", "4 3 5 1 6 7 6 2 3 4 6 0 0 6 5 3 7"],
+  ["Brendan", "brendan kells", "Brendan et le Secret de Kells|The Secret of Kells|El secreto del libro de Kells", "3 2 7 0 4 8 8 1 3 4 7 0 0 2 4 4 6"],
+  // Tom Sawyer
+  ["Tom Sawyer", "tom sawyer", TSW, "8 4 6 1 4 8 6 6 5 6 5 0 2 4 8 9 5"],
+  ["Huckleberry Finn", "huck finn|huckleberry finn", TSW, "7 5 5 0 3 8 7 7 4 6 4 0 0 2 5 7 5", "survivor"],
+  // Le Cuphead Show
+  ["Cuphead", "cuphead", CUP, "7 4 2 1 8 8 6 3 4 7 6 0 0 5 7 4 8"],
+  ["Mugman", "mugman", CUP, "5 3 5 0 6 4 8 2 4 5 7 0 0 2 5 3 6"],
+  ["Le Diable (Cuphead)", "the devil cuphead|diablo cuphead|devil cuphead", CUP, "7 9 6 8 4 5 0 3 4 6 1 7 8 8 9 8 4"],
+  // Cyberpunk: Edgerunners
+  ["David Martinez", "david edgerunners", CPE, "4 9 5 3 3 10 7 1 3 9 3 6 1 6 4 4 10", "doomed"],
+  ["Lucy (Edgerunners)", "lucy edgerunners|lucyna kushinada", CPE, "2 5 8 2 1 7 6 2 2 7 5 3 2 5 2 8 9"],
+  // Smiling Friends
+  ["Charlie (Smiling Friends)", "charlie smiling friends", SMF, "8 3 4 1 4 4 4 6 4 3 1 0 1 7 6 3 7"],
+  ["Pim", "pim pimling", SMF, "7 2 3 0 6 5 10 2 4 3 7 0 1 1 7 1 8", "friend"],
+  // Sinbad
+  ["Sinbad", "sinbad le marin|simbad", SIN, "7 7 7 2 2 9 5 4 4 7 3 0 4 4 8 9 4", "hero"],
+  ["Éris (Sinbad)", "eris sinbad|eris deesse du chaos|eris goddess of discord", SIN, "7 9 8 9 1 5 0 4 3 9 2 7 7 6 8 10 2"],
+  // Les Chroniques de la Maison du Hibou
+  ["Amity Blight", "amity", OWL, "4 6 9 2 3 7 7 1 3 5 7 2 8 6 4 5 4"],
+  ["Hooty", "hooty", OWL, "9 3 1 0 8 4 8 2 7 3 5 4 0 1 10 1 6", "friend"],
+  // Invincible
+  ["Debbie Grayson", "debbie", "Invincible", "4 4 7 0 2 8 9 1 3 3 4 0 4 6 5 4 9"],
+  // Films et séries divers
+  ["Norman Babcock", "norman babcock|paranorman", "L'Étrange Pouvoir de Norman|ParaNorman|El alucinante mundo de Norman", "4 3 6 0 4 8 8 1 3 4 5 1 1 3 3 3 8", "hero"],
+  ["Madame Souza", "souza|madame souza", "Les Triplettes de Belleville|The Triplets of Belleville|Las trillizas de Belleville", "4 6 7 0 2 10 9 0 2 4 2 0 1 4 0 7 3"],
+  ["Marjane", "marjane satrapi|marji", "Persepolis", "6 3 8 0 4 8 6 2 4 4 5 0 3 6 7 4 8", "survivor"],
+  ["Courgette", "icare courgette|zucchini", "Ma vie de Courgette|My Life as a Zucchini|La vida de Calabacín", "3 2 5 0 4 6 8 1 3 3 8 0 0 3 3 3 10", "survivor"],
+  ["Bouffe-Tout", "slimer|moquette|pegajoso", "SOS Fantômes|The Real Ghostbusters|Los verdaderos cazafantasmas", "8 3 1 0 9 3 7 5 10 6 6 3 0 1 2 1 4", "glutton"],
+  ["Freakazoid", "freakazoid|dexter douglas", "Freakazoid!", "10 7 6 0 7 7 6 2 4 9 2 1 1 3 10 3 3", "hero"],
+  ["Earthworm Jim", "jim le ver de terre|earthworm jim", "Earthworm Jim", "9 6 2 0 8 8 6 2 4 6 3 0 0 4 8 2 7", "hero"],
+  ["Jem", "jerrica benton|jem et les hologrammes", "Jem et les Hologrammes|Jem and the Holograms|Jem y los Hologramas", "4 4 6 0 2 7 8 1 2 5 7 0 7 3 6 5 3", "dancer"],
+  ["Le Renard (Le Grand Méchant Renard)", "grand mechant renard|big bad fox", "Le Grand Méchant Renard|The Big Bad Fox|El gran zorro malvado", "7 2 3 3 9 3 7 3 6 4 6 1 0 5 6 3 9"],
+  ["Pat et Mat", "pat a mat|pat and mat|pat y mat", "Pat et Mat|Pat & Mat|Pat y Mat", "9 4 2 0 10 6 8 1 3 4 6 0 1 1 0 3 9"],
+  ["La Petite Taupe", "krtek|the little mole|el pequeno topo|taupe", "La Petite Taupe|The Little Mole|El pequeño topo", "6 2 5 0 4 5 9 1 3 4 10 0 0 1 1 3 4", "friend"],
+  ["Comte Duckula", "count duckula|duckula|conde patula", "Comte Duckula|Count Duckula|Conde Pátula", "8 2 3 1 7 3 6 6 7 3 4 3 7 4 7 2 6"],
+  ["Doremi Harukaze", "doremi|magical doremi", "Magical DoReMi|Magical DoReMi|Magical DoReMi", "8 2 3 0 9 6 8 4 7 4 7 0 1 5 8 2 10", "glutton"],
+  ["Creamy", "yu morisawa|creamy mami", "Creamy, merveilleuse Creamy|Creamy Mami, the Magic Angel|El broche encantado", "4 2 5 0 4 5 8 2 3 4 8 0 3 3 6 4 4", "dancer"],
+  ["Phileas Fogg (Willy Fog)", "willy fog|phileas fogg", "Le Tour du monde en 80 jours|Around the World with Willy Fog|La vuelta al mundo de Willy Fog", "3 5 8 0 1 8 7 1 3 6 4 0 8 2 3 6 4", "leader"],
+  ["Kimba", "kimba le lion blanc|leo le roi leo|kimba the white lion", "Le Roi Léo|Kimba the White Lion|Kimba, el león blanco", "4 7 6 0 3 8 9 1 3 7 8 1 2 3 5 4 6", "leader|hero"],
+  ["Sébastien (Belle et Sébastien)", "sebastien belle|sebastien montagne", "Belle et Sébastien|Belle and Sebastian|Nobi", "5 3 5 0 4 8 9 1 3 5 8 0 0 3 5 4 7", "survivor"],
+  ["Mizu", "mizu blue eye samurai", "Blue Eye Samurai", "2 8 8 4 1 10 3 1 2 9 2 7 1 9 2 8 7"],
+  ["Spear", "spear primal", "Primal", "1 9 4 3 1 10 6 1 5 8 1 7 0 7 0 5 9", "survivor"],
+  ["Craig Williams", "craig of the creek|craig du ruisseau", "Craig of the Creek", "6 3 7 0 3 7 8 2 4 5 6 0 1 2 6 6 3", "leader"],
+  ["Doc McStuffins", "dottie mcstuffins|docteur la peluche", "Docteur La Peluche|Doc McStuffins|Doctora Juguetes", "4 2 7 0 2 6 10 1 2 4 9 0 1 1 6 3 2", "friend"],
+  ["Blaze (Monster Machines)", "blaze monster machines|blaze camion", "Blaze et les Monster Machines|Blaze and the Monster Machines|Blaze y los Monster Machines", "5 7 6 0 2 8 8 1 2 10 7 0 1 2 6 4 2", "speedster|hero"],
+  ["Everest (Abominable)", "everest yeti|abominable yeti", "Abominable", "6 9 3 0 6 5 9 2 7 7 9 3 0 2 0 2 5", "friend"],
 ];
