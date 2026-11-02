@@ -880,4 +880,414 @@ module.exports = {
       org: "Il est réputé pour sa discipline, entre yoga et hygiène de vie stricte.|He is known for his discipline, with yoga and a strict lifestyle.|Es conocido por su disciplina, con yoga y un estilo de vida estricto.",
     },
   },
+  "Alicia Keys": {
+    x: "9 8 8 7 6 8 8",
+    d: "Chanteuse et pianiste américaine, voix de Fallin'|American singer and pianist, voice of Fallin'|Cantante y pianista estadounidense, voz de Fallin'",
+    f: {
+      ric: "Elle a remporté plus d'une quinzaine de Grammy Awards.|She has won more than fifteen Grammy Awards.|Ha ganado más de quince premios Grammy.",
+      int: "Pianiste de formation classique, elle s'accompagne elle-même sur scène.|A classically trained pianist, she accompanies herself on stage.|Pianista de formación clásica, se acompaña a sí misma en el escenario.",
+      soc: "Son duo Empire State of Mind avec Jay-Z est un hymne à New York.|Her duet Empire State of Mind with Jay-Z is an anthem to New York.|Su dúo Empire State of Mind con Jay-Z es un himno a Nueva York.",
+      lea: "Elle a présenté plusieurs cérémonies des Grammy Awards.|She has hosted several Grammy Awards ceremonies.|Ha presentado varias ceremonias de los premios Grammy.",
+    },
+  },
+  "Stevie Wonder": {
+    x: "7 7 9 7 8 8 7",
+    d: "Légende de la soul, enfant prodige de la Motown|Soul legend and Motown child prodigy|Leyenda del soul, niño prodigio de la Motown",
+    f: {
+      int: "Il a signé chez Motown à seulement 11 ans, surnommé Little Stevie Wonder.|He signed with Motown at just 11, nicknamed Little Stevie Wonder.|Firmó con Motown con solo 11 años, apodado Little Stevie Wonder.",
+      ric: "Il a remporté 25 Grammy Awards au cours de sa carrière.|He has won 25 Grammy Awards in his career.|Ha ganado 25 premios Grammy en su carrera.",
+      kin: "Il a milité pour faire de l'anniversaire de Martin Luther King un jour férié.|He campaigned to make Martin Luther King's birthday a national holiday.|Hizo campaña para que el cumpleaños de Martin Luther King fuera festivo nacional.",
+      hum: "Il est connu pour sa joie de vivre et son humour en public.|He is known for his joy and humour in public.|Es conocido por su alegría y su humor en público.",
+    },
+  },
+  "Ray Charles": {
+    x: "6 8 7 7 7 8 7",
+    d: "Pionnier de la soul surnommé The Genius|Soul pioneer nicknamed The Genius|Pionero del soul apodado The Genius",
+    f: {
+      int: "Il était surnommé The Genius pour son génie musical.|He was nicknamed The Genius for his musical brilliance.|Lo apodaban The Genius por su genio musical.",
+      ric: "Son tube Hit the Road Jack, en 1961, est un classique mondial.|His 1961 hit Hit the Road Jack is a worldwide classic.|Su éxito Hit the Road Jack, de 1961, es un clásico mundial.",
+      bra: "Il est considéré comme l'un des inventeurs de la musique soul.|He is regarded as one of the inventors of soul music.|Está considerado uno de los inventores de la música soul.",
+      rom: "Sa version de Georgia on My Mind est devenue l'hymne officiel de la Géorgie.|His version of Georgia on My Mind became the state song of Georgia.|Su versión de Georgia on My Mind se convirtió en el himno oficial de Georgia.",
+    },
+  },
+  "Aretha Franklin": {
+    x: "6 8 7 8 6 7 7",
+    d: "Reine de la soul, voix de Respect|Queen of Soul, voice of Respect|Reina del soul, voz de Respect",
+    f: {
+      lea: "Elle a été la première femme intronisée au Rock and Roll Hall of Fame, en 1987.|She was the first woman inducted into the Rock and Roll Hall of Fame, in 1987.|Fue la primera mujer en entrar en el Salón de la Fama del Rock and Roll, en 1987.",
+      bra: "Sa chanson Respect, en 1967, est devenue un hymne des droits civiques et des femmes.|Her 1967 song Respect became an anthem for civil rights and women.|Su canción Respect, de 1967, se convirtió en himno de los derechos civiles y de las mujeres.",
+      sty: "Son chapeau à nœud lors de l'investiture d'Obama en 2009 est resté célèbre.|Her bow hat at Obama's 2009 inauguration became famous.|Su sombrero con lazo en la investidura de Obama en 2009 se hizo famoso.",
+      ric: "Elle est surnommée la reine de la soul.|She is known as the Queen of Soul.|Es conocida como la reina del soul.",
+    },
+  },
+  "Akon": {
+    x: "6 7 7 8 7 6 7",
+    d: "Chanteur et producteur sénégalo-américain, voix de Lonely|Senegalese-American singer and producer, voice of Lonely|Cantante y productor senegalés-estadounidense, voz de Lonely",
+    f: {
+      ric: "Son tube Lonely, en 2005, a été numéro un dans de nombreux pays.|His 2005 hit Lonely topped the charts in many countries.|Su éxito Lonely, de 2005, fue número uno en muchos países.",
+      kin: "Il a lancé Akon Lighting Africa pour apporter l'électricité solaire en Afrique.|He launched Akon Lighting Africa to bring solar power to Africa.|Lanzó Akon Lighting Africa para llevar la energía solar a África.",
+      cun: "Il a produit les débuts de Lady Gaga sur son label.|He produced Lady Gaga's early career on his label.|Produjo los inicios de Lady Gaga en su sello.",
+      soc: "Son duo Smack That avec Eminem a été un grand succès en 2006.|His duet Smack That with Eminem was a big hit in 2006.|Su dúo Smack That con Eminem fue un gran éxito en 2006.",
+    },
+  },
+  "Black Eyed Peas": {
+    x: "7 9 6 7 9 5 7",
+    d: "Groupe américain de hip-hop et pop, auteur de I Gotta Feeling|American hip-hop and pop group, behind I Gotta Feeling|Grupo estadounidense de hip-hop y pop, autor de I Gotta Feeling",
+    f: {
+      soc: "Leur tube I Gotta Feeling, en 2009, est un classique des fêtes.|Their 2009 hit I Gotta Feeling is a party classic.|Su éxito I Gotta Feeling, de 2009, es un clásico de las fiestas.",
+      ric: "Ils ont assuré le spectacle de la mi-temps du Super Bowl 2011.|They performed the 2011 Super Bowl halftime show.|Actuaron en el medio tiempo de la Super Bowl de 2011.",
+      int: "Leur leader will.i.am est aussi producteur et passionné de technologie.|Their leader will.i.am is also a producer and tech enthusiast.|Su líder will.i.am es también productor y apasionado de la tecnología.",
+      sty: "Leurs tenues futuristes ont marqué la fin des années 2000.|Their futuristic outfits defined the late 2000s.|Sus atuendos futuristas marcaron finales de los años 2000.",
+    },
+  },
+  "50 Cent": {
+    x: "6 7 5 8 6 5 7",
+    d: "Rappeur new-yorkais, auteur de In da Club, devenu producteur|New York rapper behind In da Club, turned producer|Rapero neoyorquino, autor de In da Club, convertido en productor",
+    f: {
+      ric: "Son album Get Rich or Die Tryin', en 2003, s'est vendu à des millions d'exemplaires.|His 2003 album Get Rich or Die Tryin' sold millions of copies.|Su álbum Get Rich or Die Tryin', de 2003, vendió millones de copias.",
+      unl: "Il a survécu à neuf balles lors d'une fusillade en 2000.|He survived being shot nine times in 2000.|Sobrevivió a nueve disparos en un tiroteo en 2000.",
+      cun: "Son investissement dans la boisson Vitaminwater lui a rapporté une fortune.|His investment in the drink Vitaminwater earned him a fortune.|Su inversión en la bebida Vitaminwater le hizo ganar una fortuna.",
+      lea: "Il a produit la série télévisée à succès Power.|He produced the hit TV series Power.|Produjo la exitosa serie de televisión Power.",
+    },
+  },
+  "J Balvin": {
+    x: "7 9 7 7 8 6 7",
+    d: "Star colombienne du reggaeton, voix de Mi Gente|Colombian reggaeton star, voice of Mi Gente|Estrella colombiana del reguetón, voz de Mi Gente",
+    f: {
+      ric: "Son tube Mi Gente, en 2017, avec le DJ français Willy William, a été un succès mondial.|His 2017 hit Mi Gente with French DJ Willy William was a worldwide success.|Su éxito Mi Gente, de 2017, con el DJ francés Willy William, fue un éxito mundial.",
+      sty: "Il est connu pour ses cheveux teints de toutes les couleurs.|He is known for his hair dyed in every colour.|Es conocido por su pelo teñido de todos los colores.",
+      soc: "Il a participé au spectacle de la mi-temps du Super Bowl 2020 avec Shakira.|He took part in the 2020 Super Bowl halftime show with Shakira.|Participó en el medio tiempo de la Super Bowl de 2020 con Shakira.",
+      lea: "Il est surnommé le prince du reggaeton.|He is nicknamed the Prince of Reggaeton.|Lo apodan el príncipe del reguetón.",
+    },
+  },
+  "Maluma": {
+    x: "9 8 6 7 8 9 7",
+    d: "Chanteur colombien de reggaeton, voix de Hawái|Colombian reggaeton singer, voice of Hawái|Cantante colombiano de reguetón, voz de Hawái",
+    f: {
+      ric: "Son tube Hawái, en 2020, a été un immense succès mondial.|His 2020 hit Hawái was a huge worldwide success.|Su éxito Hawái, de 2020, fue un enorme éxito mundial.",
+      soc: "Il a enregistré le titre Medellín avec Madonna en 2019.|He recorded the song Medellín with Madonna in 2019.|Grabó la canción Medellín con Madonna en 2019.",
+      str: "Avant la musique, il jouait au football dans les équipes de jeunes de l'Atlético Nacional.|Before music, he played youth football for Atlético Nacional.|Antes de la música, jugaba al fútbol en las categorías inferiores del Atlético Nacional.",
+      rom: "Il cultive une image de séducteur latino.|He cultivates the image of a Latin heartthrob.|Cultiva una imagen de galán latino.",
+    },
+  },
+  "Karol G": {
+    x: "8 9 7 8 8 7 7",
+    d: "Star colombienne du reggaeton surnommée La Bichota|Colombian reggaeton star nicknamed La Bichota|Estrella colombiana del reguetón apodada La Bichota",
+    f: {
+      lea: "Son album Mañana será bonito a été le premier en espagnol d'une femme numéro un au Billboard 200.|Her album Mañana será bonito was the first Spanish-language album by a woman to top the Billboard 200.|Su álbum Mañana será bonito fue el primero en español de una mujer en encabezar el Billboard 200.",
+      ric: "Son tube Tusa, avec Nicki Minaj en 2019, a été un succès mondial.|Her 2019 hit Tusa with Nicki Minaj was a worldwide success.|Su éxito Tusa, con Nicki Minaj en 2019, fue un éxito mundial.",
+      sty: "Elle a marqué les esprits avec ses cheveux bleus.|She made an impression with her blue hair.|Dejó huella con su pelo azul.",
+      bra: "Elle se fait appeler La Bichota, symbole de confiance en soi.|She calls herself La Bichota, a symbol of self-confidence.|Se hace llamar La Bichota, símbolo de confianza en sí misma.",
+    },
+  },
+  "Luis Fonsi": {
+    x: "8 7 7 6 7 8 7",
+    d: "Chanteur portoricain, voix du phénomène Despacito|Puerto Rican singer, voice of the Despacito phenomenon|Cantante puertorriqueño, voz del fenómeno Despacito",
+    f: {
+      ric: "Son tube Despacito, avec Daddy Yankee, a été la première vidéo YouTube à dépasser 5 milliards de vues.|His hit Despacito with Daddy Yankee was the first YouTube video to pass 5 billion views.|Su éxito Despacito, con Daddy Yankee, fue el primer vídeo de YouTube en superar los 5.000 millones de vistas.",
+      soc: "Despacito a été le tube de l'été 2017 dans le monde entier.|Despacito was the worldwide summer hit of 2017.|Despacito fue el éxito del verano de 2017 en todo el mundo.",
+      rom: "Il a longtemps été connu pour ses ballades romantiques en espagnol.|He was long known for his romantic Spanish-language ballads.|Durante años fue conocido por sus baladas románticas en español.",
+      kin: "Il est réputé pour sa gentillesse et sa simplicité.|He is known for his kindness and simplicity.|Es conocido por su amabilidad y su sencillez.",
+    },
+  },
+  "Gloria Estefan": {
+    x: "8 8 8 8 7 7 8",
+    d: "Chanteuse cubano-américaine, reine de la pop latine|Cuban-American singer, queen of Latin pop|Cantante cubano-estadounidense, reina del pop latino",
+    f: {
+      soc: "Son tube Conga, avec le Miami Sound Machine, a fait danser le monde.|Her hit Conga with the Miami Sound Machine got the world dancing.|Su éxito Conga, con Miami Sound Machine, hizo bailar al mundo.",
+      bra: "Elle a quitté Cuba enfant avec sa famille pour s'installer à Miami.|She left Cuba as a child with her family to settle in Miami.|Dejó Cuba de niña con su familia para instalarse en Miami.",
+      lea: "Elle a reçu la médaille présidentielle de la Liberté en 2015.|She received the Presidential Medal of Freedom in 2015.|Recibió la Medalla Presidencial de la Libertad en 2015.",
+      ric: "Elle a vendu plus de 100 millions de disques dans le monde.|She has sold over 100 million records worldwide.|Ha vendido más de 100 millones de discos en el mundo.",
+    },
+  },
+  "Carlos Santana": {
+    x: "6 7 8 6 6 8 7",
+    d: "Guitariste mexicano-américain légendaire, roi du rock latino|Legendary Mexican-American guitarist, king of Latin rock|Guitarrista mexicano-estadounidense legendario, rey del rock latino",
+    f: {
+      ric: "Son album Supernatural a remporté huit Grammy Awards en 2000.|His album Supernatural won eight Grammy Awards in 2000.|Su álbum Supernatural ganó ocho premios Grammy en 2000.",
+      bra: "Sa prestation au festival de Woodstock en 1969 l'a rendu célèbre.|His performance at the 1969 Woodstock festival made him famous.|Su actuación en el festival de Woodstock en 1969 lo hizo famoso.",
+      soc: "Son tube Smooth, avec Rob Thomas en 1999, a été un énorme succès.|His 1999 hit Smooth with Rob Thomas was a huge success.|Su éxito Smooth, con Rob Thomas en 1999, fue un enorme éxito.",
+      int: "Son son de guitarre fusionnant rock et rythmes latins est unique.|His guitar sound fusing rock and Latin rhythms is unique.|Su sonido de guitarra que fusiona rock y ritmos latinos es único.",
+    },
+  },
+  "Gipsy Kings": {
+    x: "6 7 7 5 9 8 6",
+    d: "Groupe gitan français de rumba flamenca, auteur de Bamboléo|French gypsy rumba flamenca band, behind Bamboléo|Grupo gitano francés de rumba flamenca, autor de Bamboléo",
+    f: {
+      soc: "Leur tube Bamboléo, en 1987, a fait danser le monde entier.|Their 1987 hit Bamboléo got the whole world dancing.|Su éxito Bamboléo, de 1987, hizo bailar a todo el mundo.",
+      spd: "Leur guitare rumba au rythme endiablé est leur marque de fabrique.|Their frenetic rumba guitar is their trademark.|Su guitarra de rumba de ritmo endiablado es su sello.",
+      ric: "Ils ont remporté un Grammy Award en 2014.|They won a Grammy Award in 2014.|Ganaron un premio Grammy en 2014.",
+      kin: "Le groupe est formé par les familles Reyes et Baliardo, originaires du sud de la France.|The band is made up of the Reyes and Baliardo families from southern France.|El grupo está formado por las familias Reyes y Baliardo, del sur de Francia.",
+    },
+  },
+  "Manu Chao": {
+    x: "5 6 8 6 8 6 5",
+    d: "Chanteur franco-espagnol, ex-Mano Negra, voix de Clandestino|French-Spanish singer, ex-Mano Negra, voice of Clandestino|Cantante franco-español, ex Mano Negra, voz de Clandestino",
+    f: {
+      ric: "Son album Clandestino, en 1998, s'est vendu à des millions d'exemplaires.|His 1998 album Clandestino sold millions of copies.|Su álbum Clandestino, de 1998, vendió millones de copias.",
+      soc: "Il a fondé le groupe Mano Negra à la fin des années 1980.|He founded the band Mano Negra in the late 1980s.|Fundó el grupo Mano Negra a finales de los 80.",
+      int: "Il chante en français, en espagnol, en anglais et en portugais.|He sings in French, Spanish, English and Portuguese.|Canta en francés, español, inglés y portugués.",
+      kin: "Il est connu pour son engagement altermondialiste.|He is known for his alter-globalisation activism.|Es conocido por su compromiso altermundista.",
+    },
+  },
+  "Pitbull": {
+    x: "6 9 7 8 9 7 8",
+    d: "Rappeur cubano-américain surnommé Mr. Worldwide|Cuban-American rapper nicknamed Mr. Worldwide|Rapero cubano-estadounidense apodado Mr. Worldwide",
+    f: {
+      soc: "Il se surnomme Mr. Worldwide pour ses tubes festifs aux quatre coins du monde.|He calls himself Mr. Worldwide for his party hits across the globe.|Se hace llamar Mr. Worldwide por sus éxitos festivos en todo el mundo.",
+      ric: "Il a chanté l'hymne officiel de la Coupe du monde 2014, We Are One.|He sang the official 2014 World Cup song, We Are One.|Cantó el himno oficial del Mundial 2014, We Are One.",
+      sty: "Il apparaît presque toujours en costume et lunettes de soleil.|He almost always appears in a suit and sunglasses.|Casi siempre aparece con traje y gafas de sol.",
+      kin: "Il soutient des écoles à Miami pour les jeunes de quartiers défavorisés.|He supports schools in Miami for underprivileged youth.|Apoya escuelas en Miami para jóvenes de barrios desfavorecidos.",
+    },
+  },
+  "Burna Boy": {
+    x: "6 9 6 8 7 6 6",
+    d: "Star nigériane des afrobeats surnommée l'African Giant|Nigerian afrobeats star nicknamed the African Giant|Estrella nigeriana del afrobeats apodada el African Giant",
+    f: {
+      ric: "Son album Twice as Tall a remporté un Grammy Award en 2021.|His album Twice as Tall won a Grammy Award in 2021.|Su álbum Twice as Tall ganó un premio Grammy en 2021.",
+      lea: "Il a été le premier artiste africain à remplir un stade aux États-Unis, en 2023.|He became the first African artist to sell out a US stadium, in 2023.|Fue el primer artista africano en llenar un estadio en Estados Unidos, en 2023.",
+      scr: "Il se surnomme l'African Giant, titre de son album de 2019.|He calls himself the African Giant, the title of his 2019 album.|Se hace llamar African Giant, título de su álbum de 2019.",
+      soc: "Son tube Last Last, en 2022, a été un succès mondial.|His 2022 hit Last Last was a worldwide success.|Su éxito Last Last, de 2022, fue un éxito mundial.",
+    },
+  },
+  "Wizkid": {
+    x: "7 9 6 7 6 7 6",
+    d: "Star nigériane des afrobeats surnommée Starboy|Nigerian afrobeats star nicknamed Starboy|Estrella nigeriana del afrobeats apodada Starboy",
+    f: {
+      ric: "Il a participé au tube mondial One Dance de Drake en 2016.|He featured on Drake's worldwide hit One Dance in 2016.|Participó en el éxito mundial One Dance de Drake en 2016.",
+      soc: "Il a remporté un Grammy Award avec Beyoncé pour Brown Skin Girl.|He won a Grammy Award with Beyoncé for Brown Skin Girl.|Ganó un premio Grammy con Beyoncé por Brown Skin Girl.",
+      lea: "Son tube Essence, avec Tems, a popularisé les afrobeats aux États-Unis.|His hit Essence with Tems popularised afrobeats in the US.|Su éxito Essence, con Tems, popularizó el afrobeats en Estados Unidos.",
+      tal: "Il est réputé pour sa discrétion dans les médias.|He is known for keeping a low media profile.|Es conocido por su discreción en los medios.",
+    },
+  },
+  "Tems": {
+    x: "8 9 8 7 5 7 7",
+    d: "Chanteuse nigériane à la voix grave, star de l'afro-R&B|Nigerian singer with a deep voice, star of afro-R&B|Cantante nigeriana de voz grave, estrella del afro-R&B",
+    f: {
+      ric: "Elle a remporté un Grammy Award en 2023 pour Wait for U avec Future et Drake.|She won a Grammy Award in 2023 for Wait for U with Future and Drake.|Ganó un premio Grammy en 2023 por Wait for U con Future y Drake.",
+      int: "Elle a été nommée aux Oscars pour avoir coécrit Lift Me Up de Rihanna.|She was Oscar-nominated for co-writing Rihanna's Lift Me Up.|Fue nominada al Óscar por coescribir Lift Me Up de Rihanna.",
+      soc: "Son duo Essence avec Wizkid a été un tube international.|Her duet Essence with Wizkid was an international hit.|Su dúo Essence con Wizkid fue un éxito internacional.",
+      sty: "Elle est reconnue pour son élégance et sa voix grave unique.|She is known for her elegance and unique deep voice.|Es conocida por su elegancia y su voz grave única.",
+    },
+  },
+  "Rema": {
+    x: "8 8 6 7 7 8 6",
+    d: "Jeune star nigériane des afrobeats, voix de Calm Down|Young Nigerian afrobeats star, voice of Calm Down|Joven estrella nigeriana del afrobeats, voz de Calm Down",
+    f: {
+      ric: "Son tube Calm Down a dépassé le milliard d'écoutes sur Spotify.|His hit Calm Down passed one billion streams on Spotify.|Su éxito Calm Down superó los mil millones de reproducciones en Spotify.",
+      soc: "Le remix de Calm Down avec Selena Gomez a été un succès planétaire.|The Calm Down remix with Selena Gomez was a global smash.|El remix de Calm Down con Selena Gomez fue un éxito planetario.",
+      cut: "Il est devenu une star mondiale avant ses 25 ans.|He became a global star before turning 25.|Se convirtió en estrella mundial antes de cumplir 25 años.",
+      int: "Il a baptisé son style afrorave.|He named his style afrorave.|Bautizó su estilo como afrorave.",
+    },
+  },
+  "Fela Kuti": {
+    x: "6 9 8 9 8 6 4",
+    d: "Musicien nigérian, inventeur de l'afrobeat et militant|Nigerian musician, inventor of Afrobeat and activist|Músico nigeriano, inventor del afrobeat y activista",
+    f: {
+      int: "Il est considéré comme l'inventeur de l'afrobeat.|He is regarded as the inventor of Afrobeat.|Está considerado el inventor del afrobeat.",
+      bra: "Son album Zombie, en 1976, dénonçait la dictature militaire au Nigeria.|His 1976 album Zombie denounced the military dictatorship in Nigeria.|Su álbum Zombie, de 1976, denunciaba la dictadura militar en Nigeria.",
+      unl: "Il a été arrêté de très nombreuses fois par le régime militaire.|He was arrested many times by the military regime.|Fue arrestado muchísimas veces por el régimen militar.",
+      lea: "Il avait proclamé sa propriété de Lagos république indépendante de Kalakuta.|He declared his Lagos compound the independent Kalakuta Republic.|Proclamó su residencia de Lagos como la República independiente de Kalakuta.",
+    },
+  },
+  "Fally Ipupa": {
+    x: "8 9 6 7 7 9 7",
+    d: "Star congolaise de la rumba et du ndombolo|Congolese rumba and ndombolo star|Estrella congoleña de la rumba y el ndombolo",
+    f: {
+      spd: "Ses concerts sont réputés pour leurs chorégraphies de ndombolo.|His concerts are famous for their ndombolo choreography.|Sus conciertos son famosos por sus coreografías de ndombolo.",
+      ric: "Son album Tokooos, en 2017, a marqué un tournant international dans sa carrière.|His 2017 album Tokooos marked an international turning point in his career.|Su álbum Tokooos, de 2017, marcó un giro internacional en su carrera.",
+      kin: "Il a débuté au sein du célèbre orchestre congolais Quartier Latin.|He started in the famous Congolese band Quartier Latin.|Empezó en la famosa orquesta congoleña Quartier Latin.",
+      sty: "Il est surnommé Dicap la Merveille et cultive une élégance de sapeur.|He is nicknamed Dicap la Merveille and cultivates sharp elegance.|Lo apodan Dicap la Merveille y cultiva una elegancia impecable.",
+    },
+  },
+  "Youssou N'Dour": {
+    x: "6 8 8 8 7 6 8",
+    d: "Star sénégalaise du mbalax, voix de 7 Seconds|Senegalese mbalax star, voice of 7 Seconds|Estrella senegalesa del mbalax, voz de 7 Seconds",
+    f: {
+      ric: "Son duo 7 Seconds avec Neneh Cherry, en 1994, a été un tube mondial.|His 1994 duet 7 Seconds with Neneh Cherry was a worldwide hit.|Su dúo 7 Seconds con Neneh Cherry, de 1994, fue un éxito mundial.",
+      lea: "Il a été ministre de la Culture puis du Tourisme au Sénégal.|He served as Senegal's minister of culture and then of tourism.|Fue ministro de Cultura y luego de Turismo en Senegal.",
+      int: "Son album Egypt a remporté un Grammy Award en 2005.|His album Egypt won a Grammy Award in 2005.|Su álbum Egypt ganó un premio Grammy en 2005.",
+      kin: "Il s'engage depuis longtemps dans des causes humanitaires en Afrique.|He has long been committed to humanitarian causes in Africa.|Lleva mucho tiempo comprometido con causas humanitarias en África.",
+    },
+  },
+  "Khaled": {
+    x: "5 6 7 6 9 8 5",
+    d: "Chanteur algérien surnommé le roi du raï|Algerian singer nicknamed the King of Raï|Cantante argelino apodado el rey del raï",
+    f: {
+      ric: "Sa chanson Aïcha, écrite par Jean-Jacques Goldman en 1996, est un classique.|His song Aïcha, written by Jean-Jacques Goldman in 1996, is a classic.|Su canción Aïcha, escrita por Jean-Jacques Goldman en 1996, es un clásico.",
+      soc: "Son tube C'est la vie, en 2012, a enflammé les fêtes et les mariages.|His 2012 hit C'est la vie set parties and weddings alight.|Su éxito C'est la vie, de 2012, encendió fiestas y bodas.",
+      lea: "Son titre Didi, en 1992, a fait connaître le raï dans le monde entier.|His 1992 song Didi made raï known worldwide.|Su tema Didi, de 1992, dio a conocer el raï en todo el mundo.",
+      cut: "Son large sourire est devenu sa marque de fabrique.|His broad smile became his trademark.|Su amplia sonrisa se convirtió en su sello.",
+    },
+  },
+  "Magic System": {
+    x: "5 7 7 6 10 6 6",
+    d: "Groupe ivoirien de zouglou, auteur de Premier Gaou|Ivorian zouglou band, behind Premier Gaou|Grupo marfileño de zouglou, autor de Premier Gaou",
+    f: {
+      ric: "Leur tube Premier Gaou, en 1999, a conquis l'Afrique puis la France.|Their 1999 hit Premier Gaou won over Africa and then France.|Su éxito Premier Gaou, de 1999, conquistó África y luego Francia.",
+      soc: "Leur titre Magic in the Air est devenu un hymne des stades.|Their song Magic in the Air became a stadium anthem.|Su tema Magic in the Air se convirtió en himno de los estadios.",
+      kin: "Leur fondation construit des écoles en Côte d'Ivoire.|Their foundation builds schools in Côte d'Ivoire.|Su fundación construye escuelas en Costa de Marfil.",
+      hum: "Ils sont connus pour leur bonne humeur communicative.|They are known for their infectious good mood.|Son conocidos por su buen humor contagioso.",
+    },
+  },
+  "PSY": {
+    x: "5 8 6 7 10 4 6",
+    d: "Chanteur sud-coréen, auteur du phénomène Gangnam Style|South Korean singer behind the Gangnam Style phenomenon|Cantante surcoreano, autor del fenómeno Gangnam Style",
+    f: {
+      ric: "Gangnam Style a été la première vidéo YouTube à dépasser le milliard de vues, en 2012.|Gangnam Style was the first YouTube video to pass one billion views, in 2012.|Gangnam Style fue el primer vídeo de YouTube en superar los mil millones de vistas, en 2012.",
+      spd: "Sa danse du cheval a été imitée dans le monde entier.|His horse-riding dance was imitated all over the world.|Su baile del caballo fue imitado en todo el mundo.",
+      hum: "Il est célèbre pour son humour et son autodérision.|He is famous for his humour and self-mockery.|Es famoso por su humor y su autocrítica.",
+      sty: "Il se présente souvent en costume coloré et lunettes noires.|He often appears in a colourful suit and dark glasses.|Suele aparecer con traje colorido y gafas oscuras.",
+    },
+  },
+  "Stray Kids": {
+    x: "9 9 7 7 8 7 8",
+    d: "Groupe de K-pop qui écrit et produit ses propres titres|K-pop group that writes and produces its own songs|Grupo de K-pop que escribe y produce sus propias canciones",
+    f: {
+      int: "Leurs titres sont écrits et produits par leurs propres membres, le trio 3RACHA.|Their songs are written and produced by their own members, the trio 3RACHA.|Sus temas los escriben y producen sus propios miembros, el trío 3RACHA.",
+      ric: "Ils ont placé de nombreux albums à la première place du Billboard 200.|They have placed many albums at number one on the Billboard 200.|Han colocado muchos álbumes en el número uno del Billboard 200.",
+      spd: "Leurs performances sont réputées pour leurs chorégraphies intenses.|Their performances are known for intense choreography.|Sus actuaciones son conocidas por sus coreografías intensas.",
+      sty: "Ils ont fait sensation au Met Gala en 2024.|They made a splash at the Met Gala in 2024.|Causaron sensación en la Met Gala de 2024.",
+    },
+  },
+  "Twice": {
+    x: "9 8 7 6 8 8 8",
+    d: "Girls band de K-pop à neuf membres, reines des refrains entraînants|Nine-member K-pop girl group, queens of catchy hooks|Grupo femenino de K-pop de nueve miembros, reinas de los estribillos pegadizos",
+    f: {
+      cut: "Leur tube TT, en 2016, a popularisé une pose mignonne imitée par des millions de fans.|Their 2016 hit TT popularised a cute pose copied by millions of fans.|Su éxito TT, de 2016, popularizó una pose adorable imitada por millones de fans.",
+      ric: "Elles comptent parmi les girls bands de K-pop les plus populaires au monde.|They are among the most popular K-pop girl groups in the world.|Están entre los grupos femeninos de K-pop más populares del mundo.",
+      soc: "Le groupe réunit des membres coréennes, japonaises et taïwanaise.|The group brings together Korean, Japanese and Taiwanese members.|El grupo reúne a miembros coreanas, japonesas y una taiwanesa.",
+      spd: "Elles ont rempli des stades en Asie et aux États-Unis.|They have filled stadiums in Asia and the United States.|Han llenado estadios en Asia y Estados Unidos.",
+    },
+  },
+  "Jennie": {
+    x: "10 10 7 7 6 8 7",
+    d: "Rappeuse et chanteuse de Blackpink, icône de mode|Blackpink rapper and singer, a fashion icon|Rapera y cantante de Blackpink, icono de la moda",
+    f: {
+      sty: "Ambassadrice de Chanel, elle est surnommée la Chanel humaine.|A Chanel ambassador, she is nicknamed the human Chanel.|Embajadora de Chanel, la apodan la Chanel humana.",
+      ric: "Son premier single solo, SOLO, en 2018, a été un énorme succès.|Her 2018 debut solo single SOLO was a huge hit.|Su primer sencillo en solitario, SOLO, de 2018, fue un enorme éxito.",
+      scr: "Son charisme sur scène lui donne une aura impressionnante.|Her stage charisma gives her an impressive aura.|Su carisma en el escenario le da un aura imponente.",
+      lea: "Son album solo Ruby, en 2025, a été salué dans le monde entier.|Her 2025 solo album Ruby was acclaimed worldwide.|Su álbum en solitario Ruby, de 2025, fue aclamado en todo el mundo.",
+    },
+  },
+  "Lisa": {
+    x: "10 10 7 7 8 7 8",
+    d: "Danseuse et rappeuse thaïlandaise de Blackpink|Thai dancer and rapper of Blackpink|Bailarina y rapera tailandesa de Blackpink",
+    f: {
+      spd: "Elle est la danseuse principale de Blackpink.|She is Blackpink's main dancer.|Es la bailarina principal de Blackpink.",
+      ric: "Le clip de son titre LALISA a battu le record de vues en 24 heures pour une artiste solo.|Her LALISA video broke the 24-hour view record for a solo artist.|El vídeo de LALISA batió el récord de visitas en 24 horas para una artista en solitario.",
+      bra: "Elle est la première star thaïlandaise à devenir une icône mondiale de la K-pop.|She is the first Thai star to become a global K-pop icon.|Es la primera estrella tailandesa en convertirse en icono mundial del K-pop.",
+      int: "Elle a joué dans la saison 3 de la série The White Lotus en 2025.|She acted in season 3 of The White Lotus in 2025.|Actuó en la tercera temporada de The White Lotus en 2025.",
+    },
+  },
+  "Rosé": {
+    x: "10 9 7 6 7 9 7",
+    d: "Chanteuse principale de Blackpink, voix du tube APT.|Blackpink's lead vocalist, voice of the hit APT.|Vocalista principal de Blackpink, voz del éxito APT.",
+    f: {
+      ric: "Son duo APT. avec Bruno Mars, en 2024, a été un tube mondial.|Her 2024 duet APT. with Bruno Mars was a worldwide hit.|Su dúo APT. con Bruno Mars, de 2024, fue un éxito mundial.",
+      int: "Née en Nouvelle-Zélande, elle a grandi en Australie avant de rejoindre la K-pop.|Born in New Zealand, she grew up in Australia before joining K-pop.|Nacida en Nueva Zelanda, creció en Australia antes de unirse al K-pop.",
+      sty: "Elle est l'égérie de la maison Saint Laurent.|She is a face of the house of Saint Laurent.|Es imagen de la casa Saint Laurent.",
+      rom: "Sa voix douce et singulière est la signature de Blackpink.|Her soft, distinctive voice is Blackpink's signature.|Su voz suave y singular es la firma de Blackpink.",
+    },
+  },
+  "Jungkook": {
+    x: "10 8 7 6 7 9 8",
+    d: "Plus jeune membre de BTS, chanteur solo à succès|Youngest member of BTS and a hit solo singer|Miembro más joven de BTS y cantante solista de éxito",
+    f: {
+      ric: "Son single solo Seven, en 2023, a été numéro un dans de nombreux pays.|His 2023 solo single Seven topped the charts in many countries.|Su sencillo en solitario Seven, de 2023, fue número uno en muchos países.",
+      bra: "Il a chanté Dreamers à la cérémonie d'ouverture de la Coupe du monde 2022 au Qatar.|He sang Dreamers at the 2022 World Cup opening ceremony in Qatar.|Cantó Dreamers en la ceremonia de apertura del Mundial 2022 en Catar.",
+      cut: "Les fans le surnomment le golden maknae, le benjamin doué en tout.|Fans call him the golden maknae, the youngest who excels at everything.|Los fans lo llaman el golden maknae, el benjamín que destaca en todo.",
+      spd: "Il est réputé pour ses talents de danseur et de sportif.|He is known for his dancing and athletic skills.|Es conocido por su talento para el baile y el deporte.",
+    },
+  },
+  "Hans Zimmer": {
+    x: "6 6 8 9 6 6 9",
+    d: "Compositeur allemand de musiques de films, de Gladiator à Dune|German film composer, from Gladiator to Dune|Compositor alemán de bandas sonoras, de Gladiator a Dune",
+    f: {
+      ric: "Il a remporté l'Oscar pour Le Roi lion en 1995 puis pour Dune en 2022.|He won the Oscar for The Lion King in 1995 and for Dune in 2022.|Ganó el Óscar por El rey león en 1995 y por Dune en 2022.",
+      int: "Il a composé les musiques d'Inception et d'Interstellar pour Christopher Nolan.|He scored Inception and Interstellar for Christopher Nolan.|Compuso la música de Origen e Interstellar para Christopher Nolan.",
+      lea: "Il dirige un grand studio où travaillent de nombreux compositeurs.|He runs a large studio employing many composers.|Dirige un gran estudio donde trabajan muchos compositores.",
+      soc: "Il remplit des salles géantes avec ses tournées de concerts de musiques de films.|He fills arenas with his film-music concert tours.|Llena grandes recintos con sus giras de conciertos de bandas sonoras.",
+    },
+  },
+  "John Williams": {
+    x: "5 6 9 8 5 6 10",
+    d: "Compositeur américain de Star Wars, Indiana Jones et E.T.|American composer of Star Wars, Indiana Jones and E.T.|Compositor estadounidense de Star Wars, Indiana Jones y E.T.",
+    f: {
+      ric: "Il a composé les thèmes de Star Wars, des Dents de la mer et d'Indiana Jones.|He composed the themes of Star Wars, Jaws and Indiana Jones.|Compuso los temas de Star Wars, Tiburón e Indiana Jones.",
+      lea: "Il est la personne vivante la plus nommée de l'histoire des Oscars.|He is the most Oscar-nominated living person.|Es la persona viva con más nominaciones de la historia de los Óscar.",
+      soc: "Il a collaboré avec Steven Spielberg pendant plus de cinquante ans.|He has worked with Steven Spielberg for over fifty years.|Ha colaborado con Steven Spielberg durante más de cincuenta años.",
+      int: "Il a aussi signé le thème musical des trois premiers films Harry Potter.|He also wrote the score for the first three Harry Potter films.|También compuso la música de las tres primeras películas de Harry Potter.",
+    },
+  },
+  "Ennio Morricone": {
+    x: "5 6 9 7 3 7 9",
+    d: "Compositeur italien des westerns de Sergio Leone|Italian composer of Sergio Leone's westerns|Compositor italiano de los wésterns de Sergio Leone",
+    f: {
+      ric: "Le thème sifflé du Bon, la Brute et le Truand est l'un des plus célèbres du cinéma.|The whistled theme of The Good, the Bad and the Ugly is one of cinema's most famous.|El tema silbado de El bueno, el feo y el malo es uno de los más famosos del cine.",
+      int: "Il a composé la musique de plus de 400 films et séries.|He scored over 400 films and series.|Compuso la música de más de 400 películas y series.",
+      bra: "Il a remporté l'Oscar de la meilleure musique pour Les Huit Salopards en 2016.|He won the Oscar for best score for The Hateful Eight in 2016.|Ganó el Óscar a la mejor banda sonora por Los odiosos ocho en 2016.",
+      tal: "Il était réputé pour sa réserve et ses rares interviews.|He was known for his reserve and rare interviews.|Era conocido por su reserva y sus escasas entrevistas.",
+    },
+  },
+  "Vladimir Cosma": {
+    x: "5 6 9 6 5 7 9",
+    d: "Compositeur des musiques de La Boum et du Dîner de cons|Composer of the scores for La Boum and Le Dîner de cons|Compositor de la música de La Boum y Le Dîner de cons",
+    f: {
+      rom: "Sa chanson Reality, pour La Boum en 1980, est un slow mythique.|His song Reality, for La Boum in 1980, is a legendary slow dance.|Su canción Reality, para La Boum en 1980, es una balada mítica.",
+      hum: "Il a signé les musiques de nombreuses comédies cultes, dont Rabbi Jacob.|He scored many cult comedies, including Rabbi Jacob.|Compuso la música de muchas comedias de culto, como Las locas aventuras de Rabbi Jacob.",
+      ric: "Il a remporté le César de la meilleure musique pour Diva et pour Le Bal.|He won the César for best score for Diva and for Le Bal.|Ganó el César a la mejor música por Diva y por Le Bal.",
+      int: "Il a composé pour les films de Francis Veber, comme Le Dîner de cons.|He scored Francis Veber's films, like Le Dîner de cons.|Compuso para las películas de Francis Veber, como La cena de los idiotas.",
+    },
+  },
+  "Michel Legrand": {
+    x: "5 6 8 7 7 8 8",
+    d: "Compositeur et pianiste des Parapluies de Cherbourg|Composer and pianist of The Umbrellas of Cherbourg|Compositor y pianista de Los paraguas de Cherburgo",
+    f: {
+      ric: "Il a remporté trois Oscars au cours de sa carrière.|He won three Oscars during his career.|Ganó tres premios Óscar a lo largo de su carrera.",
+      rom: "Il a composé la musique des Parapluies de Cherbourg de Jacques Demy en 1964.|He composed the score of Jacques Demy's The Umbrellas of Cherbourg in 1964.|Compuso la música de Los paraguas de Cherburgo de Jacques Demy en 1964.",
+      spd: "Sa chanson The Windmills of Your Mind a remporté l'Oscar en 1969.|His song The Windmills of Your Mind won the Oscar in 1969.|Su canción The Windmills of Your Mind ganó el Óscar en 1969.",
+      tem: "Il était réputé pour son tempérament perfectionniste et exigeant.|He was known for his perfectionist, demanding temperament.|Era conocido por su temperamento perfeccionista y exigente.",
+    },
+  },
+  "Joe Hisaishi": {
+    x: "5 5 9 6 4 7 9",
+    d: "Compositeur japonais des films du studio Ghibli|Japanese composer of Studio Ghibli films|Compositor japonés de las películas del estudio Ghibli",
+    f: {
+      int: "Il a composé les musiques de Mon voisin Totoro et du Voyage de Chihiro.|He scored My Neighbor Totoro and Spirited Away.|Compuso la música de Mi vecino Totoro y El viaje de Chihiro.",
+      soc: "Il collabore avec Hayao Miyazaki depuis Nausicaä en 1984.|He has worked with Hayao Miyazaki since Nausicaä in 1984.|Colabora con Hayao Miyazaki desde Nausicaä en 1984.",
+      cun: "Son nom de scène est inspiré du producteur américain Quincy Jones.|His stage name was inspired by American producer Quincy Jones.|Su nombre artístico se inspira en el productor estadounidense Quincy Jones.",
+      kin: "Ses mélodies douces ont bercé des générations de fans d'animation.|His gentle melodies have soothed generations of animation fans.|Sus suaves melodías han acompañado a generaciones de fans de la animación.",
+    },
+  },
+  "Yann Tiersen": {
+    x: "5 6 8 6 4 7 8",
+    d: "Compositeur breton de la musique du Fabuleux Destin d'Amélie Poulain|Breton composer of the score for Amélie|Compositor bretón de la música de Amélie",
+    f: {
+      ric: "Sa musique pour Le Fabuleux Destin d'Amélie Poulain, en 2001, l'a rendu célèbre dans le monde entier.|His 2001 score for Amélie made him famous worldwide.|Su música para Amélie, de 2001, lo hizo famoso en todo el mundo.",
+      int: "Il joue du piano, du violon, de l'accordéon et même du piano jouet.|He plays piano, violin, accordion and even toy piano.|Toca el piano, el violín, el acordeón e incluso el piano de juguete.",
+      cut: "Son morceau Comptine d'un autre été est joué par des pianistes du monde entier.|His piece Comptine d'un autre été is played by pianists worldwide.|Su pieza Comptine d'un autre été la tocan pianistas de todo el mundo.",
+      soc: "Il vit sur l'île d'Ouessant, à la pointe de la Bretagne.|He lives on the island of Ouessant, off the tip of Brittany.|Vive en la isla de Ouessant, en el extremo de Bretaña.",
+    },
+  },
+  "Maurice Ravel": {
+    x: "5 9 8 5 4 6 9",
+    d: "Compositeur français du Boléro, maître de l'orchestration|French composer of Boléro, a master of orchestration|Compositor francés del Bolero, maestro de la orquestación",
+    f: {
+      ric: "Son Boléro, créé en 1928, est l'une des œuvres classiques les plus jouées au monde.|His Boléro, premiered in 1928, is one of the world's most performed classical works.|Su Bolero, estrenado en 1928, es una de las obras clásicas más interpretadas del mundo.",
+      int: "Il a orchestré les Tableaux d'une exposition de Moussorgski en 1922.|He orchestrated Mussorgsky's Pictures at an Exhibition in 1922.|Orquestó Cuadros de una exposición de Músorgski en 1922.",
+      bra: "Il a refusé la Légion d'honneur en 1920.|He turned down the Légion d'honneur in 1920.|Rechazó la Legión de Honor en 1920.",
+      sty: "Il était connu pour son élégance vestimentaire de dandy.|He was known for his elegant, dandy-like dress.|Era conocido por su elegancia de dandi en el vestir.",
+    },
+  },
+  "Luciano Pavarotti": {
+    x: "6 7 7 7 9 8 6",
+    d: "Ténor italien légendaire, voix de Nessun dorma|Legendary Italian tenor, voice of Nessun dorma|Tenor italiano legendario, voz de Nessun dorma",
+    f: {
+      ric: "Son Nessun dorma, hymne de la Coupe du monde 1990, l'a rendu célèbre auprès du grand public.|His Nessun dorma, anthem of the 1990 World Cup, made him a household name.|Su Nessun dorma, himno del Mundial de 1990, lo hizo famoso ante el gran público.",
+      soc: "Il a formé les Trois Ténors avec Plácido Domingo et José Carreras.|He formed the Three Tenors with Plácido Domingo and José Carreras.|Formó Los Tres Tenores con Plácido Domingo y José Carreras.",
+      kin: "Ses concerts Pavarotti & Friends ont récolté des fonds pour des causes humanitaires.|His Pavarotti & Friends concerts raised funds for humanitarian causes.|Sus conciertos Pavarotti & Friends recaudaron fondos para causas humanitarias.",
+      glu: "Il était réputé pour sa passion de la cuisine italienne.|He was known for his passion for Italian cooking.|Era conocido por su pasión por la cocina italiana.",
+    },
+  },
 };
