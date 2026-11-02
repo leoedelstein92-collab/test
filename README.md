@@ -32,7 +32,7 @@ personnage de dessin animé, et le juge compare les réponses, attribue un score
 ## Comment le juge note les personnages
 
 Trois univers au choix : **Dessins animés** (plus de 1 500 personnages), **Mangas** (plus de 650 personnages) et
-**Célébrités** (près de 680 personnalités publiques : sportifs, acteurs, chanteurs, politiques, figures historiques,
+**Célébrités** (plus de 1 550 personnalités publiques : sportifs, acteurs, chanteurs, politiques, figures historiques,
 créateurs du web…), chacun jouable en mode « Le plus… » ou « Le moins… ». Les célébrités sont notées uniquement
 d'après leur image publique et leur carrière, de façon neutre pour les responsables politiques ; les thèmes qui
 toucheraient à leur vie privée ne sont pas tirés dans cet univers.
