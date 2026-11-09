@@ -52,6 +52,23 @@ const CPE = "Cyberpunk: Edgerunners";
 const SMF = "Smiling Friends";
 const SIN = "Sinbad : La Légende des sept mers|Sinbad: Legend of the Seven Seas|Simbad: La leyenda de los siete mares";
 const OWL = "Les Chroniques de la Maison du Hibou|The Owl House|The Owl House";
+const SHA2 = "Les Shadoks|The Shadoks|Los Shadoks";
+const MEN = "Le Manège enchanté|The Magic Roundabout|El tiovivo mágico";
+const SIS = "Les Sisters|The Sisters|Las Sisters";
+const LEO2 = "Léonard|Leonardo|Leonardo";
+const GUM = "Les Gummi|Adventures of the Gummi Bears|Los osos Gummi";
+const DND = "Le Sourire du dragon|Dungeons & Dragons|Dragones y mazmorras";
+const ALV = "Alvin et les Chipmunks|Alvin and the Chipmunks|Alvin y las ardillas";
+const ANB = "Les Castors allumés|The Angry Beavers|Los castores cascarrabias";
+const WTB = "La Famille Delajungle|The Wild Thornberrys|Los Thornberrys";
+const DRP = "Le Prince des dragons|The Dragon Prince|El príncipe dragón";
+const AMP = "Amphibia";
+const BAB = "Le Garçon et la Bête|The Boy and the Beast|El niño y la bestia";
+const WCH = "Les Enfants loups, Ame et Yuki|Wolf Children|Los niños lobo";
+const SEB = "Le Monstre des mers|The Sea Beast|Monstruo marino";
+const INF = "Infinity Train";
+const MOL = "Molang";
+const WSD = "Les Garennes de Watership Down|Watership Down|La colina de Watership";
 
 module.exports = [
   // Rango
@@ -292,4 +309,86 @@ module.exports = [
   ["Doc McStuffins", "dottie mcstuffins|docteur la peluche", "Docteur La Peluche|Doc McStuffins|Doctora Juguetes", "4 2 7 0 2 6 10 1 2 4 9 0 1 1 6 3 2", "friend"],
   ["Blaze (Monster Machines)", "blaze monster machines|blaze camion", "Blaze et les Monster Machines|Blaze and the Monster Machines|Blaze y los Monster Machines", "5 7 6 0 2 8 8 1 2 10 7 0 1 2 6 4 2", "speedster|hero"],
   ["Everest (Abominable)", "everest yeti|abominable yeti", "Abominable", "6 9 3 0 6 5 9 2 7 7 9 3 0 2 0 2 5", "friend"],
+  // Les Shadoks
+  ["Les Shadoks", "shadoks|shadok", SHA2, "8 3 0 4 10 5 2 2 5 4 3 1 0 6 7 1 10"],
+  ["Les Gibis", "gibis|gibi", SHA2, "4 3 7 1 3 4 6 3 3 3 3 0 2 3 6 4 4"],
+  // Le Manège enchanté
+  ["Zébulon", "zebulon|zebedee|zebulon le diable a ressort", MEN, "7 3 6 0 2 5 8 1 2 9 4 1 1 2 6 5 2", "teacher"],
+  ["Pollux", "pollux le chien|dougal", MEN, "8 2 6 1 4 4 5 6 9 3 6 0 1 6 8 4 5", "glutton"],
+  // Les Sisters
+  ["Wendy (Les Sisters)", "wendy sisters|wendy les sisters", SIS, "6 3 6 3 5 5 5 6 5 4 4 0 2 8 9 6 6"],
+  ["Marine (Les Sisters)", "marine sisters|marine les sisters", SIS, "8 3 3 4 7 6 6 3 6 6 7 0 1 6 9 7 5"],
+  // Léonard
+  ["Léonard (le génie)", "leonard le genie|leonard de vinci bd|leonardo the genius", LEO2, "6 2 9 2 7 4 3 3 4 3 1 0 3 8 7 4 7"],
+  ["Basile (Léonard)", "basile le disciple|basile disciple", LEO2, "7 2 3 0 8 3 6 6 5 3 4 0 0 4 6 3 10"],
+  // Les Gummi
+  ["Gruffi", "gruffi gummi|grouchy gummi", GUM, "3 7 6 0 2 7 6 1 4 4 4 0 1 8 5 4 3"],
+  ["Zummi", "zummi gummi", GUM, "4 3 9 0 6 4 8 2 5 2 5 0 1 2 6 3 5", "teacher"],
+  // Le Sourire du dragon
+  ["Le Maître du Donjon", "maitre du donjon|dungeon master|amo del calabozo", DND, "3 7 10 0 0 6 7 1 1 6 3 2 2 3 4 10 1", "teacher"],
+  ["Venger", "venger|vengador", DND, "1 9 8 10 1 5 0 2 2 6 0 9 6 9 6 8 6"],
+  // Alvin et les Chipmunks
+  ["Alvin", "alvin seville|alvin chipmunk", ALV, "8 3 5 3 6 7 5 4 5 7 7 0 3 6 9 8 5", "dancer"],
+  ["Simon (Alvin et les Chipmunks)", "simon seville|simon chipmunk", ALV, "4 2 9 0 4 4 7 2 3 4 6 0 3 4 6 5 4"],
+  ["Théodore", "theodore seville|theodore chipmunk|teodoro", ALV, "5 2 3 0 6 3 9 3 9 3 10 0 3 1 5 1 5", "glutton"],
+  // Les Castors allumés
+  ["Norbert (Les Castors allumés)", "norbert beaver|norbert castor", ANB, "8 4 7 1 3 5 5 7 5 4 4 0 1 2 8 7 3"],
+  ["Daggett", "daggett beaver|daggett castor", ANB, "8 4 2 1 9 5 5 4 6 6 4 0 0 9 9 3 9"],
+  // La Famille Delajungle
+  ["Eliza Thornberry", "eliza thornberry|eliza delajungle", WTB, "5 3 6 0 6 9 9 1 3 5 6 0 2 3 8 4 6", "hero"],
+  ["Darwin (La Famille Delajungle)", "darwin chimpanze|darwin thornberry", WTB, "5 3 6 0 5 2 8 2 5 4 7 0 0 6 7 2 6"],
+  ["Donnie Thornberry", "donnie delajungle|donnie thornberrys", WTB, "7 6 1 2 8 9 3 0 8 9 6 4 0 9 6 3 4"],
+  // Le Prince des dragons
+  ["Callum", "callum dragon prince", DRP, "7 3 8 0 6 7 9 2 4 4 5 0 6 3 7 5 6"],
+  ["Rayla", "rayla", DRP, "6 6 6 1 4 9 7 1 3 9 6 3 1 5 5 6 5", "hero"],
+  ["Ezran", "ezran|roi ezran", DRP, "6 2 6 0 4 7 10 2 7 4 9 0 8 1 6 4 5", "leader"],
+  // Amphibia
+  ["Sprig Plantar", "sprig", AMP, "8 3 4 0 6 8 8 3 5 7 7 0 0 3 8 4 5", "friend"],
+  ["Sasha Waybright", "sasha waybright|sasha amphibia", AMP, "5 6 6 4 2 8 5 2 3 6 5 2 2 7 6 8 4", "leader"],
+  ["Marcy Wu", "marcy wu|marcy amphibia", AMP, "6 2 10 2 7 6 7 1 3 3 6 0 3 1 8 7 8"],
+  // Le Garçon et la Bête
+  ["Kyuta", "ren kyuta|kyuta", BAB, "4 6 6 0 3 8 7 2 4 7 4 0 1 7 5 4 7"],
+  ["Kumatetsu", "kumatetsu", BAB, "6 9 3 1 6 9 6 6 7 7 2 4 1 9 6 2 4", "teacher"],
+  // Les Enfants loups
+  ["Hana (Les Enfants loups)", "hana enfants loups|hana wolf children", WCH, "3 4 5 0 4 8 10 1 3 3 6 0 1 1 4 3 8", "survivor"],
+  ["Ame et Yuki", "ame|yuki wolf children|ame et yuki", WCH, "5 5 5 0 5 6 7 2 5 7 9 2 0 4 5 3 5"],
+  // Le Monstre des mers
+  ["Maisie Brumble", "maisie|maisie brumble", SEB, "6 3 7 0 4 9 7 1 3 5 6 0 0 6 8 7 7", "hero"],
+  ["Jacob Holland", "jacob holland", SEB, "5 7 6 1 2 9 6 1 3 6 3 1 1 5 5 5 4", "hero"],
+  // Infinity Train
+  ["Tulip Olsen", "tulip", INF, "4 4 8 0 3 7 7 1 3 5 4 0 1 5 5 6 6", "survivor"],
+  ["One-One", "one one|glad one|sad one", INF, "6 3 4 0 6 3 8 3 3 4 7 0 0 4 7 2 5", "friend"],
+  // Molang
+  ["Molang", "molang le lapin", MOL, "6 2 3 0 6 4 9 3 6 3 10 0 0 1 2 1 3", "friend"],
+  ["Piu Piu", "piu piu le poussin", MOL, "4 1 5 0 3 5 9 2 4 3 10 0 0 1 0 2 3", "friend"],
+  // Watership Down
+  ["Hazel (Watership Down)", "hazel watership|hazel le lapin", WSD, "3 4 7 0 2 9 8 1 3 6 5 0 0 2 4 6 5", "leader|survivor"],
+  ["Fiver", "fiver|cinquain|quinto", WSD, "1 2 6 0 3 4 8 1 2 5 7 2 0 1 4 2 8"],
+  // Classiques de la télévision française
+  ["Nounours", "nounours bonne nuit les petits", "Bonne nuit les petits|Good Night Little Ones|Buenas noches pequeños", "3 4 5 0 2 4 10 2 3 2 9 0 1 0 4 2 2", "friend"],
+  ["Colargol", "colargol|barnaby the bear|jacky el oso", "Colargol|Barnaby|Jacky", "5 2 4 0 6 6 8 2 5 3 9 0 0 2 5 3 5"],
+  ["Toto (Les Blagues de Toto)", "toto blagues|blagues de toto|toto cancre", "Les Blagues de Toto|Toto|Toto", "10 2 2 3 7 5 5 8 6 5 5 0 1 4 9 7 7"],
+  ["Mini-Loup", "mini loup|miniloup", "Mini-Loup", "6 3 4 1 6 6 7 4 5 5 8 0 1 3 6 5 5"],
+  ["Martin Matin", "martin matin", "Martin Matin|Martin Morning|Martín Mañana", "7 4 3 0 7 5 7 6 5 5 5 1 1 3 6 3 8"],
+  ["Mafalda", "mafalda", "Mafalda", "8 1 9 0 2 6 7 2 1 3 6 0 2 6 9 6 3"],
+  ["Corto Maltese", "corto maltese", "Corto Maltese", "4 7 8 3 1 9 5 3 3 6 1 2 2 3 4 9 4", "survivor"],
+  // Séries américaines
+  ["The Mask", "le masque|stanley ipkiss|la mascara", "The Mask, la série animée|The Mask: Animated Series|La máscara: la serie animada", "10 8 6 3 4 7 5 2 5 10 2 4 2 4 10 8 3", "dancer"],
+  ["Beetlejuice", "bitelchus|beetlejuice", "Beetlejuice", "9 5 4 6 6 5 3 6 8 6 1 7 1 6 10 8 6"],
+  ["Blondine", "rainbow brite|blondine arc en ciel|arco iris", "Blondine au pays de l'arc-en-ciel|Rainbow Brite|Rainbow Brite", "3 3 5 0 2 7 10 1 2 6 9 0 1 1 5 3 2", "hero"],
+  ["Ickis", "ickis", "Drôles de monstres|Aaahh!!! Real Monsters|Aaahh!!! Monstruos", "6 3 4 2 8 3 5 4 4 4 4 5 0 4 7 3 9"],
+  ["Petit Ours", "little bear|osito", "Petit Ours|Little Bear|Osito", "3 3 5 0 2 5 9 2 5 4 9 0 0 1 4 3 2", "friend"],
+  ["Cricket Green", "cricket green", "Les Green à Big City|Big City Greens|Los Green en la gran ciudad", "8 4 4 2 8 8 6 3 6 7 5 0 0 3 9 6 6"],
+  // Films
+  ["Suzu (Belle)", "suzu naito|bell u|belle hosoda", "Belle (Hosoda)|Belle|Belle", "3 2 6 0 5 7 9 1 3 3 7 0 2 2 2 2 6"],
+  ["Mima Kirigoe", "mima|perfect blue", "Perfect Blue", "2 2 6 0 3 5 7 1 2 3 6 4 4 3 3 2 9", "survivor"],
+  ["Paprika", "atsuko chiba|paprika", "Paprika", "6 3 9 0 1 8 7 1 3 7 6 1 4 6 5 8 3", "hero"],
+  ["Léo le lézard", "leo le lezard|leo lizard|leo el lagarto", "Léo|Leo|Leo", "8 2 7 0 5 6 9 3 4 2 4 0 0 3 9 4 4", "teacher"],
+  ["Vivo", "vivo le kinkajou|vivo", "Vivo", "6 4 5 0 4 8 8 2 4 7 7 0 0 6 7 5 6"],
+  ["Fei Fei", "fei fei|feifei", "Voyage vers la Lune|Over the Moon|Más allá de la luna", "4 3 9 0 3 9 7 1 4 5 6 0 2 6 6 6 6"],
+  // Jeunesse
+  ["JJ (CoComelon)", "jj cocomelon|cocomelon jj", "CoComelon", "4 1 3 0 5 3 8 3 6 3 9 0 1 1 5 1 2"],
+  ["Oona", "oona puffin|oona macareux", "Puffin Rock", "3 2 5 0 3 6 9 1 4 6 9 0 0 1 4 2 3", "friend"],
+  ["Morph", "morph pate a modeler|morph", "Morph", "7 3 3 1 6 5 6 3 4 6 7 0 0 4 0 4 5"],
+  ["Renard (Les Animaux du Bois de Quat'sous)", "fox farthing wood|renard quat sous", "Les Animaux du Bois de Quat'sous|The Animals of Farthing Wood|Los animales del bosque", "2 6 8 0 1 9 8 1 3 7 3 2 0 3 4 7 5", "leader"],
 ];

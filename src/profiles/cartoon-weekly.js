@@ -1081,4 +1081,553 @@ module.exports = {
       kin: "Il se lie d'amitié avec Yi et ses amis à Shanghai.|He befriends Yi and her friends in Shanghai.|Se hace amigo de Yi y sus amigos en Shanghái.",
     },
   },
+  "Les Shadoks": {
+    x: "1 2 3 4 6 0 1",
+    d: "Oiseaux absurdes et stupides qui pompent sans arrêt|Absurd, dim-witted birds who pump nonstop|Pájaros absurdos y estúpidos que bombean sin parar",
+    f: {
+      clu: "Leurs fusées pour aller sur la Terre ratent presque toujours.|Their rockets to reach Earth almost always fail.|Sus cohetes para llegar a la Tierra casi siempre fallan.",
+      int: "Ils suivent la devise « Pourquoi faire simple quand on peut faire compliqué ».|They live by the motto \"Why do it simply when you can do it the hard way\".|Siguen el lema \"Por qué hacerlo fácil si se puede hacer complicado\".",
+      laz: "Ils pompent en permanence, même sans savoir pourquoi.|They pump all the time, even without knowing why.|Bombean todo el tiempo, aunque no sepan por qué.",
+    },
+  },
+  "Les Gibis": {
+    x: "4 6 6 5 5 1 6",
+    d: "Êtres intelligents à chapeau melon, rivaux des Shadoks|Clever bowler-hatted beings, rivals of the Shadoks|Seres inteligentes con bombín, rivales de los Shadoks",
+    f: {
+      int: "Ils réfléchissent avec leur chapeau, qui leur sert de cerveau.|They think with their hat, which serves as their brain.|Piensan con su sombrero, que les sirve de cerebro.",
+      sty: "Ils portent tous un chapeau melon.|They all wear a bowler hat.|Todos llevan un bombín.",
+      unl: "Leur planète plate penche dès qu'ils se déplacent tous du même côté.|Their flat planet tilts whenever they all move to one side.|Su planeta plano se inclina cuando todos se mueven al mismo lado.",
+    },
+  },
+  "Zébulon": {
+    x: "3 4 7 6 6 1 5",
+    d: "Diable à ressort magique qui apparaît en bondissant|Magical jack-in-the-box who appears with a bounce|Muñeco de resorte mágico que aparece dando saltos",
+    f: {
+      spd: "Il surgit sur son ressort en criant « Boing ! ».|He springs into view on his spring with a \"Boing!\".|Aparece de un salto sobre su resorte diciendo \"¡Boing!\".",
+      lea: "Il veille sur le village et ses habitants.|He watches over the village and its people.|Vela por el pueblo y sus habitantes.",
+      int: "Il conclut les épisodes en annonçant l'heure d'aller se coucher.|He ends episodes by announcing that it's bedtime.|Termina los episodios anunciando que es hora de dormir.",
+    },
+  },
+  "Pollux": {
+    x: "4 3 3 3 6 1 4",
+    d: "Chien vaniteux et gourmand qui raffole du sucre|Vain, greedy dog who loves sugar lumps|Perro vanidoso y glotón que adora los terrones de azúcar",
+    f: {
+      glu: "Il ne pense qu'aux morceaux de sucre.|All he thinks about is sugar lumps.|Solo piensa en terrones de azúcar.",
+      tem: "Il ronchonne et se plaint de tout.|He grumbles and complains about everything.|Refunfuña y se queja de todo.",
+      tal: "Il commente tout avec des répliques pince-sans-rire.|He comments on everything with dry wisecracks.|Lo comenta todo con frases socarronas.",
+    },
+  },
+  "Wendy (Les Sisters)": {
+    x: "6 8 5 3 5 7 4",
+    d: "Grande sœur ado qui veut être tranquille dans sa chambre|Teen big sister who just wants peace in her room|Hermana mayor adolescente que solo quiere paz en su cuarto",
+    f: {
+      tem: "Elle s'énerve dès que sa petite sœur fouille dans ses affaires.|She blows up whenever her little sister goes through her things.|Se enfada en cuanto su hermana pequeña toca sus cosas.",
+      tal: "Elle passe des heures au téléphone avec ses copines.|She spends hours on the phone with her friends.|Pasa horas al teléfono con sus amigas.",
+      rom: "Elle est souvent amoureuse d'un garçon du collège.|She's often crushing on a boy at school.|A menudo está enamorada de algún chico del instituto.",
+    },
+  },
+  "Marine (Les Sisters)": {
+    x: "6 4 4 2 8 3 2",
+    d: "Petite sœur espiègle qui adore embêter sa grande sœur|Mischievous little sister who loves pestering her big sister|Hermana pequeña traviesa a la que le encanta fastidiar a su hermana",
+    f: {
+      cun: "Elle invente mille ruses pour emprunter les affaires de Wendy.|She dreams up a thousand tricks to borrow Wendy's things.|Inventa mil trucos para coger las cosas de Wendy.",
+      tal: "Elle parle sans arrêt et pose toutes les questions.|She talks nonstop and asks every question.|Habla sin parar y lo pregunta todo.",
+      kin: "Elle adore sa grande sœur malgré leurs disputes.|She adores her big sister despite their fights.|Adora a su hermana mayor pese a sus peleas.",
+    },
+  },
+  "Léonard (le génie)": {
+    x: "2 4 6 2 3 1 3",
+    d: "Inventeur génial et colérique dont les machines tournent mal|Brilliant, hot-tempered inventor whose machines go wrong|Inventor genial y colérico cuyas máquinas fallan",
+    f: {
+      int: "Il se proclame génie et invente des machines farfelues.|He calls himself a genius and builds outlandish machines.|Se proclama genio e inventa máquinas extravagantes.",
+      tem: "Il passe ses nerfs sur son disciple Basile.|He takes out his temper on his disciple Basile.|Descarga su mal genio sobre su discípulo Basile.",
+      unl: "Ses inventions explosent régulièrement.|His inventions regularly blow up.|Sus inventos explotan con frecuencia.",
+    },
+  },
+  "Basile (Léonard)": {
+    x: "2 2 6 0 4 1 2",
+    d: "Disciple maladroit et paresseux, cobaye des inventions de Léonard|Clumsy, lazy disciple and guinea pig of Léonard's inventions|Discípulo torpe y perezoso, conejillo de indias de Leonardo",
+    f: {
+      unl: "Il sert de cobaye à toutes les expériences de son maître.|He serves as test subject for all his master's experiments.|Sirve de cobaya en todos los experimentos de su maestro.",
+      laz: "Il cherche toujours à éviter le travail.|He always tries to dodge work.|Siempre intenta escaquearse del trabajo.",
+      hum: "Ses commentaires insolents répondent aux colères de Léonard.|His cheeky remarks answer Léonard's outbursts.|Sus comentarios insolentes responden a los enfados de Leonardo.",
+    },
+  },
+  "Gruffi": {
+    x: "4 3 8 8 3 1 9",
+    d: "Ours gummi grognon et bricoleur qui tient à la discipline|Grumpy, handy Gummi bear who insists on discipline|Oso gummi gruñón y manitas que insiste en la disciplina",
+    f: {
+      tem: "Il bougonne contre tous ceux qui ne travaillent pas assez.|He grumbles at anyone who doesn't work hard enough.|Refunfuña contra todo el que no trabaja lo suficiente.",
+      org: "Il veille à l'entretien de Gummi Glen et de ses machines.|He keeps Gummi Glen and its machines in working order.|Mantiene Gummi Glen y sus máquinas en buen estado.",
+      bra: "Il défend la colonie contre le duc Igthorn.|He defends the colony against Duke Igthorn.|Defiende la colonia contra el duque Igthorn.",
+    },
+  },
+  "Zummi": {
+    x: "4 3 9 6 5 1 6",
+    d: "Vieil ours gummi distrait, gardien du grand livre de magie|Absent-minded old Gummi bear, keeper of the great spell book|Viejo oso gummi despistado, guardián del gran libro de magia",
+    f: {
+      int: "Il étudie le grand livre gummi et ses formules magiques.|He studies the Great Book of Gummi and its spells.|Estudia el gran libro gummi y sus fórmulas mágicas.",
+      clu: "Il se trompe souvent dans ses formules.|He often gets his spells wrong.|A menudo se equivoca con sus fórmulas.",
+      kin: "Il veille avec douceur sur les jeunes ours.|He gently looks after the young bears.|Cuida con dulzura a los osos jóvenes.",
+    },
+  },
+  "Le Maître du Donjon": {
+    x: "2 4 3 8 3 1 8",
+    d: "Petit sage énigmatique qui guide les enfants perdus au royaume|Cryptic little sage guiding the children lost in the Realm|Pequeño sabio enigmático que guía a los niños perdidos en el reino",
+    f: {
+      tal: "Il donne ses conseils sous forme d'énigmes.|He gives his advice in riddles.|Da sus consejos en forma de acertijos.",
+      cun: "Il disparaît dès qu'on lui pose une question directe.|He vanishes whenever asked a straight question.|Desaparece en cuanto le hacen una pregunta directa.",
+      lea: "Il donne à chaque enfant une arme magique.|He gives each child a magic weapon.|Da a cada niño un arma mágica.",
+    },
+  },
+  "Venger": {
+    x: "1 7 1 9 1 0 6",
+    d: "Sorcier cornu et maléfique qui veut les armes des enfants|Evil horned sorcerer after the children's weapons|Hechicero malvado con cuernos que quiere las armas de los niños",
+    f: {
+      evi: "Il règne par la terreur sur le royaume.|He rules the Realm through terror.|Gobierna el reino mediante el terror.",
+      scr: "Il chevauche un cauchemar ailé noir.|He rides a black winged nightmare steed.|Monta una pesadilla alada negra.",
+      cun: "Il tend des pièges sans fin pour voler leurs armes magiques.|He sets endless traps to steal their magic weapons.|Tiende trampas sin fin para robar sus armas mágicas.",
+    },
+  },
+  "Alvin": {
+    x: "7 8 3 7 9 3 2",
+    d: "Chipmunk chanteur vedette, fanfaron et farceur|Star singing chipmunk, cocky and mischievous|Ardilla cantante estrella, fanfarrona y traviesa",
+    f: {
+      tal: "Il est le chanteur principal du trio.|He is the trio's lead singer.|Es el cantante principal del trío.",
+      cun: "Il entraîne ses frères dans ses combines pour devenir célèbre.|He drags his brothers into schemes to get famous.|Arrastra a sus hermanos a sus planes para hacerse famoso.",
+      tem: "Dave hurle « ALVIN ! » à chacune de ses bêtises.|Dave yells \"ALVIN!\" at every one of his stunts.|Dave grita \"¡ALVIN!\" en cada una de sus travesuras.",
+    },
+  },
+  "Simon (Alvin et les Chipmunks)": {
+    x: "5 5 7 4 4 2 8",
+    d: "Chipmunk grand et intellectuel à lunettes|Tall, bespectacled intellectual chipmunk|Ardilla alta e intelectual con gafas",
+    f: {
+      int: "Il est le cerveau raisonnable du trio.|He is the sensible brains of the trio.|Es el cerebro sensato del trío.",
+      sty: "Il porte des lunettes et un pull bleu.|He wears glasses and a blue sweater.|Lleva gafas y un jersey azul.",
+      hon: "Il essaie de mettre Alvin en garde contre ses idées.|He tries to warn Alvin against his schemes.|Intenta advertir a Alvin contra sus ideas.",
+    },
+  },
+  "Théodore": {
+    x: "6 5 9 2 5 4 3",
+    d: "Le plus jeune chipmunk, doux, timide et gourmand|The youngest chipmunk, sweet, shy and greedy|La ardilla más pequeña, dulce, tímida y glotona",
+    f: {
+      glu: "Il pense surtout à manger.|He mostly thinks about food.|Piensa sobre todo en comer.",
+      kin: "Il est le plus gentil et sensible des trois frères.|He's the kindest and most sensitive of the three brothers.|Es el más amable y sensible de los tres hermanos.",
+      cut: "Il est petit, potelé et adorable.|He's small, chubby and adorable.|Es pequeño, regordete y adorable.",
+    },
+  },
+  "Norbert (Les Castors allumés)": {
+    x: "5 5 5 2 6 4 3",
+    d: "Castor aîné décontracté et malin|Laid-back, clever older beaver|Castor mayor relajado y astuto",
+    f: {
+      laz: "Il préfère se détendre pendant que son frère s'agite.|He'd rather chill while his brother frets.|Prefiere relajarse mientras su hermano se agita.",
+      cun: "Il manipule Daggett pour qu'il fasse le travail.|He manipulates Daggett into doing the work.|Manipula a Daggett para que haga el trabajo.",
+      hum: "Il enchaîne les répliques ironiques.|He fires off ironic quips.|Encadena frases irónicas.",
+    },
+  },
+  "Daggett": {
+    x: "3 2 7 2 6 3 1",
+    d: "Castor cadet hyperactif, colérique et naïf|Hyperactive, hot-headed, naive younger beaver|Castor menor hiperactivo, colérico e ingenuo",
+    f: {
+      tem: "Il s'emporte pour la moindre chose.|He flies off the handle at the smallest thing.|Se enfada por cualquier cosa.",
+      unl: "Les plans de son frère se retournent contre lui.|His brother's plans backfire on him.|Los planes de su hermano le salen mal a él.",
+      tal: "Il parle fort et sans arrêt.|He talks loudly and nonstop.|Habla alto y sin parar.",
+    },
+  },
+  "Eliza Thornberry": {
+    x: "5 3 9 6 7 4 5",
+    d: "Fille d'explorateurs qui peut parler aux animaux|Daughter of explorers who can talk to animals|Hija de exploradores que puede hablar con los animales",
+    f: {
+      int: "Un chaman lui a donné le pouvoir de parler aux animaux.|A shaman gave her the power to talk to animals.|Un chamán le dio el poder de hablar con los animales.",
+      hon: "Elle doit garder ce don secret sous peine de le perdre.|She must keep the gift secret or lose it.|Debe mantener el don en secreto o lo perderá.",
+      bra: "Elle parcourt le monde à bord du Commvee familial.|She travels the world in the family's Commvee.|Recorre el mundo en el Commvee familiar.",
+    },
+  },
+  "Darwin (La Famille Delajungle)": {
+    x: "4 5 9 3 4 1 8",
+    d: "Chimpanzé civilisé et anxieux, meilleur ami d'Eliza|Civilized, anxious chimpanzee, Eliza's best friend|Chimpancé civilizado y ansioso, mejor amigo de Eliza",
+    f: {
+      tem: "Il se plaint des dangers de chaque expédition.|He complains about the dangers of every expedition.|Se queja de los peligros de cada expedición.",
+      sty: "Il porte une chemise et aime les bonnes manières.|He wears a shirt and loves good manners.|Lleva camisa y le encantan los buenos modales.",
+      kin: "Il suit Eliza partout malgré ses peurs.|He follows Eliza everywhere despite his fears.|Sigue a Eliza a todas partes pese a sus miedos.",
+    },
+  },
+  "Donnie Thornberry": {
+    x: "1 1 3 0 9 1 0",
+    d: "Enfant sauvage adopté qui parle un charabia incompréhensible|Feral adopted kid who speaks unintelligible gibberish|Niño salvaje adoptado que habla un galimatías incomprensible",
+    f: {
+      tal: "Il s'exprime dans un charabia que personne ne comprend.|He talks in gibberish no one understands.|Habla un galimatías que nadie entiende.",
+      spd: "Il bondit partout et grimpe comme un singe.|He bounces everywhere and climbs like a monkey.|Salta por todas partes y trepa como un mono.",
+      unl: "Il a été élevé par des orangs-outans avant d'être adopté.|He was raised by orangutans before being adopted.|Fue criado por orangutanes antes de ser adoptado.",
+    },
+  },
+  "Callum": {
+    x: "6 5 9 5 7 8 4",
+    d: "Prince artiste qui apprend une magie primale|Artistic prince who learns primal magic|Príncipe artista que aprende magia primaria",
+    f: {
+      tal: "Il dessine sans arrêt dans son carnet.|He draws constantly in his sketchbook.|Dibuja sin parar en su cuaderno.",
+      int: "Il est le premier humain à maîtriser la magie du ciel.|He's the first human to master sky magic.|Es el primer humano en dominar la magia del cielo.",
+      rom: "Il tombe amoureux de l'elfe Rayla.|He falls in love with the elf Rayla.|Se enamora de la elfa Rayla.",
+    },
+  },
+  "Rayla": {
+    x: "7 6 8 6 4 7 6",
+    d: "Elfe de la lune assassine qui change de camp|Moonshadow elf assassin who switches sides|Elfa asesina de la sombra lunar que cambia de bando",
+    f: {
+      bra: "Elle protège les princes qu'elle devait tuer.|She protects the princes she was sent to kill.|Protege a los príncipes que debía matar.",
+      unl: "Les siens la croient traîtresse.|Her people think she's a traitor.|Los suyos la creen traidora.",
+      spd: "Elle se bat avec agilité et deux lames.|She fights nimbly with two blades.|Lucha con agilidad y dos espadas.",
+    },
+  },
+  "Ezran": {
+    x: "6 5 10 9 8 3 6",
+    d: "Jeune prince qui parle aux animaux et devient roi|Young prince who talks to animals and becomes king|Joven príncipe que habla con los animales y se convierte en rey",
+    f: {
+      lea: "Il devient roi de Katolis à dix ans.|He becomes king of Katolis at ten.|Se convierte en rey de Katolis a los diez años.",
+      kin: "Il veut la paix entre humains et dragons.|He wants peace between humans and dragons.|Quiere la paz entre humanos y dragones.",
+      glu: "Il adore les tartes à la gelée.|He loves jelly tarts.|Le encantan las tartas de mermelada.",
+    },
+  },
+  "Sprig Plantar": {
+    x: "6 4 8 5 8 6 3",
+    d: "Grenouille aventureuse et enthousiaste, meilleur ami d'Anne|Adventurous, eager frog and Anne's best friend|Rana aventurera y entusiasta, mejor amigo de Anne",
+    f: {
+      bra: "Il fonce dans chaque aventure à Amphibia.|He dives into every adventure in Amphibia.|Se lanza a cada aventura en Amphibia.",
+      kin: "Il protège Anne alors que tout le village se méfie d'elle.|He protects Anne while the whole village distrusts her.|Protege a Anne cuando todo el pueblo desconfía de ella.",
+      hon: "Il désobéit souvent à sa grand-mère Hop Pop.|He often disobeys his grandfather Hop Pop.|A menudo desobedece a su abuelo Hop Pop.",
+    },
+  },
+  "Sasha Waybright": {
+    x: "8 7 3 8 6 4 6",
+    d: "Amie d'Anne charismatique et manipulatrice, chef des crapauds|Charismatic, manipulative friend of Anne who leads the toads|Amiga carismática y manipuladora de Anne, líder de los sapos",
+    f: {
+      cun: "Elle manipule son entourage pour obtenir ce qu'elle veut.|She manipulates those around her to get what she wants.|Manipula a su entorno para conseguir lo que quiere.",
+      lea: "Elle prend la tête de la tour des crapauds.|She takes charge at the toads' tower.|Toma el mando en la torre de los sapos.",
+      bra: "Elle se rachète en combattant pour ses amies.|She redeems herself by fighting for her friends.|Se redime luchando por sus amigas.",
+    },
+  },
+  "Marcy Wu": {
+    x: "6 3 5 6 6 3 7",
+    d: "Amie d'Anne brillante qui adore les jeux de rôle|Brilliant friend of Anne who loves fantasy games|Amiga brillante de Anne a la que le encantan los juegos de fantasía",
+    f: {
+      int: "Elle déchiffre la boîte musicale qui a envoyé les filles à Amphibia.|She deciphers the music box that sent the girls to Amphibia.|Descifra la caja de música que envió a las chicas a Amphibia.",
+      hon: "Elle a caché qu'elle savait ce que ferait la boîte.|She hid that she knew what the box would do.|Ocultó que sabía lo que haría la caja.",
+      clu: "Elle est très distraite et tête en l'air.|She's very absent-minded and scatterbrained.|Es muy despistada y distraída.",
+    },
+  },
+  "Kyuta": {
+    x: "6 4 5 6 3 3 6",
+    d: "Orphelin fugueur qui devient l'élève d'une bête guerrière|Runaway orphan who becomes a beast warrior's pupil|Huérfano fugitivo que se convierte en alumno de una bestia guerrera",
+    f: {
+      unl: "Il fugue après la mort de sa mère.|He runs away after his mother's death.|Huye tras la muerte de su madre.",
+      str: "Il apprend le combat dans le monde des bêtes.|He learns to fight in the beast world.|Aprende a luchar en el mundo de las bestias.",
+      tem: "Il se dispute sans cesse avec son maître Kumatetsu.|He argues constantly with his master Kumatetsu.|Discute sin cesar con su maestro Kumatetsu.",
+    },
+  },
+  "Kumatetsu": {
+    x: "3 3 7 7 4 1 1",
+    d: "Ours guerrier puissant mais grossier qui veut devenir seigneur|Powerful but rude bear warrior aiming to become lord|Guerrero oso poderoso pero grosero que aspira a ser señor",
+    f: {
+      tem: "Il s'emporte et se bagarre facilement.|He flares up and gets into fights easily.|Se enfada y se pelea con facilidad.",
+      laz: "Il vit seul dans le désordre, sans discipline.|He lives alone in a mess, without discipline.|Vive solo y desordenado, sin disciplina.",
+      kin: "Il se change en épée pour vivre dans le cœur de Kyuta.|He turns into a sword to live in Kyuta's heart.|Se convierte en espada para vivir en el corazón de Kyuta.",
+    },
+  },
+  "Hana (Les Enfants loups)": {
+    x: "7 3 9 5 4 9 7",
+    d: "Mère courageuse qui élève seule ses enfants mi-humains mi-loups|Brave mother raising her half-wolf children alone|Madre valiente que cría sola a sus hijos mitad lobo",
+    f: {
+      rom: "Elle tombe amoureuse d'un homme-loup.|She falls in love with a wolf man.|Se enamora de un hombre lobo.",
+      unl: "Elle perd son compagnon peu après la naissance de leur fils.|She loses her partner shortly after their son is born.|Pierde a su compañero poco después del nacimiento de su hijo.",
+      kin: "Elle s'installe à la campagne pour protéger ses enfants.|She moves to the countryside to protect her children.|Se muda al campo para proteger a sus hijos.",
+    },
+  },
+  "Ame et Yuki": {
+    x: "7 4 7 2 5 2 4",
+    d: "Frère et sœur mi-humains mi-loups aux chemins opposés|Half-wolf brother and sister who choose opposite paths|Hermanos mitad lobo que eligen caminos opuestos",
+    f: {
+      str: "Ils peuvent se transformer en loups à volonté.|They can turn into wolves at will.|Pueden transformarse en lobos a voluntad.",
+      soc: "Yuki choisit les humains et Ame la forêt.|Yuki chooses humans and Ame the forest.|Yuki elige a los humanos y Ame el bosque.",
+      tem: "Enfants, ils se disputent violemment sous forme de loups.|As kids, they fight fiercely in wolf form.|De niños se pelean con fiereza en forma de lobo.",
+    },
+  },
+  "Maisie Brumble": {
+    x: "6 3 6 7 6 4 4",
+    d: "Orpheline audacieuse qui embarque clandestinement sur un chasseur de monstres|Bold orphan who stows away on a monster-hunting ship|Huérfana audaz que se cuela en un barco cazador de monstruos",
+    f: {
+      bra: "Elle se cache à bord de l'Inévitable pour devenir chasseuse.|She stows away on the Inevitable to become a hunter.|Se esconde a bordo del Inevitable para ser cazadora.",
+      hon: "Elle découvre que les monstres ne sont pas les méchants.|She discovers the monsters aren't the villains.|Descubre que los monstruos no son los malos.",
+      tal: "Elle connaît par cœur les légendes des chasseurs.|She knows the hunters' legends by heart.|Se sabe de memoria las leyendas de los cazadores.",
+    },
+  },
+  "Jacob Holland": {
+    x: "7 6 7 7 7 4 5",
+    d: "Chasseur de monstres marins héroïque qui change d'avis|Heroic sea monster hunter who changes his mind|Cazador de monstruos marinos heroico que cambia de opinión",
+    f: {
+      bra: "Il est l'étoile montante des chasseurs de l'Inévitable.|He's the rising star of the Inevitable's hunters.|Es la estrella emergente de los cazadores del Inevitable.",
+      kin: "Il se lie avec la Rouge, le monstre qu'il devait chasser.|He bonds with Red, the monster he was meant to hunt.|Se une a Red, el monstruo que debía cazar.",
+      str: "Il échappe à la noyade grâce à sa force et ses réflexes.|He escapes drowning with his strength and reflexes.|Escapa de ahogarse gracias a su fuerza y reflejos.",
+    },
+  },
+  "Tulip Olsen": {
+    x: "5 4 8 6 3 1 8",
+    d: "Fille logique piégée dans un train infini|Logical girl trapped on an endless train|Chica lógica atrapada en un tren infinito",
+    f: {
+      int: "Elle résout les énigmes de chaque wagon pour avancer.|She solves each car's puzzle to move forward.|Resuelve el enigma de cada vagón para avanzar.",
+      unl: "Le numéro sur sa main mesure ses problèmes non résolus.|The number on her hand tracks her unresolved issues.|El número de su mano mide sus problemas sin resolver.",
+      soc: "Elle a du mal à accepter le divorce de ses parents.|She struggles to accept her parents' divorce.|Le cuesta aceptar el divorcio de sus padres.",
+    },
+  },
+  "One-One": {
+    x: "4 2 7 3 7 1 3",
+    d: "Robot sphérique à deux personnalités, l'une joyeuse et l'autre triste|Spherical robot with two personalities, one glad and one sad|Robot esférico con dos personalidades, una alegre y otra triste",
+    f: {
+      tal: "Ses deux moitiés se répondent sans arrêt.|His two halves keep talking to each other.|Sus dos mitades no paran de hablarse.",
+      kin: "Il devient l'ami fidèle de Tulip.|He becomes Tulip's loyal friend.|Se convierte en el fiel amigo de Tulip.",
+      hon: "Il est le fils du conducteur du train.|He is the son of the train's conductor.|Es hijo del conductor del tren.",
+    },
+  },
+  "Molang": {
+    x: "7 5 9 2 9 3 3",
+    d: "Lapin rond et joyeux qui vit des aventures avec son ami poussin|Round, cheerful bunny who has adventures with his chick friend|Conejo redondo y alegre que vive aventuras con su amigo pollito",
+    f: {
+      kin: "Il partage tout avec son ami Piu Piu.|He shares everything with his friend Piu Piu.|Lo comparte todo con su amigo Piu Piu.",
+      hum: "Son enthousiasme débordant crée des situations comiques.|His overflowing enthusiasm creates comic situations.|Su entusiasmo desbordante crea situaciones cómicas.",
+      tal: "Il s'exprime dans un langage imaginaire.|He speaks in an imaginary language.|Se expresa en un idioma imaginario.",
+    },
+  },
+  "Piu Piu": {
+    x: "7 4 9 2 6 3 6",
+    d: "Petit poussin timide et doux, ami de Molang|Small, shy and gentle chick, Molang's friend|Pollito tímido y dulce, amigo de Molang",
+    f: {
+      soc: "Il est discret et timide.|He's quiet and shy.|Es discreto y tímido.",
+      kin: "Il soutient Molang dans toutes ses idées.|He backs Molang in all his ideas.|Apoya a Molang en todas sus ideas.",
+      cut: "Il est minuscule et tout jaune.|He's tiny and all yellow.|Es diminuto y todo amarillo.",
+    },
+  },
+  "Hazel (Watership Down)": {
+    x: "5 2 8 9 6 3 7",
+    d: "Lapin réfléchi qui mène ses compagnons vers une nouvelle garenne|Thoughtful rabbit who leads his companions to a new warren|Conejo reflexivo que guía a sus compañeros hacia una nueva madriguera",
+    f: {
+      lea: "Il guide le groupe hors de la garenne menacée.|He leads the group out of the doomed warren.|Guía al grupo fuera de la madriguera amenazada.",
+      kin: "Il fait confiance aux visions de son frère Fiver.|He trusts his brother Fiver's visions.|Confía en las visiones de su hermano Quinto.",
+      bra: "Il affronte le général Stachys et sa garenne d'Efrafa.|He stands up to General Woundwort and his Efrafa warren.|Se enfrenta al general Woundwort y su madriguera de Efrafa.",
+    },
+  },
+  "Fiver": {
+    x: "5 1 9 3 2 3 4",
+    d: "Petit lapin frêle qui a des visions de danger|Frail little rabbit who has visions of danger|Pequeño conejo frágil que tiene visiones de peligro",
+    f: {
+      int: "Il pressent la destruction de la garenne avant tout le monde.|He senses the warren's destruction before anyone else.|Presiente la destrucción de la madriguera antes que nadie.",
+      scr: "Ses visions de champs couverts de sang terrifient les autres.|His visions of blood-covered fields frighten the others.|Sus visiones de campos cubiertos de sangre aterran a los demás.",
+      unl: "On refuse d'abord de le croire.|At first nobody believes him.|Al principio nadie le cree.",
+    },
+  },
+  "Nounours": {
+    x: "7 3 10 6 5 2 7",
+    d: "Gros ours en peluche qui descend des nuages pour coucher les enfants|Big teddy bear who comes down from the clouds to tuck kids in|Gran oso de peluche que baja de las nubes para acostar a los niños",
+    f: {
+      kin: "Il raconte une histoire à Nicolas et Pimprenelle avant de dormir.|He tells Nicolas and Pimprenelle a bedtime story.|Cuenta un cuento a Nicolas y Pimprenelle antes de dormir.",
+      int: "Il repart chaque soir sur son nuage en disant « Bonne nuit les petits ».|He leaves on his cloud every night saying \"Good night, little ones\".|Se marcha cada noche en su nube diciendo \"Buenas noches, pequeños\".",
+      cut: "C'est une grosse peluche douce et rassurante.|He's a big, soft, reassuring cuddly bear.|Es un gran peluche suave y tranquilizador.",
+    },
+  },
+  "Colargol": {
+    x: "8 3 8 2 6 3 3",
+    d: "Ourson qui rêve de chanter et part à l'aventure|Bear cub who dreams of singing and goes on adventures|Osito que sueña con cantar y sale de aventura",
+    f: {
+      tal: "Il veut apprendre à chanter comme les oiseaux.|He wants to learn to sing like the birds.|Quiere aprender a cantar como los pájaros.",
+      bra: "Il quitte la forêt et part jusque dans l'espace.|He leaves the forest and travels as far as space.|Deja el bosque y viaja hasta el espacio.",
+      unl: "Il chante faux au début de ses aventures.|He sings off-key at the start of his adventures.|Canta desafinado al comienzo de sus aventuras.",
+    },
+  },
+  "Toto (Les Blagues de Toto)": {
+    x: "4 3 4 2 8 2 0",
+    d: "Cancre insolent qui répond à tout par des blagues|Cheeky dunce who answers everything with jokes|Pésimo alumno insolente que responde a todo con chistes",
+    f: {
+      hum: "Il tourne chaque question de la maîtresse en blague.|He turns every teacher's question into a joke.|Convierte cada pregunta de la maestra en un chiste.",
+      laz: "Il fait tout pour éviter ses devoirs.|He does everything to dodge homework.|Hace lo posible para evitar los deberes.",
+      unl: "Ses blagues lui valent souvent des punitions.|His jokes often get him punished.|Sus chistes le valen castigos a menudo.",
+    },
+  },
+  "Mini-Loup": {
+    x: "6 5 7 5 8 3 4",
+    d: "Petit loup espiègle et curieux qui adore s'amuser|Playful, curious little wolf who loves having fun|Lobito travieso y curioso al que le encanta divertirse",
+    f: {
+      clu: "Ses bêtises lui attirent des ennuis avec ses parents.|His mischief gets him in trouble with his parents.|Sus travesuras le meten en líos con sus padres.",
+      kin: "Il aide ses amis Louisa et Doudou.|He helps his friends Louisa and Doudou.|Ayuda a sus amigos Louisa y Doudou.",
+      sty: "Il porte toujours sa salopette rouge.|He always wears his red overalls.|Siempre lleva su peto rojo.",
+    },
+  },
+  "Martin Matin": {
+    x: "4 4 6 2 8 4 2",
+    d: "Écolier qui se réveille chaque jour dans la peau d'un autre|Schoolboy who wakes up each day as someone else|Escolar que cada día despierta convertido en otro",
+    f: {
+      unl: "Il se transforme chaque matin en quelque chose de différent.|He turns into something different every morning.|Cada mañana se transforma en algo diferente.",
+      clu: "Il doit faire face à l'école malgré ses métamorphoses.|He must cope with school despite his transformations.|Tiene que ir al colegio pese a sus metamorfosis.",
+      rom: "Il est amoureux de sa camarade Jenny.|He has a crush on his classmate Jenny.|Está enamorado de su compañera Jenny.",
+    },
+  },
+  "Mafalda": {
+    x: "6 4 9 6 7 2 6",
+    d: "Fillette argentine qui s'inquiète pour la paix dans le monde|Argentine girl who worries about world peace|Niña argentina preocupada por la paz mundial",
+    f: {
+      int: "Elle pose des questions profondes sur la politique et l'humanité.|She asks deep questions about politics and humanity.|Hace preguntas profundas sobre política y la humanidad.",
+      glu: "Elle déteste la soupe plus que tout.|She hates soup more than anything.|Odia la sopa más que nada.",
+      hon: "Elle dit franchement ce qu'elle pense aux adultes.|She bluntly tells adults what she thinks.|Dice francamente lo que piensa a los adultos.",
+    },
+  },
+  "Corto Maltese": {
+    x: "8 9 7 3 4 8 3",
+    d: "Marin aventurier, libre et mélancolique, au début du XXe siècle|Free, melancholic adventurer sailor of the early 20th century|Marinero aventurero, libre y melancólico, de principios del siglo XX",
+    f: {
+      sty: "Il porte une casquette de marin et une boucle d'oreille.|He wears a sailor's cap and an earring.|Lleva gorra de marino y un pendiente.",
+      cun: "Il se mêle des guerres et des trésors du monde entier.|He gets involved in wars and treasure hunts worldwide.|Se mete en guerras y búsquedas de tesoros por todo el mundo.",
+      bra: "Il s'est tracé lui-même sa ligne de chance au rasoir.|He carved his own fate line into his palm with a razor.|Se trazó con una navaja su propia línea de la suerte.",
+    },
+  },
+  "The Mask": {
+    x: "4 10 3 5 10 9 1",
+    d: "Employé timide transformé en tornade cartoon par un masque|Shy clerk turned into a cartoon whirlwind by a mask|Empleado tímido transformado en un torbellino cartoon por una máscara",
+    f: {
+      spd: "Il se déplace comme une tornade verte.|He moves like a green tornado.|Se mueve como un tornado verde.",
+      hum: "Il multiplie les gags et les transformations absurdes.|He piles on gags and absurd transformations.|Multiplica los gags y las transformaciones absurdas.",
+      sty: "Il porte un costume zoot jaune vif.|He wears a bright yellow zoot suit.|Lleva un traje zoot amarillo chillón.",
+    },
+  },
+  "Beetlejuice": {
+    x: "1 3 1 4 9 2 0",
+    d: "Fantôme farceur et répugnant du Monde des Morts|Gross, prankster ghost from the Neitherworld|Fantasma bromista y asqueroso del Inframundo",
+    f: {
+      tal: "Il apparaît quand on prononce trois fois son nom.|He appears when his name is said three times.|Aparece cuando se pronuncia su nombre tres veces.",
+      glu: "Il mange des insectes avec plaisir.|He happily eats bugs.|Come insectos con gusto.",
+      kin: "Il est le meilleur ami de Lydia Deetz.|He is Lydia Deetz's best friend.|Es el mejor amigo de Lydia Deetz.",
+    },
+  },
+  "Blondine": {
+    x: "8 8 9 7 6 3 7",
+    d: "Fillette qui ramène les couleurs au pays de l'arc-en-ciel|Girl who brings color back to Rainbow Land|Niña que devuelve los colores a la tierra del arcoíris",
+    f: {
+      lea: "Elle protège les couleurs avec les Enfants des couleurs.|She protects the colors with the Color Kids.|Protege los colores con los Niños de los colores.",
+      bra: "Elle affronte Murky et Lurky qui veulent tout rendre gris.|She stands up to Murky and Lurky, who want everything gray.|Se enfrenta a Murky y Lurky, que quieren volverlo todo gris.",
+      spd: "Elle chevauche Starlite, un cheval capable de galoper sur l'arc-en-ciel.|She rides Starlite, a horse who gallops on rainbows.|Monta a Starlite, un caballo que galopa sobre el arcoíris.",
+    },
+  },
+  "Ickis": {
+    x: "1 2 5 4 4 2 4",
+    d: "Petit monstre lapin peureux qui doit apprendre à effrayer les humains|Timid rabbit-like monster learning to scare humans|Pequeño monstruo conejo miedoso que debe aprender a asustar humanos",
+    f: {
+      unl: "Il rate souvent ses tentatives d'effrayer les humains.|He often fails at scaring humans.|A menudo fracasa al intentar asustar a los humanos.",
+      scr: "Il grandit et devient effrayant quand il se met en colère.|He grows big and scary when he gets angry.|Crece y se vuelve aterrador cuando se enfada.",
+      kin: "Il est inséparable de ses amis Oblina et Krumm à l'école des monstres.|He's inseparable from his friends Oblina and Krumm at monster school.|Es inseparable de sus amigos Oblina y Krumm en la escuela de monstruos.",
+    },
+  },
+  "Petit Ours": {
+    x: "7 3 9 3 7 2 6",
+    d: "Ourson curieux qui découvre la forêt avec ses amis|Curious bear cub exploring the forest with his friends|Osito curioso que descubre el bosque con sus amigos",
+    f: {
+      kin: "Il joue avec Poule, Canard, Chat et Hibou.|He plays with Hen, Duck, Cat and Owl.|Juega con Gallina, Pato, Gato y Búho.",
+      int: "Il imagine des aventures sur la Lune ou en mer.|He imagines adventures to the Moon or at sea.|Imagina aventuras en la Luna o en el mar.",
+      cut: "Il vit tendrement entouré de sa maman.|He lives lovingly looked after by his mother.|Vive tiernamente cuidado por su mamá.",
+    },
+  },
+  "Cricket Green": {
+    x: "4 2 5 6 8 2 1",
+    d: "Garçon de la campagne hyperactif installé en ville|Hyperactive country boy who moves to the city|Niño hiperactivo del campo que se muda a la ciudad",
+    f: {
+      bra: "Il se lance dans toutes les aventures urbaines sans hésiter.|He jumps into every city adventure without hesitation.|Se lanza a todas las aventuras urbanas sin dudar.",
+      clu: "Ses plans provoquent des catastrophes dans le quartier.|His plans cause disasters in the neighborhood.|Sus planes provocan desastres en el barrio.",
+      tal: "Il parle vite et ne tient pas en place.|He talks fast and can't sit still.|Habla rápido y no para quieto.",
+    },
+  },
+  "Suzu (Belle)": {
+    x: "6 3 9 2 2 7 4",
+    d: "Lycéenne timide qui devient une star virtuelle adulée|Shy schoolgirl who becomes a beloved virtual star|Estudiante tímida que se convierte en una estrella virtual adorada",
+    f: {
+      tal: "Elle chante devant des millions d'utilisateurs sous l'avatar de Belle.|She sings to millions of users as her avatar Belle.|Canta ante millones de usuarios con su avatar Belle.",
+      unl: "Elle a perdu sa mère, noyée en sauvant un enfant.|She lost her mother, who drowned saving a child.|Perdió a su madre, que se ahogó salvando a un niño.",
+      bra: "Elle révèle son vrai visage pour aider deux frères maltraités.|She reveals her true face to help two abused brothers.|Revela su verdadero rostro para ayudar a dos hermanos maltratados.",
+    },
+  },
+  "Mima Kirigoe": {
+    x: "8 6 8 3 4 4 5",
+    d: "Idole pop devenue actrice, harcelée et en perte de repères|Pop idol turned actress, stalked and losing her grip on reality|Ídolo pop convertida en actriz, acosada y sin referencias",
+    f: {
+      unl: "Un fan obsessionnel la traque.|An obsessive fan stalks her.|Un fan obsesivo la acosa.",
+      scr: "Elle confond peu à peu rêve, rôle et réalité.|She gradually confuses dream, role and reality.|Poco a poco confunde sueño, papel y realidad.",
+      tal: "Elle quitte le groupe CHAM! pour devenir actrice.|She leaves the group CHAM! to become an actress.|Deja el grupo CHAM! para ser actriz.",
+    },
+  },
+  "Paprika": {
+    x: "9 8 6 5 8 6 6",
+    d: "Alter ego espiègle d'une psychiatre qui voyage dans les rêves|Playful alter ego of a psychiatrist who travels through dreams|Alter ego juguetón de una psiquiatra que viaja por los sueños",
+    f: {
+      int: "Elle soigne les patients en entrant dans leurs rêves.|She treats patients by entering their dreams.|Cura a los pacientes entrando en sus sueños.",
+      cun: "Elle change de forme à volonté dans le monde des rêves.|She shape-shifts at will in the dream world.|Cambia de forma a voluntad en el mundo de los sueños.",
+      hon: "Elle est l'opposé joueur de la très sérieuse Dr Atsuko Chiba.|She's the playful opposite of the very serious Dr Atsuko Chiba.|Es el opuesto juguetón de la muy seria Dra. Atsuko Chiba.",
+    },
+  },
+  "Léo le lézard": {
+    x: "4 3 7 4 9 5 6",
+    d: "Lézard de classe septuagénaire qui conseille les élèves|Seventy-something class lizard who gives kids advice|Lagarto de clase septuagenario que aconseja a los alumnos",
+    f: {
+      hon: "Il garde secret qu'il sait parler et confie leurs problèmes aux enfants.|He keeps secret that he can talk while helping kids with their problems.|Mantiene en secreto que habla mientras ayuda a los niños con sus problemas.",
+      tal: "Il parle sans s'arrêter, ce qui l'oblige à mentir.|He talks endlessly, which forces him to lie.|Habla sin parar, lo que le obliga a mentir.",
+      unl: "Il croit qu'il ne lui reste qu'un an à vivre.|He believes he has only one year left to live.|Cree que solo le queda un año de vida.",
+    },
+  },
+  "Vivo": {
+    x: "7 5 8 2 6 6 5",
+    d: "Kinkajou musicien qui part livrer une chanson d'amour|Musical kinkajou on a mission to deliver a love song|Kinkajú músico que parte a entregar una canción de amor",
+    f: {
+      tal: "Il joue de la musique dans les rues de La Havane avec Andrés.|He plays music on Havana's streets with Andrés.|Toca música en las calles de La Habana con Andrés.",
+      bra: "Il traverse les Everglades jusqu'à Miami.|He crosses the Everglades all the way to Miami.|Cruza los Everglades hasta Miami.",
+      kin: "Il veut accomplir la dernière volonté d'Andrés.|He wants to fulfill Andrés's last wish.|Quiere cumplir la última voluntad de Andrés.",
+    },
+  },
+  "Fei Fei": {
+    x: "7 5 9 7 4 3 7",
+    d: "Fillette passionnée qui construit une fusée pour aller sur la Lune|Passionate girl who builds a rocket to reach the Moon|Niña apasionada que construye un cohete para ir a la Luna",
+    f: {
+      int: "Elle construit seule une fusée pour rencontrer la déesse Chang'e.|She builds a rocket on her own to meet the goddess Chang'e.|Construye sola un cohete para conocer a la diosa Chang'e.",
+      unl: "Elle a perdu sa mère et refuse le remariage de son père.|She lost her mother and rejects her father's remarriage.|Perdió a su madre y rechaza la nueva boda de su padre.",
+      tal: "Elle confectionne des gâteaux de lune avec sa famille.|She makes mooncakes with her family.|Prepara pasteles de luna con su familia.",
+    },
+  },
+  "JJ (CoComelon)": {
+    x: "7 5 10 3 7 2 5",
+    d: "Petit garçon joyeux qui apprend la vie en chansons|Cheerful little boy learning about life through songs|Niño alegre que aprende la vida a través de canciones",
+    f: {
+      tal: "Il chante des comptines dans chaque épisode.|He sings nursery rhymes in every episode.|Canta canciones infantiles en cada episodio.",
+      kin: "Il partage ses jouets avec ses frères et sœurs.|He shares his toys with his siblings.|Comparte sus juguetes con sus hermanos.",
+      cut: "Il a un seul cheveu sur le sommet du crâne.|He has a single hair on top of his head.|Tiene un único pelo en lo alto de la cabeza.",
+    },
+  },
+  "Oona": {
+    x: "6 2 9 3 6 2 4",
+    d: "Petite macareux curieuse qui explore une île irlandaise|Curious little puffin exploring an Irish island|Pequeño frailecillo curioso que explora una isla irlandesa",
+    f: {
+      kin: "Elle veille sur son petit frère Baba.|She looks after her little brother Baba.|Cuida de su hermano pequeño Baba.",
+      spd: "Elle vole au-dessus des falaises de Puffin Rock.|She flies over the cliffs of Puffin Rock.|Vuela sobre los acantilados de Puffin Rock.",
+      int: "Elle découvre chaque jour un nouvel animal de l'île.|She discovers a new island animal every day.|Descubre cada día un nuevo animal de la isla.",
+    },
+  },
+  "Morph": {
+    x: "4 1 4 3 6 1 2",
+    d: "Petit bonhomme en pâte à modeler orange qui change de forme|Little orange clay man who changes shape|Hombrecito naranja de plastilina que cambia de forma",
+    f: {
+      tal: "Il ne parle qu'en charabia.|He only speaks in gibberish.|Solo habla en un galimatías.",
+      cun: "Il se transforme en objets pour jouer des tours.|He shape-shifts into objects to play tricks.|Se transforma en objetos para gastar bromas.",
+      hum: "Il se dispute pour rire avec son ami Chas.|He bickers comically with his friend Chas.|Discute en broma con su amigo Chas.",
+    },
+  },
+  "Renard (Les Animaux du Bois de Quat'sous)": {
+    x: "7 3 9 10 6 6 8",
+    d: "Renard sage qui guide les animaux vers une réserve sûre|Wise fox who leads the animals to a safe reserve|Zorro sabio que guía a los animales hasta una reserva segura",
+    f: {
+      lea: "Il conduit tous les animaux du bois menacé vers le Parc du Cerf Blanc.|He leads all the threatened wood's animals to White Deer Park.|Guía a todos los animales del bosque amenazado al Parque del Ciervo Blanco.",
+      hon: "Il fait jurer aux animaux de ne pas se manger entre eux pendant le voyage.|He has the animals swear not to eat each other during the journey.|Hace jurar a los animales que no se comerán entre ellos durante el viaje.",
+      rom: "Il tombe amoureux de Fée-Renarde.|He falls in love with Vixen.|Se enamora de Vixen.",
+    },
+  },
 };

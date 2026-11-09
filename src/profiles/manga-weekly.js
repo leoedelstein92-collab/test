@@ -721,4 +721,364 @@ module.exports = {
       unl: "Son cœur s'épuise à chaque utilisation de sa technique.|His heart wears out each time he uses his technique.|Su corazón se agota cada vez que usa su técnica.",
     },
   },
+  "Yui Hirasawa": {
+    x: "7 5 4 2 9 3 1",
+    d: "Lycéenne insouciante qui apprend la guitare au club de musique légère|Carefree schoolgirl who learns guitar in the light music club|Estudiante despreocupada que aprende guitarra en el club de música ligera",
+    f: {
+      glu: "Elle ne pense qu'aux gâteaux et au thé servis au club.|She only thinks about the cakes and tea served at the club.|Solo piensa en los pasteles y el té que sirven en el club.",
+      laz: "Elle rejoint le club sans savoir jouer d'aucun instrument.|She joins the club without knowing how to play any instrument.|Se une al club sin saber tocar ningún instrumento.",
+      kin: "Elle donne un nom affectueux à sa guitare, Gitah.|She gives her guitar an affectionate name, Gitah.|Le pone a su guitarra un nombre cariñoso, Gitah.",
+    },
+  },
+  "Mio Akiyama": {
+    x: "9 7 7 4 2 6 8",
+    d: "Bassiste timide et sérieuse qui écrit les paroles du groupe|Shy, serious bassist who writes the band's lyrics|Bajista tímida y seria que escribe las letras del grupo",
+    f: {
+      soc: "Elle est terrorisée à l'idée d'être le centre de l'attention.|She's terrified of being the center of attention.|Le aterra ser el centro de atención.",
+      rom: "Ses paroles de chansons sont pleines de mots romantiques et mièvres.|Her song lyrics are full of sappy, romantic words.|Las letras de sus canciones están llenas de palabras románticas y cursis.",
+      scr: "Elle a très peur des histoires effrayantes et des blessures.|She is very scared of scary stories and injuries.|Le dan mucho miedo las historias de terror y las heridas.",
+    },
+  },
+  "Haruhi Suzumiya": {
+    x: "8 7 3 10 3 3 4",
+    d: "Lycéenne excentrique qui cherche extraterrestres et voyageurs du temps|Eccentric schoolgirl hunting for aliens and time travelers|Estudiante excéntrica que busca extraterrestres y viajeros del tiempo",
+    f: {
+      lea: "Elle fonde la Brigade SOS et entraîne tout le monde dans ses projets.|She founds the SOS Brigade and drags everyone into her schemes.|Funda la Brigada SOS y arrastra a todos a sus planes.",
+      str: "Elle peut remodeler la réalité sans le savoir.|She can reshape reality without knowing it.|Puede alterar la realidad sin saberlo.",
+      tem: "Son ennui crée des espaces clos peuplés de géants.|Her boredom creates closed spaces full of giants.|Su aburrimiento crea espacios cerrados llenos de gigantes.",
+    },
+  },
+  "Kyon": {
+    x: "5 4 7 3 5 3 5",
+    d: "Lycéen sarcastique et blasé qui raconte les folies de la Brigade SOS|Sarcastic, jaded student narrating the SOS Brigade's antics|Estudiante sarcástico y desencantado que narra las locuras de la Brigada SOS",
+    f: {
+      hum: "Il commente tout avec un sarcasme désabusé.|He comments on everything with weary sarcasm.|Lo comenta todo con un sarcasmo resignado.",
+      unl: "Il est le seul membre ordinaire de la brigade, entouré d'êtres surnaturels.|He's the only ordinary brigade member, surrounded by supernatural beings.|Es el único miembro normal de la brigada, rodeado de seres sobrenaturales.",
+      kin: "Il finit toujours par aider Haruhi malgré ses plaintes.|He always ends up helping Haruhi despite his complaints.|Siempre acaba ayudando a Haruhi pese a sus quejas.",
+    },
+  },
+  "Amuro Ray": {
+    x: "5 3 7 5 1 4 6",
+    d: "Adolescent génie de la mécanique devenu pilote du Gundam|Teenage mechanical genius who becomes the Gundam's pilot|Adolescente genio de la mecánica convertido en piloto del Gundam",
+    f: {
+      int: "Il apprend à piloter le Gundam en lisant le manuel en pleine attaque.|He learns to pilot the Gundam by reading the manual mid-attack.|Aprende a pilotar el Gundam leyendo el manual en pleno ataque.",
+      tem: "Il fuit et boude quand on le pousse trop.|He sulks and runs off when pushed too hard.|Se enfurruña y huye cuando le presionan demasiado.",
+      spd: "Il s'éveille en Newtype aux réflexes surhumains.|He awakens as a Newtype with superhuman reflexes.|Despierta como Newtype con reflejos sobrehumanos.",
+    },
+  },
+  "Char Aznable": {
+    x: "9 10 2 9 4 6 9",
+    d: "As masqué de Zeon surnommé la Comète rouge|Masked ace of Zeon known as the Red Comet|As enmascarado de Zeon apodado el Cometa Rojo",
+    f: {
+      spd: "Son Zaku rouge est trois fois plus rapide que les autres.|His red Zaku is three times faster than the others.|Su Zaku rojo es tres veces más rápido que los demás.",
+      hon: "Il cache sa véritable identité de Casval Rem Deikun.|He hides his true identity as Casval Rem Deikun.|Oculta su verdadera identidad, Casval Rem Deikun.",
+      cun: "Il manipule les deux camps pour venger son père.|He plays both sides to avenge his father.|Manipula a ambos bandos para vengar a su padre.",
+    },
+  },
+  "Holo": {
+    x: "9 6 4 5 7 5 3",
+    d: "Déesse louve espiègle et vaniteuse sous forme de jeune fille|Mischievous, proud wolf goddess in the form of a girl|Diosa loba traviesa y orgullosa con forma de muchacha",
+    f: {
+      glu: "Elle raffole des pommes et ne refuse jamais un verre.|She adores apples and never turns down a drink.|Le encantan las manzanas y nunca rechaza una copa.",
+      int: "Elle se fait appeler la Sage Louve et devine les mensonges.|She calls herself the Wise Wolf and can tell when people lie.|Se hace llamar la Loba Sabia y detecta las mentiras.",
+      rom: "Elle taquine Lawrence tout en s'attachant à lui.|She teases Lawrence while growing attached to him.|Provoca a Lawrence mientras se encariña con él.",
+    },
+  },
+  "Kraft Lawrence": {
+    x: "5 4 6 3 4 6 8",
+    d: "Marchand ambulant prudent qui voyage avec une déesse louve|Careful traveling merchant journeying with a wolf goddess|Comerciante ambulante prudente que viaja con una diosa loba",
+    f: {
+      int: "Il calcule chaque transaction en jouant sur les cours de la monnaie.|He calculates every deal, playing on currency rates.|Calcula cada trato jugando con el valor de la moneda.",
+      unl: "Ses spéculations le mènent plusieurs fois au bord de la ruine.|His speculation brings him to the brink of ruin several times.|Sus especulaciones le llevan varias veces al borde de la ruina.",
+      rom: "Il finit par épouser Holo et ouvrir une auberge.|He ends up marrying Holo and opening an inn.|Acaba casándose con Holo y abriendo una posada.",
+    },
+  },
+  "Miaka Yuki": {
+    x: "6 4 7 3 7 10 2",
+    d: "Collégienne gourmande aspirée dans un livre de la Chine ancienne|Hungry schoolgirl pulled into a book of ancient China|Colegiala glotona absorbida por un libro de la antigua China",
+    f: {
+      glu: "Elle pense constamment à manger, même en pleine aventure.|She constantly thinks about food, even mid-adventure.|Piensa constantemente en comer, incluso en plena aventura.",
+      lea: "Elle devient la prêtresse de Suzaku, chargée de réunir sept guerriers.|She becomes the Priestess of Suzaku, tasked with gathering seven warriors.|Se convierte en la sacerdotisa de Suzaku, encargada de reunir a siete guerreros.",
+      rom: "Elle tombe amoureuse de Tamahome, l'un de ses guerriers.|She falls in love with Tamahome, one of her warriors.|Se enamora de Tamahome, uno de sus guerreros.",
+    },
+  },
+  "Tamahome": {
+    x: "8 4 7 4 4 10 5",
+    d: "Guerrier céleste obsédé par l'argent pour nourrir sa famille|Celestial warrior obsessed with money to feed his family|Guerrero celestial obsesionado con el dinero para alimentar a su familia",
+    f: {
+      ric: "Il adore l'argent car sa famille est très pauvre.|He loves money because his family is very poor.|Le encanta el dinero porque su familia es muy pobre.",
+      rom: "Il protège Miaka au prix de sa propre vie.|He protects Miaka at the cost of his own life.|Protege a Miaka a costa de su propia vida.",
+      str: "Il est l'un des sept guerriers célestes de Suzaku et maîtrise les arts martiaux.|He is one of Suzaku's seven celestial warriors and a martial artist.|Es uno de los siete guerreros celestiales de Suzaku y experto en artes marciales.",
+    },
+  },
+  "Tsukushi Makino": {
+    x: "5 2 10 6 5 5 6",
+    d: "Lycéenne pauvre qui tient tête aux héritiers d'une école d'élite|Poor schoolgirl who stands up to an elite school's heirs|Estudiante pobre que planta cara a los herederos de una escuela de élite",
+    f: {
+      bra: "Elle déclare la guerre au F4 qui terrorise toute l'école.|She declares war on the F4, who terrorize the whole school.|Declara la guerra a los F4, que aterrorizan a toda la escuela.",
+      unl: "Elle reçoit le carton rouge qui fait d'elle la cible de tous les élèves.|She gets the red card that makes her every student's target.|Recibe la tarjeta roja que la convierte en el blanco de todos.",
+      ric: "Sa famille modeste enchaîne les problèmes d'argent.|Her modest family lurches from one money problem to the next.|Su modesta familia encadena problemas de dinero.",
+    },
+  },
+  "Tsukasa Domyoji": {
+    x: "8 9 1 9 3 7 3",
+    d: "Héritier arrogant et colérique, chef du F4|Arrogant, hot-headed heir and leader of the F4|Heredero arrogante y colérico, líder de los F4",
+    f: {
+      ric: "Il est l'héritier du richissime groupe Domyoji.|He is heir to the ultra-wealthy Domyoji group.|Es el heredero del riquísimo grupo Domyoji.",
+      tem: "Il harcèle les élèves qui lui déplaisent avec ses cartons rouges.|He bullies students he dislikes with his red cards.|Acosa a los alumnos que le desagradan con sus tarjetas rojas.",
+      int: "Il écorche sans cesse les proverbes et les expressions.|He constantly mangles proverbs and expressions.|Destroza constantemente los refranes y las expresiones.",
+    },
+  },
+  "Globule rouge AE3803": {
+    x: "7 5 10 3 7 4 6",
+    d: "Globule rouge maladroite qui se perd en livrant l'oxygène|Clumsy red blood cell who keeps getting lost delivering oxygen|Glóbulo rojo torpe que se pierde repartiendo oxígeno",
+    f: {
+      clu: "Elle se perd sans cesse dans les vaisseaux sanguins du corps.|She keeps getting lost in the body's blood vessels.|Se pierde sin parar por los vasos sanguíneos del cuerpo.",
+      kin: "Elle livre l'oxygène avec un dévouement sans faille.|She delivers oxygen with unfailing dedication.|Reparte oxígeno con una dedicación inquebrantable.",
+      unl: "Elle tombe toujours sur des bactéries en chemin.|She always runs into bacteria along the way.|Siempre se cruza con bacterias por el camino.",
+    },
+  },
+  "Globule blanc U-1146": {
+    x: "4 3 9 5 3 3 8",
+    d: "Neutrophile tout de blanc vêtu qui extermine les bactéries|White-clad neutrophil who wipes out bacteria|Neutrófilo vestido de blanco que extermina las bacterias",
+    f: {
+      evi: "Il élimine les germes au couteau avec une férocité sanglante.|He kills germs with a knife in bloody fashion.|Elimina los gérmenes con un cuchillo de forma sangrienta.",
+      kin: "Il sauve souvent Globule rouge AE3803 des bactéries.|He often saves red blood cell AE3803 from bacteria.|Salva a menudo a glóbulo rojo AE3803 de las bacterias.",
+      org: "Il patrouille méthodiquement à la recherche d'intrus.|He methodically patrols for intruders.|Patrulla metódicamente en busca de intrusos.",
+    },
+  },
+  "Tetsuro Hoshino": {
+    x: "3 2 8 5 5 4 4",
+    d: "Garçon pauvre qui traverse l'espace pour obtenir un corps mécanique|Poor boy crossing space to get a mechanical body|Niño pobre que cruza el espacio para conseguir un cuerpo mecánico",
+    f: {
+      unl: "Sa mère est tuée par le comte Méca, un chasseur d'humains.|His mother is killed by Count Mecha, a human hunter.|Su madre es asesinada por el conde Mecha, un cazador de humanos.",
+      bra: "Il monte à bord du Galaxy Express 999 pour Andromède.|He boards the Galaxy Express 999 bound for Andromeda.|Sube al Galaxy Express 999 rumbo a Andrómeda.",
+      kin: "Il renonce finalement au corps mécanique pour rester humain.|He finally gives up on a mechanical body to stay human.|Al final renuncia al cuerpo mecánico para seguir siendo humano.",
+    },
+  },
+  "Maetel": {
+    x: "10 9 2 6 1 6 8",
+    d: "Femme mystérieuse en manteau noir qui accompagne Tetsuro|Mysterious woman in a black coat who travels with Tetsuro|Mujer misteriosa de abrigo negro que acompaña a Tetsuro",
+    f: {
+      bea: "Elle ressemble trait pour trait à la mère de Tetsuro.|She looks exactly like Tetsuro's mother.|Es idéntica a la madre de Tetsuro.",
+      hon: "Elle cache qu'elle est la fille de la reine de la planète Andromède.|She hides that she is the daughter of the queen of planet Andromeda.|Oculta que es la hija de la reina del planeta Andrómeda.",
+      sty: "Elle porte toujours un long manteau et une toque en fourrure noirs.|She always wears a long black coat and fur hat.|Siempre lleva un largo abrigo y un gorro de piel negros.",
+    },
+  },
+  "Ayumu Fujino": {
+    x: "5 3 6 6 3 1 7",
+    d: "Collégienne fière qui dessine des mangas pour le journal de l'école|Proud schoolgirl who draws manga for the school paper|Colegiala orgullosa que dibuja mangas para el periódico escolar",
+    f: {
+      tem: "Elle est jalouse quand elle découvre le talent de Kyomoto.|She is jealous when she discovers Kyomoto's talent.|Siente celos al descubrir el talento de Kyomoto.",
+      org: "Elle s'entraîne au dessin pendant des années avec acharnement.|She trains at drawing relentlessly for years.|Practica el dibujo sin descanso durante años.",
+      unl: "Elle se reproche la mort de son amie.|She blames herself for her friend's death.|Se culpa de la muerte de su amiga.",
+    },
+  },
+  "Kyomoto": {
+    x: "5 2 9 3 1 3 6",
+    d: "Collégienne recluse au talent de dessin exceptionnel|Reclusive schoolgirl with exceptional drawing talent|Colegiala recluida con un talento excepcional para el dibujo",
+    f: {
+      soc: "Elle ne sort pas de sa chambre et ne va pas à l'école.|She doesn't leave her room or go to school.|No sale de su habitación ni va a la escuela.",
+      kin: "Elle admire Fujino et devient sa partenaire de dessin.|She admires Fujino and becomes her drawing partner.|Admira a Fujino y se convierte en su compañera de dibujo.",
+      unl: "Elle est tuée lors d'une attaque dans son école d'art.|She is killed in an attack at her art school.|Muere en un ataque en su escuela de arte.",
+    },
+  },
+  "Reze": {
+    x: "9 6 0 2 8 8 4",
+    d: "Serveuse charmante qui cache une hybride démon-bombe|Charming waitress who is secretly the Bomb Devil hybrid|Camarera encantadora que oculta ser la híbrida del demonio bomba",
+    f: {
+      hon: "Elle séduit Denji pour mieux l'assassiner.|She charms Denji in order to kill him.|Seduce a Denji para poder asesinarlo.",
+      str: "Elle se fait exploser et provoque des explosions dévastatrices.|She makes herself explode and causes devastating blasts.|Se hace explotar y provoca explosiones devastadoras.",
+      rom: "Elle hésite à s'enfuir avec Denji.|She is tempted to run away with Denji.|Duda en huir con Denji.",
+    },
+  },
+  "Kana Arima": {
+    x: "8 7 5 4 4 6 7",
+    d: "Ancienne enfant star au caractère piquant qui relance sa carrière|Sharp-tongued former child star trying to revive her career|Antigua niña estrella de lengua afilada que intenta relanzar su carrera",
+    f: {
+      tem: "Elle a la langue bien pendue et un ego fragile.|She has a sharp tongue and a fragile ego.|Tiene la lengua afilada y un ego frágil.",
+      tal: "Elle était surnommée « l'actrice de génie qui pleure en dix secondes ».|She was nicknamed \"the genius actress who cries in ten seconds\".|La apodaban \"la actriz genio que llora en diez segundos\".",
+      rom: "Elle est amoureuse d'Aqua.|She is in love with Aqua.|Está enamorada de Aqua.",
+    },
+  },
+  "Seishiro Nagi": {
+    x: "7 3 5 2 2 1 4",
+    d: "Prodige du foot paresseux recruté par son ami Reo|Lazy soccer prodigy recruited by his friend Reo|Prodigio del fútbol perezoso reclutado por su amigo Reo",
+    f: {
+      laz: "Il trouve tout pénible et préfère jouer aux jeux vidéo.|He finds everything a hassle and prefers video games.|Todo le parece un fastidio y prefiere los videojuegos.",
+      str: "Son contrôle de balle amortit n'importe quelle passe.|His ball control can trap any pass.|Su control de balón amortigua cualquier pase.",
+      int: "Il n'a commencé le football que six mois avant Blue Lock.|He only started playing soccer six months before Blue Lock.|Solo empezó a jugar al fútbol seis meses antes de Blue Lock.",
+    },
+  },
+  "Finn Ames": {
+    x: "6 6 8 3 4 3 6",
+    d: "Camarade de chambre timide et loyal de Mash|Shy, loyal roommate of Mash|Compañero de cuarto tímido y leal de Mash",
+    f: {
+      kin: "Il devient le premier ami de Mash à l'académie.|He becomes Mash's first friend at the academy.|Se convierte en el primer amigo de Mash en la academia.",
+      unl: "Il vit dans l'ombre de son frère aîné Rayne.|He lives in the shadow of his older brother Rayne.|Vive a la sombra de su hermano mayor Rayne.",
+      int: "Il maîtrise la magie de permutation.|He masters swap magic.|Domina la magia de intercambio.",
+    },
+  },
+  "Arthur Boyle": {
+    x: "8 7 6 6 5 4 1",
+    d: "Pyrokinésiste se prenant pour un chevalier, rival de Shinra|Pyrokinetic who thinks he's a knight, Shinra's rival|Piroquinético que se cree caballero, rival de Shinra",
+    f: {
+      int: "Il est si naïf qu'on peut lui faire croire presque n'importe quoi.|He is so dim he can be fooled by almost anything.|Es tan tonto que se le puede engañar con casi cualquier cosa.",
+      str: "Plus il croit être un chevalier, plus son épée de plasma devient puissante.|The more he believes he's a knight, the stronger his plasma sword gets.|Cuanto más cree ser un caballero, más poderosa se vuelve su espada de plasma.",
+      sty: "Il porte une armure de fortune et appelle sa bicyclette son destrier.|He wears makeshift armor and calls his bicycle his steed.|Lleva una armadura improvisada y llama a su bicicleta su corcel.",
+    },
+  },
+  "Benimaru Shinmon": {
+    x: "7 8 7 9 2 1 3",
+    d: "Capitaine indomptable de la 7e brigade, le plus fort des pyrokinésistes|Untamed captain of Company 7, the strongest pyrokinetic|Capitán indomable de la Compañía 7, el piroquinético más fuerte",
+    f: {
+      str: "Il est considéré comme le plus puissant des pyrokinésistes de Tokyo.|He's considered the most powerful pyrokinetic in Tokyo.|Se le considera el piroquinético más poderoso de Tokio.",
+      lea: "Il protège le quartier d'Asakusa comme son chef.|He protects the Asakusa district as its leader.|Protege el barrio de Asakusa como su líder.",
+      laz: "Il refuse les règles et les formalités de la Force spéciale.|He refuses the Special Fire Force's rules and formalities.|Rechaza las reglas y formalidades de la Fuerza Especial.",
+    },
+  },
+  "Cha Hae-In": {
+    x: "9 7 9 7 3 7 9",
+    d: "Chasseuse de rang S qui manie l'épée avec grâce|S-rank hunter who wields a sword with grace|Cazadora de rango S que maneja la espada con gracia",
+    f: {
+      str: "Elle est vice-présidente de la Guilde des Chasseurs et chasseuse de rang S.|She is vice-guild master of the Hunters Guild and an S-rank hunter.|Es vicemaestra del Gremio de Cazadores y cazadora de rango S.",
+      unl: "Elle perçoit l'odeur de mana des chasseurs comme insupportable.|She finds other hunters' mana smell unbearable.|El olor de maná de los cazadores le resulta insoportable.",
+      rom: "Elle tombe amoureuse de Jinwoo, le seul dont l'odeur lui plaît.|She falls for Jinwoo, the only one whose scent she likes.|Se enamora de Jinwoo, el único cuyo olor le agrada.",
+    },
+  },
+  "Kotaro Bokuto": {
+    x: "8 7 8 7 9 3 2",
+    d: "Capitaine exubérant de Fukurodani aux sautes d'humeur célèbres|Exuberant Fukurodani captain famous for his mood swings|Capitán exuberante de Fukurodani famoso por sus cambios de humor",
+    f: {
+      tem: "Il tombe en déprime au moindre échec, ce que son équipe doit gérer.|He sinks into a slump at the slightest failure, which his team must manage.|Se deprime al menor fallo y su equipo tiene que manejarlo.",
+      str: "Il est l'un des cinq meilleurs attaquants du pays.|He is one of the top five aces in the country.|Es uno de los cinco mejores rematadores del país.",
+      soc: "Il met l'ambiance et réclame sans cesse des passes à son passeur Akaashi.|He livens up the team and constantly begs his setter Akaashi for tosses.|Anima al equipo y pide sin parar pases a su colocador Akaashi.",
+    },
+  },
+  "Tetsuro Kuroo": {
+    x: "8 6 6 8 8 3 7",
+    d: "Capitaine malicieux de Nekoma, maître du blocage|Sly Nekoma captain and master of blocking|Capitán astuto de Nekoma y maestro del bloqueo",
+    f: {
+      cun: "Il provoque ses adversaires avec un sourire narquois.|He taunts opponents with a smirk.|Provoca a sus rivales con una sonrisa burlona.",
+      kin: "Il entraîne Tsukishima au blocage, même d'une équipe rivale.|He coaches Tsukishima on blocking, despite being from a rival team.|Enseña a bloquear a Tsukishima aunque sea de un equipo rival.",
+      sty: "Il est connu pour sa coiffure en épi de coq.|He's known for his rooster-like bedhead.|Es conocido por su peinado de cresta de gallo.",
+    },
+  },
+  "Rika Orimoto": {
+    x: "1 1 2 2 0 9 1",
+    d: "Fléau monstrueux né de l'amour d'une fillette morte pour Yuta|Monstrous curse born from a dead girl's love for Yuta|Maldición monstruosa nacida del amor de una niña muerta por Yuta",
+    f: {
+      scr: "Elle massacre quiconque menace Yuta.|She slaughters anyone who threatens Yuta.|Masacra a cualquiera que amenace a Yuta.",
+      rom: "Elle a promis d'épouser Yuta quand ils étaient enfants.|She promised to marry Yuta when they were children.|Prometió casarse con Yuta cuando eran niños.",
+      unl: "Elle meurt renversée par une voiture sous les yeux de Yuta.|She is killed by a car in front of Yuta.|Muere atropellada por un coche ante los ojos de Yuta.",
+    },
+  },
+  "Konata Izumi": {
+    x: "5 3 6 3 7 2 2",
+    d: "Lycéenne otaku paresseuse, fan de jeux vidéo et d'anime|Lazy otaku schoolgirl who loves video games and anime|Estudiante otaku perezosa, fan de los videojuegos y el anime",
+    f: {
+      laz: "Elle passe ses nuits sur les jeux en ligne et révise à la dernière minute.|She spends her nights gaming online and crams at the last minute.|Pasa las noches jugando en línea y estudia en el último minuto.",
+      tal: "Elle multiplie les références à l'anime dans ses conversations.|She fills conversations with anime references.|Llena sus conversaciones de referencias al anime.",
+      spd: "Elle est très sportive mais refuse de rejoindre un club.|She is very athletic but refuses to join a club.|Es muy deportista pero se niega a unirse a un club.",
+    },
+  },
+  "Nausicaä": {
+    x: "9 6 10 10 6 4 8",
+    d: "Princesse de la Vallée du Vent qui défend la nature|Princess of the Valley of the Wind who defends nature|Princesa del Valle del Viento que defiende la naturaleza",
+    f: {
+      kin: "Elle apaise les Ômus et protège même les insectes de la forêt toxique.|She calms the Ohmu and even protects the toxic jungle's insects.|Calma a los Ohmu e incluso protege a los insectos del bosque tóxico.",
+      spd: "Elle vole sur son planeur, le Mehve.|She flies on her glider, the Mehve.|Vuela en su planeador, el Mehve.",
+      int: "Elle découvre que la forêt toxique purifie la terre polluée.|She discovers that the toxic jungle purifies the polluted earth.|Descubre que el bosque tóxico purifica la tierra contaminada.",
+    },
+  },
+  "Mutta Nanba": {
+    x: "4 3 10 6 5 4 6",
+    d: "Grand frère au chômage qui rattrape son rêve d'astronaute|Unemployed older brother chasing his astronaut dream|Hermano mayor en paro que persigue su sueño de ser astronauta",
+    f: {
+      unl: "Il se fait renvoyer pour avoir frappé son patron.|He gets fired for headbutting his boss.|Le despiden por dar un cabezazo a su jefe.",
+      int: "Il est ingénieur automobile avant de devenir astronaute.|He is a car designer before becoming an astronaut.|Es ingeniero de coches antes de ser astronauta.",
+      sty: "Il complexe sur ses cheveux bouclés en afro.|He is self-conscious about his frizzy afro.|Le acompleja su pelo rizado a lo afro.",
+    },
+  },
+  "Hachimaki": {
+    x: "4 3 6 5 6 6 4",
+    d: "Ramasseur de débris spatiaux qui rêve de posséder son vaisseau|Space debris collector who dreams of owning his own ship|Recolector de basura espacial que sueña con tener su propia nave",
+    f: {
+      tem: "Il s'emporte facilement et bouscule ses collègues.|He loses his temper easily and pushes his colleagues around.|Se enfada con facilidad y trata mal a sus compañeros.",
+      bra: "Il s'entraîne durement pour partir en mission vers Jupiter.|He trains hard to join the mission to Jupiter.|Entrena duro para unirse a la misión a Júpiter.",
+      rom: "Il épouse Tanabe, sa collègue idéaliste.|He marries Tanabe, his idealistic colleague.|Se casa con Tanabe, su idealista compañera.",
+    },
+  },
+  "Yuko Ichihara": {
+    x: "10 10 3 6 8 3 4",
+    d: "Sorcière des dimensions qui exauce les vœux contre paiement|Dimension Witch who grants wishes for a price|Bruja de las dimensiones que concede deseos a cambio de un pago",
+    f: {
+      cun: "Elle exige toujours un prix d'égale valeur pour chaque vœu.|She always demands a price of equal value for every wish.|Siempre exige un precio de igual valor por cada deseo.",
+      glu: "Elle oblige Watanuki à lui cuisiner des plats et à servir du saké.|She makes Watanuki cook for her and serve her sake.|Obliga a Watanuki a cocinarle y servirle sake.",
+      sty: "Elle change de tenue extravagante à chaque apparition.|She wears a new extravagant outfit every time she appears.|Luce un atuendo extravagante distinto en cada aparición.",
+    },
+  },
+  "Hikaru Shido (Rayearth)": {
+    x: "7 5 9 7 7 4 4",
+    d: "Collégienne énergique transportée à Céphiro pour devenir chevalier magique|Energetic schoolgirl summoned to Cephiro to become a Magic Knight|Colegiala enérgica transportada a Céfiro para convertirse en guerrera mágica",
+    f: {
+      bra: "Elle fonce au combat contre Zagato sans hésiter.|She charges into battle against Zagato without hesitation.|Se lanza al combate contra Zagato sin dudarlo.",
+      str: "Elle maîtrise la magie du feu et le génie Rayearth.|She wields fire magic and the rune god Rayearth.|Domina la magia de fuego y al genio Rayearth.",
+      kin: "Elle reste joyeuse et soutient ses deux amies chevaliers.|She stays cheerful and supports her two fellow knights.|Sigue alegre y apoya a sus dos amigas guerreras.",
+    },
+  },
+  "Maya Kitajima": {
+    x: "4 3 8 4 4 6 4",
+    d: "Fille ordinaire au talent d'actrice exceptionnel|Ordinary-looking girl with extraordinary acting talent|Chica corriente con un talento extraordinario para la actuación",
+    f: {
+      tal: "Elle mémorise une pièce entière après l'avoir vue une seule fois.|She memorizes an entire play after seeing it once.|Memoriza una obra entera tras verla una sola vez.",
+      bra: "Elle s'entraîne sans relâche sous la direction de Mme Tsukikage.|She trains relentlessly under Ms. Tsukikage.|Entrena sin descanso bajo la dirección de la señora Tsukikage.",
+      rom: "Elle déteste Masumi Hayami sans savoir qu'il est son admirateur secret.|She hates Masumi Hayami without knowing he is her secret admirer.|Odia a Masumi Hayami sin saber que es su admirador secreto.",
+    },
+  },
+  "Candy Neige André": {
+    x: "8 4 8 6 8 8 4",
+    d: "Orpheline joyeuse aux taches de rousseur qui garde le sourire|Cheerful freckled orphan who keeps smiling|Huérfana alegre y pecosa que mantiene la sonrisa",
+    f: {
+      unl: "Elle est adoptée par les Legrand qui la traitent comme une servante.|She is taken in by the Legans, who treat her like a servant.|La adoptan los Leagan, que la tratan como a una criada.",
+      rom: "Elle perd tragiquement Anthony, son premier amour.|She tragically loses Anthony, her first love.|Pierde trágicamente a Anthony, su primer amor.",
+      kin: "Elle devient infirmière pour soigner les autres.|She becomes a nurse to care for others.|Se hace enfermera para cuidar a los demás.",
+    },
+  },
+  "Kirie Goshima": {
+    x: "7 4 9 2 4 6 5",
+    d: "Lycéenne de Kurouzu-cho dont la ville est maudite par les spirales|Schoolgirl whose town of Kurouzu-cho is cursed by spirals|Estudiante de Kurouzu-cho, pueblo maldito por las espirales",
+    f: {
+      scr: "Ses cheveux s'enroulent en spirales vivantes qui aspirent son énergie.|Her hair curls into living spirals that drain her energy.|Su pelo se enrosca en espirales vivas que le absorben la energía.",
+      unl: "Elle voit sa famille et sa ville sombrer dans la folie.|She watches her family and town sink into madness.|Ve cómo su familia y su pueblo se hunden en la locura.",
+      rom: "Elle reste aux côtés de son petit ami Shuichi jusqu'à la fin.|She stays by her boyfriend Shuichi's side to the end.|Se queda junto a su novio Shuichi hasta el final.",
+    },
+  },
+  "Cobra": {
+    x: "8 7 5 6 8 7 2",
+    d: "Pirate de l'espace charmeur armé d'un psychogun dans le bras|Charming space pirate with a psychogun in his arm|Pirata espacial seductor con una psicopistola en el brazo",
+    f: {
+      str: "Son bras gauche cache un psychogun qui tire grâce à sa volonté.|His left arm hides a psychogun powered by his willpower.|Su brazo izquierdo oculta una psicopistola que dispara con su voluntad.",
+      hon: "Il change de visage pour échapper à la Guilde des pirates.|He changes his face to escape the Pirate Guild.|Se cambia la cara para escapar del Gremio de Piratas.",
+      rom: "Il séduit les femmes à chaque escale.|He charms the women at every stop.|Seduce a las mujeres en cada parada.",
+    },
+  },
+  "Joe Shimamura": {
+    x: "8 6 8 8 3 6 6",
+    d: "Orphelin transformé en cyborg, le dernier et le plus rapide des neuf|Orphan turned cyborg, the last and fastest of the nine|Huérfano convertido en cíborg, el último y más rápido de los nueve",
+    f: {
+      spd: "Son accélérateur lui permet de se déplacer plus vite que le son.|His accelerator lets him move faster than sound.|Su acelerador le permite moverse más rápido que el sonido.",
+      unl: "Il est enlevé et transformé en cyborg par l'organisation Black Ghost.|He is kidnapped and made into a cyborg by Black Ghost.|Es secuestrado y convertido en cíborg por la organización Black Ghost.",
+      lea: "Il mène les neuf cyborgs contre leurs créateurs.|He leads the nine cyborgs against their creators.|Dirige a los nueve cíborgs contra sus creadores.",
+    },
+  },
+  "Belzébuth (Sand Land)": {
+    x: "6 4 6 6 5 2 3",
+    d: "Jeune prince des démons qui part chercher une source d'eau|Young demon prince who sets off to find a water source|Joven príncipe demonio que parte en busca de una fuente de agua",
+    f: {
+      evi: "Il se vante d'être un démon mais fait surtout de petites farces.|He boasts of being a demon but mostly plays small pranks.|Presume de ser un demonio pero sobre todo hace pequeñas travesuras.",
+      str: "Il est bien plus fort que son petit gabarit le laisse croire.|He is far stronger than his small size suggests.|Es mucho más fuerte de lo que sugiere su pequeña estatura.",
+      glu: "Il adore les jeux vidéo et les friandises volées aux humains.|He loves video games and treats stolen from humans.|Le encantan los videojuegos y las golosinas robadas a los humanos.",
+    },
+  },
 };
