@@ -51,6 +51,18 @@ const HYD = "Hana Yori Dango|Boys Over Flowers|Hana Yori Dango";
 const CAW = "Les Brigades immunitaires|Cells at Work!|Cells at Work!";
 const GE9 = "Galaxy Express 999";
 const LBK = "Look Back";
+const BRK = "Barakamon";
+const MRT = "Moriarty le Patriote|Moriarty the Patriot|Moriarty the Patriot";
+const ORA = "Orange";
+const DRR = "Durarara!!";
+const UTR = "Ushio et Tora|Ushio and Tora|Ushio y Tora";
+const QQ = "The Quintessential Quintuplets|The Quintessential Quintuplets|Las quintillizas";
+const NSK = "Nisekoi";
+const LHI = "Love Hina";
+const AMG = "Ah! My Goddess|Ah! My Goddess|¡Oh, mi diosa!";
+const PPG = "Ping Pong";
+const KER = "Sergent Keroro|Sgt. Frog|Sargento Keroro";
+const VKN = "Vampire Knight";
 
 module.exports = [
   // Toilet-Bound Hanako-kun
@@ -272,4 +284,60 @@ module.exports = [
   ["Cobra", "cobra|space adventure cobra|rug ball", "Cobra|Space Adventure Cobra|Cobra", "8 8 7 1 1 10 7 4 4 8 1 4 5 2 8 9 3", "hero"],
   ["Joe Shimamura", "joe shimamura|009|cyborg 009", "Cyborg 009", "3 8 6 0 1 9 8 1 3 10 3 2 1 3 3 4 6", "hero|speedster"],
   ["Belzébuth (Sand Land)", "beelzebub sand land|belzebuth sand land|sand land", "Sand Land", "7 8 5 4 2 7 6 4 6 6 6 2 3 4 6 7 3"],
+  // Barakamon
+  ["Seishu Handa", "handa|seishu handa|handa sensei", BRK, "6 2 7 0 6 4 6 4 4 3 2 0 3 8 5 3 6"],
+  ["Naru Kotoishi", "naru kotoishi|naru barakamon", BRK, "9 3 3 0 7 7 8 3 7 7 9 0 0 2 9 4 3", "friend"],
+  // Moriarty le Patriote
+  ["William James Moriarty", "william moriarty|moriarty|william james moriarty", MRT, "3 5 10 7 0 7 5 1 2 6 3 5 8 2 5 10 3", "leader"],
+  ["Sherlock Holmes (Moriarty)", "sherlock moriarty|sherlock holmes moriarty", MRT, "7 6 10 1 4 8 5 6 5 7 2 1 3 5 8 9 3"],
+  // Orange
+  ["Naho Takamiya", "naho|naho takamiya", ORA, "3 2 6 0 5 6 9 1 3 3 7 0 2 1 3 2 4"],
+  ["Kakeru Naruse", "kakeru|kakeru naruse", ORA, "4 4 6 0 3 5 8 2 3 5 6 0 2 3 3 3 10", "doomed"],
+  // Durarara!!
+  ["Izaya Orihara", "izaya|izaya orihara", DRR, "7 4 10 8 1 5 1 3 3 8 2 5 6 4 9 10 3"],
+  ["Shizuo Heiwajima", "shizuo|shizuo heiwajima", DRR, "4 10 4 2 3 8 6 3 4 7 2 7 1 10 3 1 7"],
+  ["Celty Sturluson", "celty|celty sturluson|dullahan", DRR, "4 7 6 0 2 8 9 1 0 10 5 6 2 3 0 5 5", "speedster"],
+  // Ushio et Tora
+  ["Ushio Aotsuki", "ushio|ushio aotsuki", UTR, "6 8 4 0 4 10 9 1 4 7 3 2 0 8 6 3 6", "hero"],
+  ["Tora (Ushio et Tora)", "tora ushio|tora le yokai|tora youkai", UTR, "7 10 6 5 2 9 4 5 9 10 3 9 0 9 7 6 4", "glutton"],
+  // The Quintessential Quintuplets
+  ["Futaro Uesugi", "futaro|futaro uesugi|fuutarou uesugi", QQ, "4 2 9 1 4 6 6 1 2 3 3 1 0 7 5 5 6", "teacher"],
+  ["Miku Nakano", "miku nakano|miku quintuplets", QQ, "4 2 6 0 4 5 7 3 5 3 8 0 5 2 2 4 4"],
+  // Nisekoi
+  ["Raku Ichijo", "raku|raku ichijo", NSK, "5 3 6 0 6 7 9 2 4 4 4 0 7 4 6 4 7", "chef"],
+  ["Chitoge Kirisaki", "chitoge|chitoge kirisaki", NSK, "6 7 5 1 6 7 7 2 8 7 8 1 9 9 7 4 4", "glutton"],
+  // Love Hina
+  ["Keitaro Urashima", "keitaro|keitaro urashima", LHI, "7 3 4 0 10 6 9 3 4 4 3 0 1 2 6 2 10"],
+  ["Naru Narusegawa", "naru narusegawa|narusegawa", LHI, "4 7 8 0 4 6 6 2 4 5 7 2 2 9 6 3 4"],
+  // Ah! My Goddess
+  ["Belldandy", "belldandy|berudandi", AMG, "3 6 7 0 3 6 10 1 3 4 9 0 2 0 5 2 1", "chef"],
+  ["Keiichi Morisato", "keiichi|keiichi morisato", AMG, "4 3 7 0 6 5 9 2 4 7 4 0 1 2 4 3 7"],
+  // Ping Pong
+  ["Peco", "peco|yutaka hoshino", PPG, "8 6 4 1 4 7 5 7 8 8 3 0 1 5 9 4 5", "glutton"],
+  ["Smile", "smile ping pong|makoto tsukimoto", PPG, "1 5 7 0 1 4 5 5 2 6 3 2 1 1 0 4 4"],
+  // Sergent Keroro
+  ["Keroro", "keroro|sergent keroro|sgt frog", KER, "9 3 4 3 8 3 6 9 6 4 8 0 1 4 9 6 9"],
+  ["Giroro", "giroro|caporal giroro|corporal giroro", KER, "4 8 5 2 3 8 4 1 4 7 4 3 1 9 3 4 5"],
+  // Vampire Knight
+  ["Yuki Cross", "yuki cross|yuuki cross|yuki kuran", VKN, "4 6 5 0 4 8 9 1 4 6 7 1 4 4 5 3 7"],
+  ["Zero Kiryu", "zero kiryu|zero kiryuu", VKN, "1 8 6 1 1 8 5 1 2 8 3 6 1 8 1 4 8", "doomed"],
+  // Séries isolées
+  ["Nicholas D. Wolfwood", "wolfwood|nicholas wolfwood", "Trigun", "6 8 6 3 2 9 7 4 5 7 2 4 1 4 6 6 8", "doomed"],
+  ["Chi (Chobits)", "chobits|chi chobits|eruda", "Chobits", "2 6 2 0 6 5 9 1 1 3 9 0 0 0 2 1 3"],
+  ["Sakamichi Onoda", "onoda|sakamichi onoda", "Yowamushi Pedal", "4 6 4 0 5 7 9 1 3 9 6 0 1 1 5 2 4", "speedster"],
+  ["Hozuki", "hozuki|hoozuki", "Hozuki's Coolheadedness", "7 9 10 3 0 7 3 1 6 6 1 7 4 8 5 9 1"],
+  ["Yugo Hachiken", "hachiken|yugo hachiken", "Silver Spoon", "5 4 8 0 6 6 9 2 4 4 4 0 2 3 5 3 6", "chef"],
+  ["Hayate Ayasaki", "hayate|hayate ayasaki", "Hayate the Combat Butler", "6 8 7 0 3 8 9 1 3 9 6 0 0 2 5 4 10", "chef|survivor"],
+  ["Amu Hinamori", "amu|amu hinamori", "Shugo Chara!", "4 4 5 0 5 7 8 2 4 5 8 0 2 5 3 3 4", "hero"],
+  ["Sana Kurata", "sana kurata|kodocha", "Kodocha", "10 5 6 0 6 9 9 1 4 7 8 0 6 4 10 5 5", "dancer"],
+  // Personnages principaux manquants
+  ["Kenjaku", "kenjaku|kenjaku jjk", "Jujutsu Kaisen", "4 9 10 10 0 6 0 1 2 6 1 9 4 2 7 10 1"],
+  ["Kikoru Shinomiya", "kikoru|kikoru shinomiya", "Kaiju n°8|Kaiju No. 8|Kaiju No. 8", "2 8 7 0 2 9 6 1 3 8 6 2 8 7 4 4 3"],
+  ["Yu Ishigami", "ishigami|yu ishigami", "Kaguya-sama: Love Is War", "7 3 6 0 7 5 8 6 4 4 3 2 1 3 5 3 9"],
+  ["Yukio Okumura", "yukio|yukio okumura", "Blue Exorcist", "3 6 9 2 2 7 6 1 3 6 3 2 2 5 4 6 6", "teacher"],
+  ["Lenalee Lee", "lenalee|lenalee lee", "D.Gray-man", "4 7 6 0 2 8 9 1 3 9 7 1 2 4 5 3 6", "speedster"],
+  ["Michael Kaiser", "kaiser|michael kaiser", "Blue Lock", "4 8 8 5 1 7 1 2 3 9 4 3 7 8 7 8 4"],
+  ["Teruki Hanazawa", "teru|teruki|teruki hanazawa", "Mob Psycho 100", "5 7 7 2 2 6 6 2 3 6 4 2 4 4 6 5 3", "friend"],
+  ["Ritsu Kageyama", "ritsu|ritsu kageyama", "Mob Psycho 100", "3 5 9 2 1 6 6 1 2 5 5 2 2 5 4 6 4"],
+  ["Übel", "ubel|uebel", "Frieren", "6 8 6 6 2 8 3 3 3 8 3 7 1 3 4 7 3"],
 ];

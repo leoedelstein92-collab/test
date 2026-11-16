@@ -69,6 +69,19 @@ const SEB = "Le Monstre des mers|The Sea Beast|Monstruo marino";
 const INF = "Infinity Train";
 const MOL = "Molang";
 const WSD = "Les Garennes de Watership Down|Watership Down|La colina de Watership";
+const BAK2 = "Bakugan";
+const CAL = "Charlie et Lola|Charlie and Lola|Charlie y Lola";
+const WOY = "Wander|Wander Over Yonder|Wander Over Yonder";
+const VLT = "Voltron, le défenseur légendaire|Voltron: Legendary Defender|Voltron: El defensor legendario";
+const MDR = "Murder Drones";
+const BLC = "Taram et le Chaudron magique|The Black Cauldron|Tarón y el caldero mágico";
+const ICH = "Le Crapaud et le Maître d'école|The Adventures of Ichabod and Mr. Toad|La leyenda de Sleepy Hollow y el señor Sapo";
+const CAB = "Les Trois Caballeros|The Three Caballeros|Los tres caballeros";
+const FAN = "Fantasia";
+const DOG = "Dog Man";
+const SPD = "Les Incognitos|Spies in Disguise|Espías a escondidas";
+const BOX = "Les Boxtrolls|The Boxtrolls|Los Boxtrolls";
+const WWY = "Les Enfants du temps|Weathering with You|El tiempo contigo";
 
 module.exports = [
   // Rango
@@ -391,4 +404,78 @@ module.exports = [
   ["Oona", "oona puffin|oona macareux", "Puffin Rock", "3 2 5 0 3 6 9 1 4 6 9 0 0 1 4 2 3", "friend"],
   ["Morph", "morph pate a modeler|morph", "Morph", "7 3 3 1 6 5 6 3 4 6 7 0 0 4 0 4 5"],
   ["Renard (Les Animaux du Bois de Quat'sous)", "fox farthing wood|renard quat sous", "Les Animaux du Bois de Quat'sous|The Animals of Farthing Wood|Los animales del bosque", "2 6 8 0 1 9 8 1 3 7 3 2 0 3 4 7 5", "leader"],
+  // Bakugan
+  ["Dan Kuso", "dan kuso|daniel kuso", BAK2, "7 5 4 0 6 9 7 3 6 6 4 0 1 7 7 3 4", "hero"],
+  ["Drago (Bakugan)", "dragonoid|drago bakugan", BAK2, "3 9 8 0 1 9 7 1 1 7 3 4 0 6 5 4 3"],
+  // Charlie et Lola
+  ["Lola (Charlie et Lola)", "lola charlie et lola|lola sonner", CAL, "7 1 4 0 6 5 7 2 4 4 10 0 1 5 9 5 4"],
+  ["Charlie (Charlie et Lola)", "charlie sonner|charlie et lola", CAL, "4 3 7 0 2 5 10 1 3 4 7 0 1 1 5 6 2", "teacher"],
+  // Wander
+  ["Wander", "wander|wander over yonder", WOY, "9 3 4 0 6 8 10 2 4 5 8 0 0 0 9 4 4", "friend"],
+  ["Lord Hater", "lord hater|seigneur hater", WOY, "6 8 3 7 8 5 2 3 4 5 3 5 4 10 8 3 9"],
+  // Voltron
+  ["Keith Kogane", "keith|keith kogane", VLT, "2 7 6 1 3 9 6 1 3 9 4 3 0 7 2 4 6", "hero"],
+  ["Lance McClain", "lance mcclain|lance voltron", VLT, "8 5 5 0 7 7 7 3 4 6 5 0 1 4 9 3 6"],
+  ["Pidge", "pidge|katie holt", VLT, "6 3 10 0 3 7 7 2 4 5 6 0 1 5 7 7 5"],
+  // Murder Drones
+  ["Uzi Doorman", "uzi|uzi doorman", MDR, "7 6 8 2 6 8 4 2 3 6 4 3 0 8 7 6 9"],
+  ["N (Murder Drones)", "serial designation n|n murder drones", MDR, "6 8 3 4 7 5 9 2 3 8 8 7 0 1 7 2 7"],
+  // Taram et le Chaudron magique
+  ["Taram", "taran|taram", BLC, "4 4 5 0 6 8 8 2 3 5 4 0 0 4 5 3 6", "hero"],
+  ["Gurgi", "gurgi", BLC, "7 2 2 0 6 4 7 3 9 6 5 1 0 3 7 4 5", "glutton"],
+  ["Le Seigneur des Ténèbres", "horned king|roi cornu|rey del mal|seigneur des tenebres", BLC, "1 8 8 10 1 5 0 2 2 4 0 10 7 9 4 8 4"],
+  // Ichabod et M. Crapaud
+  ["Ichabod Crane", "ichabod|ichabod crane", ICH, "6 2 6 2 8 2 4 3 9 6 1 0 2 3 6 5 9"],
+  ["M. Crapaud", "mr toad|monsieur crapaud|j thaddeus toad|senor sapo", ICH, "9 3 3 1 9 6 5 5 5 8 3 0 8 4 9 3 7"],
+  // Les Trois Caballeros
+  ["José Carioca", "jose carioca|ze carioca", CAB, "8 3 6 0 2 6 8 4 5 6 4 0 3 2 9 6 2", "dancer"],
+  ["Panchito Pistoles", "panchito|panchito pistoles", CAB, "8 5 4 0 3 8 8 2 5 7 3 0 3 4 10 4 2", "dancer"],
+  // Fantasia
+  ["Chernabog", "chernabog|tchernobog", FAN, "0 10 6 10 0 6 0 2 3 6 0 10 5 8 0 6 2"],
+  ["Yen Sid", "yen sid|yensid|le sorcier de fantasia", FAN, "1 8 10 1 0 7 6 2 2 4 1 5 6 7 1 7 1", "teacher"],
+  // Dog Man
+  ["Dog Man", "dog man|chien flic|dogman", DOG, "8 9 3 0 8 9 9 2 6 7 6 0 1 3 0 2 5", "hero"],
+  ["Petey (Dog Man)", "petey le chat|petey dog man", DOG, "7 3 9 8 4 5 4 3 4 5 3 3 1 8 7 8 7"],
+  // Les Incognitos
+  ["Lance Sterling", "lance sterling", SPD, "6 8 6 0 4 9 5 2 4 8 5 0 6 6 7 7 6"],
+  ["Walter Beckett", "walter beckett", SPD, "6 2 10 0 7 6 9 1 3 4 6 0 1 2 8 6 6"],
+  // Les Boxtrolls
+  ["Eggs (Les Boxtrolls)", "eggs boxtrolls|eggs", BOX, "5 4 5 0 5 8 9 1 4 5 6 0 0 3 4 4 7"],
+  ["Archibald Trappenard", "archibald snatcher|snatcher|trappenard", BOX, "4 6 5 9 6 4 0 2 8 5 0 6 2 8 7 8 6"],
+  // Les Enfants du temps
+  ["Hina Amano", "hina|hina amano", WWY, "5 2 5 0 3 8 9 1 3 3 7 0 0 2 5 3 7"],
+  ["Hodaka Morishima", "hodaka", WWY, "4 3 5 1 5 9 7 1 3 5 5 0 0 4 4 4 8", "hero"],
+  // Séries
+  ["Bobby Generic", "bobby generic|le monde de bobby|bobby's world", "Le Monde de Bobby|Bobby's World|El mundo de Bobby", "8 2 4 0 7 5 7 3 5 4 8 0 1 2 8 3 5"],
+  ["Tyson Granger", "tyson|takao kinomiya|tyson beyblade", "Beyblade", "6 5 4 0 4 9 7 4 9 7 4 0 1 6 7 4 3", "hero|glutton"],
+  ["Jayce (Les Conquérants de la lumière)", "jayce conquerants|jayce wheeled warriors", "Jayce et les Conquérants de la lumière|Jayce and the Wheeled Warriors|Jayce y los guerreros sobre ruedas", "3 6 6 0 3 9 7 1 2 7 3 0 1 3 4 5 5", "hero|leader"],
+  ["Heathcliff", "heathcliff", "Heathcliff", "6 6 6 4 3 6 3 6 8 7 4 1 0 6 3 8 3", "glutton"],
+  ["Bouli", "bouli le bonhomme de neige", "Bouli", "5 3 4 0 4 5 9 3 4 3 9 0 0 1 4 2 4", "friend"],
+  ["Timmy (Timmy Time)", "timmy time|timmy le mouton", "Timmy Time", "6 2 3 0 7 5 7 3 5 5 10 0 0 4 0 4 5"],
+  ["Kick Buttowski", "kick buttowski", "Kick Buttowski", "7 5 4 1 6 10 5 2 5 8 3 0 1 6 6 5 7"],
+  ["Milo Murphy", "milo murphy|loi de murphy", "La Loi de Milo Murphy|Milo Murphy's Law|La ley de Milo Murphy", "7 3 6 0 9 8 9 1 3 5 6 0 1 1 7 4 10", "friend"],
+  ["Kat (Kid vs. Kat)", "kat kid vs kat|kat le chat", "Kid vs. Kat", "4 5 9 8 1 5 0 4 4 7 6 5 1 6 0 9 2"],
+  ["El Tigre", "manny rivera|el tigre", "El Tigre : Les Aventures de Manny Rivera|El Tigre: The Adventures of Manny Rivera|El Tigre: Las aventuras de Manny Rivera", "7 7 5 4 5 7 5 3 4 7 4 2 1 5 7 6 5"],
+  ["Jenny Wakeman", "xj 9|xj9|jenny robot|my life as a teenage robot", "Ma vie de robot ado|My Life as a Teenage Robot|Mi vida como robot adolescente", "6 10 7 0 7 8 8 1 1 9 6 1 1 4 7 3 6", "hero"],
+  ["Otis (La Ferme en folie)", "otis la vache|otis barnyard", "La Ferme en folie|Back at the Barnyard|El corral: Una fiesta muy bestia", "8 7 3 1 6 7 6 6 6 5 3 0 1 3 8 5 4", "leader|dancer"],
+  ["Lucky Prescott", "lucky prescott|fortuna esperanza navarro prescott", "Spirit : Au galop en toute liberté|Spirit Riding Free|Spirit: Cabalgando libre", "5 4 6 0 5 9 8 1 3 7 6 0 4 4 6 4 4", "hero"],
+  ["Kipo Oak", "kipo", "Kipo et l'âge des animonstres|Kipo and the Age of Wonderbeasts|Kipo y la era de las bestias", "7 7 6 0 5 9 10 1 4 7 7 2 0 1 8 4 5", "friend|leader"],
+  ["Reagan Ridley", "reagan ridley", "Inside Job", "4 2 10 1 3 5 4 1 2 3 2 0 4 8 6 5 8"],
+  ["Droopy", "droopy|droopy le chien", "Droopy", "6 5 5 0 1 7 7 4 3 8 5 0 1 0 3 8 2"],
+  ["Mighty Mouse", "super souris|mighty mouse", "Mighty Mouse", "3 10 5 0 1 10 8 1 3 10 6 0 1 2 6 3 1", "hero"],
+  ["Magilla le gorille", "magilla gorilla|maguila gorila", "Magilla Gorilla", "7 7 2 0 8 4 9 3 9 3 6 0 0 1 5 1 9", "glutton"],
+  ["La Fourmi atomique", "atom ant|la hormiga atomica", "La Fourmi atomique|Atom Ant|La hormiga atómica", "3 10 5 0 1 10 8 1 2 10 6 0 0 3 4 4 2", "hero|speedster"],
+  ["Jabberjaw", "jabberjaw|dents de la mer|jabberjaw le requin", "Jabberjaw", "8 8 3 0 7 6 7 3 7 7 4 2 0 4 9 3 9"],
+  // Films
+  ["Maggie (La Ferme se rebelle)", "maggie vache|maggie home on the range", "La Ferme se rebelle|Home on the Range|Zafarrancho en el rancho", "8 7 4 0 3 8 6 2 6 5 3 0 0 5 9 6 4"],
+  ["Mack Mallard", "mack mallard|mack migration", "Migration", "6 4 5 0 6 3 8 2 4 5 3 0 1 6 5 3 6"],
+  ["Cody Maverick", "cody maverick", "Les Rois de la glisse|Surf's Up|Locos por el surf", "5 5 5 0 5 7 6 2 3 7 6 0 0 6 6 4 6"],
+  ["Arthur Christmas", "arthur noel|arthur christmas", "Mission : Noël|Arthur Christmas|Arthur Christmas", "6 2 4 0 9 8 10 1 4 4 7 0 4 1 7 2 7", "hero"],
+  ["Monsieur Link", "mr link|susan link|missing link", "Monsieur Link|Missing Link|Mr. Link: El origen perdido", "7 9 3 0 7 6 9 2 5 4 5 2 0 1 6 1 6", "friend"],
+  ["Le Capitaine Pirate", "pirate captain|capitan pirata|les pirates bons a rien", "Les Pirates ! Bons à rien, mauvais en tout|The Pirates! Band of Misfits|¡Piratas!", "8 5 2 1 8 7 6 4 9 5 2 1 1 4 8 4 8", "leader|glutton"],
+  ["Dug (Cro Man)", "dug cro man|dug early man", "Cro Man|Early Man|Cavernícola", "6 4 4 0 6 9 8 2 4 5 5 0 0 2 6 4 5", "leader"],
+  ["Félicie", "felicie milliner|felicie ballerina", "Ballerina|Leap!|Ballerina", "5 3 5 0 6 9 7 1 3 7 7 0 0 5 6 6 5", "dancer"],
+  ["Avril (Avril et le Monde truqué)", "avril franklin|april and the extraordinary world", "Avril et le Monde truqué|April and the Extraordinary World|Abril y el mundo extraordinario", "4 3 9 0 3 9 6 1 3 5 4 0 1 6 5 6 7"],
+  ["Makoto Konno", "makoto konno|la traversee du temps", "La Traversée du temps|The Girl Who Leapt Through Time|La chica que saltaba a través del tiempo", "7 4 4 0 9 6 7 3 6 6 5 0 1 4 7 3 6"],
+  ["Kenji Koiso", "kenji koiso|summer wars", "Summer Wars", "3 2 10 0 7 7 8 1 3 3 3 0 1 2 3 3 8"],
 ];

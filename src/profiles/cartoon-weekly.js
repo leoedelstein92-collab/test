@@ -1630,4 +1630,535 @@ module.exports = {
       rom: "Il tombe amoureux de Fée-Renarde.|He falls in love with Vixen.|Se enamora de Vixen.",
     },
   },
+  "Dan Kuso": {
+    x: "5 5 7 7 8 5 3",
+    d: "Jeune joueur fougueux qui combat avec son Bakugan dragon|Hot-headed young brawler who battles with his dragon Bakugan|Joven luchador impetuoso que combate con su Bakugan dragón",
+    f: {
+      bra: "Il fonce dans chaque combat sans jamais abandonner.|He charges into every battle and never gives up.|Se lanza a cada combate sin rendirse nunca.",
+      glu: "Il a un appétit énorme et adore manger.|He has a huge appetite and loves to eat.|Tiene un apetito enorme y le encanta comer.",
+      kin: "Il considère Drago comme son meilleur ami.|He sees Drago as his best friend.|Considera a Drago su mejor amigo.",
+    },
+  },
+  "Drago (Bakugan)": {
+    x: "8 6 9 8 2 1 7",
+    d: "Dragon pyrus fier et puissant, partenaire de Dan|Proud, powerful Pyrus dragon and Dan's partner|Dragón Pyrus orgulloso y poderoso, compañero de Dan",
+    f: {
+      str: "Il évolue en formes de plus en plus puissantes.|He evolves into ever more powerful forms.|Evoluciona hacia formas cada vez más poderosas.",
+      lea: "Il devient le gardien du noyau de Vestroia.|He becomes the guardian of Vestroia's core.|Se convierte en guardián del núcleo de Vestroia.",
+      tem: "Il méprise d'abord les humains avant de faire confiance à Dan.|He scorns humans at first before trusting Dan.|Al principio desprecia a los humanos antes de confiar en Dan.",
+    },
+  },
+  "Lola (Charlie et Lola)": {
+    x: "8 7 6 2 6 2 2",
+    d: "Petite fille imaginative et têtue qui refuse les tomates|Imaginative, stubborn little girl who won't eat tomatoes|Niña imaginativa y testaruda que no come tomates",
+    f: {
+      glu: "Elle déclare qu'elle ne mangera jamais, au grand jamais, de tomate.|She declares she will never, not ever, eat a tomato.|Declara que nunca jamás comerá un tomate.",
+      tal: "Elle a une réponse pour tout et parle sans arrêt.|She has an answer for everything and talks nonstop.|Tiene respuesta para todo y habla sin parar.",
+      kin: "Elle a une amie imaginaire, Soren Lorensen.|She has an imaginary friend, Soren Lorensen.|Tiene un amigo imaginario, Soren Lorensen.",
+    },
+  },
+  "Charlie (Charlie et Lola)": {
+    x: "5 5 9 7 6 1 7",
+    d: "Grand frère patient qui use d'astuces pour aider sa sœur|Patient big brother who uses clever tricks to help his sister|Hermano mayor paciente que usa trucos para ayudar a su hermana",
+    f: {
+      cun: "Il renomme les carottes en « bâtons orange de Jupiter » pour que Lola les mange.|He renames carrots \"orange twiglets from Jupiter\" so Lola will eat them.|Llama a las zanahorias \"palitos naranjas de Júpiter\" para que Lola se las coma.",
+      kin: "Il aide toujours sa petite sœur avec gentillesse.|He always helps his little sister kindly.|Siempre ayuda con amabilidad a su hermana pequeña.",
+      tal: "Il raconte la série en présentant sa petite sœur.|He narrates the show, introducing his little sister.|Narra la serie presentando a su hermana pequeña.",
+    },
+  },
+  "Wander": {
+    x: "4 5 10 3 10 6 1",
+    d: "Voyageur galactique optimiste au chapeau magique|Optimistic galactic wanderer with a magic hat|Viajero galáctico optimista con un sombrero mágico",
+    f: {
+      kin: "Il veut aider tout le monde, même ses ennemis.|He wants to help everyone, even his enemies.|Quiere ayudar a todo el mundo, incluso a sus enemigos.",
+      soc: "Il cherche à devenir ami avec Lord Hater.|He keeps trying to befriend Lord Hater.|Intenta hacerse amigo de Lord Hater.",
+      tal: "Il tire de tout de son chapeau, y compris un banjo.|He pulls everything from his hat, including a banjo.|Saca todo de su sombrero, incluido un banjo.",
+    },
+  },
+  "Lord Hater": {
+    x: "3 7 3 8 3 1 3",
+    d: "Seigneur squelette colérique qui veut dominer la galaxie|Hot-tempered skeleton lord who wants to rule the galaxy|Señor esqueleto colérico que quiere dominar la galaxia",
+    f: {
+      tem: "Il pique des crises dès que Wander l'agace.|He throws fits whenever Wander annoys him.|Le dan rabietas cada vez que Wander le molesta.",
+      lea: "Il commande une armée de Watchdogs.|He commands an army of Watchdogs.|Comanda un ejército de Watchdogs.",
+      unl: "Son rival Lord Dominator le surpasse.|His rival Lord Dominator outshines him.|Su rival Lord Dominator le supera.",
+    },
+  },
+  "Keith Kogane": {
+    x: "7 5 7 7 2 4 5",
+    d: "Pilote solitaire et impulsif du Lion rouge puis noir|Lone, impulsive pilot of the Red then Black Lion|Piloto solitario e impulsivo del León rojo y luego negro",
+    f: {
+      spd: "Il est un pilote exceptionnel aux réflexes rapides.|He is an exceptional pilot with fast reflexes.|Es un piloto excepcional de reflejos rápidos.",
+      tem: "Il fonce sans réfléchir et s'emporte facilement.|He rushes in without thinking and flares up easily.|Se lanza sin pensar y se enfada fácilmente.",
+      lea: "Il devient le chef de Voltron après Shiro.|He becomes Voltron's leader after Shiro.|Se convierte en líder de Voltron tras Shiro.",
+    },
+  },
+  "Lance McClain": {
+    x: "6 6 6 4 9 8 4",
+    d: "Pilote dragueur et blagueur du Lion bleu|Flirty, joking pilot of the Blue Lion|Piloto ligón y bromista del León azul",
+    f: {
+      rom: "Il drague toutes les filles qu'il croise, dont la princesse Allura.|He flirts with every girl he meets, including Princess Allura.|Liga con todas las chicas que encuentra, incluida la princesa Allura.",
+      hum: "Il se moque volontiers de Keith.|He loves teasing Keith.|Le encanta burlarse de Keith.",
+      kin: "Il a le mal du pays et pense à sa famille sur Terre.|He's homesick and misses his family on Earth.|Siente nostalgia y echa de menos a su familia en la Tierra.",
+    },
+  },
+  "Pidge": {
+    x: "5 3 7 5 4 1 7",
+    d: "Génie de l'informatique qui pilote le Lion vert|Computer genius who pilots the Green Lion|Genio informático que pilota el León verde",
+    f: {
+      hon: "Elle s'est fait passer pour un garçon pour entrer à l'école de la Garnison.|She posed as a boy to get into the Garrison academy.|Se hizo pasar por chico para entrar en la academia de la Guarnición.",
+      int: "Elle pirate et invente les technologies de l'équipe.|She hacks and builds the team's tech.|Hackea e inventa la tecnología del equipo.",
+      bra: "Elle cherche son père et son frère disparus dans l'espace.|She searches for her father and brother lost in space.|Busca a su padre y a su hermano desaparecidos en el espacio.",
+    },
+  },
+  "Uzi Doorman": {
+    x: "6 7 6 5 3 3 4",
+    d: "Drone ouvrière ado rebelle qui veut combattre les drones tueurs|Rebellious teen worker drone out to fight the murder drones|Dron obrera adolescente rebelde que quiere luchar contra los drones asesinos",
+    f: {
+      tem: "Elle est sarcastique et en colère contre tout le monde.|She's sarcastic and angry at everyone.|Es sarcástica y está enfadada con todo el mundo.",
+      int: "Elle construit un canon à rail pour abattre les drones tueurs.|She builds a railgun to take down the murder drones.|Construye un cañón de riel para derribar a los drones asesinos.",
+      rom: "Elle se rapproche de N, le drone qu'elle voulait détruire.|She grows close to N, the drone she meant to destroy.|Se acerca a N, el dron que quería destruir.",
+    },
+  },
+  "N (Murder Drones)": {
+    x: "7 3 9 3 9 5 3",
+    d: "Drone tueur gentil et maladroit au passé trouble|Kind, awkward murder drone with a troubled past|Dron asesino amable y torpe con un pasado oscuro",
+    f: {
+      kin: "Il est poli et gentil malgré sa programmation de tueur.|He's polite and kind despite being programmed to kill.|Es educado y amable pese a estar programado para matar.",
+      scr: "Ses yeux et ses griffes trahissent sa nature de tueur.|His eyes and claws betray his killer nature.|Sus ojos y garras delatan su naturaleza asesina.",
+      clu: "Il est maladroit et cherche à faire plaisir.|He's clumsy and eager to please.|Es torpe y quiere agradar.",
+    },
+  },
+  "Taram": {
+    x: "5 3 7 6 4 6 3",
+    d: "Garçon porcher qui rêve d'être un grand guerrier|Pig-keeper boy who dreams of being a great warrior|Joven porquero que sueña con ser un gran guerrero",
+    f: {
+      bra: "Il affronte le Seigneur des Ténèbres pour protéger la cochonne Tirelire.|He faces the Horned King to protect the pig Hen Wen.|Se enfrenta al Rey del Mal para proteger a la cerda Hen Wen.",
+      clu: "Il se vante de ses exploits avant de les accomplir.|He brags about his deeds before achieving them.|Presume de sus hazañas antes de lograrlas.",
+      kin: "Il échange l'épée magique pour sauver Gurgi.|He trades away the magic sword to save Gurgi.|Cambia la espada mágica para salvar a Gurgi.",
+    },
+  },
+  "Gurgi": {
+    x: "2 1 2 1 6 1 1",
+    d: "Créature velue et peureuse obsédée par la nourriture|Hairy, cowardly creature obsessed with food|Criatura peluda y miedosa obsesionada con la comida",
+    f: {
+      glu: "Il réclame sans cesse des « miam-miam ».|He constantly begs for \"munchings and crunchings\".|Pide constantemente algo para \"mascar y crujir\".",
+      bra: "Il se sacrifie en sautant dans le chaudron.|He sacrifices himself by jumping into the cauldron.|Se sacrifica saltando al caldero.",
+      tal: "Il parle de lui à la troisième personne.|He speaks about himself in the third person.|Habla de sí mismo en tercera persona.",
+    },
+  },
+  "Le Seigneur des Ténèbres": {
+    x: "0 6 0 8 1 0 8",
+    d: "Roi squelette cornu qui veut lever une armée de morts|Skeletal horned king seeking to raise an army of the dead|Rey esquelético con cuernos que quiere alzar un ejército de muertos",
+    f: {
+      evi: "Il veut le Chaudron noir pour lever une armée de guerriers morts.|He wants the Black Cauldron to raise an army of dead warriors.|Quiere el Caldero Negro para alzar un ejército de guerreros muertos.",
+      scr: "Il est considéré comme l'un des méchants Disney les plus terrifiants.|He's considered one of Disney's scariest villains.|Se le considera uno de los villanos más aterradores de Disney.",
+      unl: "Le chaudron l'aspire et le détruit.|The cauldron sucks him in and destroys him.|El caldero lo absorbe y lo destruye.",
+    },
+  },
+  "Ichabod Crane": {
+    x: "2 4 4 2 7 6 2",
+    d: "Maître d'école gourmand et peureux de Sleepy Hollow|Greedy, cowardly schoolmaster of Sleepy Hollow|Maestro glotón y miedoso de Sleepy Hollow",
+    f: {
+      glu: "Il dévore tout ce qu'on lui sert lors des fêtes.|He devours everything served at parties.|Devora todo lo que le sirven en las fiestas.",
+      rom: "Il courtise Katrina Van Tassel, surtout pour sa fortune.|He courts Katrina Van Tassel, mostly for her fortune.|Corteja a Katrina Van Tassel, sobre todo por su fortuna.",
+      unl: "Il est poursuivi par le Cavalier sans tête.|He is chased by the Headless Horseman.|Le persigue el Jinete sin cabeza.",
+    },
+  },
+  "M. Crapaud": {
+    x: "5 8 2 1 10 4 0",
+    d: "Riche crapaud excentrique obsédé par les nouvelles modes|Wealthy, eccentric toad obsessed with every new craze|Sapo rico y excéntrico obsesionado con cada nueva moda",
+    f: {
+      ric: "Il possède le manoir de Crapaud-Hall.|He owns the mansion of Toad Hall.|Es dueño de la mansión del Salón del Sapo.",
+      unl: "Il échange son manoir contre une voiture et finit en prison.|He trades his mansion for a car and ends up in jail.|Cambia su mansión por un coche y acaba en la cárcel.",
+      spd: "Sa manie des automobiles le pousse à conduire à toute vitesse.|His motorcar mania drives him to race at full speed.|Su manía por los automóviles le lleva a conducir a toda velocidad.",
+    },
+  },
+  "José Carioca": {
+    x: "6 9 6 5 9 7 4",
+    d: "Perroquet brésilien élégant et charmeur, ami de Donald|Elegant, charming Brazilian parrot and Donald's friend|Loro brasileño elegante y encantador, amigo de Donald",
+    f: {
+      sty: "Il porte un canotier et tient un parapluie.|He wears a boater hat and carries an umbrella.|Lleva un canotier y un paraguas.",
+      tal: "Il fait découvrir la samba et Bahia à Donald.|He introduces Donald to samba and Bahia.|Hace descubrir la samba y Bahía a Donald.",
+      soc: "Il fait partie du trio des Trois Caballeros.|He's one of the Three Caballeros trio.|Forma parte del trío de los Tres Caballeros.",
+    },
+  },
+  "Panchito Pistoles": {
+    x: "6 9 5 6 10 7 3",
+    d: "Coq mexicain exubérant qui joue des pistolets|Exuberant Mexican rooster who fires pistols for fun|Gallo mexicano exuberante que dispara pistolas por diversión",
+    f: {
+      tal: "Il chante à tue-tête la chanson des Trois Caballeros.|He belts out the Three Caballeros song.|Canta a todo pulmón la canción de los Tres Caballeros.",
+      soc: "Il entraîne ses amis à la fête au Mexique.|He takes his friends partying in Mexico.|Lleva a sus amigos de fiesta por México.",
+      bra: "Il tire en l'air avec ses deux pistolets.|He fires his two pistols into the air.|Dispara al aire con sus dos pistolas.",
+    },
+  },
+  "Chernabog": {
+    x: "0 2 0 10 1 0 4",
+    d: "Démon géant qui règne sur la nuit du mont Chauve|Giant demon ruling the night on Bald Mountain|Demonio gigante que reina en la noche del Monte Pelado",
+    f: {
+      scr: "Il convoque les esprits des morts au sommet de la montagne.|He summons the spirits of the dead atop the mountain.|Convoca a los espíritus de los muertos en la cima de la montaña.",
+      unl: "Les cloches de l'aube le renvoient dans sa montagne.|The dawn bells drive him back into his mountain.|Las campanas del alba lo devuelven a su montaña.",
+      str: "Il domine la scène de ses immenses ailes.|He towers over the scene with his huge wings.|Domina la escena con sus enormes alas.",
+    },
+  },
+  "Yen Sid": {
+    x: "3 4 7 8 1 0 9",
+    d: "Sorcier sévère qui enseigne la magie à Mickey|Stern sorcerer who teaches Mickey magic|Hechicero severo que enseña magia a Mickey",
+    f: {
+      tem: "Il fusille Mickey du regard après le désastre des balais.|He glares at Mickey after the broom disaster.|Fulmina con la mirada a Mickey tras el desastre de las escobas.",
+      int: "Son nom est « Disney » écrit à l'envers.|His name is \"Disney\" spelled backwards.|Su nombre es \"Disney\" escrito al revés.",
+      str: "Il fend les eaux d'un geste pour arrêter l'inondation.|He parts the waters with one gesture to stop the flood.|Separa las aguas con un gesto para detener la inundación.",
+    },
+  },
+  "Dog Man": {
+    x: "3 2 10 6 4 2 2",
+    d: "Policier à tête de chien, mi-flic mi-chien|Police officer with a dog's head, part cop, part dog|Policía con cabeza de perro, mitad poli mitad perro",
+    f: {
+      str: "Il est né d'une opération greffant la tête de son chien policier sur son corps.|He was born from surgery stitching his police dog's head onto his body.|Nació de una operación que unió la cabeza de su perro policía a su cuerpo.",
+      clu: "Il se laisse distraire comme un chien par une balle ou un écureuil.|He gets distracted like a dog by a ball or a squirrel.|Se distrae como un perro con una pelota o una ardilla.",
+      tal: "Il ne parle pas et s'exprime comme un chien.|He doesn't talk and expresses himself like a dog.|No habla y se expresa como un perro.",
+    },
+  },
+  "Petey (Dog Man)": {
+    x: "3 4 2 6 3 2 5",
+    d: "Chat génie du crime, ennemi juré de Dog Man|Criminal genius cat and Dog Man's archenemy|Gato genio del crimen, archienemigo de Dog Man",
+    f: {
+      evi: "Il invente des machines pour dominer la ville.|He invents machines to take over the city.|Inventa máquinas para dominar la ciudad.",
+      kin: "Il s'adoucit au contact de Lil' Petey, son clone.|He softens through Lil' Petey, his clone.|Se ablanda gracias a Lil' Petey, su clon.",
+      unl: "Ses plans finissent toujours par l'envoyer en prison.|His plans always land him back in jail.|Sus planes siempre le llevan de vuelta a la cárcel.",
+    },
+  },
+  "Lance Sterling": {
+    x: "8 10 2 7 7 6 6",
+    d: "Super-espion arrogant transformé en pigeon|Arrogant super spy turned into a pigeon|Superespía arrogante transformado en paloma",
+    f: {
+      unl: "Il boit la potion de Walter et devient un pigeon.|He drinks Walter's potion and turns into a pigeon.|Bebe la poción de Walter y se convierte en paloma.",
+      sty: "Il porte des costumes impeccables et des gadgets dernier cri.|He wears sharp suits and cutting-edge gadgets.|Lleva trajes impecables y gadgets de última generación.",
+      soc: "Il préfère travailler seul.|He prefers to work alone.|Prefiere trabajar solo.",
+    },
+  },
+  "Walter Beckett": {
+    x: "4 4 9 2 4 3 6",
+    d: "Jeune inventeur génial qui crée des gadgets non violents|Brilliant young inventor of non-violent gadgets|Joven inventor genial que crea gadgets no violentos",
+    f: {
+      int: "Il invente la potion qui change Lance en pigeon.|He invents the potion that turns Lance into a pigeon.|Inventa la poción que convierte a Lance en paloma.",
+      kin: "Il veut sauver le monde sans blesser personne.|He wants to save the world without hurting anyone.|Quiere salvar el mundo sin herir a nadie.",
+      sty: "Ses gadgets comprennent une bombe à paillettes et des câlins gonflables.|His gadgets include a glitter bomb and inflatable hugs.|Sus gadgets incluyen una bomba de purpurina y abrazos inflables.",
+    },
+  },
+  "Eggs (Les Boxtrolls)": {
+    x: "4 3 9 4 3 4 4",
+    d: "Garçon élevé par des Boxtrolls dans les égouts|Boy raised by Boxtrolls in the sewers|Niño criado por los Boxtrolls en las alcantarillas",
+    f: {
+      unl: "Il croit être un Boxtroll car il a grandi parmi eux.|He thinks he's a Boxtroll because he grew up among them.|Cree que es un Boxtroll porque creció con ellos.",
+      sty: "Il porte une boîte d'œufs comme vêtement, d'où son nom.|He wears an egg box as clothing, hence his name.|Lleva una caja de huevos como ropa, de ahí su nombre.",
+      bra: "Il monte à la surface pour sauver sa famille adoptive.|He goes up to the surface to save his adoptive family.|Sube a la superficie para salvar a su familia adoptiva.",
+    },
+  },
+  "Archibald Trappenard": {
+    x: "1 3 1 5 6 2 7",
+    d: "Exterminateur ambitieux qui veut rejoindre l'élite au chapeau blanc|Ambitious exterminator who wants to join the white-hat elite|Exterminador ambicioso que quiere unirse a la élite del sombrero blanco",
+    f: {
+      evi: "Il chasse les Boxtrolls pour gagner un chapeau blanc.|He hunts Boxtrolls to earn a white hat.|Caza Boxtrolls para ganarse un sombrero blanco.",
+      glu: "Il est allergique au fromage mais en mange quand même.|He's allergic to cheese but eats it anyway.|Es alérgico al queso pero lo come igualmente.",
+      cun: "Il se déguise en Madame Frou-Frou.|He disguises himself as Madame Frou-Frou.|Se disfraza de Madame Frou-Frou.",
+    },
+  },
+  "Hina Amano": {
+    x: "8 5 8 4 7 6 5",
+    d: "Adolescente capable de faire revenir le soleil en priant|Teen girl who can bring back the sun by praying|Adolescente capaz de hacer salir el sol rezando",
+    f: {
+      tal: "Elle fait briller le soleil sur Tokyo en priant.|She makes the sun shine over Tokyo by praying.|Hace salir el sol sobre Tokio rezando.",
+      kin: "Elle élève seule son petit frère après la mort de sa mère.|She raises her little brother alone after her mother's death.|Cría sola a su hermano pequeño tras la muerte de su madre.",
+      unl: "Son pouvoir la fait disparaître peu à peu dans le ciel.|Her power slowly makes her vanish into the sky.|Su poder la hace desaparecer poco a poco en el cielo.",
+    },
+  },
+  "Hodaka Morishima": {
+    x: "5 4 5 4 5 9 3",
+    d: "Lycéen fugueur venu vivre à Tokyo|Runaway high schooler who comes to live in Tokyo|Estudiante fugitivo que se va a vivir a Tokio",
+    f: {
+      unl: "Il fugue de son île et survit difficilement à Tokyo.|He runs away from his island and barely gets by in Tokyo.|Huye de su isla y apenas sobrevive en Tokio.",
+      rom: "Il choisit de sauver Hina plutôt que le temps à Tokyo.|He chooses to save Hina over Tokyo's weather.|Elige salvar a Hina antes que el clima de Tokio.",
+      hon: "Il ment sur son âge et son passé.|He lies about his age and his past.|Miente sobre su edad y su pasado.",
+    },
+  },
+  "Bobby Generic": {
+    x: "5 4 8 2 5 2 1",
+    d: "Petit garçon à l'imagination débordante|Little boy with a runaway imagination|Niño pequeño con una imaginación desbordante",
+    f: {
+      int: "Il transforme chaque moment ordinaire en aventure imaginaire.|He turns every ordinary moment into an imaginary adventure.|Convierte cada momento ordinario en una aventura imaginaria.",
+      tal: "Il pose sans arrêt des questions sur le monde.|He keeps asking questions about the world.|No para de hacer preguntas sobre el mundo.",
+      cut: "Il a quatre ans et adore son doudou Roger.|He's four and loves his toy Roger.|Tiene cuatro años y adora a su peluche Roger.",
+    },
+  },
+  "Tyson Granger": {
+    x: "6 5 6 8 8 4 2",
+    d: "Champion de toupie impulsif et gourmand des Bladebreakers|Impulsive, greedy beyblade champion of the Bladebreakers|Campeón de peonzas impulsivo y glotón de los Bladebreakers",
+    f: {
+      bra: "Il ne recule devant aucun adversaire avec sa toupie Dragoon.|He backs down from no opponent with his Dragoon beyblade.|No retrocede ante ningún rival con su peonza Dragoon.",
+      glu: "Il mange en quantités énormes.|He eats enormous amounts.|Come en cantidades enormes.",
+      laz: "Il dort tard et néglige l'entraînement.|He sleeps in and skips training.|Duerme hasta tarde y descuida el entrenamiento.",
+    },
+  },
+  "Jayce (Les Conquérants de la lumière)": {
+    x: "6 5 8 9 4 3 7",
+    d: "Jeune chef qui cherche son père et combat les Monstroplantes|Young leader searching for his father and fighting the Monster Minds|Joven líder que busca a su padre y combate a los Monstruos Mentales",
+    f: {
+      lea: "Il dirige les Conquérants de la lumière.|He leads the Lightning League.|Dirige la Liga del Rayo.",
+      bra: "Il affronte Saw Boss et son armée de plantes mutantes.|He faces Saw Boss and his army of mutant plants.|Se enfrenta a Saw Boss y su ejército de plantas mutantes.",
+      unl: "Il cherche son père Audric sans jamais le retrouver.|He searches for his father Audric without ever finding him.|Busca a su padre Audric sin encontrarlo nunca.",
+    },
+  },
+  "Heathcliff": {
+    x: "5 4 2 6 9 4 1",
+    d: "Chat de gouttière bagarreur qui terrorise le quartier|Scrappy alley cat who terrorizes the neighborhood|Gato callejero pendenciero que aterroriza al barrio",
+    f: {
+      cun: "Il vole le poisson du poissonnier sans se faire prendre.|He steals fish from the fishmonger without getting caught.|Roba pescado del pescadero sin que le pillen.",
+      tem: "Il se bagarre avec les chiens et les autres chats.|He scraps with dogs and other cats.|Se pelea con perros y otros gatos.",
+      glu: "Il chaparde la nourriture partout où il passe.|He pinches food everywhere he goes.|Roba comida por donde pasa.",
+    },
+  },
+  "Bouli": {
+    x: "8 4 8 2 7 2 4",
+    d: "Bonhomme de neige gentil vivant dans un village de jouets|Kind snowman living in a toy village|Muñeco de nieve amable que vive en un pueblo de juguetes",
+    f: {
+      kin: "Il aide tous les habitants de son village.|He helps everyone in his village.|Ayuda a todos los habitantes de su pueblo.",
+      cut: "Il est tout rond et souriant.|He's round and smiling.|Es redondo y sonriente.",
+      hon: "Il règle les problèmes avec franchise et douceur.|He solves problems honestly and gently.|Resuelve los problemas con franqueza y dulzura.",
+    },
+  },
+  "Timmy (Timmy Time)": {
+    x: "8 2 6 3 7 2 2",
+    d: "Agneau espiègle qui va à la crèche des petits animaux|Mischievous lamb who goes to a nursery for little animals|Corderito travieso que va a la guardería de animalitos",
+    f: {
+      tal: "Il ne parle pas et s'exprime en bêlant.|He doesn't speak and communicates by bleating.|No habla y se expresa balando.",
+      clu: "Ses bêtises causent des catastrophes à la crèche.|His mischief causes chaos at nursery.|Sus travesuras causan desastres en la guardería.",
+      soc: "Il apprend à partager avec ses camarades.|He learns to share with his classmates.|Aprende a compartir con sus compañeros.",
+    },
+  },
+  "Kick Buttowski": {
+    x: "4 6 6 6 6 3 3",
+    d: "Cascadeur de banlieue qui rêve d'être le plus grand casse-cou|Suburban stuntman dreaming of being the greatest daredevil|Especialista de suburbio que sueña con ser el mayor temerario",
+    f: {
+      bra: "Il tente des cascades toujours plus dangereuses.|He attempts ever more dangerous stunts.|Intenta acrobacias cada vez más peligrosas.",
+      sty: "Il porte toujours son casque et sa combinaison blanche.|He always wears his helmet and white jumpsuit.|Siempre lleva su casco y su mono blanco.",
+      unl: "Son grand frère Brad lui gâche ses exploits.|His big brother Brad ruins his feats.|Su hermano mayor Brad le arruina sus hazañas.",
+    },
+  },
+  "Milo Murphy": {
+    x: "5 5 9 7 9 4 8",
+    d: "Garçon optimiste poursuivi par la loi de Murphy|Optimistic boy who lives under Murphy's Law|Niño optimista perseguido por la ley de Murphy",
+    f: {
+      unl: "Tout ce qui peut mal tourner autour de lui tourne mal.|Everything that can go wrong around him does.|Todo lo que puede salir mal a su alrededor sale mal.",
+      org: "Il garde dans son sac à dos de quoi parer à tout.|He keeps everything he might need in his backpack.|Lleva en su mochila de todo para cualquier imprevisto.",
+      kin: "Il reste joyeux et aide ses amis malgré les catastrophes.|He stays cheerful and helps his friends despite the disasters.|Sigue alegre y ayuda a sus amigos pese a los desastres.",
+    },
+  },
+  "Kat (Kid vs. Kat)": {
+    x: "5 2 0 6 1 0 7",
+    d: "Chat extraterrestre maléfique qui fait semblant d'être adorable|Evil alien cat pretending to be adorable|Gato extraterrestre malvado que finge ser adorable",
+    f: {
+      cun: "Il joue les chatons innocents devant les adultes.|He plays the innocent kitten in front of adults.|Hace de gatito inocente delante de los adultos.",
+      evi: "Il veut rentrer sur sa planète en piégeant Coop.|He wants to get back to his planet by framing Coop.|Quiere volver a su planeta tendiendo trampas a Coop.",
+      tal: "Il ne parle pas, seulement par miaulements et regards.|He doesn't speak, only meows and glares.|No habla, solo maúlla y mira.",
+    },
+  },
+  "El Tigre": {
+    x: "5 8 5 6 7 5 2",
+    d: "Garçon tiraillé entre le bien et le mal grâce à une boucle de ceinture|Boy torn between good and evil thanks to a magic belt buckle|Chico dividido entre el bien y el mal por una hebilla mágica",
+    f: {
+      hon: "Il hésite sans cesse entre devenir héros ou méchant.|He keeps wavering between becoming a hero or a villain.|Duda sin cesar entre ser héroe o villano.",
+      str: "Sa boucle de ceinture le transforme en tigre aux griffes acérées.|His belt buckle turns him into a tiger with sharp claws.|Su hebilla le convierte en un tigre de garras afiladas.",
+      soc: "Son meilleur ami est Frida Suárez.|His best friend is Frida Suárez.|Su mejor amiga es Frida Suárez.",
+    },
+  },
+  "Jenny Wakeman": {
+    x: "7 6 9 5 7 4 4",
+    d: "Robot de combat surpuissant qui veut vivre comme une ado|Super-powered combat robot who wants a normal teen life|Robot de combate superpoderoso que quiere vivir como una adolescente",
+    f: {
+      str: "Elle protège la Terre grâce à son arsenal intégré.|She protects Earth with her built-in arsenal.|Protege la Tierra con su arsenal integrado.",
+      soc: "Elle veut aller à l'école et se faire des amis.|She wants to go to school and make friends.|Quiere ir al colegio y hacer amigos.",
+      tem: "Elle se rebelle contre sa créatrice, le Dr Wakeman.|She rebels against her creator, Dr Wakeman.|Se rebela contra su creadora, la Dra. Wakeman.",
+    },
+  },
+  "Otis (La Ferme en folie)": {
+    x: "5 5 6 7 10 4 3",
+    d: "Vache fêtarde qui devient chef de la ferme|Party-loving cow who becomes leader of the barnyard|Vaca fiestera que se convierte en líder de la granja",
+    f: {
+      soc: "Il organise des fêtes secrètes dès que le fermier dort.|He throws secret parties whenever the farmer sleeps.|Organiza fiestas secretas cuando el granjero duerme.",
+      lea: "Il prend la tête de la ferme après la mort de son père Ben.|He takes charge of the farm after his father Ben's death.|Toma el mando de la granja tras la muerte de su padre Ben.",
+      laz: "Il préfère s'amuser plutôt que travailler.|He'd rather have fun than work.|Prefiere divertirse a trabajar.",
+    },
+  },
+  "Lucky Prescott": {
+    x: "7 5 8 6 7 4 4",
+    d: "Fille de la ville qui se lie à un cheval sauvage|City girl who bonds with a wild horse|Chica de ciudad que se une a un caballo salvaje",
+    f: {
+      bra: "Elle dompte Spirit sans le briser.|She tames Spirit without breaking him.|Doma a Spirit sin quebrantarlo.",
+      spd: "Elle galope librement avec ses amies Pru et Abigail.|She rides freely with her friends Pru and Abigail.|Cabalga libremente con sus amigas Pru y Abigail.",
+      tem: "Elle a un caractère rebelle hérité de sa mère.|She has a rebellious streak inherited from her mother.|Tiene un carácter rebelde heredado de su madre.",
+    },
+  },
+  "Kipo Oak": {
+    x: "8 6 9 9 10 6 5",
+    d: "Fille optimiste qui découvre un monde peuplé d'animaux mutants|Optimistic girl discovering a world of mutant animals|Chica optimista que descubre un mundo de animales mutantes",
+    f: {
+      soc: "Elle se fait des amis de toutes les espèces, même de ses ennemis.|She befriends every species, even her enemies.|Se hace amiga de todas las especies, incluso de sus enemigos.",
+      str: "Elle se transforme en jaguar mutant.|She can transform into a mutant jaguar.|Puede transformarse en un jaguar mutante.",
+      lea: "Elle unit humains et mutants contre la menace commune.|She unites humans and mutes against a common threat.|Une a humanos y mutantes contra una amenaza común.",
+    },
+  },
+  "Reagan Ridley": {
+    x: "5 3 5 6 1 2 9",
+    d: "Génie de la tech socialement maladroite dans une société secrète|Socially awkward tech genius working for a secret society|Genio tecnológica socialmente torpe en una sociedad secreta",
+    f: {
+      int: "Elle invente des technologies pour Cognito Inc., qui contrôle le monde en secret.|She builds tech for Cognito Inc., which secretly runs the world.|Inventa tecnología para Cognito Inc., que controla el mundo en secreto.",
+      soc: "Elle a beaucoup de mal à travailler avec ses collègues.|She has a very hard time working with her colleagues.|Le cuesta mucho trabajar con sus compañeros.",
+      unl: "Son père alcoolique et chaotique complique sa carrière.|Her chaotic, alcoholic father complicates her career.|Su padre caótico y alcohólico complica su carrera.",
+    },
+  },
+  "Droopy": {
+    x: "3 3 10 4 1 2 7",
+    d: "Petit basset au visage triste et à la voix monotone|Little basset with a sad face and a monotone voice|Pequeño basset de cara triste y voz monótona",
+    f: {
+      cun: "Il apparaît toujours là où son adversaire croit l'avoir semé.|He always turns up wherever his rival thought he'd lost him.|Siempre aparece donde su rival creía haberle despistado.",
+      tal: "Il parle lentement d'une voix monocorde.|He speaks slowly in a flat voice.|Habla despacio con voz monótona.",
+      tem: "Il ne perd jamais son calme.|He never loses his cool.|Nunca pierde la calma.",
+    },
+  },
+  "Mighty Mouse": {
+    x: "6 8 10 8 5 2 5",
+    d: "Souris super-héros qui vole au secours des souris|Superhero mouse who flies to the rescue of other mice|Ratón superhéroe que vuela al rescate de otros ratones",
+    f: {
+      str: "Il possède une force et des pouvoirs de super-héros.|He has superhero strength and powers.|Tiene fuerza y poderes de superhéroe.",
+      tal: "Il chante « Here I come to save the day ! » en arrivant.|He sings \"Here I come to save the day!\" as he arrives.|Canta \"Here I come to save the day!\" al llegar.",
+      bra: "Il combat les chats qui menacent les souris.|He fights the cats that threaten mice.|Lucha contra los gatos que amenazan a los ratones.",
+    },
+  },
+  "Magilla le gorille": {
+    x: "4 5 6 1 7 2 2",
+    d: "Gorille gentil que personne ne veut adopter dans une animalerie|Kind gorilla no one wants to buy from a pet shop|Gorila bondadoso que nadie quiere comprar en una tienda de mascotas",
+    f: {
+      unl: "Il est toujours ramené à l'animalerie après chaque adoption.|He always gets returned to the pet shop after every adoption.|Siempre lo devuelven a la tienda tras cada adopción.",
+      glu: "Il adore les bananes.|He loves bananas.|Le encantan los plátanos.",
+      sty: "Il porte un chapeau melon et un nœud papillon.|He wears a bowler hat and a bow tie.|Lleva bombín y pajarita.",
+    },
+  },
+  "La Fourmi atomique": {
+    x: "5 6 9 8 5 2 6",
+    d: "Fourmi super-héroïne dotée d'une force incroyable|Superhero ant with incredible strength|Hormiga superhéroe con una fuerza increíble",
+    f: {
+      str: "Elle soulève des objets des milliers de fois plus lourds qu'elle.|It lifts objects thousands of times its own weight.|Levanta objetos miles de veces más pesados que ella.",
+      spd: "Elle vole à toute vitesse vers les situations d'urgence.|It flies at top speed to emergencies.|Vuela a toda velocidad hacia las emergencias.",
+      bra: "Elle affronte des méchants bien plus grands qu'elle.|It takes on villains far bigger than itself.|Se enfrenta a villanos mucho más grandes que ella.",
+    },
+  },
+  "Jabberjaw": {
+    x: "6 3 7 3 8 1 3",
+    d: "Requin bavard qui joue de la batterie dans un groupe de rock|Talkative shark who drums in a rock band|Tiburón charlatán que toca la batería en un grupo de rock",
+    f: {
+      unl: "Il se plaint qu'on ne le respecte jamais.|He complains he never gets any respect.|Se queja de que nunca le respetan.",
+      tal: "Il est le batteur du groupe des Neptunes.|He's the drummer of the Neptunes band.|Es el batería del grupo los Neptunes.",
+      scr: "Les gens le prennent pour un requin dangereux.|People mistake him for a dangerous shark.|La gente lo confunde con un tiburón peligroso.",
+    },
+  },
+  "Maggie (La Ferme se rebelle)": {
+    x: "5 3 7 7 8 2 4",
+    d: "Vache de concours grande gueule venue sauver la ferme|Loud-mouthed show cow who comes to save the farm|Vaca de concurso bocazas que llega para salvar la granja",
+    f: {
+      bra: "Elle part capturer un voleur de bétail pour sauver la ferme.|She sets out to capture a cattle rustler to save the farm.|Sale a capturar a un ladrón de ganado para salvar la granja.",
+      tal: "Elle parle fort et franchement.|She talks loud and frank.|Habla alto y con franqueza.",
+      unl: "Elle a perdu son ranch à cause du voleur Alameda Slim.|She lost her ranch to the rustler Alameda Slim.|Perdió su rancho por culpa del ladrón Alameda Slim.",
+    },
+  },
+  "Mack Mallard": {
+    x: "4 3 7 6 3 2 7",
+    d: "Père canard prudent qui finit par migrer avec sa famille|Cautious duck dad who finally migrates with his family|Padre pato prudente que acaba migrando con su familia",
+    f: {
+      bra: "Il a peur de quitter son étang de Nouvelle-Angleterre.|He's afraid to leave his New England pond.|Le da miedo dejar su estanque de Nueva Inglaterra.",
+      org: "Il veut tout prévoir pour protéger sa famille.|He wants to plan everything to keep his family safe.|Quiere preverlo todo para proteger a su familia.",
+      unl: "Le voyage vers la Jamaïque tourne à la catastrophe.|The trip to Jamaica turns into a disaster.|El viaje a Jamaica se convierte en un desastre.",
+    },
+  },
+  "Cody Maverick": {
+    x: "6 6 5 5 6 5 4",
+    d: "Jeune manchot surfeur qui rêve de gagner un championnat|Young surfing penguin dreaming of winning a championship|Joven pingüino surfista que sueña con ganar un campeonato",
+    f: {
+      tal: "Il veut devenir champion de surf comme son idole Big Z.|He wants to be a surf champion like his idol Big Z.|Quiere ser campeón de surf como su ídolo Big Z.",
+      tem: "Il est arrogant et impatient au début.|He's arrogant and impatient at first.|Al principio es arrogante e impaciente.",
+      rom: "Il tombe amoureux de Lani, la sauveteuse.|He falls for Lani, the lifeguard.|Se enamora de Lani, la socorrista.",
+    },
+  },
+  "Arthur Christmas": {
+    x: "5 1 10 3 6 6 3",
+    d: "Fils maladroit du Père Noël qui livre un dernier cadeau oublié|Clumsy son of Santa who delivers one last forgotten present|Hijo torpe de Papá Noel que entrega un último regalo olvidado",
+    f: {
+      kin: "Il traverse le monde pour qu'aucun enfant ne soit oublié.|He crosses the world so no child is forgotten.|Cruza el mundo para que ningún niño quede olvidado.",
+      clu: "Il est maladroit et a peur de presque tout.|He's clumsy and scared of almost everything.|Es torpe y le da miedo casi todo.",
+      sty: "Il porte un pull de Noël et des pantoufles illuminées.|He wears a Christmas jumper and light-up slippers.|Lleva un jersey navideño y zapatillas con luces.",
+    },
+  },
+  "Monsieur Link": {
+    x: "3 5 10 4 6 4 4",
+    d: "Créature géante et naïve, chaînon manquant de l'évolution|Giant, naive creature, the missing link of evolution|Criatura gigante e ingenua, el eslabón perdido de la evolución",
+    f: {
+      hon: "Il prend tout au pied de la lettre, sans comprendre l'ironie.|He takes everything literally, missing all irony.|Se lo toma todo al pie de la letra, sin entender la ironía.",
+      soc: "Il cherche ses cousins yétis pour ne plus être seul.|He seeks his yeti cousins so he won't be alone.|Busca a sus primos yetis para no estar solo.",
+      str: "Il est immense et très fort.|He's huge and very strong.|Es enorme y muy fuerte.",
+    },
+  },
+  "Le Capitaine Pirate": {
+    x: "4 6 7 9 7 4 2",
+    d: "Capitaine pirate vantard qui rêve d'être pirate de l'année|Boastful pirate captain who dreams of being Pirate of the Year|Capitán pirata fanfarrón que sueña con ser el pirata del año",
+    f: {
+      glu: "Le jambon est sa partie préférée des abordages.|Ham night is his favorite part of pirating.|La noche del jamón es su parte favorita de ser pirata.",
+      sty: "Il est fier de sa barbe luxuriante.|He's proud of his luxuriant beard.|Está orgulloso de su exuberante barba.",
+      unl: "Ses abordages ne rapportent presque jamais de butin.|His raids almost never bring in any loot.|Sus abordajes casi nunca le dan botín.",
+    },
+  },
+  "Dug (Cro Man)": {
+    x: "5 3 8 8 7 4 4",
+    d: "Homme des cavernes qui défie l'âge du bronze au football|Caveman who challenges the Bronze Age at football|Cavernícola que desafía a la Edad de Bronce al fútbol",
+    f: {
+      lea: "Il entraîne sa tribu à jouer au football.|He trains his tribe to play football.|Entrena a su tribu para jugar al fútbol.",
+      bra: "Il défie Lord Nooth pour récupérer sa vallée.|He challenges Lord Nooth to win back his valley.|Desafía a Lord Nooth para recuperar su valle.",
+      kin: "Il est toujours accompagné de son sanglier Crochon.|He's always with his boar Hognob.|Siempre va acompañado de su jabalí Hognob.",
+    },
+  },
+  "Félicie": {
+    x: "6 4 7 5 6 5 4",
+    d: "Orpheline bretonne qui rêve de devenir danseuse étoile à Paris|Breton orphan dreaming of becoming a prima ballerina in Paris|Huérfana bretona que sueña con ser bailarina estrella en París",
+    f: {
+      tal: "Elle s'entraîne sans relâche pour l'Opéra de Paris.|She trains relentlessly for the Paris Opera.|Entrena sin descanso para la Ópera de París.",
+      hon: "Elle prend l'identité d'une autre fille pour entrer à l'école de danse.|She takes another girl's identity to get into dance school.|Usa la identidad de otra chica para entrar en la escuela de danza.",
+      bra: "Elle s'enfuit de l'orphelinat avec son ami Victor.|She escapes the orphanage with her friend Victor.|Escapa del orfanato con su amigo Victor.",
+    },
+  },
+  "Avril (Avril et le Monde truqué)": {
+    x: "5 3 7 3 3 2 7",
+    d: "Jeune scientifique qui cherche ses parents disparus|Young scientist searching for her missing parents|Joven científica que busca a sus padres desaparecidos",
+    f: {
+      int: "Elle poursuit la recherche du sérum d'invulnérabilité de sa famille.|She continues her family's research into an invulnerability serum.|Continúa la investigación de su familia sobre un suero de invulnerabilidad.",
+      unl: "Elle grandit seule après l'enlèvement de ses parents.|She grows up alone after her parents are kidnapped.|Crece sola tras el secuestro de sus padres.",
+      kin: "Elle est inséparable de son chat parlant Darwin.|She's inseparable from her talking cat Darwin.|Es inseparable de su gato parlante Darwin.",
+    },
+  },
+  "Makoto Konno": {
+    x: "6 3 6 3 8 6 2",
+    d: "Lycéenne étourdie qui apprend à remonter le temps|Scatterbrained schoolgirl who learns to leap through time|Estudiante despistada que aprende a saltar en el tiempo",
+    f: {
+      clu: "Elle utilise son pouvoir pour des broutilles comme rejouer un karaoké.|She uses her power for trifles like redoing karaoke.|Usa su poder para tonterías como repetir un karaoke.",
+      spd: "Elle saute littéralement dans le temps en courant.|She literally leaps through time by running.|Literalmente salta en el tiempo corriendo.",
+      rom: "Elle découvre ses sentiments pour Chiaki.|She discovers her feelings for Chiaki.|Descubre sus sentimientos por Chiaki.",
+    },
+  },
+  "Kenji Koiso": {
+    x: "4 3 9 3 2 4 6",
+    d: "Lycéen timide génie des maths qui sauve un monde virtuel|Shy maths-genius schoolboy who saves a virtual world|Estudiante tímido genio de las matemáticas que salva un mundo virtual",
+    f: {
+      int: "Il déchiffre de tête un code de sécurité de 2056 chiffres.|He cracks a 2,056-digit security code in his head.|Descifra mentalmente un código de seguridad de 2.056 dígitos.",
+      unl: "Il est accusé à tort d'avoir piraté le monde virtuel OZ.|He's falsely blamed for hacking the virtual world OZ.|Le acusan injustamente de hackear el mundo virtual OZ.",
+      rom: "Il se fait passer pour le fiancé de Natsuki.|He poses as Natsuki's fiancé.|Se hace pasar por el prometido de Natsuki.",
+    },
+  },
 };

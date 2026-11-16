@@ -1081,4 +1081,382 @@ module.exports = {
       glu: "Il adore les jeux vidéo et les friandises volées aux humains.|He loves video games and treats stolen from humans.|Le encantan los videojuegos y las golosinas robadas a los humanos.",
     },
   },
+  "Seishu Handa": {
+    x: "7 6 7 3 3 2 4",
+    d: "Calligraphe orgueilleux exilé sur une petite île de Goto|Proud calligrapher exiled to a small Goto island|Calígrafo orgulloso exiliado en una pequeña isla de Goto",
+    f: {
+      tem: "Il frappe un conservateur qui a critiqué sa calligraphie.|He punches a curator who criticized his calligraphy.|Golpea a un comisario que criticó su caligrafía.",
+      tal: "Il est un jeune calligraphe professionnel de talent.|He is a talented young professional calligrapher.|Es un joven calígrafo profesional con talento.",
+      soc: "Les enfants du village envahissent sans cesse sa maison.|The village kids constantly invade his house.|Los niños del pueblo invaden sin parar su casa.",
+    },
+  },
+  "Naru Kotoishi": {
+    x: "6 2 8 5 9 0 2",
+    d: "Fillette énergique de l'île qui s'incruste chez le calligraphe|Energetic island girl who barges into the calligrapher's home|Niña enérgica de la isla que se cuela en casa del calígrafo",
+    f: {
+      tal: "Elle parle fort et sans arrêt avec le dialecte local.|She talks loudly and nonstop in the local dialect.|Habla alto y sin parar con el dialecto local.",
+      soc: "Elle connaît tout le monde au village.|She knows everyone in the village.|Conoce a todo el mundo en el pueblo.",
+      kin: "Elle devient une petite sœur pour Handa.|She becomes like a little sister to Handa.|Se convierte en una hermana pequeña para Handa.",
+    },
+  },
+  "William James Moriarty": {
+    x: "9 9 2 9 6 2 10",
+    d: "Noble criminel génial qui veut abattre la classe aristocratique|Brilliant noble criminal out to topple the aristocracy|Noble criminal genial que quiere derribar a la aristocracia",
+    f: {
+      cun: "Il conseille les victimes et orchestre des crimes parfaits.|He advises victims and orchestrates perfect crimes.|Aconseja a las víctimas y orquesta crímenes perfectos.",
+      lea: "Il dirige un réseau avec ses frères Albert et Louis.|He leads a network with his brothers Albert and Louis.|Dirige una red con sus hermanos Albert y Louis.",
+      int: "Il est professeur de mathématiques à Durham.|He is a mathematics professor at Durham.|Es profesor de matemáticas en Durham.",
+    },
+  },
+  "Sherlock Holmes (Moriarty)": {
+    x: "7 3 7 4 6 2 2",
+    d: "Détective consultant excentrique et rival de Moriarty|Eccentric consulting detective and Moriarty's rival|Detective asesor excéntrico y rival de Moriarty",
+    f: {
+      int: "Il perce à jour les crimes les plus complexes de Londres.|He cracks London's most complex crimes.|Resuelve los crímenes más complejos de Londres.",
+      laz: "Il vit dans le désordre au 221B Baker Street.|He lives in a mess at 221B Baker Street.|Vive en el desorden en el 221B de Baker Street.",
+      soc: "Il se fait des amis de son colocataire John Watson.|He befriends his flatmate John Watson.|Se hace amigo de su compañero de piso John Watson.",
+    },
+  },
+  "Naho Takamiya": {
+    x: "7 5 10 2 6 8 6",
+    d: "Lycéenne qui reçoit des lettres de son futur pour sauver un ami|Schoolgirl receiving letters from her future self to save a friend|Estudiante que recibe cartas de su yo futura para salvar a un amigo",
+    f: {
+      int: "Elle reçoit des lettres écrites par elle-même dix ans plus tard.|She receives letters written by herself ten years later.|Recibe cartas escritas por ella misma diez años después.",
+      rom: "Elle tombe amoureuse de Kakeru, le nouveau venu.|She falls for Kakeru, the new student.|Se enamora de Kakeru, el chico nuevo.",
+      soc: "Elle est timide et a du mal à exprimer ses sentiments.|She's shy and struggles to express her feelings.|Es tímida y le cuesta expresar sus sentimientos.",
+    },
+  },
+  "Kakeru Naruse": {
+    x: "7 5 8 4 7 7 5",
+    d: "Nouvel élève souriant qui cache une profonde culpabilité|Smiling new student hiding deep guilt|Nuevo alumno sonriente que oculta una profunda culpa",
+    f: {
+      unl: "Il se sent responsable du suicide de sa mère.|He feels responsible for his mother's suicide.|Se siente responsable del suicidio de su madre.",
+      hon: "Il cache sa détresse derrière des sourires.|He hides his distress behind smiles.|Oculta su angustia tras sonrisas.",
+      kin: "Ses amis s'unissent pour changer son destin.|His friends band together to change his fate.|Sus amigos se unen para cambiar su destino.",
+    },
+  },
+  "Izaya Orihara": {
+    x: "8 8 1 6 8 1 6",
+    d: "Informateur manipulateur qui prétend aimer tous les humains|Manipulative information broker who claims to love all humans|Informante manipulador que dice amar a todos los humanos",
+    f: {
+      cun: "Il manipule les gangs d'Ikebukuro pour son amusement.|He manipulates Ikebukuro's gangs for fun.|Manipula a las bandas de Ikebukuro para divertirse.",
+      hon: "Il ment avec un sourire constant.|He lies with a constant smile.|Miente con una sonrisa constante.",
+      tem: "Il entretient une haine féroce avec Shizuo.|He nurtures a fierce feud with Shizuo.|Mantiene un odio feroz con Shizuo.",
+    },
+  },
+  "Shizuo Heiwajima": {
+    x: "7 7 7 2 3 2 3",
+    d: "Barman en uniforme doté d'une force surhumaine colérique|Bartender-suited man with hot-tempered superhuman strength|Hombre con traje de barman y una fuerza sobrehumana colérica",
+    f: {
+      str: "Il lance des distributeurs automatiques à travers les rues.|He hurls vending machines across the streets.|Lanza máquinas expendedoras por las calles.",
+      tem: "Il déteste la violence mais explose au moindre agacement.|He hates violence but explodes at the slightest irritation.|Odia la violencia pero estalla a la mínima molestia.",
+      sty: "Il porte toujours une tenue de barman et des lunettes teintées.|He always wears a bartender outfit and tinted glasses.|Siempre lleva traje de barman y gafas tintadas.",
+    },
+  },
+  "Celty Sturluson": {
+    x: "6 7 8 3 6 8 6",
+    d: "Dullahan sans tête qui fait des courses à moto noire|Headless dullahan who works as a courier on a black motorbike|Dullahan sin cabeza que hace de mensajera en moto negra",
+    f: {
+      spd: "Elle file dans Ikebukuro sur sa moto qui hennit.|She speeds through Ikebukuro on her neighing motorbike.|Recorre Ikebukuro a toda velocidad en su moto que relincha.",
+      tal: "Sans tête, elle communique en tapant sur son téléphone.|Headless, she communicates by typing on her phone.|Sin cabeza, se comunica escribiendo en su teléfono.",
+      rom: "Elle vit avec Shinra, le médecin amoureux d'elle.|She lives with Shinra, the doctor who loves her.|Vive con Shinra, el médico enamorado de ella.",
+    },
+  },
+  "Ushio Aotsuki": {
+    x: "5 3 9 7 7 6 3",
+    d: "Fils de prêtre qui libère un yokai avec la Lance de la Bête|Priest's son who frees a yokai with the Beast Spear|Hijo de sacerdote que libera a un yokai con la Lanza de la Bestia",
+    f: {
+      bra: "Il affronte les yokai pour protéger tout le monde.|He fights yokai to protect everyone.|Se enfrenta a los yokai para proteger a todos.",
+      str: "La Lance de la Bête lui donne une force immense.|The Beast Spear gives him immense power.|La Lanza de la Bestia le da un poder inmenso.",
+      tem: "Il est têtu et s'emporte facilement.|He's stubborn and quick-tempered.|Es testarudo y se enfada con facilidad.",
+    },
+  },
+  "Tora (Ushio et Tora)": {
+    x: "3 2 6 6 2 1 2",
+    d: "Yokai tigre colossal qui jure de dévorer Ushio|Colossal tiger yokai who swears to eat Ushio|Yokai tigre colosal que jura devorar a Ushio",
+    f: {
+      glu: "Il découvre et adore les hamburgers.|He discovers and loves hamburgers.|Descubre y adora las hamburguesas.",
+      scr: "Il était emprisonné depuis 500 ans dans une cave.|He was trapped in a cellar for 500 years.|Estaba encerrado en un sótano desde hacía 500 años.",
+      hon: "Il prétend vouloir manger Ushio mais finit par le protéger.|He claims he wants to eat Ushio but ends up protecting him.|Dice que quiere comerse a Ushio pero acaba protegiéndolo.",
+    },
+  },
+  "Futaro Uesugi": {
+    x: "4 2 8 6 1 2 7",
+    d: "Lycéen surdoué et pauvre devenu tuteur de cinq sœurs|Gifted, poor student who becomes tutor to five sisters|Estudiante brillante y pobre convertido en tutor de cinco hermanas",
+    f: {
+      int: "Il obtient toujours la note maximale aux examens.|He always gets top marks in exams.|Siempre saca la nota máxima en los exámenes.",
+      ric: "Sa famille est criblée de dettes.|His family is buried in debt.|Su familia está llena de deudas.",
+      soc: "Il n'a pas d'amis et préfère étudier.|He has no friends and prefers studying.|No tiene amigos y prefiere estudiar.",
+    },
+  },
+  "Miku Nakano": {
+    x: "9 8 7 2 2 8 5",
+    d: "Troisième des quintuplées, timide et passionnée d'histoire|Third of the quintuplets, shy and passionate about history|Tercera de las quintillizas, tímida y apasionada por la historia",
+    f: {
+      int: "Elle adore les seigneurs de guerre de l'époque Sengoku.|She loves the warlords of the Sengoku era.|Le encantan los señores de la guerra de la era Sengoku.",
+      sty: "Elle porte toujours un casque audio bleu autour du cou.|She always wears blue headphones around her neck.|Siempre lleva unos auriculares azules al cuello.",
+      rom: "Elle tombe amoureuse de son tuteur Futaro.|She falls in love with her tutor Futaro.|Se enamora de su tutor Futaro.",
+    },
+  },
+  "Raku Ichijo": {
+    x: "5 4 8 6 7 8 6",
+    d: "Fils de yakuza qui joue au faux couple pour éviter une guerre|Yakuza heir in a fake relationship to prevent a gang war|Heredero yakuza en un noviazgo falso para evitar una guerra",
+    f: {
+      hon: "Il simule une relation avec Chitoge pour la paix des gangs.|He fakes a relationship with Chitoge to keep the gangs at peace.|Finge una relación con Chitoge para mantener la paz entre bandas.",
+      rom: "Il cherche la fille de sa promesse d'enfance au pendentif.|He searches for the girl of his childhood pendant promise.|Busca a la chica de la promesa de su colgante de la infancia.",
+      kin: "Il veut devenir fonctionnaire et non chef yakuza.|He wants to be a civil servant, not a yakuza boss.|Quiere ser funcionario y no jefe yakuza.",
+    },
+  },
+  "Chitoge Kirisaki": {
+    x: "9 8 6 4 8 7 3",
+    d: "Fille de gang métisse, sportive et colérique|Half-Japanese gang heiress, athletic and hot-tempered|Heredera de banda mestiza, deportista y colérica",
+    f: {
+      tem: "Elle frappe Raku dès qu'il la vexe.|She hits Raku whenever he annoys her.|Golpea a Raku en cuanto la molesta.",
+      glu: "Elle mange des quantités énormes.|She eats enormous amounts.|Come cantidades enormes.",
+      ric: "Elle est l'héritière d'un puissant gang américain.|She's heiress to a powerful American gang.|Es heredera de una poderosa banda estadounidense.",
+    },
+  },
+  "Keitaro Urashima": {
+    x: "3 3 7 3 7 6 3",
+    d: "Étudiant malchanceux devenu gérant d'une pension de filles|Hapless student who becomes manager of a girls' dorm|Estudiante desafortunado convertido en encargado de una residencia de chicas",
+    f: {
+      unl: "Il échoue plusieurs fois au concours de l'université de Tokyo.|He fails the Tokyo University entrance exam several times.|Suspende varias veces el examen de acceso a la Universidad de Tokio.",
+      clu: "Il tombe sans cesse dans des situations embarrassantes.|He keeps falling into embarrassing situations.|Cae constantemente en situaciones embarazosas.",
+      rom: "Il veut retrouver la fille de sa promesse d'enfance.|He wants to find the girl from his childhood promise.|Quiere encontrar a la chica de su promesa de infancia.",
+    },
+  },
+  "Naru Narusegawa": {
+    x: "8 6 6 5 6 7 7",
+    d: "Lycéenne brillante et explosive de la pension Hinata|Brilliant, explosive student at the Hinata dorm|Estudiante brillante y explosiva de la residencia Hinata",
+    f: {
+      tem: "Elle envoie Keitaro voler d'un coup de poing.|She sends Keitaro flying with a single punch.|Manda a Keitaro por los aires de un puñetazo.",
+      int: "Elle est première aux examens blancs de tout le pays.|She ranks first nationally in mock exams.|Es la primera del país en los exámenes de prueba.",
+      rom: "Elle finit par avouer ses sentiments pour Keitaro.|She eventually admits her feelings for Keitaro.|Acaba confesando sus sentimientos por Keitaro.",
+    },
+  },
+  "Belldandy": {
+    x: "10 8 10 4 7 10 7",
+    d: "Déesse douce et dévouée liée à un étudiant par un vœu|Gentle, devoted goddess bound to a student by a wish|Diosa dulce y entregada unida a un estudiante por un deseo",
+    f: {
+      rom: "Elle reste auprès de Keiichi après qu'il a souhaité qu'elle ne parte jamais.|She stays with Keiichi after he wishes she'd never leave.|Se queda con Keiichi después de que él desee que nunca se vaya.",
+      kin: "Elle est d'une gentillesse et d'une patience infinies.|She is infinitely kind and patient.|Es de una bondad y paciencia infinitas.",
+      tal: "Elle répare tout et chante pour apaiser les machines.|She fixes everything and sings to soothe machines.|Lo arregla todo y canta para calmar las máquinas.",
+    },
+  },
+  "Keiichi Morisato": {
+    x: "4 3 9 4 4 8 6",
+    d: "Étudiant timide passionné de moto qui vit avec une déesse|Shy, motorbike-loving student who lives with a goddess|Estudiante tímido y fan de las motos que vive con una diosa",
+    f: {
+      rom: "Il souhaite qu'une déesse comme Belldandy reste à jamais avec lui.|He wishes for a goddess like Belldandy to stay with him forever.|Desea que una diosa como Belldandy se quede con él para siempre.",
+      int: "Il est membre du club automobile de son université.|He belongs to his university's motor club.|Es miembro del club de motor de su universidad.",
+      unl: "Il se fait expulser de son dortoir à cause d'elle.|He gets kicked out of his dorm because of her.|Le echan de su residencia por ella.",
+    },
+  },
+  "Peco": {
+    x: "5 5 5 5 8 2 1",
+    d: "Pongiste prodige et insouciant qui adore les bonbons|Carefree table-tennis prodigy who loves candy|Prodigio despreocupado del ping-pong que adora los caramelos",
+    f: {
+      glu: "Il mâche toujours des friandises.|He's always chewing on sweets.|Siempre está masticando golosinas.",
+      tem: "Il perd confiance après une défaite cuisante.|He loses confidence after a crushing defeat.|Pierde la confianza tras una dura derrota.",
+      tal: "Il parle beaucoup et fanfaronne.|He talks a lot and brags.|Habla mucho y fanfarronea.",
+    },
+  },
+  "Smile": {
+    x: "5 3 8 2 1 1 7",
+    d: "Pongiste froid et impassible qui ne sourit jamais|Cold, impassive table-tennis player who never smiles|Jugador de ping-pong frío e impasible que nunca sonríe",
+    f: {
+      tal: "On l'appelle Smile parce qu'il ne sourit jamais.|He's called Smile because he never smiles.|Le llaman Smile porque nunca sonríe.",
+      str: "Il cache un talent supérieur à celui de son ami Peco.|He hides a talent greater than his friend Peco's.|Oculta un talento superior al de su amigo Peco.",
+      soc: "Il reste solitaire et silencieux.|He stays solitary and silent.|Se mantiene solitario y callado.",
+    },
+  },
+  "Keroro": {
+    x: "4 4 1 6 8 2 0",
+    d: "Sergent extraterrestre paresseux qui doit envahir la Terre|Lazy alien sergeant meant to invade Earth|Sargento extraterrestre perezoso que debe invadir la Tierra",
+    f: {
+      laz: "Il préfère monter des maquettes Gunpla plutôt qu'envahir la Terre.|He'd rather build Gunpla models than invade Earth.|Prefiere montar maquetas Gunpla en vez de invadir la Tierra.",
+      unl: "Il est réduit en esclave domestique chez les Hinata.|He ends up as a domestic servant for the Hinata family.|Acaba como sirviente doméstico de la familia Hinata.",
+      lea: "Il dirige un peloton qui n'obéit presque jamais.|He leads a platoon that almost never obeys.|Dirige un pelotón que casi nunca obedece.",
+    },
+  },
+  "Giroro": {
+    x: "5 3 7 6 2 8 7",
+    d: "Caporal extraterrestre rouge, soldat sévère et belliqueux|Red alien corporal, a stern and warlike soldier|Cabo extraterrestre rojo, soldado severo y belicoso",
+    f: {
+      tem: "Il reproche à Keroro sa paresse.|He scolds Keroro for his laziness.|Reprocha a Keroro su pereza.",
+      rom: "Il est secrètement amoureux de Natsumi Hinata.|He's secretly in love with Natsumi Hinata.|Está secretamente enamorado de Natsumi Hinata.",
+      str: "Il est l'expert en armes du peloton.|He's the platoon's weapons expert.|Es el experto en armas del pelotón.",
+    },
+  },
+  "Yuki Cross": {
+    x: "8 5 9 4 6 9 5",
+    d: "Gardienne d'une académie qui protège un secret de vampires|Academy guardian protecting a vampire secret|Guardiana de una academia que protege un secreto de vampiros",
+    f: {
+      lea: "Elle maintient l'ordre entre la classe de jour et la classe de nuit.|She keeps order between the Day Class and the Night Class.|Mantiene el orden entre la clase de día y la de noche.",
+      rom: "Elle est déchirée entre Kaname et Zero.|She's torn between Kaname and Zero.|Está dividida entre Kaname y Zero.",
+      unl: "Elle découvre qu'elle est elle-même une sang-pur.|She discovers she is a pureblood vampire herself.|Descubre que ella misma es una vampira de sangre pura.",
+    },
+  },
+  "Zero Kiryu": {
+    x: "8 6 8 5 2 8 6",
+    d: "Chasseur de vampires torturé qui devient lui-même vampire|Tortured vampire hunter who becomes a vampire himself|Cazador de vampiros atormentado que se convierte en vampiro",
+    f: {
+      unl: "Une sang-pur a massacré sa famille et l'a mordu.|A pureblood slaughtered his family and bit him.|Una sangre pura masacró a su familia y le mordió.",
+      tem: "Il méprise les vampires de la classe de nuit.|He despises the Night Class vampires.|Desprecia a los vampiros de la clase de noche.",
+      rom: "Il aime Yuki en silence.|He silently loves Yuki.|Ama a Yuki en silencio.",
+    },
+  },
+  "Nicholas D. Wolfwood": {
+    x: "7 7 4 6 6 4 3",
+    d: "Prêtre fumeur armé d'une croix géante remplie d'armes|Chain-smoking priest carrying a giant weapon-filled cross|Sacerdote fumador que carga una cruz gigante llena de armas",
+    f: {
+      str: "Sa croix, la Punisher, cache une mitrailleuse et un lance-roquettes.|His cross, the Punisher, hides a machine gun and a rocket launcher.|Su cruz, la Punisher, oculta una ametralladora y un lanzacohetes.",
+      kin: "Il finance un orphelinat avec ses missions.|He funds an orphanage with his missions.|Financia un orfanato con sus misiones.",
+      unl: "Il meurt seul dans une église après un dernier combat.|He dies alone in a church after one last fight.|Muere solo en una iglesia tras un último combate.",
+    },
+  },
+  "Chi (Chobits)": {
+    x: "10 6 10 0 3 6 3",
+    d: "Ordinateur humanoïde trouvé dans les ordures qui apprend tout|Humanoid computer found in the trash who learns everything|Ordenador humanoide encontrado en la basura que lo aprende todo",
+    f: {
+      tal: "Au début, elle ne sait dire que « Chi ».|At first, she can only say \"Chi\".|Al principio solo sabe decir \"Chi\".",
+      int: "Elle apprend les mots et le monde grâce à Hideki.|She learns words and the world through Hideki.|Aprende las palabras y el mundo gracias a Hideki.",
+      rom: "Elle cherche la personne qui sera rien que pour elle.|She searches for the person who will be just for her.|Busca a la persona que será solo para ella.",
+    },
+  },
+  "Sakamichi Onoda": {
+    x: "4 2 9 2 6 3 3",
+    d: "Lycéen otaku qui se révèle un grimpeur cycliste prodige|Otaku schoolboy who turns out to be a prodigy climber cyclist|Estudiante otaku que resulta ser un ciclista escalador prodigio",
+    f: {
+      spd: "Il a développé sa cadence en grimpant à vélo jusqu'à Akihabara.|He built his cadence riding his bike uphill to Akihabara.|Desarrolló su cadencia subiendo en bici hasta Akihabara.",
+      tal: "Il chante des génériques d'anime pendant les courses.|He sings anime theme songs during races.|Canta canciones de anime durante las carreras.",
+      kin: "Il aide ses coéquipiers distancés.|He helps teammates who fall behind.|Ayuda a sus compañeros rezagados.",
+    },
+  },
+  "Hozuki": {
+    x: "8 4 4 9 2 1 10",
+    d: "Démon impassible et sadique, bras droit du roi des Enfers|Deadpan, sadistic demon, right-hand man of Hell's king|Demonio impasible y sádico, mano derecha del rey del Infierno",
+    f: {
+      org: "Il gère l'administration des Enfers avec une rigueur absolue.|He runs Hell's administration with absolute rigor.|Gestiona la administración del Infierno con un rigor absoluto.",
+      tem: "Il frappe le roi Enma quand celui-ci se relâche.|He hits King Enma when he slacks off.|Golpea al rey Enma cuando se relaja.",
+      cun: "Il punit les damnés avec des idées tordues.|He punishes the damned with twisted ideas.|Castiga a los condenados con ideas retorcidas.",
+    },
+  },
+  "Yugo Hachiken": {
+    x: "4 3 8 7 7 2 8",
+    d: "Lycéen de la ville perdu dans un lycée agricole d'Hokkaido|City kid lost at an agricultural high school in Hokkaido|Chico de ciudad perdido en un instituto agrícola de Hokkaido",
+    f: {
+      int: "Il est le meilleur élève en matières générales.|He's the top student in academic subjects.|Es el mejor alumno en asignaturas generales.",
+      kin: "Il s'attache à un porcelet qu'il nomme Pork Bowl.|He grows attached to a piglet he names Pork Bowl.|Se encariña con un cerdito al que llama Pork Bowl.",
+      glu: "Il cuisine une pizza au four à bois pour tout le lycée.|He bakes a wood-fired pizza for the whole school.|Hornea una pizza en horno de leña para todo el instituto.",
+    },
+  },
+  "Hayate Ayasaki": {
+    x: "7 5 10 2 6 4 10",
+    d: "Majordome vendu par ses parents pour rembourser leurs dettes|Butler sold off by his parents to pay their debts|Mayordomo vendido por sus padres para pagar sus deudas",
+    f: {
+      unl: "Ses parents le vendent à des yakuzas pour 150 millions de yens.|His parents sell him to yakuza for 150 million yen.|Sus padres lo venden a la yakuza por 150 millones de yenes.",
+      org: "Il est majordome parfait pour la riche Nagi Sanzenin.|He is the perfect butler to rich Nagi Sanzenin.|Es el mayordomo perfecto de la rica Nagi Sanzenin.",
+      str: "Il survit à des accidents qui tueraient n'importe qui.|He survives accidents that would kill anyone.|Sobrevive a accidentes que matarían a cualquiera.",
+    },
+  },
+  "Amu Hinamori": {
+    x: "8 9 5 6 3 5 5",
+    d: "Écolière à l'image cool qui fait éclore des Gardiens de cœur|Schoolgirl with a cool image who hatches Guardian Characters|Colegiala de imagen cool que hace nacer Guardianes del corazón",
+    f: {
+      hon: "Elle cache sa vraie personnalité timide sous une image cool.|She hides her shy true self behind a cool image.|Oculta su verdadera timidez bajo una imagen cool.",
+      str: "Ses quatre œufs lui permettent de se transformer.|Her four eggs let her transform.|Sus cuatro huevos le permiten transformarse.",
+      sty: "Elle est admirée pour son style punk.|She is admired for her punk style.|Es admirada por su estilo punk.",
+    },
+  },
+  "Sana Kurata": {
+    x: "8 9 7 6 10 5 4",
+    d: "Enfant star hyperactive qui transforme sa classe en cirque|Hyperactive child star who turns her class into a circus|Niña estrella hiperactiva que convierte su clase en un circo",
+    f: {
+      soc: "Elle parle sans arrêt et fait des jeux de mots.|She talks nonstop and makes puns.|Habla sin parar y hace juegos de palabras.",
+      kin: "Elle aide Akito à sortir de sa solitude.|She helps Akito out of his loneliness.|Ayuda a Akito a salir de su soledad.",
+      tal: "Elle est une actrice enfant célèbre à la télévision.|She is a famous child actress on TV.|Es una famosa actriz infantil de televisión.",
+    },
+  },
+  "Kenjaku": {
+    x: "4 5 0 10 3 0 9",
+    d: "Sorcier millénaire qui vole les corps de ses victimes|Thousand-year-old sorcerer who steals his victims' bodies|Hechicero milenario que roba los cuerpos de sus víctimas",
+    f: {
+      evi: "Il occupe le corps de Suguru Geto après sa mort.|He occupies Suguru Geto's body after his death.|Ocupa el cuerpo de Suguru Geto tras su muerte.",
+      cun: "Il orchestre le scellement de Satoru Gojo.|He orchestrates the sealing of Satoru Gojo.|Orquesta el sellado de Satoru Gojo.",
+      scr: "Une couture traverse le front de chaque corps qu'il vole.|A stitched scar crosses the forehead of every body he steals.|Una costura cruza la frente de cada cuerpo que roba.",
+    },
+  },
+  "Kikoru Shinomiya": {
+    x: "8 7 8 7 3 3 9",
+    d: "Prodige des Forces de défense, fille du chef général|Defense Force prodigy and daughter of the director-general|Prodigio de las Fuerzas de Defensa, hija del director general",
+    f: {
+      str: "Elle manie une immense hache contre les kaiju.|She wields a huge axe against kaiju.|Empuña un enorme hacha contra los kaiju.",
+      tem: "Elle est orgueilleuse et sûre d'elle.|She's proud and self-assured.|Es orgullosa y segura de sí misma.",
+      ric: "Elle vient d'une célèbre famille de militaires.|She comes from a famous military family.|Viene de una famosa familia de militares.",
+    },
+  },
+  "Yu Ishigami": {
+    x: "5 4 8 3 4 6 3",
+    d: "Trésorier gamer et pessimiste du conseil des élèves|Gamer, pessimistic treasurer of the student council|Tesorero gamer y pesimista del consejo estudiantil",
+    f: {
+      unl: "Il est rejeté par toute l'école après un incident mal compris.|He's shunned by the whole school after a misunderstood incident.|Toda la escuela lo rechaza tras un incidente malinterpretado.",
+      hon: "Il dit les vérités qui fâchent sans réfléchir.|He blurts out uncomfortable truths without thinking.|Suelta verdades incómodas sin pensar.",
+      rom: "Il tombe amoureux de Tsubame Koyasu.|He falls in love with Tsubame Koyasu.|Se enamora de Tsubame Koyasu.",
+    },
+  },
+  "Yukio Okumura": {
+    x: "8 8 9 4 3 3 9",
+    d: "Exorciste prodige à lunettes, frère jumeau de Rin|Bespectacled prodigy exorcist, Rin's twin brother|Exorcista prodigio con gafas, hermano gemelo de Rin",
+    f: {
+      int: "Il devient le plus jeune professeur de l'Académie de la Croix-Vraie.|He becomes the youngest teacher at True Cross Academy.|Se convierte en el profesor más joven de la Academia de la Verdadera Cruz.",
+      str: "Il combat avec deux pistolets.|He fights with twin pistols.|Lucha con dos pistolas.",
+      tem: "Il cache sa jalousie envers les flammes bleues de son frère.|He hides his jealousy of his brother's blue flames.|Oculta sus celos de las llamas azules de su hermano.",
+    },
+  },
+  "Lenalee Lee": {
+    x: "9 8 8 4 6 5 6",
+    d: "Exorciste aux bottes noires, cœur de la Congrégation de l'Ombre|Exorcist with Dark Boots, heart of the Black Order|Exorcista con las Botas Oscuras, corazón de la Orden Oscura",
+    f: {
+      spd: "Ses bottes noires lui permettent de voler à grande vitesse.|Her Dark Boots let her fly at high speed.|Sus Botas Oscuras le permiten volar a gran velocidad.",
+      kin: "Elle considère la Congrégation comme sa famille.|She sees the Black Order as her family.|Considera la Orden Oscura como su familia.",
+      unl: "Elle a été enlevée enfant pour devenir exorciste.|She was taken as a child to become an exorcist.|Fue llevada de niña para convertirse en exorcista.",
+    },
+  },
+  "Michael Kaiser": {
+    x: "9 8 3 6 6 1 6",
+    d: "Star allemande du football arrogante et égocentrique|Arrogant, self-centered German football star|Estrella alemana del fútbol arrogante y egocéntrica",
+    f: {
+      tem: "Il méprise les autres joueurs qu'il qualifie de clowns.|He scorns other players, calling them clowns.|Desprecia a los demás jugadores y los llama payasos.",
+      str: "Sa frappe « Kaiser Impact » est l'une des plus rapides du monde.|His \"Kaiser Impact\" shot is among the fastest in the world.|Su tiro \"Kaiser Impact\" es de los más rápidos del mundo.",
+      sty: "Il arbore une coupe blonde à mèches bleues et un tatouage de rose.|He sports blond hair with blue tips and a rose tattoo.|Luce pelo rubio con puntas azules y un tatuaje de rosa.",
+    },
+  },
+  "Teruki Hanazawa": {
+    x: "8 8 6 5 7 4 5",
+    d: "Esper populaire qui se croyait le héros du monde|Popular esper who believed he was the world's hero|Esper popular que se creía el protagonista del mundo",
+    f: {
+      tem: "Il était arrogant avant sa défaite face à Mob.|He was arrogant before losing to Mob.|Era arrogante antes de perder contra Mob.",
+      kin: "Il devient un ami fidèle de Mob.|He becomes a loyal friend to Mob.|Se convierte en un amigo fiel de Mob.",
+      sty: "Il se rase la tête puis porte une perruque.|He has his head shaved and then wears a wig.|Le rapan la cabeza y luego lleva peluca.",
+    },
+  },
+  "Ritsu Kageyama": {
+    x: "7 6 7 6 4 2 8",
+    d: "Petit frère brillant de Mob qui envie ses pouvoirs|Mob's brilliant little brother who envies his powers|Brillante hermano menor de Mob que envidia sus poderes",
+    f: {
+      int: "Il est élève modèle et membre du conseil des élèves.|He's a model student and member of the student council.|Es alumno modelo y miembro del consejo estudiantil.",
+      tem: "Il jalouse en secret les pouvoirs psychiques de son frère.|He secretly envies his brother's psychic powers.|Envidia en secreto los poderes psíquicos de su hermano.",
+      kin: "Il admire profondément son grand frère.|He deeply admires his big brother.|Admira profundamente a su hermano mayor.",
+    },
+  },
+  "Übel": {
+    x: "7 5 2 3 5 3 3",
+    d: "Mage instinctive et dangereuse qui tranche tout par intuition|Instinctive, dangerous mage who cuts through anything by intuition|Maga instintiva y peligrosa que lo corta todo por intuición",
+    f: {
+      str: "Sa magie de découpe tranche tout ce qu'elle imagine pouvoir couper.|Her cutting magic slices anything she believes she can cut.|Su magia de corte parte todo lo que cree que puede cortar.",
+      evi: "Elle a tué des mages lors de précédents examens.|She killed mages in previous exams.|Mató a magos en exámenes anteriores.",
+      int: "Elle copie la magie des autres en comprenant leur esprit.|She copies others' magic by understanding their minds.|Copia la magia de otros comprendiendo su mente.",
+    },
+  },
 };
